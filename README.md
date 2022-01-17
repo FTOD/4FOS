@@ -1,1 +1,2 @@
-# SecilOS
+# RTOS
+Documentation in the Wiki.
