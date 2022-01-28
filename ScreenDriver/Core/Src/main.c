@@ -98,6 +98,7 @@ int main(void)
   LL_TIM_EnableCounter(TIM1);
   
   init();
+  fillScreen(BLACK);
 
   /* USER CODE END 2 */
 
@@ -108,20 +109,47 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  
-    fillScreen(PINK);
-    delay(700);
-    fillScreen(GREEN);
-    delay(700);
-    fillScreen(BLACK);
-    delay(700);
-    fillRect(120, 120, 50, 70, BLUE);
-    delay(300);
-    fillRect(30, 150, 70, 100, ORANGE);
+    int j;
+    for(int i = 0; i < 239; i += 2){
+      //fillScreen(BLACK);
+
+      if (i > 2){
+        j = i-2;
+      }else{
+        j=0;
+      }
+      setAddrWindow(j ,0,j+41,319);
+      flood(BLACK,320*41);
+
+
+      fillRect(i,300,40,10,CYAN);
+
+      fillRect(i,250, 20,20, YELLOW);
+
+      fillRect(i, 200, 10, 10, PURPLE);
+      fillRect(i+10,190,10,30, PURPLE);
+
+      fillRect(i +20, 140, 10,10,ORANGE);
+      fillRect(i, 150, 30,10,ORANGE);
+
+      fillRect(i +20, 120, 10,10,BLUE);
+      fillRect(i, 110, 30,10, BLUE);
+
+      fillRect(i , 70, 10,20, RED);
+      fillRect(i + 10, 60, 10,20,RED );
+
+      fillRect(i , 20, 20,10, GREEN);
+      fillRect(i + 10, 10, 20,10, GREEN );
+      delay(100);
+
+    }
+    
+    
+    /*fillRect(30, 150, 70, 100, ORANGE);
     delay(500);
     fillRect(60, 60, 150, 70, YELLOW);
     delay(1000);
-    delay(1000);
+    delay(1000);*/
 
 
   }
