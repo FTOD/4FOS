@@ -14,9 +14,6 @@
 #include "stm32f4xx_ll_tim.h"
 
 
-#define TFTWIDTH 240
-#define TFTHEIGHT 320
-
 #define CS_PORT GPIOA
 #define RD_PORT GPIOA
 #define WR_PORT GPIOA
@@ -35,7 +32,7 @@
 #define MASK_BSRR_DATA 0b00000001111111100000000111111110
 
 
- /* Fonction delay en ms (semble etre un peut rapide, j'ai peut etre fais une erreur) */
+ /* Fonction delay en ms  */
 void delay(int value){
     LL_TIM_DisableCounter(TIM1);
     int psc = LL_TIM_GetPrescaler(TIM1);
@@ -49,6 +46,25 @@ void delay(int value){
     LL_TIM_ClearFlag_UPDATE(TIM1);
     LL_TIM_DisableCounter(TIM1);
 }
+
+
+ /* Fonction delay en microsec  */
+void delayMicrosecond(int value){
+    LL_TIM_DisableCounter(TIM2);
+    int psc = LL_TIM_GetPrescaler(TIM2);
+    int arr = value * 96;
+    if (arr > 4294967295)
+        arr = 4294967295;
+    LL_TIM_SetCounter(TIM2,0);
+    LL_TIM_SetAutoReload(TIM2,arr);
+    LL_TIM_EnableCounter(TIM2);
+    while(LL_TIM_IsActiveFlag_UPDATE(TIM2) == 0);
+    LL_TIM_ClearFlag_UPDATE(TIM2);
+    LL_TIM_DisableCounter(TIM2);
+}
+
+
+
 
 void WRStrobe(){                                                                    
     LL_GPIO_ResetOutputPin(WR_PORT,WR_PIN);                                                       
@@ -127,13 +143,13 @@ void writeRegister32(uint8_t r, uint32_t d) {
     LL_GPIO_ResetOutputPin(DC_PORT,DC_PIN);
     write8(r);
     LL_GPIO_SetOutputPin(DC_PORT,DC_PIN);
-    delay(2);
+    delayMicrosecond(10);
     write8(d >> 24);
-    delay(2);
+    delayMicrosecond(10);
     write8(d >> 16);
-    delay(1);
+    delayMicrosecond(10);
     write8(d >> 8);
-    delay(2);
+    delayMicrosecond(10);
     write8(d);
     LL_GPIO_SetOutputPin(CS_PORT,CS_PIN);
 }

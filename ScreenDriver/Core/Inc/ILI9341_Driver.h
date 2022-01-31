@@ -1,5 +1,8 @@
 #include <stdint.h>
 
+#define TFTWIDTH 240
+#define TFTHEIGHT 320
+
 
 #define BLACK       0x0000      
 #define NAVY        0x000F      
