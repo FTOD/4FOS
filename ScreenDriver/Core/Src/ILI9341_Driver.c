@@ -19,8 +19,8 @@
 
 #define CS_PORT GPIOA
 #define RD_PORT GPIOA
-#define WR_PORT GPIOB
-#define DC_PORT GPIOB
+#define WR_PORT GPIOA
+#define DC_PORT GPIOA
 #define RST_PORT GPIOB
 #define DATA_PORT GPIOA // pins [A1-A8]
 
@@ -39,7 +39,7 @@
 void delay(int value){
     LL_TIM_DisableCounter(TIM1);
     int psc = LL_TIM_GetPrescaler(TIM1);
-    int arr = value * 16000 / psc;
+    int arr = value * 12000 / psc;
     if (arr > 65535)
         arr = 65535;
     LL_TIM_SetCounter(TIM1,0);
