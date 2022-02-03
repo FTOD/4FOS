@@ -13,7 +13,7 @@ enum  { FREE, FILLED };
 
 typedef struct{
     Piece * currentPiece;
-    int ** area;
+    int area[BOARD_WIDTH][BOARD_HEIGHT];
 }Board;
 
 

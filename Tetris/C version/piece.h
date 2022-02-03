@@ -30,7 +30,7 @@ typedef struct{
  
    
  
-Piece* creerPiece(int k, int o);
+void initPiece(Piece * piece, int k, int o);
 
 void setKind(Piece * piece, int k);
 void setOrientation(Piece * piece, int o);

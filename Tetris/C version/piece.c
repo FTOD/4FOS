@@ -3,14 +3,11 @@
  
 
  
-Piece* creerPiece(int k, int o)
+void initPiece(Piece * piece, int k, int o)
 {
-    Piece* piece = (Piece*)malloc((int)sizeof(Piece));
-    
+    //piece = malloc(sizeof(Piece));
     piece->kind = k;
-
     piece->orientation = o;
-    return piece;
 }
  
 

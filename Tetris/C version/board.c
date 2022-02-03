@@ -3,15 +3,11 @@
  
 void flood(Board * board, int i, int j, int px, int py, int k, int o, int value, bool visited[][SIZE])
 {
-    fprintf(stderr, "YO1");
     if(px < 0 || px >= SIZE || py < 0 || py >= SIZE || visited[px][py] || PIECES[k][o][px][py] == FREE)
         return;
-    fprintf(stderr, "YO2");
     visited[px][py] = true;
-    fprintf(stderr, "YO3");
 
     board->area[j][i] = value;
-    fprintf(stderr, "YO4");
     flood(board, i, j - 1, px, py - 1, k, o, value, visited);
     flood(board, i + 1, j, px + 1, py, k, o, value, visited);
     flood(board, i, j + 1, px, py + 1, k, o, value, visited);
@@ -49,11 +45,11 @@ void floodFill(Board * board, int i, int j, int px, int py, int k, int o, int va
  
 void initBoard(Board * board)
 {
-    board = malloc(sizeof(Board));
-    board->area = malloc(sizeof(int)*BOARD_HEIGHT*BOARD_WIDTH);
+    //board = malloc(sizeof(Board));
+    //board->area = malloc(sizeof(int)*BOARD_HEIGHT*BOARD_WIDTH);
     for(int i = 0; i < BOARD_WIDTH; ++i)
         for(int j = 0; j < BOARD_HEIGHT; ++j)
-            board->area[i*BOARD_WIDTH + j] = FREE;
+            board->area[i][j] = FREE;
     
 }
  
@@ -112,7 +108,6 @@ void newPiece(Board * board, Piece * piece)
     setPosY(piece, ORIGIN_Y);
  
     drawPiece(board, piece);
-    fprintf(stderr, "YO9");
     setCurrentPiece(board, piece);
 }
 
@@ -254,7 +249,7 @@ void deleteLine(Board * board, int y)
     for(int j = y; j > 0; --j)
     {
         for(int i = 0; i < BOARD_WIDTH; ++i)
-            board->area[i*BOARD_WIDTH + j] = board->area[i*BOARD_WIDTH + j-1];
+            board->area[i][j] = board->area[i][j-1];
     }
  
     drawPiece(board, board->currentPiece);
@@ -268,7 +263,7 @@ int deletePossibleLines(Board * board)
     {
         int i = 0;
  
-        for(; i < BOARD_WIDTH && board->area[i*BOARD_WIDTH + j] != FREE; ++i);
+        for(; i < BOARD_WIDTH && board->area[i][j] != FREE; ++i);
  
         if(i == BOARD_WIDTH)
         {
@@ -304,7 +299,7 @@ int isGameOver(Board * board)
 {
     for(int i = 0; i < BOARD_WIDTH; ++i)
     {
-        if(board->area[i*BOARD_WIDTH + 0] != FREE)
+        if(board->area[i][0] != FREE)
             return 1;
     }
  
@@ -318,7 +313,7 @@ void print(Board * board)
         printf("|");
         for(int i = 0; i < BOARD_WIDTH; ++i)
         {
-            if( board->area[i*BOARD_WIDTH + j] != FREE){
+            if( board->area[i][j] != FREE){
                 printf("██");
             }
             else{
@@ -348,6 +343,6 @@ void clear(Board * board)
     for(int i = 0; i < BOARD_WIDTH; ++i)
     {
         for(int j = 0; j < BOARD_HEIGHT; ++j)
-            board->area[i*BOARD_WIDTH + j] = FREE;
+            board->area[i][j] = FREE;
     }
 }
