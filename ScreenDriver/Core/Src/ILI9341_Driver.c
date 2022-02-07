@@ -1,18 +1,4 @@
-#include "main.h"
-#include "../Inc/registers.h"
 #include "../Inc/ILI9341_Driver.h"
-
-#include "stm32f4xx_ll_rcc.h"
-#include "stm32f4xx_ll_bus.h"
-#include "stm32f4xx_ll_system.h"
-#include "stm32f4xx_ll_exti.h"
-#include "stm32f4xx_ll_cortex.h"
-#include "stm32f4xx_ll_utils.h"
-#include "stm32f4xx_ll_pwr.h"
-#include "stm32f4xx_ll_dma.h"
-#include "stm32f4xx_ll_gpio.h"
-#include "stm32f4xx_ll_tim.h"
-
 
 #define CS_PORT GPIOA
 #define RD_PORT GPIOA
@@ -51,7 +37,6 @@ void delay(int value){
  /* Fonction delay en microsec  */
 void delayMicrosecond(int value){
     LL_TIM_DisableCounter(TIM2);
-    int psc = LL_TIM_GetPrescaler(TIM2);
     int arr = value * 96;
     if (arr > 4294967295)
         arr = 4294967295;
@@ -62,7 +47,6 @@ void delayMicrosecond(int value){
     LL_TIM_ClearFlag_UPDATE(TIM2);
     LL_TIM_DisableCounter(TIM2);
 }
-
 
 
 
@@ -155,26 +139,6 @@ void writeRegister32(uint8_t r, uint32_t d) {
 }
 
 
-/* Probablement inutile */
-/*void setPinDataOut(){ // Voir si mieux avec MODER
-    GPIO_InitStruct.Pin = DATA_PIN;
-    GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
-    GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
-    GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
-    GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    LL_GPIO_Init(DATA_PORT, &GPIO_InitStruct);
-}
-
-void setPinDataIN(){ // Voir si mieux avec MODER
-    GPIO_InitStruct.Pin = DATA_PIN;
-    GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
-    GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
-    GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
-    GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-    LL_GPIO_Init(DATA_PORT, &GPIO_InitStruct);
-}
-*/
-
 
 /* Fonction reset de l'ecran */
 void reset(){ 
@@ -197,7 +161,7 @@ void reset(){
 
 
 /* Initialise l'ecran */
-void init(){
+void initScreen(){
     LL_GPIO_SetOutputPin(CS_PORT,CS_PIN);
     LL_GPIO_SetOutputPin(WR_PORT,WR_PIN);
     LL_GPIO_SetOutputPin(RD_PORT,RD_PIN);
@@ -247,7 +211,6 @@ void setAddrWindow(uint16_t X1, uint16_t Y1, uint16_t X2, uint16_t Y2) {
 }
 
 
-// Je n'ai pas compris grand chose a la fonction -> copier coller de adafruit
 /* Remplis une zone (definie avec setAddrWindow()) d'une couleur donné en parametre */
 void flood(uint16_t color, uint32_t len) {  
     uint16_t blocks;
@@ -365,5 +328,48 @@ void fillRect(int16_t x1, int16_t y1, int16_t w, int16_t h, uint16_t fillcolor) 
 
     setAddrWindow(x1, y1, x2, y2);
     flood(fillcolor, (uint32_t)w * (uint32_t)h);
+    setLR();
+}
+
+
+void drawFastHLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
+    int16_t x2;
+
+    // Initial off-screen clipping
+    if ((length <= 0) || (y < 0) || (y >= TFTHEIGHT) || (x >= TFTWIDTH) ||
+        ((x2 = (x + length - 1)) < 0))
+        return;
+
+    if (x < 0) { // Clip left
+        length += x;
+        x = 0;
+    }
+    if (x2 >= TFTWIDTH) { // Clip right
+        x2 = TFTWIDTH - 1;
+        length = x2 - x + 1;
+    }
+    setAddrWindow(x, y, x2, y);
+    flood(color, length);
+    setLR();
+}
+
+
+void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
+    int16_t y2;
+
+    // Initial off-screen clipping
+    if ((length <= 0) || (x < 0) || (x >= TFTWIDTH) || (y >= TFTHEIGHT) ||
+        ((y2 = (y + length - 1)) < 0))
+        return;
+    if (y < 0) { // Clip top
+        length += y;
+        y = 0;
+    }
+    if (y2 >= TFTHEIGHT) { // Clip bottom
+        y2 = TFTHEIGHT - 1;
+        length = y2 - y + 1;
+    }
+    setAddrWindow(x, y, x, y2);
+    flood(color, length);
     setLR();
 }

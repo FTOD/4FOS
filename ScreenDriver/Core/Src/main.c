@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "../Inc/ILI9341_Driver.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -92,7 +92,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   LL_TIM_EnableCounter(TIM1);
   
-  init();
+  initScreen();
   fillScreen(BLACK);
 
   /* USER CODE END 2 */
@@ -106,7 +106,6 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
     int decalage = 1;
-    int j;
     for(int i = TFTWIDTH-1 ; i >= decalage ; i -= decalage){
       
      /* fillRect(i,300,40,10,CYAN);
@@ -131,7 +130,8 @@ int main(void)
 
       fillRect(i , 160, decalage,10, GREEN);
       fillRect(i + 10, 150, decalage,10, GREEN );
-      delay(2);
+
+      delay(6);
 
     }
     fillScreen(BLACK);

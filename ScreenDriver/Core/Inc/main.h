@@ -41,7 +41,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "../Inc/ILI9341_Driver.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

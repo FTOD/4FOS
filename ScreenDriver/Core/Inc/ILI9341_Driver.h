@@ -1,4 +1,7 @@
+#include "main.h"
+#include "../Inc/registers.h"
 #include <stdint.h>
+
 
 #define TFTWIDTH 240
 #define TFTHEIGHT 320
@@ -37,10 +40,12 @@ void setPinDataOut();
 void setPinDataIN();
 
 void reset();
-void init();
+void initScreen();
 void setAddrWindow(uint16_t X1, uint16_t Y1, uint16_t X2, uint16_t Y2);
 void flood(uint16_t color, uint32_t len);
 void setLR(void);
 void fillScreen(uint16_t color);
 void drawPixel(int16_t x, int16_t y, uint16_t color);
 void fillRect(int16_t x1, int16_t y1, int16_t w, int16_t h, uint16_t fillcolor);
+void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color);
+void drawFastHLine(int16_t x, int16_t y, int16_t length, uint16_t color);
