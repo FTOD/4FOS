@@ -99,12 +99,17 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int j = 0;
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
 
+    DrawText("Score: ",180,180,WHITE,2,BLACK);
+    DrawChar(j+'0',180,250,WHITE,2,BLACK);
+    
+    j++;
     int decalage = 1;
     for(int i = TFTWIDTH-1 ; i >= decalage ; i -= decalage){
       

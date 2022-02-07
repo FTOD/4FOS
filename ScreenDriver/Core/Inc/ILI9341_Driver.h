@@ -1,5 +1,6 @@
 #include "main.h"
 #include "../Inc/registers.h"
+#include "../Inc/5x5_font.h"
 #include <stdint.h>
 
 
@@ -49,3 +50,6 @@ void drawPixel(int16_t x, int16_t y, uint16_t color);
 void fillRect(int16_t x1, int16_t y1, int16_t w, int16_t h, uint16_t fillcolor);
 void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color);
 void drawFastHLine(int16_t x, int16_t y, int16_t length, uint16_t color);
+
+void DrawChar(char Character, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Background_Colour);
+void DrawText(const char* Text, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Background_Colour);

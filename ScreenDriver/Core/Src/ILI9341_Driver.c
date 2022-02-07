@@ -373,3 +373,42 @@ void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
     flood(color, length);
     setLR();
 }
+
+void DrawChar(char Character, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Background_Colour) 
+{
+	uint8_t function_char;
+    uint8_t i,j;
+		
+	function_char = Character;
+		
+    if (function_char < ' ') {
+        Character = 0;
+    }else{
+        function_char -= 32;
+	}
+   	
+	char temp[CHAR_WIDTH];
+	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+	    temp[k] = font[function_char][k];
+	}	
+    // Draw pixels
+	fillRect(X, Y, CHAR_WIDTH*Size, CHAR_HEIGHT*Size, Background_Colour);
+    for (j=0; j<CHAR_WIDTH; j++) {
+        for (i=0; i<CHAR_HEIGHT; i++) {
+            if (temp[j] & (1<<i)) {			
+                if(Size == 1){
+                    drawPixel(X-i, Y+j, Colour);
+                }else{
+                    fillRect(X-(i*Size), Y+(j*Size), Size, Size, Colour);
+                }
+            }						
+        }
+    }
+}
+
+void DrawText(const char* Text, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Background_Colour){
+    while (*Text) {
+        DrawChar(*Text++, X, Y, Colour, Size, Background_Colour);
+        Y += CHAR_WIDTH*Size;
+    }
+}

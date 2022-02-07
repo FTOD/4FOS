@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
   34              		@ link register save eliminated.
   23:Core/Src/ILI9341_Driver.c ****     LL_TIM_DisableCounter(TIM1);
   35              		.loc 1 23 5 view .LVU1
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 2
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 2
 
 
   36              	.LBB127:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
   52:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x04U,   /* 4: TIMx_CH3  */
   53:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x04U,   /* 5: TIMx_CH3N */
   54:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x04U    /* 6: TIMx_CH4  */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 3
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 3
 
 
   55:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** };
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  109:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  110:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /* Remap mask definitions */
  111:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define TIMx_OR_RMP_SHIFT  16U
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 4
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 4
 
 
  112:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define TIMx_OR_RMP_MASK   0x0000FFFFU
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  166:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   (((__CKD__) == LL_TIM_CLOCKDIVISION_DIV1) ? ((uint64_t)1000000000000U/(__TIMCLK__))         : \
  167:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****    ((__CKD__) == LL_TIM_CLOCKDIVISION_DIV2) ? ((uint64_t)1000000000000U/((__TIMCLK__) >> 1U)) : \
  168:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****    ((uint64_t)1000000000000U/((__TIMCLK__) >> 2U)))
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 5
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 5
 
 
  169:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  223:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                    This feature can be modified afterwards using unitary function
  224:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                    @ref LL_TIM_SetRepetitionCounter().*/
  225:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** } LL_TIM_InitTypeDef;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 6
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 6
 
 
  226:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  280:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** } LL_TIM_OC_InitTypeDef;
  281:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  282:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 7
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 7
 
 
  283:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  TIM Input Capture configuration structure definition.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  337:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  338:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t IC1Prescaler;    /*!< Specifies the TI1 input prescaler value.
  339:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                  This parameter can be a value of @ref TIM_LL_EC_ICPSC.
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 8
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 8
 
 
  340:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  394:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     @ref LL_TIM_IC_SetPrescaler().*/
  395:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  396:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t IC1Filter;          /*!< Specifies the TI1 input filter.
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 9
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 9
 
 
  397:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     This parameter can be a value of
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  451:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint16_t BreakState;           /*!< Specifies whether the TIM Break input is enabled or not.
  452:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                       This parameter can be a value of @ref TIM_LL_EC_BREAK_ENABLE
  453:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 10
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 10
 
 
  454:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                       This feature can be modified afterwards using unitary functio
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  508:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  509:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #if defined(USE_FULL_LL_DRIVER)
  510:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_BREAK_ENABLE Break Enable
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 11
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 11
 
 
  511:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  565:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  566:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_COUNTERMODE_UP                  0x00000000U          /*!<Counter used as upcounter *
  567:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_COUNTERMODE_DOWN                TIM_CR1_DIR          /*!< Counter used as downcounte
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 12
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 12
 
 
  568:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_COUNTERMODE_CENTER_DOWN         TIM_CR1_CMS_0        /*!< The counter counts up and 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  622:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  623:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_CHANNEL Channel
  624:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 13
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 13
 
 
  625:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  679:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  680:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  681:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 14
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 14
 
 
  682:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_ACTIVEINPUT Active Input Selection
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  736:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_CLOCKSOURCE Clock Source
  737:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
  738:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 15
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 15
 
 
  739:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_CLOCKSOURCE_INTERNAL            0x00000000U                                         
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  793:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TS_ETRF                         (TIM_SMCR_TS_2 | TIM_SMCR_TS_1 | TIM_SMCR_TS_0)     
  794:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  795:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 16
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 16
 
 
  796:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  850:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  851:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  852:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 17
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 17
 
 
  853:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  907:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_7TRANSFERS      (TIM_DCR_DBL_2 | TIM_DCR_DBL_1)                     
  908:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_8TRANSFERS      (TIM_DCR_DBL_2 | TIM_DCR_DBL_1 | TIM_DCR_DBL_0)     
  909:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_9TRANSFERS      TIM_DCR_DBL_3                                       
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 18
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 18
 
 
  910:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_10TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_0)                     
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  964:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #if defined(LPTIM_OR_TIM1_ITR2_RMP) && defined(LPTIM_OR_TIM5_ITR1_RMP) && defined(LPTIM_OR_TIM9_ITR
  965:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  966:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_LPTIM_REMAP_MASK           0x10000000U
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 19
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 19
 
 
  967:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1021:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV2
 1022:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV4
 1023:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __DT__ deadtime duration (in ns)
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 20
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 20
 
 
 1024:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval DTG[0:7]
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1078:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __TIMCLK__ timer input clock frequency (in Hz)
 1079:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __PSC__ prescaler
 1080:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __DELAY__ timer output compare active/inactive delay (in us)
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 21
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 21
 
 
 1081:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __PULSE__ pulse duration (in us)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1135:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 1136:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_DisableCounter(TIM_TypeDef *TIMx)
   39              		.loc 2 1136 22 view .LVU2
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 22
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 22
 
 
   40              	.LBB128:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1177:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1178:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval Inverted state of bit (0 or 1).
 1179:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 23
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 23
 
 
 1180:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsEnabledUpdateEvent(TIM_TypeDef *TIMx)
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1234:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Get actual one pulse mode.
 1235:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll CR1          OPM           LL_TIM_GetOnePulseMode
 1236:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 24
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 24
 
 
 1237:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval Returned value can be one of the following values:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1291:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   if (counter_mode == 0U)
 1292:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   {
 1293:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****     counter_mode = (uint32_t)(READ_BIT(TIMx->CR1, TIM_CR1_DIR));
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 25
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 25
 
 
 1294:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   }
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1348:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   MODIFY_REG(TIMx->CR1, TIM_CR1_CKD, ClockDivision);
 1349:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 1350:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 26
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 26
 
 
 1351:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1405:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 1406:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return (uint32_t)(READ_BIT(TIMx->CR1, TIM_CR1_DIR));
 1407:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 27
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 27
 
 
 1408:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
   28:Core/Src/ILI9341_Driver.c ****     LL_TIM_SetCounter(TIM1,0);
   78              		.loc 1 28 5 is_stmt 1 view .LVU16
   79              	.LBB131:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 28
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 28
 
 
   80              	.LBI131:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  110 002a 1A68     		ldr	r2, [r3]
  111 002c 42F00102 		orr	r2, r2, #1
  112 0030 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 29
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 29
 
 
  113              	.LVL9:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1493:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
 1494:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 1495:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 30
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 30
 
 
 1496:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EF_Capture_Compare Capture Compare configuration
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1550:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CCDMAREQUEST_UPDATE
 1551:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 1552:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 31
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 31
 
 
 1553:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_CC_SetDMAReqTrigger(TIM_TypeDef *TIMx, uint32_t DMAReqTrigger)
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1607:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
 1608:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 1609:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 32
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 32
 
 
 1610:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_CC_EnableChannel(TIM_TypeDef *TIMx, uint32_t Channels)
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1664:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 1665:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 1666:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 33
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 33
 
 
 1667:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1721:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Mode This parameter can be one of the following values:
 1722:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_FROZEN
 1723:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_ACTIVE
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 34
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 34
 
 
 1724:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_INACTIVE
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1778:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 1779:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 1780:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1N
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 35
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 35
 
 
 1781:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1835:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CR2         OIS3          LL_TIM_OC_SetIdleState\n
 1836:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CR2         OIS3N         LL_TIM_OC_SetIdleState\n
 1837:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CR2         OIS4          LL_TIM_OC_SetIdleState
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 36
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 36
 
 
 1838:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1892:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CCMR2        OC4FE          LL_TIM_OC_EnableFast
 1893:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1894:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 37
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 37
 
 
 1895:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 1949:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t bitfield = TIM_CCMR1_OC1FE << SHIFT_TAB_OCxx[iChannel];
 1950:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return ((READ_BIT(*pReg, bitfield) == bitfield) ? 1UL : 0UL);
 1951:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 38
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 38
 
 
 1952:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2006:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
 2007:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval State of bit (1 or 0).
 2008:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 39
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 39
 
 
 2009:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_OC_IsEnabledPreload(TIM_TypeDef *TIMx, uint32_t Channel)
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2063:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 2064:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 2065:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Indicates clearing the output channel on an external event is enabled for the output ch
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 40
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 40
 
 
 2066:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note This function enables clearing the output channel on an external event.
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2120:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   WRITE_REG(TIMx->CCR1, CompareValue);
 2121:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 2122:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 41
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 41
 
 
 2123:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2177:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_32B_COUNTER_INSTANCE(TIMx) can be used to check
 2178:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       whether or not a timer instance supports a 32 bits counter.
 2179:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_CC1_INSTANCE(TIMx) can be used to check whether or not
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 42
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 42
 
 
 2180:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       output channel 1 is supported by a timer instance.
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2234:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 2235:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return (uint32_t)(READ_REG(TIMx->CCR4));
 2236:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 43
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 43
 
 
 2237:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2291:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 2292:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Set the active input.
 2293:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll CCMR1        CC1S          LL_TIM_IC_SetActiveInput\n
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 44
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 44
 
 
 2294:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CCMR1        CC2S          LL_TIM_IC_SetActiveInput\n
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2348:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 2349:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
 2350:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 45
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 45
 
 
 2351:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2405:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_IC_FILTER_FDIV1_N2
 2406:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_IC_FILTER_FDIV1_N4
 2407:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_IC_FILTER_FDIV1_N8
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 46
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 46
 
 
 2408:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_IC_FILTER_FDIV2_N6
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2462:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   const __IO uint32_t *pReg = (__IO uint32_t *)((uint32_t)((uint32_t)(&TIMx->CCMR1) + OFFSET_TAB_CC
 2463:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return ((READ_BIT(*pReg, ((TIM_CCMR1_IC1F) << SHIFT_TAB_ICxx[iChannel])) >> SHIFT_TAB_ICxx[iChann
 2464:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 47
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 47
 
 
 2465:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2519:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return (READ_BIT(TIMx->CCER, ((TIM_CCER_CC1NP | TIM_CCER_CC1P) << SHIFT_TAB_CCxP[iChannel])) >>
 2520:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****           SHIFT_TAB_CCxP[iChannel]);
 2521:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 48
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 48
 
 
 2522:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2576:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 2577:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 2578:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 49
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 49
 
 
 2579:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Get captured value for input channel 2.
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2633:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 2634:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Enable external clock mode 2.
 2635:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note When external clock mode 2 is enabled the counter is clocked by any active edge on the ET
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 50
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 50
 
 
 2636:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_CLOCKSOURCE_ETRMODE2_INSTANCE(TIMx) can be used to check
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2690:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 2691:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 2692:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_SetClockSource(TIM_TypeDef *TIMx, uint32_t ClockSource)
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 51
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 51
 
 
 2693:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2747:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll SMCR         SMS           LL_TIM_SetSlaveMode
 2748:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 2749:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  SlaveMode This parameter can be one of the following values:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 52
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 52
 
 
 2750:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_SLAVEMODE_DISABLED
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2804:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_DisableMasterSlaveMode(TIM_TypeDef *TIMx)
 2805:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 2806:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   CLEAR_BIT(TIMx->SMCR, TIM_SMCR_MSM);
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 53
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 53
 
 
 2807:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2861:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 2862:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 2863:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 54
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 54
 
 
 2864:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2918:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   MODIFY_REG(TIMx->BDTR, TIM_BDTR_BKP, BreakPolarity);
 2919:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   /* Note: Any write operation to BKP bit takes a delay of 1 APB clock cycle to become effective. *
 2920:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   tmpreg = READ_REG(TIMx->BDTR);
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 55
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 55
 
 
 2921:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   (void)(tmpreg);
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 2975:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 2976:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval State of bit (1 or 0).
 2977:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 56
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 56
 
 
 2978:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsEnabledAutomaticOutput(TIM_TypeDef *TIMx)
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 3032:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 3033:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 3034:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Configures the timer DMA burst feature.
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 57
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 57
 
 
 3035:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_DMABURST_INSTANCE(TIMx) can be used to check whether or
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 3089:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EF_Timer_Inputs_Remapping Timer input remapping
 3090:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
 3091:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 58
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 58
 
 
 3092:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
 3146:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         (*)  Value not defined in all devices. \n
 3147:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *
 3148:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 59
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 59
 
 
 3149:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  128              		.loc 2 3196 66 discriminator 1 view .LVU34
  129 0036 13F0010F 		tst	r3, #1
  130 003a FAD0     		beq	.L3
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 60
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 60
 
 
  131              	.LVL10:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  178              	delayMicrosecond:
  179              	.LVL13:
  180              	.LFB735:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 61
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 61
 
 
   35:Core/Src/ILI9341_Driver.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
   44:Core/Src/ILI9341_Driver.c ****     LL_TIM_SetAutoReload(TIM2,arr);
  220              		.loc 1 44 5 is_stmt 1 view .LVU58
  221              	.LBB147:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 62
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 62
 
 
  222              	.LBI147:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  265              		.loc 2 3183 22 view .LVU74
  266              	.LBB154:
 3185:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 63
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 63
 
 
  267              		.loc 2 3185 3 view .LVU75
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  312              		.file 3 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h"
    1:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
    2:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   ******************************************************************************
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 64
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 64
 
 
    3:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @file    stm32f4xx_ll_gpio.h
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
   57:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /** @defgroup GPIO_LL_ES_INIT GPIO Exported Init structures
   58:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @{
   59:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 65
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 65
 
 
   60:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  114:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_6                      GPIO_BSRR_BS_6 /*!< Select pin 6 */
  115:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_7                      GPIO_BSRR_BS_7 /*!< Select pin 7 */
  116:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_8                      GPIO_BSRR_BS_8 /*!< Select pin 8 */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 66
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 66
 
 
  117:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_9                      GPIO_BSRR_BS_9 /*!< Select pin 9 */
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  171:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
  172:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @}
  173:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 67
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 67
 
 
  174:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  228:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @}
  229:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
  230:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 68
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 68
 
 
  231:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  285:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  Pin This parameter can be one of the following values:
  286:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_0
  287:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_1
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 69
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 69
 
 
  288:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_2
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  342:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
  343:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** __STATIC_INLINE void LL_GPIO_SetPinOutputType(GPIO_TypeDef *GPIOx, uint32_t PinMask, uint32_t Outpu
  344:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 70
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 70
 
 
  345:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   MODIFY_REG(GPIOx->OTYPER, PinMask, (PinMask * OutputType));
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  399:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
  400:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  401:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 71
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 71
 
 
  402:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  456:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
  457:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
  458:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @brief  Configure gpio pull-up or pull-down for a dedicated pin on a dedicated port.
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 72
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 72
 
 
  459:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @note   Warning: only one pin can be passed as parameter.
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  513:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PULL_NO
  514:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PULL_UP
  515:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PULL_DOWN
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 73
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 73
 
 
  516:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  570:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_2
  571:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_3
  572:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_4
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 74
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 74
 
 
  573:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_5
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  627:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_11
  628:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_12
  629:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_13
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 75
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 75
 
 
  630:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_14
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  684:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @note   Each lock bit freezes a specific configuration register
  685:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         (control and alternate function registers).
  686:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @rmtoll LCKR         LCKK          LL_GPIO_LockPin
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 76
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 76
 
 
  687:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  741:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
  742:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** __STATIC_INLINE uint32_t LL_GPIO_IsPinLocked(GPIO_TypeDef *GPIOx, uint32_t PinMask)
  743:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 77
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 77
 
 
  744:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   return (READ_BIT(GPIOx->LCKR, PinMask) == (PinMask));
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  798:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_ALL
  799:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @retval State of bit (1 or 0).
  800:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 78
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 78
 
 
  801:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** __STATIC_INLINE uint32_t LL_GPIO_IsInputPinSet(GPIO_TypeDef *GPIOx, uint32_t PinMask)
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  855:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   return (READ_BIT(GPIOx->ODR, PinMask) == (PinMask));
  856:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
  857:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 79
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 79
 
 
  858:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  313              		.loc 3 911 22 view .LVU84
  314              	.LBB158:
  912:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 80
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 80
 
 
  913:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   WRITE_REG(GPIOx->BSRR, (PinMask << 16));
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  361              	.LCFI0:
  362              		.cfi_def_cfa_offset 8
  363              		.cfi_offset 3, -8
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 81
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 81
 
 
  364              		.cfi_offset 14, -4
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  413              		.cfi_offset 14, -4
   68:Core/Src/ILI9341_Driver.c ****     LL_GPIO_SetOutputPin(DC_PORT,DC_PIN);
  414              		.loc 1 68 5 is_stmt 1 view .LVU106
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 82
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 82
 
 
  415              	.LVL30:
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  457              	.L19:
  458              		.align	2
  459              	.L18:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 83
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 83
 
 
  460 001c 00000240 		.word	1073872896
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  509              	.LBE170:
  510              	.LBE169:
   79:Core/Src/ILI9341_Driver.c ****     write8(cmd);
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 84
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 84
 
 
  511              		.loc 1 79 5 is_stmt 1 view .LVU130
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  558 0002 0C46     		mov	r4, r1
   86:Core/Src/ILI9341_Driver.c ****     LL_GPIO_ResetOutputPin(DC_PORT,DC_PIN);
  559              		.loc 1 86 5 is_stmt 1 view .LVU138
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 85
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 85
 
 
  560              	.LVL42:
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  607              		.fpu fpv4-sp-d16
  609              	writeRegister16:
  610              	.LVL47:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 86
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 86
 
 
  611              	.LFB741:
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  654              	.LVL53:
  101:Core/Src/ILI9341_Driver.c ****     hi = (d) >> 8;     
  655              		.loc 1 101 5 view .LVU162
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 87
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 87
 
 
  102:Core/Src/ILI9341_Driver.c ****     lo = (d);
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  109:Core/Src/ILI9341_Driver.c **** /*  */
  110:Core/Src/ILI9341_Driver.c **** void writeRegisterPair(uint8_t aH, uint8_t aL, uint16_t d){
  702              		.loc 1 110 59 is_stmt 1 view -0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 88
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 88
 
 
  703              		.cfi_startproc
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  750              	.LVL64:
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
  751              		.loc 3 884 3 is_stmt 0 view .LVU186
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 89
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 89
 
 
  752              	.LBE184:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  796              		.cfi_endproc
  797              	.LFE742:
  799              		.section	.text.writeRegister32,"ax",%progbits
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 90
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 90
 
 
  800              		.align	1
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  846              		.loc 3 913 3 is_stmt 0 view .LVU209
  847              	.LBE192:
  848              	.LBE191:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 91
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 91
 
 
  128:Core/Src/ILI9341_Driver.c ****     write8(r);
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  891              	.LVL83:
  137:Core/Src/ILI9341_Driver.c ****     write8(d);
  892              		.loc 1 137 5 view .LVU222
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 92
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 92
 
 
  893 004a E0B2     		uxtb	r0, r4
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  939              		.cfi_offset 14, -4
  145:Core/Src/ILI9341_Driver.c ****     LL_GPIO_SetOutputPin(CS_PORT,CS_PIN);
  940              		.loc 1 145 5 view .LVU230
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 93
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 93
 
 
  941              	.LVL87:
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  981              		.loc 3 911 22 view .LVU243
  982              	.LBB204:
  983              		.loc 3 913 3 view .LVU244
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 94
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 94
 
 
  984 0016 114D     		ldr	r5, .L44+4
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1028              		.loc 3 913 3 is_stmt 0 view .LVU258
  1029              	.LBE210:
  1030              	.LBE209:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 95
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 95
 
 
  155:Core/Src/ILI9341_Driver.c ****     write8(0x00);
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1073              	.LBE212:
  159:Core/Src/ILI9341_Driver.c **** }
  1074              		.loc 1 159 1 view .LVU274
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 96
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 96
 
 
  1075 0054 38BD     		pop	{r3, r4, r5, pc}
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  194:Core/Src/ILI9341_Driver.c **** }
  195:Core/Src/ILI9341_Driver.c **** 
  196:Core/Src/ILI9341_Driver.c **** /* Definie une zone dans laquelle on souhaite faire un traitement (fillRect,fillScreen...) */
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 97
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 97
 
 
  197:Core/Src/ILI9341_Driver.c **** void setAddrWindow(uint16_t X1, uint16_t Y1, uint16_t X2, uint16_t Y2) { 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  206:Core/Src/ILI9341_Driver.c ****     t <<= 16;
  1141              		.loc 1 206 5 view .LVU291
  207:Core/Src/ILI9341_Driver.c ****     t |= Y2;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 98
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 98
 
 
  1142              		.loc 1 207 5 view .LVU292
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1190              		.cfi_offset 4, -8
  1191              		.cfi_offset 14, -4
  165:Core/Src/ILI9341_Driver.c ****     LL_GPIO_SetOutputPin(WR_PORT,WR_PIN);
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 99
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 99
 
 
  1192              		.loc 1 165 5 view .LVU302
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1233              		.loc 3 882 22 view .LVU315
  1234              	.LBB225:
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 100
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 100
 
 
  1235              		.loc 3 884 3 view .LVU316
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1279              	.LVL124:
  176:Core/Src/ILI9341_Driver.c ****     writeRegister8(ILI9341_DISPLAYOFF, 0);
  1280              		.loc 1 176 5 view .LVU329
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 101
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 101
 
 
  1281 0042 3220     		movs	r0, #50
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1326 008c B720     		movs	r0, #183
  1327 008e FFF7FEFF 		bl	writeRegister8
  1328              	.LVL134:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 102
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 102
 
 
  188:Core/Src/ILI9341_Driver.c ****     delay(150);
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1375              		.cfi_startproc
  1376              		@ args = 0, pretend = 0, frame = 0
  1377              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 103
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 103
 
 
  1378              		.loc 1 215 42 is_stmt 0 view .LVU346
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1425              		.loc 1 220 5 is_stmt 0 view .LVU360
  1426 001a FFF7FEFF 		bl	write8
  1427              	.LVL146:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 104
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 104
 
 
  221:Core/Src/ILI9341_Driver.c **** 
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1466              		.loc 1 233 9 is_stmt 1 discriminator 1 view .LVU374
  234:Core/Src/ILI9341_Driver.c ****         WRStrobe();
  1467              		.loc 1 234 9 discriminator 1 view .LVU375
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 105
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 105
 
 
  1468 0040 FFF7FEFF 		bl	WRStrobe
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1510 0070 E5D1     		bne	.L64
  243:Core/Src/ILI9341_Driver.c ****     }
  244:Core/Src/ILI9341_Driver.c ****     // Fill any remaining pixels (1 to 64)
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 106
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 106
 
 
  245:Core/Src/ILI9341_Driver.c ****     for (i = (uint8_t)len & 63; i--;) {
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1551 0096 FFF7FEFF 		bl	write8
  1552              	.LVL174:
  255:Core/Src/ILI9341_Driver.c ****         write8(hi);
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 107
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 107
 
 
  1553              		.loc 1 255 9 discriminator 1 view .LVU403
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  262:Core/Src/ILI9341_Driver.c ****     }
  263:Core/Src/ILI9341_Driver.c ****     for (i = (uint8_t)len & 63; i--;) {
  1597              		.loc 1 263 5 is_stmt 1 view .LVU416
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 108
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 108
 
 
  1598              		.loc 1 263 12 is_stmt 0 view .LVU417
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  269:Core/Src/ILI9341_Driver.c **** }
  1640              		.loc 1 269 1 view .LVU429
  1641 00f4 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 109
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 109
 
 
  1642              	.LVL193:
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1690              		.loc 1 276 3 view .LVU437
  1691 0014 40F23F12 		movw	r2, #319
  1692 0018 0921     		movs	r1, #9
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 110
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 110
 
 
  1693 001a 0820     		movs	r0, #8
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1739              		.loc 1 283 5 is_stmt 1 view .LVU445
  1740 0004 40F23F13 		movw	r3, #319
  1741 0008 EF22     		movs	r2, #239
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 111
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 111
 
 
  1742 000a 0021     		movs	r1, #0
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1792 000c EF28     		cmp	r0, #239
  1793 000e 02DC     		bgt	.L75
  1794              		.loc 1 288 47 discriminator 3 view .LVU456
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 112
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 112
 
 
  1795 0010 B1F5A07F 		cmp	r1, #320
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1829              		.loc 3 911 22 view .LVU466
  1830              	.LBB245:
  1831              		.loc 3 913 3 view .LVU467
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 113
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 113
 
 
  1832 002e AE61     		str	r6, [r5, #24]
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  882:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
  1876              		.loc 3 882 22 view .LVU481
  1877              	.LBB251:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 114
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 114
 
 
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1926              		.loc 1 306 5 is_stmt 1 view .LVU487
  307:Core/Src/ILI9341_Driver.c **** 
  308:Core/Src/ILI9341_Driver.c ****     // Initial off-screen clipping
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 115
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 115
 
 
  309:Core/Src/ILI9341_Driver.c ****     if ((w <= 0) || (h <= 0) || (x1 >= TFTWIDTH) || (y1 >= TFTHEIGHT) ||
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  1972              		.loc 1 316 8 is_stmt 0 view .LVU504
  1973 003e 0029     		cmp	r1, #0
  1974 0040 22DB     		blt	.L92
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 116
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 116
 
 
  1975              	.LVL224:
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  2014              		.loc 1 329 5 is_stmt 1 view .LVU521
  2015 0062 9BB2     		uxth	r3, r3
  2016              		.loc 1 329 5 is_stmt 0 view .LVU522
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 117
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 117
 
 
  2017 0064 92B2     		uxth	r2, r2
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  2061              		.global	drawFastHLine
  2062              		.syntax unified
  2063              		.thumb
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 118
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 118
 
 
  2064              		.thumb_func
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  2110 0020 14DB     		blt	.L93
  341:Core/Src/ILI9341_Driver.c ****         return;
  342:Core/Src/ILI9341_Driver.c **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 119
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 119
 
 
  343:Core/Src/ILI9341_Driver.c ****     if (x < 0) { // Clip left
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  2153              	.L93:
  354:Core/Src/ILI9341_Driver.c **** }
  2154              		.loc 1 354 1 is_stmt 0 view .LVU566
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 120
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 120
 
 
  2155 004c 38BD     		pop	{r3, r4, r5, pc}
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  2200 000a 21DB     		blt	.L99
  2201              		.loc 1 361 34 discriminator 2 view .LVU577
  2202 000c EF28     		cmp	r0, #239
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 121
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 121
 
 
  2203 000e 1FDC     		bgt	.L99
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  372:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x, y, x, y2);
  2245              		.loc 1 372 5 is_stmt 1 view .LVU594
  2246 0038 80B2     		uxth	r0, r0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 122
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 122
 
 
  2247              		.loc 1 372 5 is_stmt 0 view .LVU595
@@ -7280,93 +7280,649 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 1
  2261 004c FFF7FEFF 		bl	setLR
  2262              	.LVL262:
  2263              	.L99:
- 375:Core/Src/ILI9341_Driver.c **** }...
+ 375:Core/Src/ILI9341_Driver.c **** }
  2264              		.loc 1 375 1 is_stmt 0 view .LVU600
  2265 0050 38BD     		pop	{r3, r4, r5, pc}
  2266              	.LVL263:
  2267              	.L104:
- 365:Core/Src/ILI9341_Driver.c ****         length += y;
+ 365:Core/Src/ILI9341_Driver.c ****         y = 0;
  2268              		.loc 1 365 9 is_stmt 1 view .LVU601
- 365:Core/Src/ILI9341_Driver.c ****         length += y;
+ 365:Core/Src/ILI9341_Driver.c ****         y = 0;
  2269              		.loc 1 365 16 is_stmt 0 view .LVU602
  2270 0052 14B2     		sxth	r4, r2
  2271              	.LVL264:
- 366:Core/Src/ILI9341_Driver.c ****         y = 0;
+ 366:Core/Src/ILI9341_Driver.c ****     }
  2272              		.loc 1 366 9 is_stmt 1 view .LVU603
- 366:Core/Src/ILI9341_Driver.c ****         y = 0;
+ 366:Core/Src/ILI9341_Driver.c ****     }
  2273              		.loc 1 366 11 is_stmt 0 view .LVU604
  2274 0054 0021     		movs	r1, #0
  2275 0056 E6E7     		b	.L101
  2276              		.cfi_endproc
  2277              	.LFE753:
- 2279              		.text
- 2280              	.Letext0:
- 2281              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
- 2282              		.file 5 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
- 2283              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 2284              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 123
+ 2279              		.section	.text.DrawChar,"ax",%progbits
+ 2280              		.align	1
+ 2281              		.global	DrawChar
+ 2282              		.syntax unified
+ 2283              		.thumb
+ 2284              		.thumb_func
+ 2285              		.fpu fpv4-sp-d16
+ 2287              	DrawChar:
+ 2288              	.LVL265:
+ 2289              	.LFB754:
+ 376:Core/Src/ILI9341_Driver.c **** 
+ 377:Core/Src/ILI9341_Driver.c **** void DrawChar(char Character, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Backgr
+ 378:Core/Src/ILI9341_Driver.c **** {
+ 2290              		.loc 1 378 1 is_stmt 1 view -0
+ 2291              		.cfi_startproc
+ 2292              		@ args = 8, pretend = 0, frame = 8
+ 2293              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2294              		.loc 1 378 1 is_stmt 0 view .LVU606
+ 2295 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 123
+
+
+ 2296              	.LCFI18:
+ 2297              		.cfi_def_cfa_offset 28
+ 2298              		.cfi_offset 4, -28
+ 2299              		.cfi_offset 5, -24
+ 2300              		.cfi_offset 6, -20
+ 2301              		.cfi_offset 7, -16
+ 2302              		.cfi_offset 8, -12
+ 2303              		.cfi_offset 9, -8
+ 2304              		.cfi_offset 14, -4
+ 2305 0004 85B0     		sub	sp, sp, #20
+ 2306              	.LCFI19:
+ 2307              		.cfi_def_cfa_offset 48
+ 2308 0006 0F46     		mov	r7, r1
+ 2309 0008 9046     		mov	r8, r2
+ 2310 000a 9946     		mov	r9, r3
+ 2311 000c BDF83060 		ldrh	r6, [sp, #48]
+ 379:Core/Src/ILI9341_Driver.c **** 	uint8_t function_char;
+ 2312              		.loc 1 379 2 is_stmt 1 view .LVU607
+ 380:Core/Src/ILI9341_Driver.c ****     uint8_t i,j;
+ 2313              		.loc 1 380 5 view .LVU608
+ 381:Core/Src/ILI9341_Driver.c **** 		
+ 382:Core/Src/ILI9341_Driver.c **** 	function_char = Character;
+ 2314              		.loc 1 382 2 view .LVU609
+ 2315              	.LVL266:
+ 383:Core/Src/ILI9341_Driver.c **** 		
+ 384:Core/Src/ILI9341_Driver.c ****     if (function_char < ' ') {
+ 2316              		.loc 1 384 5 view .LVU610
+ 2317              		.loc 1 384 8 is_stmt 0 view .LVU611
+ 2318 0010 1F28     		cmp	r0, #31
+ 2319 0012 01D9     		bls	.L106
+ 385:Core/Src/ILI9341_Driver.c ****         Character = 0;
+ 386:Core/Src/ILI9341_Driver.c ****     }else{
+ 387:Core/Src/ILI9341_Driver.c ****         function_char -= 32;
+ 2320              		.loc 1 387 9 is_stmt 1 view .LVU612
+ 2321              		.loc 1 387 23 is_stmt 0 view .LVU613
+ 2322 0014 2038     		subs	r0, r0, #32
+ 2323              	.LVL267:
+ 2324              		.loc 1 387 23 view .LVU614
+ 2325 0016 C0B2     		uxtb	r0, r0
+ 2326              	.LVL268:
+ 2327              	.L106:
+ 388:Core/Src/ILI9341_Driver.c **** 	}
+ 389:Core/Src/ILI9341_Driver.c ****    	
+ 390:Core/Src/ILI9341_Driver.c **** 	char temp[CHAR_WIDTH];
+ 2328              		.loc 1 390 2 is_stmt 1 view .LVU615
+ 391:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2329              		.loc 1 391 2 view .LVU616
+ 2330              	.LBB252:
+ 2331              		.loc 1 391 6 view .LVU617
+ 2332              		.loc 1 391 14 is_stmt 0 view .LVU618
+ 2333 0018 0023     		movs	r3, #0
+ 2334              	.LVL269:
+ 2335              		.loc 1 391 2 view .LVU619
+ 2336 001a 0BE0     		b	.L107
+ 2337              	.LVL270:
+ 2338              	.L108:
+ 392:Core/Src/ILI9341_Driver.c **** 	    temp[k] = font[function_char][k];
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 124
+
+
+ 2339              		.loc 1 392 6 is_stmt 1 discriminator 3 view .LVU620
+ 2340              		.loc 1 392 35 is_stmt 0 discriminator 3 view .LVU621
+ 2341 001c 00EB4002 		add	r2, r0, r0, lsl #1
+ 2342 0020 2449     		ldr	r1, .L119
+ 2343 0022 01EB4202 		add	r2, r1, r2, lsl #1
+ 2344 0026 D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
+ 2345              		.loc 1 392 14 discriminator 3 view .LVU622
+ 2346 0028 04AA     		add	r2, sp, #16
+ 2347 002a 1A44     		add	r2, r2, r3
+ 2348 002c 02F8081C 		strb	r1, [r2, #-8]
+ 391:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2349              		.loc 1 391 35 is_stmt 1 discriminator 3 view .LVU623
+ 391:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2350              		.loc 1 391 36 is_stmt 0 discriminator 3 view .LVU624
+ 2351 0030 0133     		adds	r3, r3, #1
+ 2352              	.LVL271:
+ 391:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2353              		.loc 1 391 36 discriminator 3 view .LVU625
+ 2354 0032 DBB2     		uxtb	r3, r3
+ 2355              	.LVL272:
+ 2356              	.L107:
+ 391:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2357              		.loc 1 391 21 is_stmt 1 discriminator 1 view .LVU626
+ 391:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2358              		.loc 1 391 2 is_stmt 0 discriminator 1 view .LVU627
+ 2359 0034 052B     		cmp	r3, #5
+ 2360 0036 F1D9     		bls	.L108
+ 2361              	.LBE252:
+ 393:Core/Src/ILI9341_Driver.c **** 	}	
+ 394:Core/Src/ILI9341_Driver.c ****     // Draw pixels
+ 395:Core/Src/ILI9341_Driver.c **** 	fillRect(X, Y, CHAR_WIDTH*Size, CHAR_HEIGHT*Size, Background_Colour);
+ 2362              		.loc 1 395 2 is_stmt 1 view .LVU628
+ 2363 0038 F300     		lsls	r3, r6, #3
+ 2364              	.LVL273:
+ 2365              		.loc 1 395 2 is_stmt 0 view .LVU629
+ 2366 003a 06EB4602 		add	r2, r6, r6, lsl #1
+ 2367 003e 5200     		lsls	r2, r2, #1
+ 2368 0040 BDF83410 		ldrh	r1, [sp, #52]
+ 2369 0044 0091     		str	r1, [sp]
+ 2370 0046 1BB2     		sxth	r3, r3
+ 2371 0048 12B2     		sxth	r2, r2
+ 2372 004a 4146     		mov	r1, r8
+ 2373 004c 3846     		mov	r0, r7
+ 2374              	.LVL274:
+ 2375              		.loc 1 395 2 view .LVU630
+ 2376 004e FFF7FEFF 		bl	fillRect
+ 2377              	.LVL275:
+ 396:Core/Src/ILI9341_Driver.c ****     for (j=0; j<CHAR_WIDTH; j++) {
+ 2378              		.loc 1 396 5 is_stmt 1 view .LVU631
+ 2379              		.loc 1 396 11 is_stmt 0 view .LVU632
+ 2380 0052 0025     		movs	r5, #0
+ 2381              		.loc 1 396 5 view .LVU633
+ 2382 0054 26E0     		b	.L109
+ 2383              	.LVL276:
+ 2384              	.L117:
+ 397:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 398:Core/Src/ILI9341_Driver.c ****             if (temp[j] & (1<<i)) {			
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 125
+
+
+ 399:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 400:Core/Src/ILI9341_Driver.c ****                     drawPixel(X-i, Y+j, Colour);
+ 2385              		.loc 1 400 21 is_stmt 1 view .LVU634
+ 2386 0056 4A46     		mov	r2, r9
+ 2387 0058 08EB0501 		add	r1, r8, r5
+ 2388 005c 381B     		subs	r0, r7, r4
+ 2389 005e FFF7FEFF 		bl	drawPixel
+ 2390              	.LVL277:
+ 2391              	.L110:
+ 397:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2392              		.loc 1 397 34 discriminator 2 view .LVU635
+ 397:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2393              		.loc 1 397 35 is_stmt 0 discriminator 2 view .LVU636
+ 2394 0062 0134     		adds	r4, r4, #1
+ 2395              	.LVL278:
+ 397:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2396              		.loc 1 397 35 discriminator 2 view .LVU637
+ 2397 0064 E4B2     		uxtb	r4, r4
+ 2398              	.LVL279:
+ 2399              	.L113:
+ 397:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2400              		.loc 1 397 19 is_stmt 1 discriminator 1 view .LVU638
+ 397:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2401              		.loc 1 397 9 is_stmt 0 discriminator 1 view .LVU639
+ 2402 0066 072C     		cmp	r4, #7
+ 2403 0068 1AD8     		bhi	.L116
+ 398:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 2404              		.loc 1 398 13 is_stmt 1 view .LVU640
+ 398:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 2405              		.loc 1 398 21 is_stmt 0 view .LVU641
+ 2406 006a 04AB     		add	r3, sp, #16
+ 2407 006c 2B44     		add	r3, r3, r5
+ 2408 006e 13F8080C 		ldrb	r0, [r3, #-8]	@ zero_extendqisi2
+ 398:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 2409              		.loc 1 398 17 view .LVU642
+ 2410 0072 2041     		asrs	r0, r0, r4
+ 398:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 2411              		.loc 1 398 16 view .LVU643
+ 2412 0074 10F0010F 		tst	r0, #1
+ 2413 0078 F3D0     		beq	.L110
+ 399:Core/Src/ILI9341_Driver.c ****                     drawPixel(X-i, Y+j, Colour);
+ 2414              		.loc 1 399 17 is_stmt 1 view .LVU644
+ 399:Core/Src/ILI9341_Driver.c ****                     drawPixel(X-i, Y+j, Colour);
+ 2415              		.loc 1 399 19 is_stmt 0 view .LVU645
+ 2416 007a 012E     		cmp	r6, #1
+ 2417 007c EBD0     		beq	.L117
+ 401:Core/Src/ILI9341_Driver.c ****                 }else{
+ 402:Core/Src/ILI9341_Driver.c ****                     fillRect(X-(i*Size), Y+(j*Size), Size, Size, Colour);
+ 2418              		.loc 1 402 21 is_stmt 1 view .LVU646
+ 2419              		.loc 1 402 34 is_stmt 0 view .LVU647
+ 2420 007e 14FB06F0 		smulbb	r0, r4, r6
+ 2421 0082 80B2     		uxth	r0, r0
+ 2422              		.loc 1 402 31 view .LVU648
+ 2423 0084 381A     		subs	r0, r7, r0
+ 2424              		.loc 1 402 46 view .LVU649
+ 2425 0086 15FB06F1 		smulbb	r1, r5, r6
+ 2426              		.loc 1 402 43 view .LVU650
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 126
+
+
+ 2427 008a 18FA81F1 		uxtah	r1, r8, r1
+ 2428              		.loc 1 402 21 view .LVU651
+ 2429 008e 32B2     		sxth	r2, r6
+ 2430 0090 CDF80090 		str	r9, [sp]
+ 2431 0094 1346     		mov	r3, r2
+ 2432 0096 09B2     		sxth	r1, r1
+ 2433 0098 00B2     		sxth	r0, r0
+ 2434 009a FFF7FEFF 		bl	fillRect
+ 2435              	.LVL280:
+ 2436 009e E0E7     		b	.L110
+ 2437              	.L116:
+ 396:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2438              		.loc 1 396 29 is_stmt 1 discriminator 2 view .LVU652
+ 396:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2439              		.loc 1 396 30 is_stmt 0 discriminator 2 view .LVU653
+ 2440 00a0 0135     		adds	r5, r5, #1
+ 2441              	.LVL281:
+ 396:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2442              		.loc 1 396 30 discriminator 2 view .LVU654
+ 2443 00a2 EDB2     		uxtb	r5, r5
+ 2444              	.LVL282:
+ 2445              	.L109:
+ 396:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2446              		.loc 1 396 15 is_stmt 1 discriminator 1 view .LVU655
+ 396:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2447              		.loc 1 396 5 is_stmt 0 discriminator 1 view .LVU656
+ 2448 00a4 052D     		cmp	r5, #5
+ 2449 00a6 01D8     		bhi	.L118
+ 397:Core/Src/ILI9341_Driver.c ****             if (temp[j] & (1<<i)) {			
+ 2450              		.loc 1 397 15 view .LVU657
+ 2451 00a8 0024     		movs	r4, #0
+ 2452 00aa DCE7     		b	.L113
+ 2453              	.L118:
+ 403:Core/Src/ILI9341_Driver.c ****                 }
+ 404:Core/Src/ILI9341_Driver.c ****             }						
+ 405:Core/Src/ILI9341_Driver.c ****         }
+ 406:Core/Src/ILI9341_Driver.c ****     }
+ 407:Core/Src/ILI9341_Driver.c **** }
+ 2454              		.loc 1 407 1 view .LVU658
+ 2455 00ac 05B0     		add	sp, sp, #20
+ 2456              	.LCFI20:
+ 2457              		.cfi_def_cfa_offset 28
+ 2458              		@ sp needed
+ 2459 00ae BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 2460              	.LVL283:
+ 2461              	.L120:
+ 2462              		.loc 1 407 1 view .LVU659
+ 2463 00b2 00BF     		.align	2
+ 2464              	.L119:
+ 2465 00b4 00000000 		.word	.LANCHOR0
+ 2466              		.cfi_endproc
+ 2467              	.LFE754:
+ 2469              		.section	.text.DrawText,"ax",%progbits
+ 2470              		.align	1
+ 2471              		.global	DrawText
+ 2472              		.syntax unified
+ 2473              		.thumb
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 127
+
+
+ 2474              		.thumb_func
+ 2475              		.fpu fpv4-sp-d16
+ 2477              	DrawText:
+ 2478              	.LVL284:
+ 2479              	.LFB755:
+ 408:Core/Src/ILI9341_Driver.c **** 
+ 409:Core/Src/ILI9341_Driver.c **** void DrawText(const char* Text, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Back
+ 2480              		.loc 1 409 114 is_stmt 1 view -0
+ 2481              		.cfi_startproc
+ 2482              		@ args = 8, pretend = 0, frame = 0
+ 2483              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2484              		.loc 1 409 114 is_stmt 0 view .LVU661
+ 2485 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 2486              	.LCFI21:
+ 2487              		.cfi_def_cfa_offset 28
+ 2488              		.cfi_offset 4, -28
+ 2489              		.cfi_offset 5, -24
+ 2490              		.cfi_offset 6, -20
+ 2491              		.cfi_offset 7, -16
+ 2492              		.cfi_offset 8, -12
+ 2493              		.cfi_offset 9, -8
+ 2494              		.cfi_offset 14, -4
+ 2495 0004 83B0     		sub	sp, sp, #12
+ 2496              	.LCFI22:
+ 2497              		.cfi_def_cfa_offset 40
+ 2498 0006 0446     		mov	r4, r0
+ 2499 0008 8846     		mov	r8, r1
+ 2500 000a 1546     		mov	r5, r2
+ 2501 000c 1F46     		mov	r7, r3
+ 2502 000e BDF82860 		ldrh	r6, [sp, #40]
+ 2503 0012 BDF82C90 		ldrh	r9, [sp, #44]
+ 410:Core/Src/ILI9341_Driver.c ****     while (*Text) {
+ 2504              		.loc 1 410 5 is_stmt 1 view .LVU662
+ 2505              		.loc 1 410 11 is_stmt 0 view .LVU663
+ 2506 0016 0DE0     		b	.L122
+ 2507              	.LVL285:
+ 2508              	.L123:
+ 411:Core/Src/ILI9341_Driver.c ****         DrawChar(*Text++, X, Y, Colour, Size, Background_Colour);
+ 2509              		.loc 1 411 9 is_stmt 1 view .LVU664
+ 2510              		.loc 1 411 23 is_stmt 0 view .LVU665
+ 2511 0018 0134     		adds	r4, r4, #1
+ 2512              	.LVL286:
+ 2513              		.loc 1 411 9 view .LVU666
+ 2514 001a CDF80490 		str	r9, [sp, #4]
+ 2515 001e 0096     		str	r6, [sp]
+ 2516 0020 3B46     		mov	r3, r7
+ 2517 0022 2A46     		mov	r2, r5
+ 2518 0024 4146     		mov	r1, r8
+ 2519 0026 FFF7FEFF 		bl	DrawChar
+ 2520              	.LVL287:
+ 412:Core/Src/ILI9341_Driver.c ****         Y += CHAR_WIDTH*Size;
+ 2521              		.loc 1 412 9 is_stmt 1 view .LVU667
+ 2522              		.loc 1 412 11 is_stmt 0 view .LVU668
+ 2523 002a 06EB4602 		add	r2, r6, r6, lsl #1
+ 2524 002e 05EB4202 		add	r2, r5, r2, lsl #1
+ 2525 0032 D5B2     		uxtb	r5, r2
+ 2526              	.LVL288:
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 128
+
+
+ 2527              	.L122:
+ 410:Core/Src/ILI9341_Driver.c ****     while (*Text) {
+ 2528              		.loc 1 410 11 is_stmt 1 view .LVU669
+ 410:Core/Src/ILI9341_Driver.c ****     while (*Text) {
+ 2529              		.loc 1 410 12 is_stmt 0 view .LVU670
+ 2530 0034 2078     		ldrb	r0, [r4]	@ zero_extendqisi2
+ 410:Core/Src/ILI9341_Driver.c ****     while (*Text) {
+ 2531              		.loc 1 410 11 view .LVU671
+ 2532 0036 0028     		cmp	r0, #0
+ 2533 0038 EED1     		bne	.L123
+ 413:Core/Src/ILI9341_Driver.c ****     }
+ 414:Core/Src/ILI9341_Driver.c **** }...
+ 2534              		.loc 1 414 1 view .LVU672
+ 2535 003a 03B0     		add	sp, sp, #12
+ 2536              	.LCFI23:
+ 2537              		.cfi_def_cfa_offset 28
+ 2538              		@ sp needed
+ 2539 003c BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 2540              		.loc 1 414 1 view .LVU673
+ 2541              		.cfi_endproc
+ 2542              	.LFE755:
+ 2544              		.section	.rodata.font,"a"
+ 2545              		.align	2
+ 2546              		.set	.LANCHOR0,. + 0
+ 2549              	font:
+ 2550 0000 00000000 		.ascii	"\000\000\000\000\000\000"
+ 2550      0000
+ 2551 0006 5C000000 		.ascii	"\\\000\000\000\000\000"
+ 2551      0000
+ 2552 000c 06000600 		.ascii	"\006\000\006\000\000\000"
+ 2552      0000
+ 2553 0012 287C287C 		.ascii	"(|(|(\000"
+ 2553      2800
+ 2554 0018 5C54FE54 		.ascii	"\\T\376Tt\000"
+ 2554      7400
+ 2555 001e 44201008 		.ascii	"D \020\010D\000"
+ 2555      4400
+ 2556 0024 28545420 		.ascii	"(TT P\000"
+ 2556      5000
+ 2557 002a 06000000 		.ascii	"\006\000\000\000\000\000"
+ 2557      0000
+ 2558 0030 38440000 		.ascii	"8D\000\000\000\000"
+ 2558      0000
+ 2559 0036 44380000 		.ascii	"D8\000\000\000\000"
+ 2559      0000
+ 2560 003c 02070200 		.ascii	"\002\007\002\000\000\000"
+ 2560      0000
+ 2561 0042 10107C10 		.ascii	"\020\020|\020\020\000"
+ 2561      1000
+ 2562 0048 C0000000 		.ascii	"\300\000\000\000\000\000"
+ 2562      0000
+ 2563 004e 10101010 		.ascii	"\020\020\020\020\020\000"
+ 2563      1000
+ 2564 0054 40000000 		.ascii	"@\000\000\000\000\000"
+ 2564      0000
+ 2565 005a 60100C00 		.ascii	"`\020\014\000\000\000"
+ 2565      0000
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 129
+
+
+ 2566 0060 7C64544C 		.ascii	"|dTL|\000"
+ 2566      7C00
+ 2567 0066 487C4000 		.ascii	"H|@\000\000\000"
+ 2567      0000
+ 2568 006c 64545454 		.ascii	"dTTTH\000"
+ 2568      4800
+ 2569 0072 44545454 		.ascii	"DTTTl\000"
+ 2569      6C00
+ 2570 0078 3C207020 		.ascii	"< p  \000"
+ 2570      2000
+ 2571 007e 5C545454 		.ascii	"\\TTT$\000"
+ 2571      2400
+ 2572 0084 7C545454 		.ascii	"|TTTt\000"
+ 2572      7400
+ 2573 008a 04046414 		.ascii	"\004\004d\024\014\000"
+ 2573      0C00
+ 2574 0090 7C545454 		.ascii	"|TTT|\000"
+ 2574      7C00
+ 2575 0096 5C545454 		.ascii	"\\TTT|\000"
+ 2575      7C00
+ 2576 009c 44000000 		.ascii	"D\000\000\000\000\000"
+ 2576      0000
+ 2577 00a2 C4000000 		.ascii	"\304\000\000\000\000\000"
+ 2577      0000
+ 2578 00a8 10284400 		.ascii	"\020(D\000\000\000"
+ 2578      0000
+ 2579 00ae 28282828 		.ascii	"(((((\000"
+ 2579      2800
+ 2580 00b4 44281000 		.ascii	"D(\020\000\000\000"
+ 2580      0000
+ 2581 00ba 08045408 		.ascii	"\010\004T\010\000\000"
+ 2581      0000
+ 2582 00c0 7C445454 		.ascii	"|DTT\\\000"
+ 2582      5C00
+ 2583 00c6 7C242424 		.ascii	"|$$$|\000"
+ 2583      7C00
+ 2584 00cc 7C545454 		.ascii	"|TTTl\000"
+ 2584      6C00
+ 2585 00d2 7C444444 		.ascii	"|DDDD\000"
+ 2585      4400
+ 2586 00d8 7C444444 		.ascii	"|DDD8\000"
+ 2586      3800
+ 2587 00de 7C545454 		.ascii	"|TTTD\000"
+ 2587      4400
+ 2588 00e4 7C141414 		.ascii	"|\024\024\024\004\000"
+ 2588      0400
+ 2589 00ea 7C444454 		.ascii	"|DDTt\000"
+ 2589      7400
+ 2590 00f0 7C101010 		.ascii	"|\020\020\020|\000"
+ 2590      7C00
+ 2591 00f6 44447C44 		.ascii	"DD|DD\000"
+ 2591      4400
+ 2592 00fc 60404044 		.ascii	"`@@D|\000"
+ 2592      7C00
+ 2593 0102 7C101028 		.ascii	"|\020\020(D\000"
+ 2593      4400
+ 2594 0108 7C404040 		.ascii	"|@@@@\000"
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 130
+
+
+ 2594      4000
+ 2595 010e 7C081008 		.ascii	"|\010\020\010|\000"
+ 2595      7C00
+ 2596 0114 7C081020 		.ascii	"|\010\020 |\000"
+ 2596      7C00
+ 2597 011a 38444444 		.ascii	"8DDD8\000"
+ 2597      3800
+ 2598 0120 7C141414 		.ascii	"|\024\024\024\010\000"
+ 2598      0800
+ 2599 0126 3C246424 		.ascii	"<$d$<\000"
+ 2599      3C00
+ 2600 012c 7C141414 		.ascii	"|\024\024\024h\000"
+ 2600      6800
+ 2601 0132 5C545454 		.ascii	"\\TTTt\000"
+ 2601      7400
+ 2602 0138 04047C04 		.ascii	"\004\004|\004\004\000"
+ 2602      0400
+ 2603 013e 7C404040 		.ascii	"|@@@|\000"
+ 2603      7C00
+ 2604 0144 0C304030 		.ascii	"\0140@0\014\000"
+ 2604      0C00
+ 2605 014a 3C403040 		.ascii	"<@0@<\000"
+ 2605      3C00
+ 2606 0150 44281028 		.ascii	"D(\020(D\000"
+ 2606      4400
+ 2607 0156 0C106010 		.ascii	"\014\020`\020\014\000"
+ 2607      0C00
+ 2608 015c 4464544C 		.ascii	"DdTLD\000"
+ 2608      4400
+ 2609 0162 7C440000 		.ascii	"|D\000\000\000\000"
+ 2609      0000
+ 2610 0168 0C106000 		.ascii	"\014\020`\000\000\000"
+ 2610      0000
+ 2611 016e 447C0000 		.ascii	"D|\000\000\000\000"
+ 2611      0000
+ 2612 0174 00010001 		.ascii	"\000\001\000\001\000\000"
+ 2612      0000
+ 2613 017a 40404040 		.ascii	"@@@@@@"
+ 2613      4040
+ 2614 0180 00010000 		.ascii	"\000\001\000\000\000\000"
+ 2614      0000
+ 2615 0186 7C242424 		.ascii	"|$$$|\000"
+ 2615      7C00
+ 2616 018c 7C545454 		.ascii	"|TTTl\000"
+ 2616      6C00
+ 2617 0192 7C444444 		.ascii	"|DDDD\000"
+ 2617      4400
+ 2618 0198 7C444444 		.ascii	"|DDD8\000"
+ 2618      3800
+ 2619 019e 7C545454 		.ascii	"|TTTD\000"
+ 2619      4400
+ 2620 01a4 7C141414 		.ascii	"|\024\024\024\004\000"
+ 2620      0400
+ 2621 01aa 7C444454 		.ascii	"|DDTt\000"
+ 2621      7400
+ 2622 01b0 7C101010 		.ascii	"|\020\020\020|\000"
+ 2622      7C00
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 131
+
+
+ 2623 01b6 44447C44 		.ascii	"DD|DD\000"
+ 2623      4400
+ 2624 01bc 60404044 		.ascii	"`@@D|\000"
+ 2624      7C00
+ 2625 01c2 7C101028 		.ascii	"|\020\020(D\000"
+ 2625      4400
+ 2626 01c8 7C404040 		.ascii	"|@@@@\000"
+ 2626      4000
+ 2627 01ce 7C081008 		.ascii	"|\010\020\010|\000"
+ 2627      7C00
+ 2628 01d4 7C081020 		.ascii	"|\010\020 |\000"
+ 2628      7C00
+ 2629 01da 38444444 		.ascii	"8DDD8\000"
+ 2629      3800
+ 2630 01e0 7C141414 		.ascii	"|\024\024\024\010\000"
+ 2630      0800
+ 2631 01e6 3C246424 		.ascii	"<$d$<\000"
+ 2631      3C00
+ 2632 01ec 7C141414 		.ascii	"|\024\024\024h\000"
+ 2632      6800
+ 2633 01f2 5C545454 		.ascii	"\\TTTt\000"
+ 2633      7400
+ 2634 01f8 04047C04 		.ascii	"\004\004|\004\004\000"
+ 2634      0400
+ 2635 01fe 7C404040 		.ascii	"|@@@|\000"
+ 2635      7C00
+ 2636 0204 0C304030 		.ascii	"\0140@0\014\000"
+ 2636      0C00
+ 2637 020a 3C403040 		.ascii	"<@0@<\000"
+ 2637      3C00
+ 2638 0210 44281028 		.ascii	"D(\020(D\000"
+ 2638      4400
+ 2639 0216 0C106010 		.ascii	"\014\020`\020\014\000"
+ 2639      0C00
+ 2640 021c 4464544C 		.ascii	"DdTLD\000"
+ 2640      4400
+ 2641 0222 107C4400 		.ascii	"\020|D\000\000\000"
+ 2641      0000
+ 2642 0228 6C000000 		.ascii	"l\000\000\000\000\000"
+ 2642      0000
+ 2643 022e 447C1000 		.ascii	"D|\020\000\000\000"
+ 2643      0000
+ 2644 0234 02010201 		.ascii	"\002\001\002\001\000\000"
+ 2644      0000
+ 2645 023a 00000000 		.ascii	"\000\000\000\000\000\000"
+ 2645      0000
+ 2646              		.text
+ 2647              	.Letext0:
+ 2648              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 2649              		.file 5 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 2650              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 2651              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
+ 2652              		.file 8 "Core/Src/../Inc/../Inc/../Inc/5x5_font.h"
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 132
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ILI9341_Driver.c
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:18     .text.delay:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:26     .text.delay:00000000 delay
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:166    .text.delay:00000050 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:171    .text.delayMicrosecond:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:178    .text.delayMicrosecond:00000000 delayMicrosecond
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:294    .text.WRStrobe:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:301    .text.WRStrobe:00000000 WRStrobe
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:340    .text.WRStrobe:00000010 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:345    .text.write8:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:352    .text.write8:00000000 write8
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:389    .text.write8:00000018 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:394    .text.writeData8:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:401    .text.writeData8:00000000 writeData8
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:460    .text.writeData8:0000001c $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:465    .text.writeCmd8:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:472    .text.writeCmd8:00000000 writeCmd8
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:531    .text.writeCmd8:0000001c $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:536    .text.writeRegister8:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:543    .text.writeRegister8:00000000 writeRegister8
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:597    .text.writeRegister8:00000020 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:602    .text.writeRegister16:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:609    .text.writeRegister16:00000000 writeRegister16
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:687    .text.writeRegister16:00000030 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:692    .text.writeRegisterPair:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:699    .text.writeRegisterPair:00000000 writeRegisterPair
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:795    .text.writeRegisterPair:0000003c $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:800    .text.writeRegister32:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:807    .text.writeRegister32:00000000 writeRegister32
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:915    .text.writeRegister32:00000058 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:920    .text.reset:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:927    .text.reset:00000000 reset
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1081   .text.reset:00000058 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1087   .text.setAddrWindow:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1094   .text.setAddrWindow:00000000 setAddrWindow
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1169   .text.setAddrWindow:0000002c $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1174   .text.initScreen:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1181   .text.initScreen:00000000 initScreen
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1359   .text.initScreen:000000c0 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1364   .text.flood:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1371   .text.flood:00000000 flood
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1647   .text.flood:000000f8 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1652   .text.setLR:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1659   .text.setLR:00000000 setLR
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1713   .text.setLR:00000028 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1718   .text.fillScreen:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1725   .text.fillScreen:00000000 fillScreen
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1759   .text.drawPixel:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1766   .text.drawPixel:00000000 drawPixel
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1897   .text.drawPixel:00000058 $d
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1904   .text.fillRect:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:1911   .text.fillRect:00000000 fillRect
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:2060   .text.drawFastHLine:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:2067   .text.drawFastHLine:00000000 drawFastHLine
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:2170   .text.drawFastVLine:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s:2177   .text.drawFastVLine:00000000 drawFastVLine
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccVONTXz.s 			page 124
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:18     .text.delay:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:26     .text.delay:00000000 delay
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:166    .text.delay:00000050 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:171    .text.delayMicrosecond:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:178    .text.delayMicrosecond:00000000 delayMicrosecond
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:294    .text.WRStrobe:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:301    .text.WRStrobe:00000000 WRStrobe
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:340    .text.WRStrobe:00000010 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:345    .text.write8:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:352    .text.write8:00000000 write8
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:389    .text.write8:00000018 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:394    .text.writeData8:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:401    .text.writeData8:00000000 writeData8
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:460    .text.writeData8:0000001c $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:465    .text.writeCmd8:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:472    .text.writeCmd8:00000000 writeCmd8
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:531    .text.writeCmd8:0000001c $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:536    .text.writeRegister8:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:543    .text.writeRegister8:00000000 writeRegister8
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:597    .text.writeRegister8:00000020 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:602    .text.writeRegister16:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:609    .text.writeRegister16:00000000 writeRegister16
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:687    .text.writeRegister16:00000030 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:692    .text.writeRegisterPair:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:699    .text.writeRegisterPair:00000000 writeRegisterPair
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:795    .text.writeRegisterPair:0000003c $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:800    .text.writeRegister32:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:807    .text.writeRegister32:00000000 writeRegister32
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:915    .text.writeRegister32:00000058 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:920    .text.reset:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:927    .text.reset:00000000 reset
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1081   .text.reset:00000058 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1087   .text.setAddrWindow:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1094   .text.setAddrWindow:00000000 setAddrWindow
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1169   .text.setAddrWindow:0000002c $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1174   .text.initScreen:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1181   .text.initScreen:00000000 initScreen
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1359   .text.initScreen:000000c0 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1364   .text.flood:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1371   .text.flood:00000000 flood
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1647   .text.flood:000000f8 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1652   .text.setLR:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1659   .text.setLR:00000000 setLR
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1713   .text.setLR:00000028 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1718   .text.fillScreen:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1725   .text.fillScreen:00000000 fillScreen
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1759   .text.drawPixel:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1766   .text.drawPixel:00000000 drawPixel
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1897   .text.drawPixel:00000058 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1904   .text.fillRect:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:1911   .text.fillRect:00000000 fillRect
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2060   .text.drawFastHLine:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2067   .text.drawFastHLine:00000000 drawFastHLine
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2170   .text.drawFastVLine:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2177   .text.drawFastVLine:00000000 drawFastVLine
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s 			page 133
 
 
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2280   .text.DrawChar:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2287   .text.DrawChar:00000000 DrawChar
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2465   .text.DrawChar:000000b4 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2470   .text.DrawText:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2477   .text.DrawText:00000000 DrawText
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2545   .rodata.font:00000000 $d
+C:\Users\Paul\AppData\Local\Temp\ccUSJYn2.s:2549   .rodata.font:00000000 font
 
 NO UNDEFINED SYMBOLS
