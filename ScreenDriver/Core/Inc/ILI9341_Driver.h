@@ -4,10 +4,6 @@
 #include <stdint.h>
 
 
-#define TFTWIDTH 240
-#define TFTHEIGHT 320
-
-
 #define BLACK       0x0000      
 #define NAVY        0x000F      
 #define DARKGREEN   0x03E0      
@@ -28,6 +24,8 @@
 #define GREENYELLOW 0xAFE5     
 #define PINK        0xF81F
 
+extern volatile uint16_t TFTWIDTH ;
+extern volatile uint16_t TFTHEIGHT ;
 
 
 void delay(int value);
@@ -43,7 +41,8 @@ void setPinDataIN();
 void reset();
 void initScreen();
 void setAddrWindow(uint16_t X1, uint16_t Y1, uint16_t X2, uint16_t Y2);
-void flood(uint16_t color, uint32_t len);
+void floodScreen(uint16_t color, uint32_t len);
+void SetRotation(uint8_t rotation);
 void setLR(void);
 void fillScreen(uint16_t color);
 void drawPixel(int16_t x, int16_t y, uint16_t color);

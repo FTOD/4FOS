@@ -42,6 +42,13 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "../Inc/ILI9341_Driver.h"
+#include "../Inc/board.h"
+#include "../Inc/piece.h"
+#include "../Inc/shapes.h"
+
+#include "stdlib.h"
+#include "time.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -51,7 +58,15 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+extern int state0 ;
+extern int state1 ;
+extern int state2 ;
+extern int state3 ;
+extern int state4 ;
+extern int state5 ;
+extern int state6 ;
+extern int state7 ;
+extern int state8 ;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/

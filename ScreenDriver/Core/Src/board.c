@@ -1,5 +1,6 @@
 /* board.cpp */
-#include "board.h"
+#include "../Inc/board.h"
+#include "../Inc/main.h"
  
 void flood(Board * board, int i, int j, int px, int py, int k, int o, int value, bool visited[][SIZE])
 {
@@ -64,25 +65,25 @@ void drawPiece(Board * board, Piece * piece)
     switch(k)
     {
         case I:
-            setColor(piece, CYAN);
+            setColor(piece, CYA);
             break;
         case J:
-            setColor(piece, BLUE);
+            setColor(piece, BLU);
             break;
         case L:
-            setColor(piece, ORANGE);
+            setColor(piece, ORANG);
             break;
         case O:
-            setColor(piece, YELLOW);
+            setColor(piece, YELLO);
             break;
         case S:
-            setColor(piece, GREEN);
+            setColor(piece, GREE);
             break;
         case T:
-            setColor(piece, PURPLE);
+            setColor(piece, PURPL);
             break;
         case Z:
-            setColor(piece, RED);
+            setColor(piece, RE);
             break;
         default:
             break;
@@ -308,35 +309,48 @@ int isGameOver(Board * board)
 
 void print(Board * board)
 {   
+    int tailleCase = 10;
+    int decalageGauche = 20;
+    fillScreen(BLACK);
     for(int j = 0; j < BOARD_HEIGHT; ++j)
     {
-        printf("|");
         for(int i = 0; i < BOARD_WIDTH; ++i)
         {
             if( board->area[i][j] != FREE){
-                printf("██");
+                uint16_t color;
+                switch(board->area[i][j]){
+                    case CYA:
+                        color = CYAN;
+                        break;
+                    case ORANG:
+                        color = ORANGE;
+                        break;
+                    case RE:
+                        color = RED;
+                        break;
+                    case PURPL:
+                        color = PURPLE;
+                        break;
+                    case GREE:
+                        color = GREEN;
+                        break;
+                    case YELLO:
+                        color = YELLOW;
+                        break;
+                    case BLU:
+                        color = BLUE;
+                        break;
+                    default:
+                        color = WHITE;
+                        break;
+                }
+                fillRect(TFTWIDTH-(j*tailleCase)-1, i*tailleCase + decalageGauche, tailleCase,tailleCase,color);
             }
-            else{
-                printf("  ");
-            }
-        }
-        printf("|\n");
-        
+        } 
     }
-    /*for(int i=0; i<BOARD_HEIGHT; i++){
-        std::cout << "|";
-        for(int j=0; j<BOARD_WIDTH; j++){
-            if( area[i][j] != FREE){
-                std::cout << "█";
-            }
-            else{
-                std::cout << " ";
-            }
-        }
-        std::cout << "|\n";
-    }*/
-
 }
+
+
 
 void clear(Board * board)
 {

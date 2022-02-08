@@ -13,7 +13,7 @@ typedef int bool;
 #define PIVOT_X  1
 #define PIVOT_Y  2
 
-enum { CYAN = 1, BLUE, ORANGE, YELLOW, GREEN, PURPLE, RED, GHOST }; // Les couleurs de chaque pièce, GHOST est pour la pièce fantôme
+enum { CYA = 1, BLU, ORANG, YELLO, GREE, PURPL, RE, GHOS }; // Les couleurs de chaque pièce, GHOST est pour la pièce fantôme
 enum { O = 0, I, S, Z, L, J, T};
 /* Les coordonnées du point de pivot de la pièce */
 

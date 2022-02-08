@@ -18,6 +18,11 @@
 #define MASK_BSRR_DATA 0b00000001111111100000000111111110
 
 
+/* Global Variables ------------------------------------------------------------------*/
+volatile uint16_t TFTWIDTH = 240 ;
+volatile uint16_t TFTHEIGHT = 320;
+
+
  /* Fonction delay en ms  */
 void delay(int value){
     LL_TIM_DisableCounter(TIM1);
@@ -212,7 +217,7 @@ void setAddrWindow(uint16_t X1, uint16_t Y1, uint16_t X2, uint16_t Y2) {
 
 
 /* Remplis une zone (definie avec setAddrWindow()) d'une couleur donné en parametre */
-void flood(uint16_t color, uint32_t len) {  
+void floodScreen(uint16_t color, uint32_t len) {  
     uint16_t blocks;
     uint8_t i, hi = color >> 8, lo = color;
     LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
@@ -269,6 +274,41 @@ void flood(uint16_t color, uint32_t len) {
 }
 
 
+void SetRotation(uint8_t rotation){
+    uint16_t t = 0;
+
+    switch(rotation){
+        case 2: // Vertical
+            TFTHEIGHT = 240;
+            TFTWIDTH = 320;
+            t = ILI9341_MADCTL_MX | ILI9341_MADCTL_BGR;
+            break;
+
+        case 3: // Horizontal
+            TFTHEIGHT = 320;
+            TFTWIDTH = 240;
+            t = ILI9341_MADCTL_MV | ILI9341_MADCTL_BGR;
+            break;
+
+        case 0: // Vertical
+            TFTHEIGHT = 240;
+            TFTWIDTH = 320;
+            t = ILI9341_MADCTL_MY | ILI9341_MADCTL_BGR;
+            break;
+
+        case 1: // Horizontal
+            TFTHEIGHT = 320;
+            TFTWIDTH = 240;
+            t = ILI9341_MADCTL_MX | ILI9341_MADCTL_MY | ILI9341_MADCTL_MV | ILI9341_MADCTL_BGR;
+            break;
+
+        default:
+            break;
+    }
+    writeRegister8(ILI9341_MADCTL, t);
+    setAddrWindow(0, 0, TFTWIDTH - 1, TFTHEIGHT - 1); // CS_IDLE happens here
+}
+
 
 void setLR(void) {
   LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
@@ -278,10 +318,9 @@ void setLR(void) {
 }
 
 
-
 void fillScreen(uint16_t color){
     setAddrWindow(0, 0, TFTWIDTH - 1, TFTHEIGHT - 1);
-    flood(color, (long)TFTWIDTH * (long)TFTHEIGHT);
+    floodScreen(color, (long)TFTWIDTH * (long)TFTHEIGHT);
 }
 
 void drawPixel(int16_t x, int16_t y, uint16_t color){
@@ -327,7 +366,7 @@ void fillRect(int16_t x1, int16_t y1, int16_t w, int16_t h, uint16_t fillcolor) 
     }
 
     setAddrWindow(x1, y1, x2, y2);
-    flood(fillcolor, (uint32_t)w * (uint32_t)h);
+    floodScreen(fillcolor, (uint32_t)w * (uint32_t)h);
     setLR();
 }
 
@@ -349,7 +388,7 @@ void drawFastHLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
         length = x2 - x + 1;
     }
     setAddrWindow(x, y, x2, y);
-    flood(color, length);
+    floodScreen(color, length);
     setLR();
 }
 
@@ -370,7 +409,7 @@ void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
         length = y2 - y + 1;
     }
     setAddrWindow(x, y, x, y2);
-    flood(color, length);
+    floodScreen(color, length);
     setLR();
 }
 

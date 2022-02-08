@@ -42,6 +42,18 @@
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
+int state0 = 0;
+int state1 = 0;
+int state2 = 0;
+int state3 = 0;
+int state4 = 0;
+int state5 = 0;
+int state6 = 0;
+int state7 = 0;
+int state8 = 0;
+
+Board board;
+Piece piece;
 
 /* USER CODE END PV */
 
@@ -51,12 +63,54 @@ static void MX_GPIO_Init(void);
 static void MX_TIM1_Init(void);
 static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
+void SystemCheckUp(void);
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void SystemCheckUp(){
+  if(state0){
 
+    state0 = 0;
+    NVIC_EnableIRQ(EXTI0_IRQn);
+  }
+  if(state1){
+    moveCurrentPieceDown(&board);
+    state1 = 0;
+    NVIC_EnableIRQ(EXTI1_IRQn);
+  }
+  if(state3){
+    rotateCurrentPieceRight(&board);
+    state3 = 0;
+    NVIC_EnableIRQ(EXTI3_IRQn);
+  }
+  if(state4){
+    moveCurrentPieceLeft(&board);
+    state4 = 0;
+    NVIC_EnableIRQ(EXTI4_IRQn);
+  }
+  if(state5){
+      moveCurrentPieceRight(&board);
+      state5 = 0;
+      LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_5);
+    }
+  if(state6){
+
+    state6 = 0;
+    LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_6);
+  }
+  if(state7){
+
+    state7 = 0;
+    LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_7);
+  }
+  if(state8){
+    rotateCurrentPieceLeft(&board);
+    state8 = 0;
+    LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_8);
+  }
+}
 /* USER CODE END 0 */
 
 /**
@@ -93,19 +147,32 @@ int main(void)
   LL_TIM_EnableCounter(TIM1);
   
   initScreen();
+  fillScreen(BLUE);
   fillScreen(BLACK);
+  
+  delay(10);
+
+
+  srand(time(NULL));
+  
+  initBoard(&board);
+  
+  initPiece(&piece, rand()%6, 0);
+  
+  newPiece(&board, &piece);
+
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int j = 0;
+  //SetRotation(0);
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+    /*
     DrawText("Score: ",180,180,WHITE,2,BLACK);
     DrawChar(j+'0',180,250,WHITE,2,BLACK);
     
@@ -113,7 +180,7 @@ int main(void)
     int decalage = 1;
     for(int i = TFTWIDTH-1 ; i >= decalage ; i -= decalage){
       
-     /* fillRect(i,300,40,10,CYAN);
+      fillRect(i,300,40,10,CYAN);
 
       fillRect(i,250, 20,20, YELLOW);
 
@@ -127,7 +194,7 @@ int main(void)
       fillRect(i, 110, 30,10, BLUE);
 
       fillRect(i , 70, 10,20, RED);
-      fillRect(i + 10, 60, 10,20,RED );*/
+      fillRect(i + 10, 60, 10,20,RED );
 
 
       fillRect(i + 22 , 160, decalage, 10, BLACK);
@@ -139,7 +206,19 @@ int main(void)
       delay(6);
 
     }
-    fillScreen(BLACK);
+    fillScreen(BLACK);*/
+
+
+    print(&board);
+        
+        
+    if(isCurrentPieceFallen(&board)){
+        deletePossibleLines(&board);
+        initPiece(&piece, rand()%6, 0);
+        newPiece(&board, &piece);
+    }
+    SystemCheckUp();
+    delay(100);
 
 
   }
@@ -340,7 +419,7 @@ static void MX_GPIO_Init(void)
                           |LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_15);
 
   /**/
-  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_9);
+  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_9);
 
   /**/
   GPIO_InitStruct.Pin = LL_GPIO_PIN_1|LL_GPIO_PIN_2|LL_GPIO_PIN_3|LL_GPIO_PIN_4
@@ -353,7 +432,7 @@ static void MX_GPIO_Init(void)
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /**/
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_9;
+  GPIO_InitStruct.Pin = LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_9;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
@@ -385,59 +464,69 @@ static void MX_GPIO_Init(void)
   LL_SYSCFG_SetEXTISource(LL_SYSCFG_EXTI_PORTB, LL_SYSCFG_EXTI_LINE7);
 
   /**/
+  LL_SYSCFG_SetEXTISource(LL_SYSCFG_EXTI_PORTB, LL_SYSCFG_EXTI_LINE8);
+
+  /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_0;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_1;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_2;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_3;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_4;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_5;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_6;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
   EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_7;
   EXTI_InitStruct.LineCommand = ENABLE;
   EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
+  LL_EXTI_Init(&EXTI_InitStruct);
+
+  /**/
+  EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_8;
+  EXTI_InitStruct.LineCommand = ENABLE;
+  EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
+  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_FALLING;
   LL_EXTI_Init(&EXTI_InitStruct);
 
   /**/
@@ -465,6 +554,9 @@ static void MX_GPIO_Init(void)
   LL_GPIO_SetPinPull(GPIOB, LL_GPIO_PIN_7, LL_GPIO_PULL_NO);
 
   /**/
+  LL_GPIO_SetPinPull(GPIOB, LL_GPIO_PIN_8, LL_GPIO_PULL_NO);
+
+  /**/
   LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_0, LL_GPIO_MODE_INPUT);
 
   /**/
@@ -488,8 +580,24 @@ static void MX_GPIO_Init(void)
   /**/
   LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_7, LL_GPIO_MODE_INPUT);
 
-}
+  /**/
+  LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_8, LL_GPIO_MODE_INPUT);
 
+  /* EXTI interrupt init*/
+  NVIC_SetPriority(EXTI0_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(EXTI0_IRQn);
+  NVIC_SetPriority(EXTI1_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(EXTI1_IRQn);
+  NVIC_SetPriority(EXTI2_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(EXTI2_IRQn);
+  NVIC_SetPriority(EXTI3_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(EXTI3_IRQn);
+  NVIC_SetPriority(EXTI4_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(EXTI4_IRQn);
+  NVIC_SetPriority(EXTI9_5_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(EXTI9_5_IRQn);
+
+}
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */

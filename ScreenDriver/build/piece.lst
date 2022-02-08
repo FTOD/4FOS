@@ -1,0 +1,382 @@
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 1
+
+
+   1              		.cpu cortex-m4
+   2              		.eabi_attribute 27, 1
+   3              		.eabi_attribute 28, 1
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"piece.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.initPiece,"ax",%progbits
+  18              		.align	1
+  19              		.global	initPiece
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv4-sp-d16
+  26              	initPiece:
+  27              	.LVL0:
+  28              	.LFB3:
+  29              		.file 1 "Core/Src/piece.c"
+   1:Core/Src/piece.c **** /* piece.cpp */
+   2:Core/Src/piece.c **** #include "../Inc/piece.h"
+   3:Core/Src/piece.c ****  
+   4:Core/Src/piece.c **** 
+   5:Core/Src/piece.c ****  
+   6:Core/Src/piece.c **** void initPiece(Piece * piece, int k, int o)
+   7:Core/Src/piece.c **** {
+  30              		.loc 1 7 1 view -0
+  31              		.cfi_startproc
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              		@ link register save eliminated.
+   8:Core/Src/piece.c ****     //piece = malloc(sizeof(Piece));
+   9:Core/Src/piece.c ****     piece->kind = k;
+  35              		.loc 1 9 5 view .LVU1
+  36              		.loc 1 9 17 is_stmt 0 view .LVU2
+  37 0000 0160     		str	r1, [r0]
+  10:Core/Src/piece.c ****     piece->orientation = o;
+  38              		.loc 1 10 5 is_stmt 1 view .LVU3
+  39              		.loc 1 10 24 is_stmt 0 view .LVU4
+  40 0002 4260     		str	r2, [r0, #4]
+  11:Core/Src/piece.c **** }
+  41              		.loc 1 11 1 view .LVU5
+  42 0004 7047     		bx	lr
+  43              		.cfi_endproc
+  44              	.LFE3:
+  46              		.section	.text.setKind,"ax",%progbits
+  47              		.align	1
+  48              		.global	setKind
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 2
+
+
+  49              		.syntax unified
+  50              		.thumb
+  51              		.thumb_func
+  52              		.fpu fpv4-sp-d16
+  54              	setKind:
+  55              	.LVL1:
+  56              	.LFB4:
+  12:Core/Src/piece.c ****  
+  13:Core/Src/piece.c **** 
+  14:Core/Src/piece.c ****  
+  15:Core/Src/piece.c **** void setKind(Piece * piece, int k)
+  16:Core/Src/piece.c **** {
+  57              		.loc 1 16 1 is_stmt 1 view -0
+  58              		.cfi_startproc
+  59              		@ args = 0, pretend = 0, frame = 0
+  60              		@ frame_needed = 0, uses_anonymous_args = 0
+  61              		@ link register save eliminated.
+  17:Core/Src/piece.c ****     piece->kind = k;
+  62              		.loc 1 17 5 view .LVU7
+  63              		.loc 1 17 17 is_stmt 0 view .LVU8
+  64 0000 0160     		str	r1, [r0]
+  18:Core/Src/piece.c **** }
+  65              		.loc 1 18 1 view .LVU9
+  66 0002 7047     		bx	lr
+  67              		.cfi_endproc
+  68              	.LFE4:
+  70              		.section	.text.setOrientation,"ax",%progbits
+  71              		.align	1
+  72              		.global	setOrientation
+  73              		.syntax unified
+  74              		.thumb
+  75              		.thumb_func
+  76              		.fpu fpv4-sp-d16
+  78              	setOrientation:
+  79              	.LVL2:
+  80              	.LFB5:
+  19:Core/Src/piece.c ****  
+  20:Core/Src/piece.c **** void setOrientation(Piece * piece, int o)
+  21:Core/Src/piece.c **** {
+  81              		.loc 1 21 1 is_stmt 1 view -0
+  82              		.cfi_startproc
+  83              		@ args = 0, pretend = 0, frame = 0
+  84              		@ frame_needed = 0, uses_anonymous_args = 0
+  85              		@ link register save eliminated.
+  22:Core/Src/piece.c ****     piece->orientation = o;
+  86              		.loc 1 22 5 view .LVU11
+  87              		.loc 1 22 24 is_stmt 0 view .LVU12
+  88 0000 4160     		str	r1, [r0, #4]
+  23:Core/Src/piece.c **** }
+  89              		.loc 1 23 1 view .LVU13
+  90 0002 7047     		bx	lr
+  91              		.cfi_endproc
+  92              	.LFE5:
+  94              		.section	.text.getKind,"ax",%progbits
+  95              		.align	1
+  96              		.global	getKind
+  97              		.syntax unified
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 3
+
+
+  98              		.thumb
+  99              		.thumb_func
+ 100              		.fpu fpv4-sp-d16
+ 102              	getKind:
+ 103              	.LVL3:
+ 104              	.LFB6:
+  24:Core/Src/piece.c ****  
+  25:Core/Src/piece.c **** int getKind(Piece * piece)
+  26:Core/Src/piece.c **** {
+ 105              		.loc 1 26 1 is_stmt 1 view -0
+ 106              		.cfi_startproc
+ 107              		@ args = 0, pretend = 0, frame = 0
+ 108              		@ frame_needed = 0, uses_anonymous_args = 0
+ 109              		@ link register save eliminated.
+  27:Core/Src/piece.c ****     return piece->kind;
+ 110              		.loc 1 27 5 view .LVU15
+  28:Core/Src/piece.c **** }
+ 111              		.loc 1 28 1 is_stmt 0 view .LVU16
+ 112 0000 0068     		ldr	r0, [r0]
+ 113              	.LVL4:
+ 114              		.loc 1 28 1 view .LVU17
+ 115 0002 7047     		bx	lr
+ 116              		.cfi_endproc
+ 117              	.LFE6:
+ 119              		.section	.text.getOrientation,"ax",%progbits
+ 120              		.align	1
+ 121              		.global	getOrientation
+ 122              		.syntax unified
+ 123              		.thumb
+ 124              		.thumb_func
+ 125              		.fpu fpv4-sp-d16
+ 127              	getOrientation:
+ 128              	.LVL5:
+ 129              	.LFB7:
+  29:Core/Src/piece.c ****  
+  30:Core/Src/piece.c **** int getOrientation(Piece * piece)
+  31:Core/Src/piece.c **** {
+ 130              		.loc 1 31 1 is_stmt 1 view -0
+ 131              		.cfi_startproc
+ 132              		@ args = 0, pretend = 0, frame = 0
+ 133              		@ frame_needed = 0, uses_anonymous_args = 0
+ 134              		@ link register save eliminated.
+  32:Core/Src/piece.c ****     return piece->orientation;
+ 135              		.loc 1 32 5 view .LVU19
+  33:Core/Src/piece.c **** }
+ 136              		.loc 1 33 1 is_stmt 0 view .LVU20
+ 137 0000 4068     		ldr	r0, [r0, #4]
+ 138              	.LVL6:
+ 139              		.loc 1 33 1 view .LVU21
+ 140 0002 7047     		bx	lr
+ 141              		.cfi_endproc
+ 142              	.LFE7:
+ 144              		.section	.text.setColor,"ax",%progbits
+ 145              		.align	1
+ 146              		.global	setColor
+ 147              		.syntax unified
+ 148              		.thumb
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 4
+
+
+ 149              		.thumb_func
+ 150              		.fpu fpv4-sp-d16
+ 152              	setColor:
+ 153              	.LVL7:
+ 154              	.LFB8:
+  34:Core/Src/piece.c ****  
+  35:Core/Src/piece.c **** void setColor(Piece * piece, int c)
+  36:Core/Src/piece.c **** {
+ 155              		.loc 1 36 1 is_stmt 1 view -0
+ 156              		.cfi_startproc
+ 157              		@ args = 0, pretend = 0, frame = 0
+ 158              		@ frame_needed = 0, uses_anonymous_args = 0
+ 159              		@ link register save eliminated.
+  37:Core/Src/piece.c ****     piece->color = c;
+ 160              		.loc 1 37 5 view .LVU23
+ 161              		.loc 1 37 18 is_stmt 0 view .LVU24
+ 162 0000 8160     		str	r1, [r0, #8]
+  38:Core/Src/piece.c **** }
+ 163              		.loc 1 38 1 view .LVU25
+ 164 0002 7047     		bx	lr
+ 165              		.cfi_endproc
+ 166              	.LFE8:
+ 168              		.section	.text.getColor,"ax",%progbits
+ 169              		.align	1
+ 170              		.global	getColor
+ 171              		.syntax unified
+ 172              		.thumb
+ 173              		.thumb_func
+ 174              		.fpu fpv4-sp-d16
+ 176              	getColor:
+ 177              	.LVL8:
+ 178              	.LFB9:
+  39:Core/Src/piece.c ****  
+  40:Core/Src/piece.c **** int getColor(Piece * piece)
+  41:Core/Src/piece.c **** {
+ 179              		.loc 1 41 1 is_stmt 1 view -0
+ 180              		.cfi_startproc
+ 181              		@ args = 0, pretend = 0, frame = 0
+ 182              		@ frame_needed = 0, uses_anonymous_args = 0
+ 183              		@ link register save eliminated.
+  42:Core/Src/piece.c ****     return piece->color;
+ 184              		.loc 1 42 5 view .LVU27
+  43:Core/Src/piece.c **** }
+ 185              		.loc 1 43 1 is_stmt 0 view .LVU28
+ 186 0000 8068     		ldr	r0, [r0, #8]
+ 187              	.LVL9:
+ 188              		.loc 1 43 1 view .LVU29
+ 189 0002 7047     		bx	lr
+ 190              		.cfi_endproc
+ 191              	.LFE9:
+ 193              		.section	.text.setPosX,"ax",%progbits
+ 194              		.align	1
+ 195              		.global	setPosX
+ 196              		.syntax unified
+ 197              		.thumb
+ 198              		.thumb_func
+ 199              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 5
+
+
+ 201              	setPosX:
+ 202              	.LVL10:
+ 203              	.LFB10:
+  44:Core/Src/piece.c ****  
+  45:Core/Src/piece.c **** void setPosX(Piece * piece, int x)
+  46:Core/Src/piece.c **** {
+ 204              		.loc 1 46 1 is_stmt 1 view -0
+ 205              		.cfi_startproc
+ 206              		@ args = 0, pretend = 0, frame = 0
+ 207              		@ frame_needed = 0, uses_anonymous_args = 0
+ 208              		@ link register save eliminated.
+  47:Core/Src/piece.c ****     piece->posX = x;
+ 209              		.loc 1 47 5 view .LVU31
+ 210              		.loc 1 47 17 is_stmt 0 view .LVU32
+ 211 0000 C160     		str	r1, [r0, #12]
+  48:Core/Src/piece.c **** }
+ 212              		.loc 1 48 1 view .LVU33
+ 213 0002 7047     		bx	lr
+ 214              		.cfi_endproc
+ 215              	.LFE10:
+ 217              		.section	.text.getPosX,"ax",%progbits
+ 218              		.align	1
+ 219              		.global	getPosX
+ 220              		.syntax unified
+ 221              		.thumb
+ 222              		.thumb_func
+ 223              		.fpu fpv4-sp-d16
+ 225              	getPosX:
+ 226              	.LVL11:
+ 227              	.LFB11:
+  49:Core/Src/piece.c ****  
+  50:Core/Src/piece.c **** int getPosX(Piece * piece)
+  51:Core/Src/piece.c **** {
+ 228              		.loc 1 51 1 is_stmt 1 view -0
+ 229              		.cfi_startproc
+ 230              		@ args = 0, pretend = 0, frame = 0
+ 231              		@ frame_needed = 0, uses_anonymous_args = 0
+ 232              		@ link register save eliminated.
+  52:Core/Src/piece.c ****     return piece->posX;
+ 233              		.loc 1 52 5 view .LVU35
+  53:Core/Src/piece.c **** }
+ 234              		.loc 1 53 1 is_stmt 0 view .LVU36
+ 235 0000 C068     		ldr	r0, [r0, #12]
+ 236              	.LVL12:
+ 237              		.loc 1 53 1 view .LVU37
+ 238 0002 7047     		bx	lr
+ 239              		.cfi_endproc
+ 240              	.LFE11:
+ 242              		.section	.text.setPosY,"ax",%progbits
+ 243              		.align	1
+ 244              		.global	setPosY
+ 245              		.syntax unified
+ 246              		.thumb
+ 247              		.thumb_func
+ 248              		.fpu fpv4-sp-d16
+ 250              	setPosY:
+ 251              	.LVL13:
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 6
+
+
+ 252              	.LFB12:
+  54:Core/Src/piece.c ****  
+  55:Core/Src/piece.c **** void setPosY(Piece * piece, int y)
+  56:Core/Src/piece.c **** {
+ 253              		.loc 1 56 1 is_stmt 1 view -0
+ 254              		.cfi_startproc
+ 255              		@ args = 0, pretend = 0, frame = 0
+ 256              		@ frame_needed = 0, uses_anonymous_args = 0
+ 257              		@ link register save eliminated.
+  57:Core/Src/piece.c ****     piece->posY = y;
+ 258              		.loc 1 57 5 view .LVU39
+ 259              		.loc 1 57 17 is_stmt 0 view .LVU40
+ 260 0000 0161     		str	r1, [r0, #16]
+  58:Core/Src/piece.c **** }
+ 261              		.loc 1 58 1 view .LVU41
+ 262 0002 7047     		bx	lr
+ 263              		.cfi_endproc
+ 264              	.LFE12:
+ 266              		.section	.text.getPosY,"ax",%progbits
+ 267              		.align	1
+ 268              		.global	getPosY
+ 269              		.syntax unified
+ 270              		.thumb
+ 271              		.thumb_func
+ 272              		.fpu fpv4-sp-d16
+ 274              	getPosY:
+ 275              	.LVL14:
+ 276              	.LFB13:
+  59:Core/Src/piece.c ****  
+  60:Core/Src/piece.c **** int getPosY(Piece * piece)
+  61:Core/Src/piece.c **** {
+ 277              		.loc 1 61 1 is_stmt 1 view -0
+ 278              		.cfi_startproc
+ 279              		@ args = 0, pretend = 0, frame = 0
+ 280              		@ frame_needed = 0, uses_anonymous_args = 0
+ 281              		@ link register save eliminated.
+  62:Core/Src/piece.c ****     return piece->posY;
+ 282              		.loc 1 62 5 view .LVU43
+  63:Core/Src/piece.c **** }...
+ 283              		.loc 1 63 1 is_stmt 0 view .LVU44
+ 284 0000 0069     		ldr	r0, [r0, #16]
+ 285              	.LVL15:
+ 286              		.loc 1 63 1 view .LVU45
+ 287 0002 7047     		bx	lr
+ 288              		.cfi_endproc
+ 289              	.LFE13:
+ 291              		.text
+ 292              	.Letext0:
+ 293              		.file 2 "Core/Src/../Inc/piece.h"
+ 294              		.file 3 "Core/Src/../Inc/shapes.h"
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 piece.c
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:18     .text.initPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:26     .text.initPiece:00000000 initPiece
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:47     .text.setKind:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:54     .text.setKind:00000000 setKind
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:71     .text.setOrientation:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:78     .text.setOrientation:00000000 setOrientation
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:95     .text.getKind:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:102    .text.getKind:00000000 getKind
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:120    .text.getOrientation:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:127    .text.getOrientation:00000000 getOrientation
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:145    .text.setColor:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:152    .text.setColor:00000000 setColor
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:169    .text.getColor:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:176    .text.getColor:00000000 getColor
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:194    .text.setPosX:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:201    .text.setPosX:00000000 setPosX
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:218    .text.getPosX:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:225    .text.getPosX:00000000 getPosX
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:243    .text.setPosY:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:250    .text.setPosY:00000000 setPosY
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:267    .text.getPosY:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccyipgU5.s:274    .text.getPosY:00000000 getPosY
+
+NO UNDEFINED SYMBOLS
