@@ -147,18 +147,11 @@ int main(void)
   LL_TIM_EnableCounter(TIM1);
   
   initScreen();
-  fillScreen(BLUE);
   fillScreen(BLACK);
-  
-  delay(10);
-
-
+ 
   srand(time(NULL));
-  
   initBoard(&board);
-  
   initPiece(&piece, rand()%6, 0);
-  
   newPiece(&board, &piece);
 
 
@@ -166,62 +159,35 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  //SetRotation(0);
+  char charScore[5];
+  int intScore = 10;
+  sprintf(charScore,"%d",intScore);
+  DrawText("Score: ",180,160,WHITE,2,BLACK);
+  DrawText(charScore,180,230,WHITE,2,BLACK);
+
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    /*
-    DrawText("Score: ",180,180,WHITE,2,BLACK);
-    DrawChar(j+'0',180,250,WHITE,2,BLACK);
-    
-    j++;
-    int decalage = 1;
-    for(int i = TFTWIDTH-1 ; i >= decalage ; i -= decalage){
-      
-      fillRect(i,300,40,10,CYAN);
 
-      fillRect(i,250, 20,20, YELLOW);
-
-      fillRect(i, 200, 10, 10, PURPLE);
-      fillRect(i+10,190,10,30, PURPLE);
-
-      fillRect(i +20, 140, 10,10,ORANGE);
-      fillRect(i, 150, 30,10,ORANGE);
-
-      fillRect(i +20, 120, 10,10,BLUE);
-      fillRect(i, 110, 30,10, BLUE);
-
-      fillRect(i , 70, 10,20, RED);
-      fillRect(i + 10, 60, 10,20,RED );
-
-
-      fillRect(i + 22 , 160, decalage, 10, BLACK);
-      fillRect(i + 32, 150, decalage, 10, BLACK );
-
-      fillRect(i , 160, decalage,10, GREEN);
-      fillRect(i + 10, 150, decalage,10, GREEN );
-
-      delay(6);
-
-    }
-    fillScreen(BLACK);*/
-
-
-    print(&board);
-        
+ 
+    print(&board);    
         
     if(isCurrentPieceFallen(&board)){
-        deletePossibleLines(&board);
+        intScore += deletePossibleLines(&board) * 100 ;
         initPiece(&piece, rand()%6, 0);
         newPiece(&board, &piece);
+        intScore += 5;
+        sprintf(charScore,"%d",intScore);
+        DrawText(charScore,180,230,WHITE,2,BLACK);
     }
     SystemCheckUp();
-    delay(100);
-
-
+    delay(50);
   }
+  fillScreen(BLACK);
+  DrawText("GAME OVER",90,50,RED,4,BLACK);
+
   /* USER CODE END 3 */
 }
 

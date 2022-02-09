@@ -309,16 +309,20 @@ int isGameOver(Board * board)
 
 void print(Board * board)
 {   
-    int tailleCase = 10;
+    static int previousArea[BOARD_WIDTH][BOARD_HEIGHT] = {{FREE}};
+    int tailleCase = 11;
     int decalageGauche = 20;
-    fillScreen(BLACK);
+    int decalageHaut = 15;
+    uint16_t color;
     for(int j = 0; j < BOARD_HEIGHT; ++j)
     {
         for(int i = 0; i < BOARD_WIDTH; ++i)
         {
-            if( board->area[i][j] != FREE){
-                uint16_t color;
+            if( board->area[i][j] != previousArea[i][j]){
                 switch(board->area[i][j]){
+                    case FREE:
+                        color = BLACK;
+                        break;
                     case CYA:
                         color = CYAN;
                         break;
@@ -344,10 +348,12 @@ void print(Board * board)
                         color = WHITE;
                         break;
                 }
-                fillRect(TFTWIDTH-(j*tailleCase)-1, i*tailleCase + decalageGauche, tailleCase,tailleCase,color);
+                fillRect(TFTWIDTH -1 -decalageHaut -(j*tailleCase), i*tailleCase + decalageGauche, tailleCase,tailleCase,color);
             }
+            previousArea[i][j] = board->area[i][j];
         } 
     }
+    
 }
 
 

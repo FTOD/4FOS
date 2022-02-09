@@ -436,9 +436,9 @@ void DrawChar(char Character, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Si
         for (i=0; i<CHAR_HEIGHT; i++) {
             if (temp[j] & (1<<i)) {			
                 if(Size == 1){
-                    drawPixel(X-i, Y+j, Colour);
+                    drawPixel(X+CHAR_WIDTH-i, Y+j, Colour);
                 }else{
-                    fillRect(X-(i*Size), Y+(j*Size), Size, Size, Colour);
+                    fillRect(X+ CHAR_WIDTH*Size -(i*Size), Y+(j*Size), Size, Size, Colour);
                 }
             }						
         }

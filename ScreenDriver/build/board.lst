@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
   49              		.loc 1 7 7 is_stmt 0 view .LVU3
   50 0008 032B     		cmp	r3, #3
   51 000a 19D8     		bhi	.L1
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 2
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 2
 
 
   52 000c 8046     		mov	r8, r0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
    9:Core/Src/board.c **** 
   97              		.loc 1 9 5 is_stmt 1 view .LVU14
    9:Core/Src/board.c **** 
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 3
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 3
 
 
   98              		.loc 1 9 21 is_stmt 0 view .LVU15
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  147 00a4 0193     		str	r3, [sp, #4]
  148 00a6 6B1C     		adds	r3, r5, #1
  149 00a8 0093     		str	r3, [sp]
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 4
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 4
 
 
  150 00aa 2346     		mov	r3, r4
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  202              		.cfi_offset 7, -12
  203              		.cfi_offset 8, -8
  204              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 5
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 5
 
 
  205 0004 86B0     		sub	sp, sp, #24
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  253              		.loc 1 25 35 discriminator 1 view .LVU39
  254 004a 002E     		cmp	r6, #0
  255 004c 09DB     		blt	.L9
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 6
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 6
 
 
  256              		.loc 1 25 44 discriminator 2 view .LVU40
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  299 0086 3946     		mov	r1, r7
  300 0088 FFF7FEFF 		bl	floodB
  301              	.LVL16:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 7
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 7
 
 
   32:Core/Src/board.c ****     floodB(board, i, j + 1, px, py + 1, k, o, flag, visited);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  353 00ea 00BF     		.align	2
  354              	.L12:
  355 00ec 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 8
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 8
 
 
  356              		.cfi_endproc
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  403              		.loc 1 42 34 is_stmt 1 discriminator 3 view .LVU60
  404 0018 0CF1010C 		add	ip, ip, #1
  405              	.LVL23:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 9
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 9
 
 
  406              	.L17:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  453              		.syntax unified
  454              		.thumb
  455              		.thumb_func
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 10
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 10
 
 
  456              		.fpu fpv4-sp-d16
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
   51:Core/Src/board.c ****         for(int j = 0; j < BOARD_HEIGHT; ++j)
  499              		.loc 1 51 20 discriminator 1 view .LVU82
   51:Core/Src/board.c ****         for(int j = 0; j < BOARD_HEIGHT; ++j)
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 11
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 11
 
 
  500              		.loc 1 51 5 is_stmt 0 discriminator 1 view .LVU83
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  549              	.LVL32:
  550              		.loc 1 59 13 view .LVU90
  551 000c FFF7FEFF 		bl	getPosX
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 12
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 12
 
 
  552              	.LVL33:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  597              		.loc 1 68 13 view .LVU102
  598 003a 0121     		movs	r1, #1
  599 003c 2046     		mov	r0, r4
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 13
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 13
 
 
  600              	.LVL44:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  630              	.LCFI14:
  631              		.cfi_restore_state
   71:Core/Src/board.c ****             break;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 14
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 14
 
 
  632              		.loc 1 71 13 is_stmt 1 view .LVU107
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  675              	.L29:
   83:Core/Src/board.c ****             break;
  676              		.loc 1 83 13 view .LVU119
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 15
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 15
 
 
  677 008e 0621     		movs	r1, #6
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  725              	.LCFI16:
  726              		.cfi_def_cfa_offset 40
  727 0006 0546     		mov	r5, r0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 16
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 16
 
 
  728 0008 0C46     		mov	r4, r1
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  775              	.LVL78:
  776              		.loc 1 102 5 is_stmt 0 view .LVU141
  777 003e FFF7FEFF 		bl	floodFill
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 17
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 17
 
 
  778              	.LVL79:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  819              		.fpu fpv4-sp-d16
  821              	newPiece:
  822              	.LVL81:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 18
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 18
 
 
  823              	.LFB743:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  868              		.section	.text.getCurrentPiece,"ax",%progbits
  869              		.align	1
  870              		.global	getCurrentPiece
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 19
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 19
 
 
  871              		.syntax unified
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  920 0004 0446     		mov	r4, r0
  921 0006 0D46     		mov	r5, r1
  922 0008 1646     		mov	r6, r2
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 20
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 20
 
 
  127:Core/Src/board.c ****     clearPiece(board, board->currentPiece);
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  964              	.L45:
  133:Core/Src/board.c ****         for(int m = 0; m < SIZE; ++m)
  965              		.loc 1 133 20 discriminator 1 view .LVU179
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 21
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 21
 
 
  133:Core/Src/board.c ****         for(int m = 0; m < SIZE; ++m)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1011 006c FFF7FEFF 		bl	drawPiece
  1012              	.LVL103:
  143:Core/Src/board.c ****  
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 22
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 22
 
 
  144:Core/Src/board.c ****     return movable;
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1061              		.loc 1 151 10 is_stmt 0 view .LVU199
  1062 000e 0123     		movs	r3, #1
  1063 0010 1793     		str	r3, [sp, #92]
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 23
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 23
 
 
  152:Core/Src/board.c ****  
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1105              	.LBE13:
  1106              	.LBE11:
  158:Core/Src/board.c ****  
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 24
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 24
 
 
  159:Core/Src/board.c ****     int k = getKind(board->currentPiece);
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1153              		.cfi_endproc
  1154              	.LFE747:
  1156              		.section	.text.moveCurrentPieceDown,"ax",%progbits
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 25
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 25
 
 
  1157              		.align	1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1205              	.LVL126:
  1206              		.loc 1 173 8 view .LVU234
  1207 001a FFF7FEFF 		bl	isCurrentPieceMovable
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 26
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 26
 
 
  1208              	.LVL127:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1251              		.loc 1 183 1 is_stmt 0 view .LVU242
  1252 0000 70B5     		push	{r4, r5, r6, lr}
  1253              	.LCFI26:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 27
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 27
 
 
  1254              		.cfi_def_cfa_offset 16
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1296 0026 FFF7FEFF 		bl	clearPiece
  1297              	.LVL141:
  190:Core/Src/board.c ****  
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 28
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 28
 
 
  1298              		.loc 1 190 9 view .LVU255
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1348 000c 2068     		ldr	r0, [r4]
  1349              	.LVL148:
  1350              		.loc 1 199 13 view .LVU265
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 29
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 29
 
 
  1351 000e FFF7FEFF 		bl	getPosY
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1394              		.thumb
  1395              		.thumb_func
  1396              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 30
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 30
 
 
  1398              	rotateCurrentPieceLeft:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  222:Core/Src/board.c ****  
  223:Core/Src/board.c ****         setOrientation(board->currentPiece, o);
  224:Core/Src/board.c ****         drawPiece(board, board->currentPiece);
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 31
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 31
 
 
  225:Core/Src/board.c ****     }
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1486              		.cfi_def_cfa_offset 16
  1487              		.cfi_offset 3, -16
  1488              		.cfi_offset 4, -12
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 32
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 32
 
 
  1489              		.cfi_offset 5, -8
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1526              		.loc 1 239 9 is_stmt 1 view .LVU307
  1527 0020 2968     		ldr	r1, [r5]
  1528 0022 2846     		mov	r0, r5
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 33
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 33
 
 
  1529 0024 FFF7FEFF 		bl	clearPiece
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1577              		.loc 1 250 5 is_stmt 1 view .LVU315
  1578              	.LBB14:
  1579              		.loc 1 250 9 view .LVU316
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 34
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 34
 
 
  1580              		.loc 1 250 5 is_stmt 0 view .LVU317
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  256:Core/Src/board.c ****     drawPiece(board, board->currentPiece);
  1622              		.loc 1 256 5 is_stmt 1 view .LVU329
  1623 003c 2968     		ldr	r1, [r5]
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 35
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 35
 
 
  1624 003e 2846     		mov	r0, r5
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1672              	.LBB18:
  264:Core/Src/board.c ****     {
  265:Core/Src/board.c ****         int i = 0;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 36
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 36
 
 
  266:Core/Src/board.c ****  
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  272:Core/Src/board.c ****             deleteLine(board, j);
  1717              		.loc 1 272 13 is_stmt 1 view .LVU355
  1718 0032 2146     		mov	r1, r4
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 37
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 37
 
 
  1719 0034 2846     		mov	r0, r5
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1766              		.loc 1 281 13 view .LVU365
  1767 0006 FFF7FEFF 		bl	getPosX
  1768              	.LVL194:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 38
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 38
 
 
  1769 000a 0446     		mov	r4, r0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1814              		.global	isCurrentPieceFallen
  1815              		.syntax unified
  1816              		.thumb
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 39
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 39
 
 
  1817              		.thumb_func
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  295:Core/Src/board.c ****  
  296:Core/Src/board.c ****     return true;
  1864              		.loc 1 296 12 view .LVU391
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 40
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 40
 
 
  1865 001e 0120     		movs	r0, #1
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1912 0012 0133     		adds	r3, r3, #1
  1913              	.LVL216:
  301:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 41
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 41
 
 
  1914              		.loc 1 301 37 is_stmt 0 discriminator 2 view .LVU404
@@ -2458,908 +2458,946 @@ ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 1
  1959              		.cfi_offset 14, -4
  1960 0002 82B0     		sub	sp, sp, #8
  1961              	.LCFI35:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 42
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 42
 
 
  1962              		.cfi_def_cfa_offset 24
  1963 0004 0646     		mov	r6, r0
- 312:Core/Src/board.c ****     int tailleCase = 10;
+ 312:Core/Src/board.c ****     static int previousArea[BOARD_WIDTH][BOARD_HEIGHT] = {{FREE}};
  1964              		.loc 1 312 5 is_stmt 1 view .LVU413
- 1965              	.LVL221:
- 313:Core/Src/board.c ****     int decalageGauche = 20;
- 1966              		.loc 1 313 5 view .LVU414
- 314:Core/Src/board.c ****     fillScreen(BLACK);
+ 313:Core/Src/board.c ****     int tailleCase = 11;
+ 1965              		.loc 1 313 5 view .LVU414
+ 1966              	.LVL221:
+ 314:Core/Src/board.c ****     int decalageGauche = 20;
  1967              		.loc 1 314 5 view .LVU415
- 1968 0006 0020     		movs	r0, #0
- 1969              	.LVL222:
- 1970              		.loc 1 314 5 is_stmt 0 view .LVU416
- 1971 0008 FFF7FEFF 		bl	fillScreen
- 1972              	.LVL223:
- 315:Core/Src/board.c ****     for(int j = 0; j < BOARD_HEIGHT; ++j)
- 1973              		.loc 1 315 5 is_stmt 1 view .LVU417
- 1974              	.LBB23:
- 1975              		.loc 1 315 9 view .LVU418
- 1976              		.loc 1 315 13 is_stmt 0 view .LVU419
- 1977 000c 0025     		movs	r5, #0
- 1978              		.loc 1 315 5 view .LVU420
- 1979 000e 4AE0     		b	.L114
- 1980              	.LVL224:
- 1981              	.L124:
- 1982              	.LBB24:
- 316:Core/Src/board.c ****     {
- 317:Core/Src/board.c ****         for(int i = 0; i < BOARD_WIDTH; ++i)
- 318:Core/Src/board.c ****         {
- 319:Core/Src/board.c ****             if( board->area[i][j] != FREE){
- 1983              		.loc 1 319 15 view .LVU421
- 1984 0010 40F2FF72 		movw	r2, #2047
- 1985              	.L122:
- 1986              	.LVL225:
- 1987              	.LBB25:
- 320:Core/Src/board.c ****                 uint16_t color;
+ 315:Core/Src/board.c ****     int decalageHaut = 15;
+ 1968              		.loc 1 315 5 view .LVU416
+ 316:Core/Src/board.c ****     uint16_t color;
+ 1969              		.loc 1 316 5 view .LVU417
+ 317:Core/Src/board.c ****     for(int j = 0; j < BOARD_HEIGHT; ++j)
+ 1970              		.loc 1 317 5 view .LVU418
+ 1971              	.LBB23:
+ 1972              		.loc 1 317 9 view .LVU419
+ 1973              		.loc 1 317 13 is_stmt 0 view .LVU420
+ 1974 0006 0025     		movs	r5, #0
+ 1975              		.loc 1 317 5 view .LVU421
+ 1976 0008 5EE0     		b	.L114
+ 1977              	.LVL222:
+ 1978              	.L125:
+ 1979              	.LBB24:
+ 318:Core/Src/board.c ****     {
+ 319:Core/Src/board.c ****         for(int i = 0; i < BOARD_WIDTH; ++i)
+ 320:Core/Src/board.c ****         {
+ 321:Core/Src/board.c ****             if( board->area[i][j] != previousArea[i][j]){
+ 1980              		.loc 1 321 15 view .LVU422
+ 1981 000a 0022     		movs	r2, #0
+ 1982              	.L124:
+ 1983              	.LVL223:
+ 322:Core/Src/board.c ****                 switch(board->area[i][j]){
+ 323:Core/Src/board.c ****                     case FREE:
+ 324:Core/Src/board.c ****                         color = BLACK;
+ 325:Core/Src/board.c ****                         break;
+ 326:Core/Src/board.c ****                     case CYA:
+ 327:Core/Src/board.c ****                         color = CYAN;
+ 328:Core/Src/board.c ****                         break;
+ 329:Core/Src/board.c ****                     case ORANG:
+ 330:Core/Src/board.c ****                         color = ORANGE;
+ 331:Core/Src/board.c ****                         break;
+ 332:Core/Src/board.c ****                     case RE:
+ 333:Core/Src/board.c ****                         color = RED;
+ 334:Core/Src/board.c ****                         break;
+ 335:Core/Src/board.c ****                     case PURPL:
+ 336:Core/Src/board.c ****                         color = PURPLE;
+ 337:Core/Src/board.c ****                         break;
+ 338:Core/Src/board.c ****                     case GREE:
+ 339:Core/Src/board.c ****                         color = GREEN;
+ 340:Core/Src/board.c ****                         break;
+ 341:Core/Src/board.c ****                     case YELLO:
+ 342:Core/Src/board.c ****                         color = YELLOW;
+ 343:Core/Src/board.c ****                         break;
+ 344:Core/Src/board.c ****                     case BLU:
+ 345:Core/Src/board.c ****                         color = BLUE;
+ 346:Core/Src/board.c ****                         break;
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 43
+
+
+ 347:Core/Src/board.c ****                     default:
+ 348:Core/Src/board.c ****                         color = WHITE;
+ 349:Core/Src/board.c ****                         break;
+ 350:Core/Src/board.c ****                 }
+ 351:Core/Src/board.c ****                 fillRect(TFTWIDTH -1 -decalageHaut -(j*tailleCase), i*tailleCase + decalageGauche, 
+ 1984              		.loc 1 351 17 is_stmt 1 view .LVU423
+ 1985              		.loc 1 351 38 is_stmt 0 view .LVU424
+ 1986 000c 314B     		ldr	r3, .L133
+ 1987 000e 1888     		ldrh	r0, [r3]
+ 1988 0010 80B2     		uxth	r0, r0
+ 1989 0012 0F38     		subs	r0, r0, #15
+ 1990 0014 80B2     		uxth	r0, r0
+ 1991              		.loc 1 351 52 view .LVU425
+ 1992 0016 05EB8503 		add	r3, r5, r5, lsl #2
+ 1993 001a 05EB4303 		add	r3, r5, r3, lsl #1
+ 1994 001e C01A     		subs	r0, r0, r3
+ 1995 0020 0138     		subs	r0, r0, #1
+ 1996              		.loc 1 351 82 view .LVU426
+ 1997 0022 04EB8401 		add	r1, r4, r4, lsl #2
+ 1998 0026 04EB4101 		add	r1, r4, r1, lsl #1
+ 1999 002a 1431     		adds	r1, r1, #20
+ 2000              		.loc 1 351 17 view .LVU427
+ 2001 002c 0092     		str	r2, [sp]
+ 2002 002e 0B23     		movs	r3, #11
+ 2003 0030 1A46     		mov	r2, r3
+ 2004              	.LVL224:
+ 2005              		.loc 1 351 17 view .LVU428
+ 2006 0032 09B2     		sxth	r1, r1
+ 2007 0034 00B2     		sxth	r0, r0
+ 2008 0036 FFF7FEFF 		bl	fillRect
+ 2009              	.LVL225:
+ 2010              	.L115:
+ 352:Core/Src/board.c ****             }
+ 353:Core/Src/board.c ****             previousArea[i][j] = board->area[i][j];
+ 2011              		.loc 1 353 13 is_stmt 1 discriminator 2 view .LVU429
+ 2012              		.loc 1 353 48 is_stmt 0 discriminator 2 view .LVU430
+ 2013 003a 04EB8403 		add	r3, r4, r4, lsl #2
+ 2014 003e 05EB8303 		add	r3, r5, r3, lsl #2
+ 2015 0042 06EB8302 		add	r2, r6, r3, lsl #2
+ 2016 0046 5168     		ldr	r1, [r2, #4]
+ 2017              		.loc 1 353 32 discriminator 2 view .LVU431
+ 2018 0048 234A     		ldr	r2, .L133+4
+ 2019 004a 42F82310 		str	r1, [r2, r3, lsl #2]
+ 319:Core/Src/board.c ****         {
+ 2020              		.loc 1 319 41 is_stmt 1 discriminator 2 view .LVU432
+ 2021 004e 0134     		adds	r4, r4, #1
+ 2022              	.LVL226:
+ 2023              	.L127:
+ 319:Core/Src/board.c ****         {
+ 2024              		.loc 1 319 24 discriminator 1 view .LVU433
+ 319:Core/Src/board.c ****         {
+ 2025              		.loc 1 319 9 is_stmt 0 discriminator 1 view .LVU434
+ 2026 0050 092C     		cmp	r4, #9
+ 2027 0052 38DC     		bgt	.L131
  321:Core/Src/board.c ****                 switch(board->area[i][j]){
- 322:Core/Src/board.c ****                     case CYA:
- 323:Core/Src/board.c ****                         color = CYAN;
- 324:Core/Src/board.c ****                         break;
- 325:Core/Src/board.c ****                     case ORANG:
- 326:Core/Src/board.c ****                         color = ORANGE;
- 327:Core/Src/board.c ****                         break;
- 328:Core/Src/board.c ****                     case RE:
- 329:Core/Src/board.c ****                         color = RED;
+ 2028              		.loc 1 321 13 is_stmt 1 view .LVU435
+ 321:Core/Src/board.c ****                 switch(board->area[i][j]){
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 44
+
+
+ 2029              		.loc 1 321 31 is_stmt 0 view .LVU436
+ 2030 0054 04EB8403 		add	r3, r4, r4, lsl #2
+ 2031 0058 05EB8303 		add	r3, r5, r3, lsl #2
+ 2032 005c 06EB8302 		add	r2, r6, r3, lsl #2
+ 2033 0060 5268     		ldr	r2, [r2, #4]
+ 321:Core/Src/board.c ****                 switch(board->area[i][j]){
+ 2034              		.loc 1 321 53 view .LVU437
+ 2035 0062 1D49     		ldr	r1, .L133+4
+ 2036 0064 51F82330 		ldr	r3, [r1, r3, lsl #2]
+ 321:Core/Src/board.c ****                 switch(board->area[i][j]){
+ 2037              		.loc 1 321 15 view .LVU438
+ 2038 0068 9A42     		cmp	r2, r3
+ 2039 006a E6D0     		beq	.L115
+ 322:Core/Src/board.c ****                     case FREE:
+ 2040              		.loc 1 322 17 is_stmt 1 view .LVU439
+ 2041 006c 072A     		cmp	r2, #7
+ 2042 006e 24D8     		bhi	.L116
+ 2043 0070 01A3     		adr	r3, .L118
+ 2044 0072 53F822F0 		ldr	pc, [r3, r2, lsl #2]
+ 2045 0076 00BF     		.p2align 2
+ 2046              	.L118:
+ 2047 0078 0B000000 		.word	.L125+1
+ 2048 007c C1000000 		.word	.L128+1
+ 2049 0080 B7000000 		.word	.L123+1
+ 2050 0084 99000000 		.word	.L122+1
+ 2051 0088 B1000000 		.word	.L121+1
+ 2052 008c AB000000 		.word	.L120+1
+ 2053 0090 A5000000 		.word	.L119+1
+ 2054 0094 9F000000 		.word	.L117+1
+ 2055              		.p2align 1
+ 2056              	.L122:
  330:Core/Src/board.c ****                         break;
- 331:Core/Src/board.c ****                     case PURPL:
- 332:Core/Src/board.c ****                         color = PURPLE;
+ 2057              		.loc 1 330 25 view .LVU440
+ 2058              	.LVL227:
+ 331:Core/Src/board.c ****                     case RE:
+ 2059              		.loc 1 331 25 view .LVU441
+ 330:Core/Src/board.c ****                         break;
+ 2060              		.loc 1 330 31 is_stmt 0 view .LVU442
+ 2061 0098 4FF62052 		movw	r2, #64800
+ 331:Core/Src/board.c ****                     case RE:
+ 2062              		.loc 1 331 25 view .LVU443
+ 2063 009c B6E7     		b	.L124
+ 2064              	.LVL228:
+ 2065              	.L117:
  333:Core/Src/board.c ****                         break;
- 334:Core/Src/board.c ****                     case GREE:
- 335:Core/Src/board.c ****                         color = GREEN;
+ 2066              		.loc 1 333 25 is_stmt 1 view .LVU444
+ 334:Core/Src/board.c ****                     case PURPL:
+ 2067              		.loc 1 334 25 view .LVU445
+ 333:Core/Src/board.c ****                         break;
+ 2068              		.loc 1 333 31 is_stmt 0 view .LVU446
+ 2069 009e 4FF47842 		mov	r2, #63488
+ 334:Core/Src/board.c ****                     case PURPL:
+ 2070              		.loc 1 334 25 view .LVU447
+ 2071 00a2 B3E7     		b	.L124
+ 2072              	.LVL229:
+ 2073              	.L119:
  336:Core/Src/board.c ****                         break;
- 337:Core/Src/board.c ****                     case YELLO:
- 338:Core/Src/board.c ****                         color = YELLOW;
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 45
+
+
+ 2074              		.loc 1 336 25 is_stmt 1 view .LVU448
+ 337:Core/Src/board.c ****                     case GREE:
+ 2075              		.loc 1 337 25 view .LVU449
+ 336:Core/Src/board.c ****                         break;
+ 2076              		.loc 1 336 31 is_stmt 0 view .LVU450
+ 2077 00a4 47F60F02 		movw	r2, #30735
+ 337:Core/Src/board.c ****                     case GREE:
+ 2078              		.loc 1 337 25 view .LVU451
+ 2079 00a8 B0E7     		b	.L124
+ 2080              	.LVL230:
+ 2081              	.L120:
  339:Core/Src/board.c ****                         break;
- 340:Core/Src/board.c ****                     case BLU:
- 341:Core/Src/board.c ****                         color = BLUE;
+ 2082              		.loc 1 339 25 is_stmt 1 view .LVU452
+ 340:Core/Src/board.c ****                     case YELLO:
+ 2083              		.loc 1 340 25 view .LVU453
+ 339:Core/Src/board.c ****                         break;
+ 2084              		.loc 1 339 31 is_stmt 0 view .LVU454
+ 2085 00aa 4FF4FC62 		mov	r2, #2016
+ 340:Core/Src/board.c ****                     case YELLO:
+ 2086              		.loc 1 340 25 view .LVU455
+ 2087 00ae ADE7     		b	.L124
+ 2088              	.LVL231:
+ 2089              	.L121:
  342:Core/Src/board.c ****                         break;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 43
-
-
- 343:Core/Src/board.c ****                     default:
- 344:Core/Src/board.c ****                         color = WHITE;
+ 2090              		.loc 1 342 25 is_stmt 1 view .LVU456
+ 343:Core/Src/board.c ****                     case BLU:
+ 2091              		.loc 1 343 25 view .LVU457
+ 342:Core/Src/board.c ****                         break;
+ 2092              		.loc 1 342 31 is_stmt 0 view .LVU458
+ 2093 00b0 4FF6E072 		movw	r2, #65504
+ 343:Core/Src/board.c ****                     case BLU:
+ 2094              		.loc 1 343 25 view .LVU459
+ 2095 00b4 AAE7     		b	.L124
+ 2096              	.LVL232:
+ 2097              	.L123:
  345:Core/Src/board.c ****                         break;
- 346:Core/Src/board.c ****                 }
- 347:Core/Src/board.c ****                 fillRect(TFTWIDTH-(j*tailleCase)-1, i*tailleCase + decalageGauche, tailleCase,taill
- 1988              		.loc 1 347 17 is_stmt 1 view .LVU422
- 1989              		.loc 1 347 34 is_stmt 0 view .LVU423
- 1990 0014 274B     		ldr	r3, .L132
- 1991 0016 1888     		ldrh	r0, [r3]
- 1992 0018 80B2     		uxth	r0, r0
- 1993 001a 05EB8503 		add	r3, r5, r5, lsl #2
- 1994 001e A0EB4300 		sub	r0, r0, r3, lsl #1
- 1995 0022 80B2     		uxth	r0, r0
- 1996              		.loc 1 347 49 view .LVU424
- 1997 0024 0138     		subs	r0, r0, #1
- 1998              		.loc 1 347 66 view .LVU425
- 1999 0026 04EB8401 		add	r1, r4, r4, lsl #2
- 2000 002a 4900     		lsls	r1, r1, #1
- 2001 002c 1431     		adds	r1, r1, #20
- 2002              		.loc 1 347 17 view .LVU426
- 2003 002e 0092     		str	r2, [sp]
- 2004 0030 0A23     		movs	r3, #10
- 2005 0032 1A46     		mov	r2, r3
- 2006              	.LVL226:
- 2007              		.loc 1 347 17 view .LVU427
- 2008 0034 09B2     		sxth	r1, r1
- 2009 0036 00B2     		sxth	r0, r0
- 2010 0038 FFF7FEFF 		bl	fillRect
- 2011              	.LVL227:
- 2012              	.L115:
- 2013              		.loc 1 347 17 view .LVU428
- 2014              	.LBE25:
- 317:Core/Src/board.c ****         {
- 2015              		.loc 1 317 41 is_stmt 1 discriminator 2 view .LVU429
- 2016 003c 0134     		adds	r4, r4, #1
- 2017              	.LVL228:
- 2018              	.L126:
- 317:Core/Src/board.c ****         {
- 2019              		.loc 1 317 24 discriminator 1 view .LVU430
- 317:Core/Src/board.c ****         {
- 2020              		.loc 1 317 9 is_stmt 0 discriminator 1 view .LVU431
- 2021 003e 092C     		cmp	r4, #9
- 2022 0040 30DC     		bgt	.L130
- 319:Core/Src/board.c ****                 uint16_t color;
- 2023              		.loc 1 319 13 is_stmt 1 view .LVU432
- 319:Core/Src/board.c ****                 uint16_t color;
- 2024              		.loc 1 319 31 is_stmt 0 view .LVU433
- 2025 0042 04EB8403 		add	r3, r4, r4, lsl #2
- 2026 0046 05EB8303 		add	r3, r5, r3, lsl #2
- 2027 004a 06EB8303 		add	r3, r6, r3, lsl #2
- 2028 004e 5B68     		ldr	r3, [r3, #4]
- 319:Core/Src/board.c ****                 uint16_t color;
- 2029              		.loc 1 319 15 view .LVU434
- 2030 0050 002B     		cmp	r3, #0
- 2031 0052 F3D0     		beq	.L115
- 2032              	.LBB26:
- 320:Core/Src/board.c ****                 uint16_t color;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 44
+ 2098              		.loc 1 345 25 is_stmt 1 view .LVU460
+ 346:Core/Src/board.c ****                     default:
+ 2099              		.loc 1 346 25 view .LVU461
+ 345:Core/Src/board.c ****                         break;
+ 2100              		.loc 1 345 31 is_stmt 0 view .LVU462
+ 2101 00b6 1F22     		movs	r2, #31
+ 346:Core/Src/board.c ****                     default:
+ 2102              		.loc 1 346 25 view .LVU463
+ 2103 00b8 A8E7     		b	.L124
+ 2104              	.LVL233:
+ 2105              	.L116:
+ 348:Core/Src/board.c ****                         break;
+ 2106              		.loc 1 348 25 is_stmt 1 view .LVU464
+ 349:Core/Src/board.c ****                 }
+ 2107              		.loc 1 349 25 view .LVU465
+ 348:Core/Src/board.c ****                         break;
+ 2108              		.loc 1 348 31 is_stmt 0 view .LVU466
+ 2109 00ba 4FF6FF72 		movw	r2, #65535
+ 349:Core/Src/board.c ****                 }
+ 2110              		.loc 1 349 25 view .LVU467
+ 2111 00be A5E7     		b	.L124
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 46
 
 
- 2033              		.loc 1 320 17 is_stmt 1 view .LVU435
- 321:Core/Src/board.c ****                     case CYA:
- 2034              		.loc 1 321 17 view .LVU436
- 2035 0054 013B     		subs	r3, r3, #1
- 2036 0056 062B     		cmp	r3, #6
- 2037 0058 1ED8     		bhi	.L116
- 2038 005a 01A2     		adr	r2, .L118
- 2039 005c 52F823F0 		ldr	pc, [r2, r3, lsl #2]
- 2040              		.p2align 2
- 2041              	.L118:
- 2042 0060 11000000 		.word	.L124+1
- 2043 0064 95000000 		.word	.L123+1
- 2044 0068 9F000000 		.word	.L127+1
- 2045 006c 8F000000 		.word	.L121+1
- 2046 0070 89000000 		.word	.L120+1
- 2047 0074 83000000 		.word	.L119+1
- 2048 0078 7D000000 		.word	.L117+1
- 2049              		.p2align 1
- 2050              	.L117:
- 329:Core/Src/board.c ****                         break;
- 2051              		.loc 1 329 25 view .LVU437
- 2052              	.LVL229:
- 330:Core/Src/board.c ****                     case PURPL:
- 2053              		.loc 1 330 25 view .LVU438
- 329:Core/Src/board.c ****                         break;
- 2054              		.loc 1 329 31 is_stmt 0 view .LVU439
- 2055 007c 4FF47842 		mov	r2, #63488
- 330:Core/Src/board.c ****                     case PURPL:
- 2056              		.loc 1 330 25 view .LVU440
- 2057 0080 C8E7     		b	.L122
- 2058              	.LVL230:
- 2059              	.L119:
- 332:Core/Src/board.c ****                         break;
- 2060              		.loc 1 332 25 is_stmt 1 view .LVU441
- 333:Core/Src/board.c ****                     case GREE:
- 2061              		.loc 1 333 25 view .LVU442
- 332:Core/Src/board.c ****                         break;
- 2062              		.loc 1 332 31 is_stmt 0 view .LVU443
- 2063 0082 47F60F02 		movw	r2, #30735
- 333:Core/Src/board.c ****                     case GREE:
- 2064              		.loc 1 333 25 view .LVU444
- 2065 0086 C5E7     		b	.L122
- 2066              	.LVL231:
- 2067              	.L120:
- 335:Core/Src/board.c ****                         break;
- 2068              		.loc 1 335 25 is_stmt 1 view .LVU445
- 336:Core/Src/board.c ****                     case YELLO:
- 2069              		.loc 1 336 25 view .LVU446
- 335:Core/Src/board.c ****                         break;
- 2070              		.loc 1 335 31 is_stmt 0 view .LVU447
- 2071 0088 4FF4FC62 		mov	r2, #2016
- 336:Core/Src/board.c ****                     case YELLO:
- 2072              		.loc 1 336 25 view .LVU448
- 2073 008c C2E7     		b	.L122
- 2074              	.LVL232:
- 2075              	.L121:
- 338:Core/Src/board.c ****                         break;
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 45
-
-
- 2076              		.loc 1 338 25 is_stmt 1 view .LVU449
- 339:Core/Src/board.c ****                     case BLU:
- 2077              		.loc 1 339 25 view .LVU450
- 338:Core/Src/board.c ****                         break;
- 2078              		.loc 1 338 31 is_stmt 0 view .LVU451
- 2079 008e 4FF6E072 		movw	r2, #65504
- 339:Core/Src/board.c ****                     case BLU:
- 2080              		.loc 1 339 25 view .LVU452
- 2081 0092 BFE7     		b	.L122
- 2082              	.LVL233:
- 2083              	.L123:
- 341:Core/Src/board.c ****                         break;
- 2084              		.loc 1 341 25 is_stmt 1 view .LVU453
- 342:Core/Src/board.c ****                     default:
- 2085              		.loc 1 342 25 view .LVU454
- 341:Core/Src/board.c ****                         break;
- 2086              		.loc 1 341 31 is_stmt 0 view .LVU455
- 2087 0094 1F22     		movs	r2, #31
- 342:Core/Src/board.c ****                     default:
- 2088              		.loc 1 342 25 view .LVU456
- 2089 0096 BDE7     		b	.L122
- 2090              	.LVL234:
- 2091              	.L116:
- 344:Core/Src/board.c ****                         break;
- 2092              		.loc 1 344 25 is_stmt 1 view .LVU457
- 345:Core/Src/board.c ****                 }
- 2093              		.loc 1 345 25 view .LVU458
- 344:Core/Src/board.c ****                         break;
- 2094              		.loc 1 344 31 is_stmt 0 view .LVU459
- 2095 0098 4FF6FF72 		movw	r2, #65535
- 345:Core/Src/board.c ****                 }
- 2096              		.loc 1 345 25 view .LVU460
- 2097 009c BAE7     		b	.L122
- 2098              	.LVL235:
- 2099              	.L127:
- 326:Core/Src/board.c ****                         break;
- 2100              		.loc 1 326 31 view .LVU461
- 2101 009e 4FF62052 		movw	r2, #64800
- 2102 00a2 B7E7     		b	.L122
- 2103              	.L130:
- 326:Core/Src/board.c ****                         break;
- 2104              		.loc 1 326 31 view .LVU462
- 2105              	.LBE26:
- 2106              	.LBE24:
- 315:Core/Src/board.c ****     {
- 2107              		.loc 1 315 38 is_stmt 1 discriminator 2 view .LVU463
- 2108 00a4 0135     		adds	r5, r5, #1
- 2109              	.LVL236:
- 2110              	.L114:
- 315:Core/Src/board.c ****     {
- 2111              		.loc 1 315 20 discriminator 1 view .LVU464
- 315:Core/Src/board.c ****     {
- 2112              		.loc 1 315 5 is_stmt 0 discriminator 1 view .LVU465
- 2113 00a6 132D     		cmp	r5, #19
- 2114 00a8 01DC     		bgt	.L131
- 2115              	.LBB27:
- 317:Core/Src/board.c ****         {
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 46
-
-
- 2116              		.loc 1 317 17 view .LVU466
- 2117 00aa 0024     		movs	r4, #0
- 2118 00ac C7E7     		b	.L126
- 2119              	.L131:
- 2120              	.LBE27:
- 2121              	.LBE23:
- 348:Core/Src/board.c ****             }
- 349:Core/Src/board.c ****         } 
- 350:Core/Src/board.c ****     }
- 351:Core/Src/board.c **** }
- 2122              		.loc 1 351 1 view .LVU467
- 2123 00ae 02B0     		add	sp, sp, #8
- 2124              	.LCFI36:
- 2125              		.cfi_def_cfa_offset 16
- 2126              		@ sp needed
- 2127 00b0 70BD     		pop	{r4, r5, r6, pc}
- 2128              	.LVL237:
- 2129              	.L133:
- 2130              		.loc 1 351 1 view .LVU468
- 2131 00b2 00BF     		.align	2
+ 2112              	.LVL234:
+ 2113              	.L128:
+ 327:Core/Src/board.c ****                         break;
+ 2114              		.loc 1 327 31 view .LVU468
+ 2115 00c0 40F2FF72 		movw	r2, #2047
+ 2116 00c4 A2E7     		b	.L124
+ 2117              	.L131:
+ 327:Core/Src/board.c ****                         break;
+ 2118              		.loc 1 327 31 view .LVU469
+ 2119              	.LBE24:
+ 317:Core/Src/board.c ****     {
+ 2120              		.loc 1 317 38 is_stmt 1 discriminator 2 view .LVU470
+ 2121 00c6 0135     		adds	r5, r5, #1
+ 2122              	.LVL235:
+ 2123              	.L114:
+ 317:Core/Src/board.c ****     {
+ 2124              		.loc 1 317 20 discriminator 1 view .LVU471
+ 317:Core/Src/board.c ****     {
+ 2125              		.loc 1 317 5 is_stmt 0 discriminator 1 view .LVU472
+ 2126 00c8 132D     		cmp	r5, #19
+ 2127 00ca 01DC     		bgt	.L132
+ 2128              	.LBB25:
+ 319:Core/Src/board.c ****         {
+ 2129              		.loc 1 319 17 view .LVU473
+ 2130 00cc 0024     		movs	r4, #0
+ 2131 00ce BFE7     		b	.L127
  2132              	.L132:
- 2133 00b4 00000000 		.word	TFTWIDTH
- 2134              		.cfi_endproc
- 2135              	.LFE758:
- 2137              		.section	.text.clear,"ax",%progbits
- 2138              		.align	1
- 2139              		.global	clear
- 2140              		.syntax unified
- 2141              		.thumb
- 2142              		.thumb_func
- 2143              		.fpu fpv4-sp-d16
- 2145              	clear:
- 2146              	.LVL238:
- 2147              	.LFB759:
- 352:Core/Src/board.c **** 
- 353:Core/Src/board.c **** 
- 354:Core/Src/board.c **** 
- 355:Core/Src/board.c **** void clear(Board * board)
- 356:Core/Src/board.c **** {
- 2148              		.loc 1 356 1 is_stmt 1 view -0
- 2149              		.cfi_startproc
- 2150              		@ args = 0, pretend = 0, frame = 0
- 2151              		@ frame_needed = 0, uses_anonymous_args = 0
- 2152              		@ link register save eliminated.
- 2153              		.loc 1 356 1 is_stmt 0 view .LVU470
- 2154 0000 8446     		mov	ip, r0
- 357:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
- 2155              		.loc 1 357 5 is_stmt 1 view .LVU471
- 2156              	.LBB28:
- 2157              		.loc 1 357 9 view .LVU472
- 2158              	.LVL239:
- 2159              		.loc 1 357 13 is_stmt 0 view .LVU473
- 2160 0002 0021     		movs	r1, #0
- 2161              		.loc 1 357 5 view .LVU474
- 2162 0004 0BE0     		b	.L135
- 2163              	.LVL240:
- 2164              	.L136:
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 47
+ 2133              	.LBE25:
+ 2134              	.LBE23:
+ 354:Core/Src/board.c ****         } 
+ 355:Core/Src/board.c ****     }
+ 356:Core/Src/board.c ****     
+ 357:Core/Src/board.c **** }
+ 2135              		.loc 1 357 1 view .LVU474
+ 2136 00d0 02B0     		add	sp, sp, #8
+ 2137              	.LCFI36:
+ 2138              		.cfi_def_cfa_offset 16
+ 2139              		@ sp needed
+ 2140 00d2 70BD     		pop	{r4, r5, r6, pc}
+ 2141              	.LVL236:
+ 2142              	.L134:
+ 2143              		.loc 1 357 1 view .LVU475
+ 2144              		.align	2
+ 2145              	.L133:
+ 2146 00d4 00000000 		.word	TFTWIDTH
+ 2147 00d8 00000000 		.word	.LANCHOR1
+ 2148              		.cfi_endproc
+ 2149              	.LFE758:
+ 2151              		.section	.text.clear,"ax",%progbits
+ 2152              		.align	1
+ 2153              		.global	clear
+ 2154              		.syntax unified
+ 2155              		.thumb
+ 2156              		.thumb_func
+ 2157              		.fpu fpv4-sp-d16
+ 2159              	clear:
+ 2160              	.LVL237:
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 47
 
 
- 2165              	.LBB29:
- 358:Core/Src/board.c ****     {
- 359:Core/Src/board.c ****         for(int j = 0; j < BOARD_HEIGHT; ++j)
- 360:Core/Src/board.c ****             board->area[i][j] = FREE;
- 2166              		.loc 1 360 13 is_stmt 1 discriminator 3 view .LVU475
- 2167              		.loc 1 360 31 is_stmt 0 discriminator 3 view .LVU476
- 2168 0006 01EB8103 		add	r3, r1, r1, lsl #2
- 2169 000a 02EB8303 		add	r3, r2, r3, lsl #2
- 2170 000e 0CEB8303 		add	r3, ip, r3, lsl #2
- 2171 0012 0020     		movs	r0, #0
- 2172 0014 5860     		str	r0, [r3, #4]
- 359:Core/Src/board.c ****             board->area[i][j] = FREE;
- 2173              		.loc 1 359 42 is_stmt 1 discriminator 3 view .LVU477
- 2174 0016 0132     		adds	r2, r2, #1
- 2175              	.LVL241:
- 2176              	.L137:
- 359:Core/Src/board.c ****             board->area[i][j] = FREE;
- 2177              		.loc 1 359 24 discriminator 1 view .LVU478
- 359:Core/Src/board.c ****             board->area[i][j] = FREE;
- 2178              		.loc 1 359 9 is_stmt 0 discriminator 1 view .LVU479
- 2179 0018 132A     		cmp	r2, #19
- 2180 001a F4DD     		ble	.L136
- 2181              	.LBE29:
- 357:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
- 2182              		.loc 1 357 37 is_stmt 1 discriminator 2 view .LVU480
- 2183 001c 0131     		adds	r1, r1, #1
- 2184              	.LVL242:
- 2185              	.L135:
- 357:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
- 2186              		.loc 1 357 20 discriminator 1 view .LVU481
- 357:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
- 2187              		.loc 1 357 5 is_stmt 0 discriminator 1 view .LVU482
- 2188 001e 0929     		cmp	r1, #9
- 2189 0020 01DC     		bgt	.L139
- 2190              	.LBB30:
- 359:Core/Src/board.c ****             board->area[i][j] = FREE;
- 2191              		.loc 1 359 17 view .LVU483
- 2192 0022 0022     		movs	r2, #0
- 2193 0024 F8E7     		b	.L137
- 2194              	.L139:
- 2195              	.LBE30:
- 2196              	.LBE28:
- 361:Core/Src/board.c ****     }
- 362:Core/Src/board.c **** }...
- 2197              		.loc 1 362 1 view .LVU484
- 2198 0026 7047     		bx	lr
- 2199              		.cfi_endproc
- 2200              	.LFE759:
- 2202              		.section	.rodata.PIECES,"a"
- 2203              		.align	2
- 2204              		.set	.LANCHOR0,. + 0
- 2207              	PIECES:
- 2208 0000 00000000 		.word	0
- 2209 0004 00000000 		.word	0
- 2210 0008 00000000 		.word	0
- 2211 000c 00000000 		.word	0
- 2212 0010 00000000 		.word	0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 48
+ 2161              	.LFB759:
+ 358:Core/Src/board.c **** 
+ 359:Core/Src/board.c **** 
+ 360:Core/Src/board.c **** 
+ 361:Core/Src/board.c **** void clear(Board * board)
+ 362:Core/Src/board.c **** {
+ 2162              		.loc 1 362 1 is_stmt 1 view -0
+ 2163              		.cfi_startproc
+ 2164              		@ args = 0, pretend = 0, frame = 0
+ 2165              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2166              		@ link register save eliminated.
+ 2167              		.loc 1 362 1 is_stmt 0 view .LVU477
+ 2168 0000 8446     		mov	ip, r0
+ 363:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
+ 2169              		.loc 1 363 5 is_stmt 1 view .LVU478
+ 2170              	.LBB26:
+ 2171              		.loc 1 363 9 view .LVU479
+ 2172              	.LVL238:
+ 2173              		.loc 1 363 13 is_stmt 0 view .LVU480
+ 2174 0002 0021     		movs	r1, #0
+ 2175              		.loc 1 363 5 view .LVU481
+ 2176 0004 0BE0     		b	.L136
+ 2177              	.LVL239:
+ 2178              	.L137:
+ 2179              	.LBB27:
+ 364:Core/Src/board.c ****     {
+ 365:Core/Src/board.c ****         for(int j = 0; j < BOARD_HEIGHT; ++j)
+ 366:Core/Src/board.c ****             board->area[i][j] = FREE;
+ 2180              		.loc 1 366 13 is_stmt 1 discriminator 3 view .LVU482
+ 2181              		.loc 1 366 31 is_stmt 0 discriminator 3 view .LVU483
+ 2182 0006 01EB8103 		add	r3, r1, r1, lsl #2
+ 2183 000a 02EB8303 		add	r3, r2, r3, lsl #2
+ 2184 000e 0CEB8303 		add	r3, ip, r3, lsl #2
+ 2185 0012 0020     		movs	r0, #0
+ 2186 0014 5860     		str	r0, [r3, #4]
+ 365:Core/Src/board.c ****             board->area[i][j] = FREE;
+ 2187              		.loc 1 365 42 is_stmt 1 discriminator 3 view .LVU484
+ 2188 0016 0132     		adds	r2, r2, #1
+ 2189              	.LVL240:
+ 2190              	.L138:
+ 365:Core/Src/board.c ****             board->area[i][j] = FREE;
+ 2191              		.loc 1 365 24 discriminator 1 view .LVU485
+ 365:Core/Src/board.c ****             board->area[i][j] = FREE;
+ 2192              		.loc 1 365 9 is_stmt 0 discriminator 1 view .LVU486
+ 2193 0018 132A     		cmp	r2, #19
+ 2194 001a F4DD     		ble	.L137
+ 2195              	.LBE27:
+ 363:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
+ 2196              		.loc 1 363 37 is_stmt 1 discriminator 2 view .LVU487
+ 2197 001c 0131     		adds	r1, r1, #1
+ 2198              	.LVL241:
+ 2199              	.L136:
+ 363:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
+ 2200              		.loc 1 363 20 discriminator 1 view .LVU488
+ 363:Core/Src/board.c ****     for(int i = 0; i < BOARD_WIDTH; ++i)
+ 2201              		.loc 1 363 5 is_stmt 0 discriminator 1 view .LVU489
+ 2202 001e 0929     		cmp	r1, #9
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 48
 
 
- 2213 0014 01000000 		.word	1
- 2214 0018 02000000 		.word	2
- 2215 001c 00000000 		.word	0
- 2216 0020 00000000 		.word	0
- 2217 0024 01000000 		.word	1
- 2218 0028 01000000 		.word	1
- 2219 002c 00000000 		.word	0
- 2220 0030 00000000 		.word	0
- 2221 0034 00000000 		.word	0
- 2222 0038 00000000 		.word	0
- 2223 003c 00000000 		.word	0
- 2224 0040 00000000 		.word	0
- 2225 0044 00000000 		.word	0
- 2226 0048 00000000 		.word	0
- 2227 004c 00000000 		.word	0
- 2228 0050 00000000 		.word	0
- 2229 0054 01000000 		.word	1
- 2230 0058 02000000 		.word	2
- 2231 005c 00000000 		.word	0
- 2232 0060 00000000 		.word	0
- 2233 0064 01000000 		.word	1
- 2234 0068 01000000 		.word	1
- 2235 006c 00000000 		.word	0
- 2236 0070 00000000 		.word	0
- 2237 0074 00000000 		.word	0
- 2238 0078 00000000 		.word	0
- 2239 007c 00000000 		.word	0
- 2240 0080 00000000 		.word	0
- 2241 0084 00000000 		.word	0
- 2242 0088 00000000 		.word	0
- 2243 008c 00000000 		.word	0
- 2244 0090 00000000 		.word	0
- 2245 0094 01000000 		.word	1
- 2246 0098 02000000 		.word	2
- 2247 009c 00000000 		.word	0
- 2248 00a0 00000000 		.word	0
- 2249 00a4 01000000 		.word	1
- 2250 00a8 01000000 		.word	1
- 2251 00ac 00000000 		.word	0
- 2252 00b0 00000000 		.word	0
- 2253 00b4 00000000 		.word	0
- 2254 00b8 00000000 		.word	0
- 2255 00bc 00000000 		.word	0
- 2256 00c0 00000000 		.word	0
- 2257 00c4 00000000 		.word	0
- 2258 00c8 00000000 		.word	0
- 2259 00cc 00000000 		.word	0
- 2260 00d0 00000000 		.word	0
- 2261 00d4 01000000 		.word	1
- 2262 00d8 02000000 		.word	2
- 2263 00dc 00000000 		.word	0
- 2264 00e0 00000000 		.word	0
- 2265 00e4 01000000 		.word	1
- 2266 00e8 01000000 		.word	1
- 2267 00ec 00000000 		.word	0
- 2268 00f0 00000000 		.word	0
- 2269 00f4 00000000 		.word	0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 49
+ 2203 0020 01DC     		bgt	.L140
+ 2204              	.LBB28:
+ 365:Core/Src/board.c ****             board->area[i][j] = FREE;
+ 2205              		.loc 1 365 17 view .LVU490
+ 2206 0022 0022     		movs	r2, #0
+ 2207 0024 F8E7     		b	.L138
+ 2208              	.L140:
+ 2209              	.LBE28:
+ 2210              	.LBE26:
+ 367:Core/Src/board.c ****     }
+ 368:Core/Src/board.c **** }...
+ 2211              		.loc 1 368 1 view .LVU491
+ 2212 0026 7047     		bx	lr
+ 2213              		.cfi_endproc
+ 2214              	.LFE759:
+ 2216              		.section	.bss.previousArea.0,"aw",%nobits
+ 2217              		.align	2
+ 2218              		.set	.LANCHOR1,. + 0
+ 2221              	previousArea.0:
+ 2222 0000 00000000 		.space	800
+ 2222      00000000 
+ 2222      00000000 
+ 2222      00000000 
+ 2222      00000000 
+ 2223              		.section	.rodata.PIECES,"a"
+ 2224              		.align	2
+ 2225              		.set	.LANCHOR0,. + 0
+ 2228              	PIECES:
+ 2229 0000 00000000 		.word	0
+ 2230 0004 00000000 		.word	0
+ 2231 0008 00000000 		.word	0
+ 2232 000c 00000000 		.word	0
+ 2233 0010 00000000 		.word	0
+ 2234 0014 01000000 		.word	1
+ 2235 0018 02000000 		.word	2
+ 2236 001c 00000000 		.word	0
+ 2237 0020 00000000 		.word	0
+ 2238 0024 01000000 		.word	1
+ 2239 0028 01000000 		.word	1
+ 2240 002c 00000000 		.word	0
+ 2241 0030 00000000 		.word	0
+ 2242 0034 00000000 		.word	0
+ 2243 0038 00000000 		.word	0
+ 2244 003c 00000000 		.word	0
+ 2245 0040 00000000 		.word	0
+ 2246 0044 00000000 		.word	0
+ 2247 0048 00000000 		.word	0
+ 2248 004c 00000000 		.word	0
+ 2249 0050 00000000 		.word	0
+ 2250 0054 01000000 		.word	1
+ 2251 0058 02000000 		.word	2
+ 2252 005c 00000000 		.word	0
+ 2253 0060 00000000 		.word	0
+ 2254 0064 01000000 		.word	1
+ 2255 0068 01000000 		.word	1
+ 2256 006c 00000000 		.word	0
+ 2257 0070 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 49
 
 
- 2270 00f8 00000000 		.word	0
- 2271 00fc 00000000 		.word	0
- 2272 0100 00000000 		.word	0
- 2273 0104 00000000 		.word	0
- 2274 0108 00000000 		.word	0
- 2275 010c 00000000 		.word	0
- 2276 0110 01000000 		.word	1
- 2277 0114 01000000 		.word	1
- 2278 0118 02000000 		.word	2
- 2279 011c 01000000 		.word	1
- 2280 0120 00000000 		.word	0
- 2281 0124 00000000 		.word	0
- 2282 0128 00000000 		.word	0
- 2283 012c 00000000 		.word	0
- 2284 0130 00000000 		.word	0
- 2285 0134 00000000 		.word	0
- 2286 0138 00000000 		.word	0
- 2287 013c 00000000 		.word	0
- 2288 0140 00000000 		.word	0
- 2289 0144 00000000 		.word	0
- 2290 0148 01000000 		.word	1
- 2291 014c 00000000 		.word	0
- 2292 0150 00000000 		.word	0
- 2293 0154 00000000 		.word	0
- 2294 0158 02000000 		.word	2
- 2295 015c 00000000 		.word	0
- 2296 0160 00000000 		.word	0
- 2297 0164 00000000 		.word	0
- 2298 0168 01000000 		.word	1
- 2299 016c 00000000 		.word	0
- 2300 0170 00000000 		.word	0
- 2301 0174 00000000 		.word	0
- 2302 0178 01000000 		.word	1
- 2303 017c 00000000 		.word	0
- 2304 0180 00000000 		.word	0
- 2305 0184 00000000 		.word	0
- 2306 0188 00000000 		.word	0
- 2307 018c 00000000 		.word	0
- 2308 0190 01000000 		.word	1
- 2309 0194 01000000 		.word	1
- 2310 0198 02000000 		.word	2
- 2311 019c 01000000 		.word	1
- 2312 01a0 00000000 		.word	0
- 2313 01a4 00000000 		.word	0
- 2314 01a8 00000000 		.word	0
- 2315 01ac 00000000 		.word	0
- 2316 01b0 00000000 		.word	0
- 2317 01b4 00000000 		.word	0
- 2318 01b8 00000000 		.word	0
- 2319 01bc 00000000 		.word	0
- 2320 01c0 00000000 		.word	0
- 2321 01c4 00000000 		.word	0
- 2322 01c8 01000000 		.word	1
- 2323 01cc 00000000 		.word	0
- 2324 01d0 00000000 		.word	0
- 2325 01d4 00000000 		.word	0
- 2326 01d8 02000000 		.word	2
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 50
+ 2258 0074 00000000 		.word	0
+ 2259 0078 00000000 		.word	0
+ 2260 007c 00000000 		.word	0
+ 2261 0080 00000000 		.word	0
+ 2262 0084 00000000 		.word	0
+ 2263 0088 00000000 		.word	0
+ 2264 008c 00000000 		.word	0
+ 2265 0090 00000000 		.word	0
+ 2266 0094 01000000 		.word	1
+ 2267 0098 02000000 		.word	2
+ 2268 009c 00000000 		.word	0
+ 2269 00a0 00000000 		.word	0
+ 2270 00a4 01000000 		.word	1
+ 2271 00a8 01000000 		.word	1
+ 2272 00ac 00000000 		.word	0
+ 2273 00b0 00000000 		.word	0
+ 2274 00b4 00000000 		.word	0
+ 2275 00b8 00000000 		.word	0
+ 2276 00bc 00000000 		.word	0
+ 2277 00c0 00000000 		.word	0
+ 2278 00c4 00000000 		.word	0
+ 2279 00c8 00000000 		.word	0
+ 2280 00cc 00000000 		.word	0
+ 2281 00d0 00000000 		.word	0
+ 2282 00d4 01000000 		.word	1
+ 2283 00d8 02000000 		.word	2
+ 2284 00dc 00000000 		.word	0
+ 2285 00e0 00000000 		.word	0
+ 2286 00e4 01000000 		.word	1
+ 2287 00e8 01000000 		.word	1
+ 2288 00ec 00000000 		.word	0
+ 2289 00f0 00000000 		.word	0
+ 2290 00f4 00000000 		.word	0
+ 2291 00f8 00000000 		.word	0
+ 2292 00fc 00000000 		.word	0
+ 2293 0100 00000000 		.word	0
+ 2294 0104 00000000 		.word	0
+ 2295 0108 00000000 		.word	0
+ 2296 010c 00000000 		.word	0
+ 2297 0110 01000000 		.word	1
+ 2298 0114 01000000 		.word	1
+ 2299 0118 02000000 		.word	2
+ 2300 011c 01000000 		.word	1
+ 2301 0120 00000000 		.word	0
+ 2302 0124 00000000 		.word	0
+ 2303 0128 00000000 		.word	0
+ 2304 012c 00000000 		.word	0
+ 2305 0130 00000000 		.word	0
+ 2306 0134 00000000 		.word	0
+ 2307 0138 00000000 		.word	0
+ 2308 013c 00000000 		.word	0
+ 2309 0140 00000000 		.word	0
+ 2310 0144 00000000 		.word	0
+ 2311 0148 01000000 		.word	1
+ 2312 014c 00000000 		.word	0
+ 2313 0150 00000000 		.word	0
+ 2314 0154 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 50
 
 
- 2327 01dc 00000000 		.word	0
- 2328 01e0 00000000 		.word	0
- 2329 01e4 00000000 		.word	0
- 2330 01e8 01000000 		.word	1
- 2331 01ec 00000000 		.word	0
- 2332 01f0 00000000 		.word	0
- 2333 01f4 00000000 		.word	0
- 2334 01f8 01000000 		.word	1
- 2335 01fc 00000000 		.word	0
- 2336 0200 00000000 		.word	0
- 2337 0204 00000000 		.word	0
- 2338 0208 00000000 		.word	0
- 2339 020c 00000000 		.word	0
- 2340 0210 00000000 		.word	0
- 2341 0214 00000000 		.word	0
- 2342 0218 02000000 		.word	2
- 2343 021c 01000000 		.word	1
- 2344 0220 00000000 		.word	0
- 2345 0224 01000000 		.word	1
- 2346 0228 01000000 		.word	1
- 2347 022c 00000000 		.word	0
- 2348 0230 00000000 		.word	0
- 2349 0234 00000000 		.word	0
- 2350 0238 00000000 		.word	0
- 2351 023c 00000000 		.word	0
- 2352 0240 00000000 		.word	0
- 2353 0244 00000000 		.word	0
- 2354 0248 01000000 		.word	1
- 2355 024c 00000000 		.word	0
- 2356 0250 00000000 		.word	0
- 2357 0254 00000000 		.word	0
- 2358 0258 02000000 		.word	2
- 2359 025c 01000000 		.word	1
- 2360 0260 00000000 		.word	0
- 2361 0264 00000000 		.word	0
- 2362 0268 00000000 		.word	0
- 2363 026c 01000000 		.word	1
- 2364 0270 00000000 		.word	0
- 2365 0274 00000000 		.word	0
- 2366 0278 00000000 		.word	0
- 2367 027c 00000000 		.word	0
- 2368 0280 00000000 		.word	0
- 2369 0284 00000000 		.word	0
- 2370 0288 00000000 		.word	0
- 2371 028c 00000000 		.word	0
- 2372 0290 00000000 		.word	0
- 2373 0294 00000000 		.word	0
- 2374 0298 02000000 		.word	2
- 2375 029c 01000000 		.word	1
- 2376 02a0 00000000 		.word	0
- 2377 02a4 01000000 		.word	1
- 2378 02a8 01000000 		.word	1
- 2379 02ac 00000000 		.word	0
- 2380 02b0 00000000 		.word	0
- 2381 02b4 00000000 		.word	0
- 2382 02b8 00000000 		.word	0
- 2383 02bc 00000000 		.word	0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 51
+ 2315 0158 02000000 		.word	2
+ 2316 015c 00000000 		.word	0
+ 2317 0160 00000000 		.word	0
+ 2318 0164 00000000 		.word	0
+ 2319 0168 01000000 		.word	1
+ 2320 016c 00000000 		.word	0
+ 2321 0170 00000000 		.word	0
+ 2322 0174 00000000 		.word	0
+ 2323 0178 01000000 		.word	1
+ 2324 017c 00000000 		.word	0
+ 2325 0180 00000000 		.word	0
+ 2326 0184 00000000 		.word	0
+ 2327 0188 00000000 		.word	0
+ 2328 018c 00000000 		.word	0
+ 2329 0190 01000000 		.word	1
+ 2330 0194 01000000 		.word	1
+ 2331 0198 02000000 		.word	2
+ 2332 019c 01000000 		.word	1
+ 2333 01a0 00000000 		.word	0
+ 2334 01a4 00000000 		.word	0
+ 2335 01a8 00000000 		.word	0
+ 2336 01ac 00000000 		.word	0
+ 2337 01b0 00000000 		.word	0
+ 2338 01b4 00000000 		.word	0
+ 2339 01b8 00000000 		.word	0
+ 2340 01bc 00000000 		.word	0
+ 2341 01c0 00000000 		.word	0
+ 2342 01c4 00000000 		.word	0
+ 2343 01c8 01000000 		.word	1
+ 2344 01cc 00000000 		.word	0
+ 2345 01d0 00000000 		.word	0
+ 2346 01d4 00000000 		.word	0
+ 2347 01d8 02000000 		.word	2
+ 2348 01dc 00000000 		.word	0
+ 2349 01e0 00000000 		.word	0
+ 2350 01e4 00000000 		.word	0
+ 2351 01e8 01000000 		.word	1
+ 2352 01ec 00000000 		.word	0
+ 2353 01f0 00000000 		.word	0
+ 2354 01f4 00000000 		.word	0
+ 2355 01f8 01000000 		.word	1
+ 2356 01fc 00000000 		.word	0
+ 2357 0200 00000000 		.word	0
+ 2358 0204 00000000 		.word	0
+ 2359 0208 00000000 		.word	0
+ 2360 020c 00000000 		.word	0
+ 2361 0210 00000000 		.word	0
+ 2362 0214 00000000 		.word	0
+ 2363 0218 02000000 		.word	2
+ 2364 021c 01000000 		.word	1
+ 2365 0220 00000000 		.word	0
+ 2366 0224 01000000 		.word	1
+ 2367 0228 01000000 		.word	1
+ 2368 022c 00000000 		.word	0
+ 2369 0230 00000000 		.word	0
+ 2370 0234 00000000 		.word	0
+ 2371 0238 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 51
 
 
- 2384 02c0 00000000 		.word	0
- 2385 02c4 00000000 		.word	0
- 2386 02c8 01000000 		.word	1
- 2387 02cc 00000000 		.word	0
- 2388 02d0 00000000 		.word	0
- 2389 02d4 00000000 		.word	0
- 2390 02d8 02000000 		.word	2
- 2391 02dc 01000000 		.word	1
- 2392 02e0 00000000 		.word	0
- 2393 02e4 00000000 		.word	0
- 2394 02e8 00000000 		.word	0
- 2395 02ec 01000000 		.word	1
- 2396 02f0 00000000 		.word	0
- 2397 02f4 00000000 		.word	0
- 2398 02f8 00000000 		.word	0
- 2399 02fc 00000000 		.word	0
- 2400 0300 00000000 		.word	0
- 2401 0304 00000000 		.word	0
- 2402 0308 00000000 		.word	0
- 2403 030c 00000000 		.word	0
- 2404 0310 00000000 		.word	0
- 2405 0314 01000000 		.word	1
- 2406 0318 02000000 		.word	2
- 2407 031c 00000000 		.word	0
- 2408 0320 00000000 		.word	0
- 2409 0324 00000000 		.word	0
- 2410 0328 01000000 		.word	1
- 2411 032c 01000000 		.word	1
- 2412 0330 00000000 		.word	0
- 2413 0334 00000000 		.word	0
- 2414 0338 00000000 		.word	0
- 2415 033c 00000000 		.word	0
- 2416 0340 00000000 		.word	0
- 2417 0344 00000000 		.word	0
- 2418 0348 00000000 		.word	0
- 2419 034c 01000000 		.word	1
- 2420 0350 00000000 		.word	0
- 2421 0354 00000000 		.word	0
- 2422 0358 02000000 		.word	2
- 2423 035c 01000000 		.word	1
- 2424 0360 00000000 		.word	0
- 2425 0364 00000000 		.word	0
- 2426 0368 01000000 		.word	1
- 2427 036c 00000000 		.word	0
- 2428 0370 00000000 		.word	0
- 2429 0374 00000000 		.word	0
- 2430 0378 00000000 		.word	0
- 2431 037c 00000000 		.word	0
- 2432 0380 00000000 		.word	0
- 2433 0384 00000000 		.word	0
- 2434 0388 00000000 		.word	0
- 2435 038c 00000000 		.word	0
- 2436 0390 00000000 		.word	0
- 2437 0394 01000000 		.word	1
- 2438 0398 02000000 		.word	2
- 2439 039c 00000000 		.word	0
- 2440 03a0 00000000 		.word	0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 52
+ 2372 023c 00000000 		.word	0
+ 2373 0240 00000000 		.word	0
+ 2374 0244 00000000 		.word	0
+ 2375 0248 01000000 		.word	1
+ 2376 024c 00000000 		.word	0
+ 2377 0250 00000000 		.word	0
+ 2378 0254 00000000 		.word	0
+ 2379 0258 02000000 		.word	2
+ 2380 025c 01000000 		.word	1
+ 2381 0260 00000000 		.word	0
+ 2382 0264 00000000 		.word	0
+ 2383 0268 00000000 		.word	0
+ 2384 026c 01000000 		.word	1
+ 2385 0270 00000000 		.word	0
+ 2386 0274 00000000 		.word	0
+ 2387 0278 00000000 		.word	0
+ 2388 027c 00000000 		.word	0
+ 2389 0280 00000000 		.word	0
+ 2390 0284 00000000 		.word	0
+ 2391 0288 00000000 		.word	0
+ 2392 028c 00000000 		.word	0
+ 2393 0290 00000000 		.word	0
+ 2394 0294 00000000 		.word	0
+ 2395 0298 02000000 		.word	2
+ 2396 029c 01000000 		.word	1
+ 2397 02a0 00000000 		.word	0
+ 2398 02a4 01000000 		.word	1
+ 2399 02a8 01000000 		.word	1
+ 2400 02ac 00000000 		.word	0
+ 2401 02b0 00000000 		.word	0
+ 2402 02b4 00000000 		.word	0
+ 2403 02b8 00000000 		.word	0
+ 2404 02bc 00000000 		.word	0
+ 2405 02c0 00000000 		.word	0
+ 2406 02c4 00000000 		.word	0
+ 2407 02c8 01000000 		.word	1
+ 2408 02cc 00000000 		.word	0
+ 2409 02d0 00000000 		.word	0
+ 2410 02d4 00000000 		.word	0
+ 2411 02d8 02000000 		.word	2
+ 2412 02dc 01000000 		.word	1
+ 2413 02e0 00000000 		.word	0
+ 2414 02e4 00000000 		.word	0
+ 2415 02e8 00000000 		.word	0
+ 2416 02ec 01000000 		.word	1
+ 2417 02f0 00000000 		.word	0
+ 2418 02f4 00000000 		.word	0
+ 2419 02f8 00000000 		.word	0
+ 2420 02fc 00000000 		.word	0
+ 2421 0300 00000000 		.word	0
+ 2422 0304 00000000 		.word	0
+ 2423 0308 00000000 		.word	0
+ 2424 030c 00000000 		.word	0
+ 2425 0310 00000000 		.word	0
+ 2426 0314 01000000 		.word	1
+ 2427 0318 02000000 		.word	2
+ 2428 031c 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 52
 
 
- 2441 03a4 00000000 		.word	0
- 2442 03a8 01000000 		.word	1
- 2443 03ac 01000000 		.word	1
- 2444 03b0 00000000 		.word	0
- 2445 03b4 00000000 		.word	0
- 2446 03b8 00000000 		.word	0
- 2447 03bc 00000000 		.word	0
- 2448 03c0 00000000 		.word	0
- 2449 03c4 00000000 		.word	0
- 2450 03c8 00000000 		.word	0
- 2451 03cc 01000000 		.word	1
- 2452 03d0 00000000 		.word	0
- 2453 03d4 00000000 		.word	0
- 2454 03d8 02000000 		.word	2
- 2455 03dc 01000000 		.word	1
- 2456 03e0 00000000 		.word	0
- 2457 03e4 00000000 		.word	0
- 2458 03e8 01000000 		.word	1
- 2459 03ec 00000000 		.word	0
- 2460 03f0 00000000 		.word	0
- 2461 03f4 00000000 		.word	0
- 2462 03f8 00000000 		.word	0
- 2463 03fc 00000000 		.word	0
- 2464 0400 00000000 		.word	0
- 2465 0404 00000000 		.word	0
- 2466 0408 00000000 		.word	0
- 2467 040c 00000000 		.word	0
- 2468 0410 00000000 		.word	0
- 2469 0414 01000000 		.word	1
- 2470 0418 02000000 		.word	2
- 2471 041c 01000000 		.word	1
- 2472 0420 00000000 		.word	0
- 2473 0424 01000000 		.word	1
- 2474 0428 00000000 		.word	0
- 2475 042c 00000000 		.word	0
- 2476 0430 00000000 		.word	0
- 2477 0434 00000000 		.word	0
- 2478 0438 00000000 		.word	0
- 2479 043c 00000000 		.word	0
- 2480 0440 00000000 		.word	0
- 2481 0444 00000000 		.word	0
- 2482 0448 01000000 		.word	1
- 2483 044c 00000000 		.word	0
- 2484 0450 00000000 		.word	0
- 2485 0454 00000000 		.word	0
- 2486 0458 02000000 		.word	2
- 2487 045c 00000000 		.word	0
- 2488 0460 00000000 		.word	0
- 2489 0464 00000000 		.word	0
- 2490 0468 01000000 		.word	1
- 2491 046c 01000000 		.word	1
- 2492 0470 00000000 		.word	0
- 2493 0474 00000000 		.word	0
- 2494 0478 00000000 		.word	0
- 2495 047c 00000000 		.word	0
- 2496 0480 00000000 		.word	0
- 2497 0484 00000000 		.word	0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 53
+ 2429 0320 00000000 		.word	0
+ 2430 0324 00000000 		.word	0
+ 2431 0328 01000000 		.word	1
+ 2432 032c 01000000 		.word	1
+ 2433 0330 00000000 		.word	0
+ 2434 0334 00000000 		.word	0
+ 2435 0338 00000000 		.word	0
+ 2436 033c 00000000 		.word	0
+ 2437 0340 00000000 		.word	0
+ 2438 0344 00000000 		.word	0
+ 2439 0348 00000000 		.word	0
+ 2440 034c 01000000 		.word	1
+ 2441 0350 00000000 		.word	0
+ 2442 0354 00000000 		.word	0
+ 2443 0358 02000000 		.word	2
+ 2444 035c 01000000 		.word	1
+ 2445 0360 00000000 		.word	0
+ 2446 0364 00000000 		.word	0
+ 2447 0368 01000000 		.word	1
+ 2448 036c 00000000 		.word	0
+ 2449 0370 00000000 		.word	0
+ 2450 0374 00000000 		.word	0
+ 2451 0378 00000000 		.word	0
+ 2452 037c 00000000 		.word	0
+ 2453 0380 00000000 		.word	0
+ 2454 0384 00000000 		.word	0
+ 2455 0388 00000000 		.word	0
+ 2456 038c 00000000 		.word	0
+ 2457 0390 00000000 		.word	0
+ 2458 0394 01000000 		.word	1
+ 2459 0398 02000000 		.word	2
+ 2460 039c 00000000 		.word	0
+ 2461 03a0 00000000 		.word	0
+ 2462 03a4 00000000 		.word	0
+ 2463 03a8 01000000 		.word	1
+ 2464 03ac 01000000 		.word	1
+ 2465 03b0 00000000 		.word	0
+ 2466 03b4 00000000 		.word	0
+ 2467 03b8 00000000 		.word	0
+ 2468 03bc 00000000 		.word	0
+ 2469 03c0 00000000 		.word	0
+ 2470 03c4 00000000 		.word	0
+ 2471 03c8 00000000 		.word	0
+ 2472 03cc 01000000 		.word	1
+ 2473 03d0 00000000 		.word	0
+ 2474 03d4 00000000 		.word	0
+ 2475 03d8 02000000 		.word	2
+ 2476 03dc 01000000 		.word	1
+ 2477 03e0 00000000 		.word	0
+ 2478 03e4 00000000 		.word	0
+ 2479 03e8 01000000 		.word	1
+ 2480 03ec 00000000 		.word	0
+ 2481 03f0 00000000 		.word	0
+ 2482 03f4 00000000 		.word	0
+ 2483 03f8 00000000 		.word	0
+ 2484 03fc 00000000 		.word	0
+ 2485 0400 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 53
 
 
- 2498 0488 00000000 		.word	0
- 2499 048c 01000000 		.word	1
- 2500 0490 00000000 		.word	0
- 2501 0494 01000000 		.word	1
- 2502 0498 02000000 		.word	2
- 2503 049c 01000000 		.word	1
- 2504 04a0 00000000 		.word	0
- 2505 04a4 00000000 		.word	0
- 2506 04a8 00000000 		.word	0
- 2507 04ac 00000000 		.word	0
- 2508 04b0 00000000 		.word	0
- 2509 04b4 00000000 		.word	0
- 2510 04b8 00000000 		.word	0
- 2511 04bc 00000000 		.word	0
- 2512 04c0 00000000 		.word	0
- 2513 04c4 01000000 		.word	1
- 2514 04c8 01000000 		.word	1
- 2515 04cc 00000000 		.word	0
- 2516 04d0 00000000 		.word	0
- 2517 04d4 00000000 		.word	0
- 2518 04d8 02000000 		.word	2
- 2519 04dc 00000000 		.word	0
- 2520 04e0 00000000 		.word	0
- 2521 04e4 00000000 		.word	0
- 2522 04e8 01000000 		.word	1
- 2523 04ec 00000000 		.word	0
- 2524 04f0 00000000 		.word	0
- 2525 04f4 00000000 		.word	0
- 2526 04f8 00000000 		.word	0
- 2527 04fc 00000000 		.word	0
- 2528 0500 00000000 		.word	0
- 2529 0504 00000000 		.word	0
- 2530 0508 00000000 		.word	0
- 2531 050c 00000000 		.word	0
- 2532 0510 00000000 		.word	0
- 2533 0514 01000000 		.word	1
- 2534 0518 02000000 		.word	2
- 2535 051c 01000000 		.word	1
- 2536 0520 00000000 		.word	0
- 2537 0524 00000000 		.word	0
- 2538 0528 00000000 		.word	0
- 2539 052c 01000000 		.word	1
- 2540 0530 00000000 		.word	0
- 2541 0534 00000000 		.word	0
- 2542 0538 00000000 		.word	0
- 2543 053c 00000000 		.word	0
- 2544 0540 00000000 		.word	0
- 2545 0544 00000000 		.word	0
- 2546 0548 01000000 		.word	1
- 2547 054c 01000000 		.word	1
- 2548 0550 00000000 		.word	0
- 2549 0554 00000000 		.word	0
- 2550 0558 02000000 		.word	2
- 2551 055c 00000000 		.word	0
- 2552 0560 00000000 		.word	0
- 2553 0564 00000000 		.word	0
- 2554 0568 01000000 		.word	1
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 54
+ 2486 0404 00000000 		.word	0
+ 2487 0408 00000000 		.word	0
+ 2488 040c 00000000 		.word	0
+ 2489 0410 00000000 		.word	0
+ 2490 0414 01000000 		.word	1
+ 2491 0418 02000000 		.word	2
+ 2492 041c 01000000 		.word	1
+ 2493 0420 00000000 		.word	0
+ 2494 0424 01000000 		.word	1
+ 2495 0428 00000000 		.word	0
+ 2496 042c 00000000 		.word	0
+ 2497 0430 00000000 		.word	0
+ 2498 0434 00000000 		.word	0
+ 2499 0438 00000000 		.word	0
+ 2500 043c 00000000 		.word	0
+ 2501 0440 00000000 		.word	0
+ 2502 0444 00000000 		.word	0
+ 2503 0448 01000000 		.word	1
+ 2504 044c 00000000 		.word	0
+ 2505 0450 00000000 		.word	0
+ 2506 0454 00000000 		.word	0
+ 2507 0458 02000000 		.word	2
+ 2508 045c 00000000 		.word	0
+ 2509 0460 00000000 		.word	0
+ 2510 0464 00000000 		.word	0
+ 2511 0468 01000000 		.word	1
+ 2512 046c 01000000 		.word	1
+ 2513 0470 00000000 		.word	0
+ 2514 0474 00000000 		.word	0
+ 2515 0478 00000000 		.word	0
+ 2516 047c 00000000 		.word	0
+ 2517 0480 00000000 		.word	0
+ 2518 0484 00000000 		.word	0
+ 2519 0488 00000000 		.word	0
+ 2520 048c 01000000 		.word	1
+ 2521 0490 00000000 		.word	0
+ 2522 0494 01000000 		.word	1
+ 2523 0498 02000000 		.word	2
+ 2524 049c 01000000 		.word	1
+ 2525 04a0 00000000 		.word	0
+ 2526 04a4 00000000 		.word	0
+ 2527 04a8 00000000 		.word	0
+ 2528 04ac 00000000 		.word	0
+ 2529 04b0 00000000 		.word	0
+ 2530 04b4 00000000 		.word	0
+ 2531 04b8 00000000 		.word	0
+ 2532 04bc 00000000 		.word	0
+ 2533 04c0 00000000 		.word	0
+ 2534 04c4 01000000 		.word	1
+ 2535 04c8 01000000 		.word	1
+ 2536 04cc 00000000 		.word	0
+ 2537 04d0 00000000 		.word	0
+ 2538 04d4 00000000 		.word	0
+ 2539 04d8 02000000 		.word	2
+ 2540 04dc 00000000 		.word	0
+ 2541 04e0 00000000 		.word	0
+ 2542 04e4 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 54
 
 
- 2555 056c 00000000 		.word	0
- 2556 0570 00000000 		.word	0
- 2557 0574 00000000 		.word	0
- 2558 0578 00000000 		.word	0
- 2559 057c 00000000 		.word	0
- 2560 0580 00000000 		.word	0
- 2561 0584 01000000 		.word	1
- 2562 0588 00000000 		.word	0
- 2563 058c 00000000 		.word	0
- 2564 0590 00000000 		.word	0
- 2565 0594 01000000 		.word	1
- 2566 0598 02000000 		.word	2
- 2567 059c 01000000 		.word	1
- 2568 05a0 00000000 		.word	0
- 2569 05a4 00000000 		.word	0
- 2570 05a8 00000000 		.word	0
- 2571 05ac 00000000 		.word	0
- 2572 05b0 00000000 		.word	0
- 2573 05b4 00000000 		.word	0
- 2574 05b8 00000000 		.word	0
- 2575 05bc 00000000 		.word	0
- 2576 05c0 00000000 		.word	0
- 2577 05c4 00000000 		.word	0
- 2578 05c8 01000000 		.word	1
- 2579 05cc 00000000 		.word	0
- 2580 05d0 00000000 		.word	0
- 2581 05d4 00000000 		.word	0
- 2582 05d8 02000000 		.word	2
- 2583 05dc 00000000 		.word	0
- 2584 05e0 00000000 		.word	0
- 2585 05e4 01000000 		.word	1
- 2586 05e8 01000000 		.word	1
- 2587 05ec 00000000 		.word	0
- 2588 05f0 00000000 		.word	0
- 2589 05f4 00000000 		.word	0
- 2590 05f8 00000000 		.word	0
- 2591 05fc 00000000 		.word	0
- 2592 0600 00000000 		.word	0
- 2593 0604 00000000 		.word	0
- 2594 0608 00000000 		.word	0
- 2595 060c 00000000 		.word	0
- 2596 0610 00000000 		.word	0
- 2597 0614 01000000 		.word	1
- 2598 0618 02000000 		.word	2
- 2599 061c 01000000 		.word	1
- 2600 0620 00000000 		.word	0
- 2601 0624 00000000 		.word	0
- 2602 0628 01000000 		.word	1
- 2603 062c 00000000 		.word	0
- 2604 0630 00000000 		.word	0
- 2605 0634 00000000 		.word	0
- 2606 0638 00000000 		.word	0
- 2607 063c 00000000 		.word	0
- 2608 0640 00000000 		.word	0
- 2609 0644 00000000 		.word	0
- 2610 0648 01000000 		.word	1
- 2611 064c 00000000 		.word	0
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 55
+ 2543 04e8 01000000 		.word	1
+ 2544 04ec 00000000 		.word	0
+ 2545 04f0 00000000 		.word	0
+ 2546 04f4 00000000 		.word	0
+ 2547 04f8 00000000 		.word	0
+ 2548 04fc 00000000 		.word	0
+ 2549 0500 00000000 		.word	0
+ 2550 0504 00000000 		.word	0
+ 2551 0508 00000000 		.word	0
+ 2552 050c 00000000 		.word	0
+ 2553 0510 00000000 		.word	0
+ 2554 0514 01000000 		.word	1
+ 2555 0518 02000000 		.word	2
+ 2556 051c 01000000 		.word	1
+ 2557 0520 00000000 		.word	0
+ 2558 0524 00000000 		.word	0
+ 2559 0528 00000000 		.word	0
+ 2560 052c 01000000 		.word	1
+ 2561 0530 00000000 		.word	0
+ 2562 0534 00000000 		.word	0
+ 2563 0538 00000000 		.word	0
+ 2564 053c 00000000 		.word	0
+ 2565 0540 00000000 		.word	0
+ 2566 0544 00000000 		.word	0
+ 2567 0548 01000000 		.word	1
+ 2568 054c 01000000 		.word	1
+ 2569 0550 00000000 		.word	0
+ 2570 0554 00000000 		.word	0
+ 2571 0558 02000000 		.word	2
+ 2572 055c 00000000 		.word	0
+ 2573 0560 00000000 		.word	0
+ 2574 0564 00000000 		.word	0
+ 2575 0568 01000000 		.word	1
+ 2576 056c 00000000 		.word	0
+ 2577 0570 00000000 		.word	0
+ 2578 0574 00000000 		.word	0
+ 2579 0578 00000000 		.word	0
+ 2580 057c 00000000 		.word	0
+ 2581 0580 00000000 		.word	0
+ 2582 0584 01000000 		.word	1
+ 2583 0588 00000000 		.word	0
+ 2584 058c 00000000 		.word	0
+ 2585 0590 00000000 		.word	0
+ 2586 0594 01000000 		.word	1
+ 2587 0598 02000000 		.word	2
+ 2588 059c 01000000 		.word	1
+ 2589 05a0 00000000 		.word	0
+ 2590 05a4 00000000 		.word	0
+ 2591 05a8 00000000 		.word	0
+ 2592 05ac 00000000 		.word	0
+ 2593 05b0 00000000 		.word	0
+ 2594 05b4 00000000 		.word	0
+ 2595 05b8 00000000 		.word	0
+ 2596 05bc 00000000 		.word	0
+ 2597 05c0 00000000 		.word	0
+ 2598 05c4 00000000 		.word	0
+ 2599 05c8 01000000 		.word	1
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 55
 
 
- 2612 0650 00000000 		.word	0
- 2613 0654 00000000 		.word	0
- 2614 0658 02000000 		.word	2
- 2615 065c 01000000 		.word	1
- 2616 0660 00000000 		.word	0
- 2617 0664 00000000 		.word	0
- 2618 0668 01000000 		.word	1
- 2619 066c 00000000 		.word	0
- 2620 0670 00000000 		.word	0
- 2621 0674 00000000 		.word	0
- 2622 0678 00000000 		.word	0
- 2623 067c 00000000 		.word	0
- 2624 0680 00000000 		.word	0
- 2625 0684 00000000 		.word	0
- 2626 0688 01000000 		.word	1
- 2627 068c 00000000 		.word	0
- 2628 0690 00000000 		.word	0
- 2629 0694 01000000 		.word	1
- 2630 0698 02000000 		.word	2
- 2631 069c 01000000 		.word	1
- 2632 06a0 00000000 		.word	0
- 2633 06a4 00000000 		.word	0
- 2634 06a8 00000000 		.word	0
- 2635 06ac 00000000 		.word	0
- 2636 06b0 00000000 		.word	0
- 2637 06b4 00000000 		.word	0
- 2638 06b8 00000000 		.word	0
- 2639 06bc 00000000 		.word	0
- 2640 06c0 00000000 		.word	0
- 2641 06c4 00000000 		.word	0
- 2642 06c8 01000000 		.word	1
- 2643 06cc 00000000 		.word	0
- 2644 06d0 00000000 		.word	0
- 2645 06d4 01000000 		.word	1
- 2646 06d8 02000000 		.word	2
- 2647 06dc 00000000 		.word	0
- 2648 06e0 00000000 		.word	0
- 2649 06e4 00000000 		.word	0
- 2650 06e8 01000000 		.word	1
- 2651 06ec 00000000 		.word	0
- 2652 06f0 00000000 		.word	0
- 2653 06f4 00000000 		.word	0
- 2654 06f8 00000000 		.word	0
- 2655 06fc 00000000 		.word	0
- 2656              		.text
- 2657              	.Letext0:
- 2658              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
- 2659              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
- 2660              		.file 4 "Core/Src/../Inc/piece.h"
- 2661              		.file 5 "Core/Src/../Inc/board.h"
- 2662              		.file 6 "Core/Src/../Inc/shapes.h"
- 2663              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
- 2664              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h"
- 2665              		.file 9 "Core/Src/../Inc/../Inc/../Inc/5x5_font.h"
- 2666              		.file 10 "Core/Src/../Inc/../Inc/ILI9341_Driver.h"
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 56
+ 2600 05cc 00000000 		.word	0
+ 2601 05d0 00000000 		.word	0
+ 2602 05d4 00000000 		.word	0
+ 2603 05d8 02000000 		.word	2
+ 2604 05dc 00000000 		.word	0
+ 2605 05e0 00000000 		.word	0
+ 2606 05e4 01000000 		.word	1
+ 2607 05e8 01000000 		.word	1
+ 2608 05ec 00000000 		.word	0
+ 2609 05f0 00000000 		.word	0
+ 2610 05f4 00000000 		.word	0
+ 2611 05f8 00000000 		.word	0
+ 2612 05fc 00000000 		.word	0
+ 2613 0600 00000000 		.word	0
+ 2614 0604 00000000 		.word	0
+ 2615 0608 00000000 		.word	0
+ 2616 060c 00000000 		.word	0
+ 2617 0610 00000000 		.word	0
+ 2618 0614 01000000 		.word	1
+ 2619 0618 02000000 		.word	2
+ 2620 061c 01000000 		.word	1
+ 2621 0620 00000000 		.word	0
+ 2622 0624 00000000 		.word	0
+ 2623 0628 01000000 		.word	1
+ 2624 062c 00000000 		.word	0
+ 2625 0630 00000000 		.word	0
+ 2626 0634 00000000 		.word	0
+ 2627 0638 00000000 		.word	0
+ 2628 063c 00000000 		.word	0
+ 2629 0640 00000000 		.word	0
+ 2630 0644 00000000 		.word	0
+ 2631 0648 01000000 		.word	1
+ 2632 064c 00000000 		.word	0
+ 2633 0650 00000000 		.word	0
+ 2634 0654 00000000 		.word	0
+ 2635 0658 02000000 		.word	2
+ 2636 065c 01000000 		.word	1
+ 2637 0660 00000000 		.word	0
+ 2638 0664 00000000 		.word	0
+ 2639 0668 01000000 		.word	1
+ 2640 066c 00000000 		.word	0
+ 2641 0670 00000000 		.word	0
+ 2642 0674 00000000 		.word	0
+ 2643 0678 00000000 		.word	0
+ 2644 067c 00000000 		.word	0
+ 2645 0680 00000000 		.word	0
+ 2646 0684 00000000 		.word	0
+ 2647 0688 01000000 		.word	1
+ 2648 068c 00000000 		.word	0
+ 2649 0690 00000000 		.word	0
+ 2650 0694 01000000 		.word	1
+ 2651 0698 02000000 		.word	2
+ 2652 069c 01000000 		.word	1
+ 2653 06a0 00000000 		.word	0
+ 2654 06a4 00000000 		.word	0
+ 2655 06a8 00000000 		.word	0
+ 2656 06ac 00000000 		.word	0
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 56
+
+
+ 2657 06b0 00000000 		.word	0
+ 2658 06b4 00000000 		.word	0
+ 2659 06b8 00000000 		.word	0
+ 2660 06bc 00000000 		.word	0
+ 2661 06c0 00000000 		.word	0
+ 2662 06c4 00000000 		.word	0
+ 2663 06c8 01000000 		.word	1
+ 2664 06cc 00000000 		.word	0
+ 2665 06d0 00000000 		.word	0
+ 2666 06d4 01000000 		.word	1
+ 2667 06d8 02000000 		.word	2
+ 2668 06dc 00000000 		.word	0
+ 2669 06e0 00000000 		.word	0
+ 2670 06e4 00000000 		.word	0
+ 2671 06e8 01000000 		.word	1
+ 2672 06ec 00000000 		.word	0
+ 2673 06f0 00000000 		.word	0
+ 2674 06f4 00000000 		.word	0
+ 2675 06f8 00000000 		.word	0
+ 2676 06fc 00000000 		.word	0
+ 2677              		.text
+ 2678              	.Letext0:
+ 2679              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 2680              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 2681              		.file 4 "Core/Src/../Inc/piece.h"
+ 2682              		.file 5 "Core/Src/../Inc/board.h"
+ 2683              		.file 6 "Core/Src/../Inc/shapes.h"
+ 2684              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
+ 2685              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h"
+ 2686              		.file 9 "Core/Src/../Inc/../Inc/../Inc/5x5_font.h"
+ 2687              		.file 10 "Core/Src/../Inc/../Inc/ILI9341_Driver.h"
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 57
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 board.c
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:18     .text.flood:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:26     .text.flood:00000000 flood
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:176    .text.flood:000000d8 $d
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:181    .text.floodB:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:188    .text.floodB:00000000 floodB
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:355    .text.floodB:000000ec $d
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:360    .text.floodFill:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:367    .text.floodFill:00000000 floodFill
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:451    .text.initBoard:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:458    .text.initBoard:00000000 initBoard
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:516    .text.drawPiece:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:523    .text.drawPiece:00000000 drawPiece
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:588    .text.drawPiece:00000032 $d
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:700    .text.clearPiece:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:707    .text.clearPiece:00000000 clearPiece
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:790    .text.setCurrentPiece:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:797    .text.setCurrentPiece:00000000 setCurrentPiece
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:814    .text.newPiece:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:821    .text.newPiece:00000000 newPiece
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:869    .text.getCurrentPiece:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:876    .text.getCurrentPiece:00000000 getCurrentPiece
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:894    .text.isCurrentPieceMovable:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:901    .text.isCurrentPieceMovable:00000000 isCurrentPieceMovable
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1026   .text.isCurrentPieceRotable:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1033   .text.isCurrentPieceRotable:00000000 isCurrentPieceRotable
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1157   .text.moveCurrentPieceDown:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1164   .text.moveCurrentPieceDown:00000000 moveCurrentPieceDown
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1237   .text.moveCurrentPieceLeft:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1244   .text.moveCurrentPieceLeft:00000000 moveCurrentPieceLeft
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1314   .text.moveCurrentPieceRight:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1321   .text.moveCurrentPieceRight:00000000 moveCurrentPieceRight
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1391   .text.rotateCurrentPieceLeft:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1398   .text.rotateCurrentPieceLeft:00000000 rotateCurrentPieceLeft
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1469   .text.rotateCurrentPieceRight:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1476   .text.rotateCurrentPieceRight:00000000 rotateCurrentPieceRight
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1547   .text.deleteLine:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1554   .text.deleteLine:00000000 deleteLine
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1634   .text.deletePossibleLines:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1641   .text.deletePossibleLines:00000000 deletePossibleLines
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1737   .text.dropCurrentPiece:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1744   .text.dropCurrentPiece:00000000 dropCurrentPiece
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1813   .text.isCurrentPieceFallen:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1820   .text.isCurrentPieceFallen:00000000 isCurrentPieceFallen
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1878   .text.isGameOver:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1885   .text.isGameOver:00000000 isGameOver
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1938   .text.print:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:1945   .text.print:00000000 print
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2042   .text.print:00000060 $d
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2049   .text.print:0000007c $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2133   .text.print:000000b4 $d
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2138   .text.clear:00000000 $t
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2145   .text.clear:00000000 clear
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2203   .rodata.PIECES:00000000 $d
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:2207   .rodata.PIECES:00000000 PIECES
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:595    .text.drawPiece:00000039 $d
-ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s 			page 57
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:18     .text.flood:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:26     .text.flood:00000000 flood
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:176    .text.flood:000000d8 $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:181    .text.floodB:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:188    .text.floodB:00000000 floodB
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:355    .text.floodB:000000ec $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:360    .text.floodFill:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:367    .text.floodFill:00000000 floodFill
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:451    .text.initBoard:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:458    .text.initBoard:00000000 initBoard
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:516    .text.drawPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:523    .text.drawPiece:00000000 drawPiece
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:588    .text.drawPiece:00000032 $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:700    .text.clearPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:707    .text.clearPiece:00000000 clearPiece
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:790    .text.setCurrentPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:797    .text.setCurrentPiece:00000000 setCurrentPiece
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:814    .text.newPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:821    .text.newPiece:00000000 newPiece
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:869    .text.getCurrentPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:876    .text.getCurrentPiece:00000000 getCurrentPiece
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:894    .text.isCurrentPieceMovable:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:901    .text.isCurrentPieceMovable:00000000 isCurrentPieceMovable
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1026   .text.isCurrentPieceRotable:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1033   .text.isCurrentPieceRotable:00000000 isCurrentPieceRotable
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1157   .text.moveCurrentPieceDown:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1164   .text.moveCurrentPieceDown:00000000 moveCurrentPieceDown
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1237   .text.moveCurrentPieceLeft:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1244   .text.moveCurrentPieceLeft:00000000 moveCurrentPieceLeft
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1314   .text.moveCurrentPieceRight:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1321   .text.moveCurrentPieceRight:00000000 moveCurrentPieceRight
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1391   .text.rotateCurrentPieceLeft:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1398   .text.rotateCurrentPieceLeft:00000000 rotateCurrentPieceLeft
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1469   .text.rotateCurrentPieceRight:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1476   .text.rotateCurrentPieceRight:00000000 rotateCurrentPieceRight
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1547   .text.deleteLine:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1554   .text.deleteLine:00000000 deleteLine
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1634   .text.deletePossibleLines:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1641   .text.deletePossibleLines:00000000 deletePossibleLines
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1737   .text.dropCurrentPiece:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1744   .text.dropCurrentPiece:00000000 dropCurrentPiece
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1813   .text.isCurrentPieceFallen:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1820   .text.isCurrentPieceFallen:00000000 isCurrentPieceFallen
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1878   .text.isGameOver:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1885   .text.isGameOver:00000000 isGameOver
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1938   .text.print:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:1945   .text.print:00000000 print
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2047   .text.print:00000078 $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2055   .text.print:00000098 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2146   .text.print:000000d4 $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2152   .text.clear:00000000 $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2159   .text.clear:00000000 clear
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2217   .bss.previousArea.0:00000000 $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2221   .bss.previousArea.0:00000000 previousArea.0
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2224   .rodata.PIECES:00000000 $d
+ARM GAS  C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s 			page 58
 
 
-C:\Users\Paul\AppData\Local\Temp\ccuW7BtM.s:595    .text.drawPiece:0000003a $t
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:2228   .rodata.PIECES:00000000 PIECES
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:595    .text.drawPiece:00000039 $d
+C:\Users\Paul\AppData\Local\Temp\ccScC6rf.s:595    .text.drawPiece:0000003a $t
 
 UNDEFINED SYMBOLS
 getPosX
@@ -3371,6 +3409,5 @@ getColor
 setPosX
 setPosY
 setOrientation
-fillScreen
 fillRect
 TFTWIDTH
