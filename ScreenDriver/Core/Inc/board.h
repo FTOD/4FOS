@@ -52,6 +52,8 @@ bool isCurrentPieceFallen(Board * board);
 bool isGameOver(Board * board);
 
 void print(Board * board);
+void printBorder();
+void printNextPiece(int id);
 void clear(Board * board);
 
  

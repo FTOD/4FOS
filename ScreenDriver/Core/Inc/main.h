@@ -48,6 +48,7 @@ extern "C" {
 
 #include "stdlib.h"
 #include "time.h"
+#include "math.h"
 
 /* USER CODE END Includes */
 

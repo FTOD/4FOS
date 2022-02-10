@@ -1,6 +1,11 @@
 /* board.cpp */
 #include "../Inc/board.h"
 #include "../Inc/main.h"
+
+#define TAILLE_CASE  11
+#define DECALAGE_GAUCHE 20
+#define DECALAGE_HAUT 20
+
  
 void flood(Board * board, int i, int j, int px, int py, int k, int o, int value, bool visited[][SIZE])
 {
@@ -178,6 +183,16 @@ void moveCurrentPieceDown(Board * board)
         drawPiece(board, board->currentPiece);
     }
 }
+
+int moveCurrentPieceDownBot(Board * board)
+{
+    if(isCurrentPieceFallen(board)){
+        return 0;
+    }
+    
+    moveCurrentPieceDown(board);
+    return 1;
+}
  
 void moveCurrentPieceLeft(Board * board)
 {
@@ -310,9 +325,6 @@ int isGameOver(Board * board)
 void print(Board * board)
 {   
     static int previousArea[BOARD_WIDTH][BOARD_HEIGHT] = {{FREE}};
-    int tailleCase = 11;
-    int decalageGauche = 20;
-    int decalageHaut = 15;
     uint16_t color;
     for(int j = 0; j < BOARD_HEIGHT; ++j)
     {
@@ -348,7 +360,7 @@ void print(Board * board)
                         color = WHITE;
                         break;
                 }
-                fillRect(TFTWIDTH -1 -decalageHaut -(j*tailleCase), i*tailleCase + decalageGauche, tailleCase,tailleCase,color);
+                fillRect(TFTWIDTH -1 -DECALAGE_HAUT -(j*TAILLE_CASE), i*TAILLE_CASE + DECALAGE_GAUCHE, TAILLE_CASE,TAILLE_CASE,color);
             }
             previousArea[i][j] = board->area[i][j];
         } 
@@ -356,6 +368,47 @@ void print(Board * board)
     
 }
 
+void printBorders(){
+    fillRect(TFTWIDTH-DECALAGE_HAUT-((BOARD_HEIGHT-1)*TAILLE_CASE)-3,DECALAGE_GAUCHE-2,TAILLE_CASE*BOARD_HEIGHT+4,TAILLE_CASE*BOARD_WIDTH+4,WHITE);
+    fillRect(TFTWIDTH-DECALAGE_HAUT-((BOARD_HEIGHT-1)*TAILLE_CASE)-1,DECALAGE_GAUCHE,TAILLE_CASE*BOARD_HEIGHT,TAILLE_CASE*BOARD_WIDTH,BLACK);
+
+    fillRect(TFTWIDTH - 80, BOARD_WIDTH*TAILLE_CASE  + DECALAGE_GAUCHE + 15, 72, 72,WHITE);
+    fillRect(TFTWIDTH - 78, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 17 , 68, 68,BLACK);
+}
+
+void printNextPiece(int id){
+    fillRect(TFTWIDTH - 78, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 17 , 68, 68,BLACK);
+    switch(id){
+        case I:
+            fillRect(TFTWIDTH - 80 + 30, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 12, 12, 48, CYAN);
+            break;
+        case L:
+            fillRect(TFTWIDTH - 80 + 36, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 18, 12, 36, ORANGE);
+            fillRect(TFTWIDTH - 80 + 24, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 18, 12, 12, ORANGE);
+            break;
+        case Z:
+            fillRect(TFTWIDTH - 80 + 36, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 18, 12, 24, RED);
+            fillRect(TFTWIDTH - 80 + 24, BOARD_WIDTH*TAILLE_CASE  + DECALAGE_GAUCHE + 15 + 30, 12, 24, RED);
+            break;
+        case T:
+            fillRect(TFTWIDTH - 80 + 36, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 18, 12, 36 ,PURPLE);
+            fillRect(TFTWIDTH - 80 + 24, BOARD_WIDTH*TAILLE_CASE  + DECALAGE_GAUCHE + 15 + 30, 12, 12 ,PURPLE);
+            break;
+        case S:
+            fillRect(TFTWIDTH - 80 + 24, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 18, 12, 24, GREEN);
+            fillRect(TFTWIDTH - 80 + 36, BOARD_WIDTH*TAILLE_CASE  + DECALAGE_GAUCHE + 15 + 30, 12, 24, GREEN);
+            break;
+        case O:
+            fillRect(TFTWIDTH - 80 + 24, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 24, 24, 24, YELLOW);
+            break;
+        case J:
+            fillRect(TFTWIDTH - 80 +  36, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 18, 12, 36, BLUE);
+            fillRect(TFTWIDTH - 80 +  24, BOARD_WIDTH*TAILLE_CASE + DECALAGE_GAUCHE + 15 + 42, 12, 12, BLUE);
+            break;
+        default:
+            break;
+    }
+}
 
 
 void clear(Board * board)

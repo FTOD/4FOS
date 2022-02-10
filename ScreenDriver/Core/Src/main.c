@@ -40,6 +40,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
 int state0 = 0;
@@ -55,6 +56,8 @@ int state8 = 0;
 Board board;
 Piece piece;
 
+int movingTimer = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -62,6 +65,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_TIM1_Init(void);
 static void MX_TIM2_Init(void);
+static void MX_TIM4_Init(void);
 /* USER CODE BEGIN PFP */
 void SystemCheckUp(void);
 
@@ -77,6 +81,7 @@ void SystemCheckUp(){
   }
   if(state1){
     moveCurrentPieceDown(&board);
+    movingTimer = 0;
     state1 = 0;
     NVIC_EnableIRQ(EXTI1_IRQn);
   }
@@ -111,6 +116,11 @@ void SystemCheckUp(){
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_8);
   }
 }
+
+void sync(){
+  while(LL_TIM_IsActiveFlag_UPDATE(TIM4) == 0);
+  LL_TIM_ClearFlag_UPDATE(TIM4);
+}
 /* USER CODE END 0 */
 
 /**
@@ -143,16 +153,15 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM1_Init();
   MX_TIM2_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
   LL_TIM_EnableCounter(TIM1);
-  
+  LL_TIM_EnableCounter(TIM4);
   initScreen();
   fillScreen(BLACK);
  
   srand(time(NULL));
   initBoard(&board);
-  initPiece(&piece, rand()%6, 0);
-  newPiece(&board, &piece);
 
 
   /* USER CODE END 2 */
@@ -160,33 +169,56 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   char charScore[5];
-  int intScore = 10;
-  sprintf(charScore,"%d",intScore);
-  DrawText("Score: ",180,160,WHITE,2,BLACK);
-  DrawText(charScore,180,230,WHITE,2,BLACK);
+  int intScore = 0;
+  int rythm    = 150; /*the tetromino will go down each time movingTimer >= rythm*/
+  int GameOver = 0;
+  int numberOfPieces = 0;
+  int nextPiece = rand()%7;
+  printBorders();
 
-  while (1)
+  sprintf(charScore,"%d",intScore);
+  DrawText("Score: ",140,150,WHITE,2,BLACK);
+  DrawText(charScore,140,220,WHITE,2,BLACK);
+
+  initPiece(&piece, rand()%7, 0);
+  newPiece(&board, &piece);
+  printNextPiece(nextPiece);
+  
+  while (!GameOver)
   {
+    LL_TIM_DisableCounter(TIM4);
+    LL_TIM_SetCounter(TIM4,0);
+    LL_TIM_EnableCounter(TIM4);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
 
  
     print(&board);    
-        
-    if(isCurrentPieceFallen(&board)){
-        intScore += deletePossibleLines(&board) * 100 ;
-        initPiece(&piece, rand()%6, 0);
+    
+    if (movingTimer >= rythm){
+      movingTimer = 0;
+
+      if(!moveCurrentPieceDownBot(&board)){
+        GameOver = isGameOver(&board);
+        initPiece(&piece, nextPiece, 0);
+        nextPiece = rand()%7;
         newPiece(&board, &piece);
-        intScore += 5;
+        numberOfPieces ++;
+        intScore += pow(deletePossibleLines(&board), 2) * 100;
+        
         sprintf(charScore,"%d",intScore);
-        DrawText(charScore,180,230,WHITE,2,BLACK);
+        DrawText(charScore,140,220,WHITE,2,BLACK);
+        printNextPiece(nextPiece);
+      }
     }
-    SystemCheckUp();
-    delay(50);
+
+    SystemCheckUp();  
+    sync();/*sync on 5ms*/
+    movingTimer++;
   }
   fillScreen(BLACK);
-  DrawText("GAME OVER",90,50,RED,4,BLACK);
+  DrawText("GAME OVER",110,50,RED,4,BLACK);
 
   /* USER CODE END 3 */
 }
@@ -366,6 +398,55 @@ static void MX_TIM2_Init(void)
 }
 
 /**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 48;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 5000;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_OC_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_TIMING;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_OC_ConfigChannel(&htim4, &sConfigOC, TIM_CHANNEL_4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
+  HAL_TIM_MspPostInit(&htim4);
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -385,7 +466,7 @@ static void MX_GPIO_Init(void)
                           |LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_15);
 
   /**/
-  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_9);
+  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14);
 
   /**/
   GPIO_InitStruct.Pin = LL_GPIO_PIN_1|LL_GPIO_PIN_2|LL_GPIO_PIN_3|LL_GPIO_PIN_4
@@ -398,7 +479,7 @@ static void MX_GPIO_Init(void)
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /**/
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_9;
+  GPIO_InitStruct.Pin = LL_GPIO_PIN_10|LL_GPIO_PIN_13|LL_GPIO_PIN_14;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
@@ -564,6 +645,7 @@ static void MX_GPIO_Init(void)
   NVIC_EnableIRQ(EXTI9_5_IRQn);
 
 }
+
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
