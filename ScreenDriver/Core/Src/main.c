@@ -53,6 +53,10 @@ int state6 = 0;
 int state7 = 0;
 int state8 = 0;
 
+int startGame = 0;
+int gameOver = 0;
+int BestScore = 0;
+char charBestScore[5];
 Board board;
 Piece piece;
 
@@ -75,44 +79,59 @@ void SystemCheckUp(void);
 /* USER CODE BEGIN 0 */
 void SystemCheckUp(){
   if(state0){
-
-    state0 = 0;
-    NVIC_EnableIRQ(EXTI0_IRQn);
+    if(startGame == 1){
+      state0 = 0;
+      
+    }
+    NVIC_EnableIRQ(EXTI0_IRQn); 
   }
   if(state1){
-    moveCurrentPieceDown(&board);
-    movingTimer = 0;
-    state1 = 0;
+    if(startGame == 1){
+      moveCurrentPieceDown(&board);
+      movingTimer = 0;
+      state1 = 0;
+      
+    }
     NVIC_EnableIRQ(EXTI1_IRQn);
+    
   }
   if(state3){
-    rotateCurrentPieceRight(&board);
-    state3 = 0;
+    if(startGame == 1){
+      rotateCurrentPieceRight(&board);
+      state3 = 0;
+    }
     NVIC_EnableIRQ(EXTI3_IRQn);
   }
   if(state4){
-    moveCurrentPieceLeft(&board);
-    state4 = 0;
+    if(startGame == 1){
+      moveCurrentPieceLeft(&board);
+      state4 = 0;
+    }
     NVIC_EnableIRQ(EXTI4_IRQn);
   }
   if(state5){
+    if(startGame == 1){
       moveCurrentPieceRight(&board);
       state5 = 0;
-      LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_5);
     }
+    LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_5);
+  }
   if(state6){
-
-    state6 = 0;
+    if(startGame == 1){
+      state6 = 0;
+    }
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_6);
   }
   if(state7){
-
+    startGame = 1;
     state7 = 0;
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_7);
   }
   if(state8){
-    rotateCurrentPieceLeft(&board);
-    state8 = 0;
+    if(startGame == 1){
+      rotateCurrentPieceLeft(&board);
+      state8 = 0;
+    }
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_8);
   }
 }
@@ -127,6 +146,101 @@ void sync(){
   * @brief  The application entry point.
   * @retval int
   */
+
+int game(){
+  fillScreen(BLACK);
+  initBoard(&board);
+  srand(LL_TIM_GetCounter(TIM4));
+  fillScreen(BLACK);
+  char charScore[5];
+  char charNbDeletedLines[3];
+  int intScore = 0;
+  int rythm    = 150; /*the tetromino will go down each time movingTimer >= rythm*/
+  int GameOver = 0;
+  int numberOfPieces = 0;
+  int nextPiece = rand()%7;
+  int nbDeletedLine = 0;
+  int resetCombo = 0;
+  int startResetCombo = 0;
+  printBorders();
+
+  sprintf(charScore,"%d",intScore);
+  DrawText("Score: ",140,150,WHITE,2,BLACK);
+  DrawText(charScore,120,150,WHITE,2,BLACK);
+
+  initPiece(&piece, rand()%7, 0);
+  newPiece(&board, &piece);
+  printNextPiece(nextPiece);
+  int speed = 0;
+  while (!GameOver)
+  {
+    LL_TIM_DisableCounter(TIM4);
+    LL_TIM_SetCounter(TIM4,0);
+    LL_TIM_EnableCounter(TIM4);
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
+ 
+    print(&board);    
+    
+    if (movingTimer >= rythm){
+      movingTimer = 0;
+
+      if(!moveCurrentPieceDownBot(&board)){
+        GameOver = isGameOver(&board);
+        initPiece(&piece, nextPiece, 0);
+        nextPiece = rand()%7;
+        newPiece(&board, &piece);
+        numberOfPieces ++;
+        nbDeletedLine = deletePossibleLines(&board);
+        intScore += pow(nbDeletedLine, 2) * 100;
+        if( nbDeletedLine > 0){
+          startResetCombo = 1;
+          if(nbDeletedLine == 4){
+            DrawText("TETRIS!", 80, 150, YELLOW, 2, BLACK);  
+            }
+          else{
+            sprintf(charNbDeletedLines, "%d", nbDeletedLine);
+            DrawText(charNbDeletedLines, 80, 145, WHITE, 2, BLACK);
+            DrawText(" LINE!", 80, 150, WHITE, 2, BLACK);
+          }
+        }
+        
+        sprintf(charScore,"%d",intScore);
+        DrawText(charScore,120,150,WHITE,2,BLACK);
+        printNextPiece(nextPiece);
+      }
+    }
+
+    SystemCheckUp();  
+    sync();/*sync on 5ms*/
+    movingTimer++;
+    speed++;
+    if( startResetCombo ){
+      resetCombo++;
+    }
+    if( resetCombo >= 300 ){
+      fillRect(70, 140, 20, 90, BLACK);
+      resetCombo = 0;
+      startResetCombo = 0;
+    }
+    if(speed % 30000 == 0 ){
+      if(rythm > 50){
+        rythm -= 20;
+      }
+    }
+  }
+  fillScreen(BLACK);
+  DrawText("GAME OVER",110,50,RED,4,BLACK);
+  DrawText("YOUR SCORE : ",70,50,WHITE,2,BLACK);
+  sprintf(charScore,"%d",intScore);
+  DrawText(charScore,50,50,WHITE,2,BLACK);
+  startGame = 0;
+  gameOver = 1;
+  return intScore;
+}
+
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -159,66 +273,38 @@ int main(void)
   LL_TIM_EnableCounter(TIM4);
   initScreen();
   fillScreen(BLACK);
- 
-  srand(time(NULL));
   initBoard(&board);
-
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  char charScore[5];
-  int intScore = 0;
-  int rythm    = 150; /*the tetromino will go down each time movingTimer >= rythm*/
-  int GameOver = 0;
-  int numberOfPieces = 0;
-  int nextPiece = rand()%7;
-  printBorders();
-
-  sprintf(charScore,"%d",intScore);
-  DrawText("Score: ",140,150,WHITE,2,BLACK);
-  DrawText(charScore,140,220,WHITE,2,BLACK);
-
-  initPiece(&piece, rand()%7, 0);
-  newPiece(&board, &piece);
-  printNextPiece(nextPiece);
-  
-  while (!GameOver)
-  {
+  int tmpScore = 0;
+  while(1){
     LL_TIM_DisableCounter(TIM4);
     LL_TIM_SetCounter(TIM4,0);
     LL_TIM_EnableCounter(TIM4);
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-
- 
-    print(&board);    
-    
-    if (movingTimer >= rythm){
-      movingTimer = 0;
-
-      if(!moveCurrentPieceDownBot(&board)){
-        GameOver = isGameOver(&board);
-        initPiece(&piece, nextPiece, 0);
-        nextPiece = rand()%7;
-        newPiece(&board, &piece);
-        numberOfPieces ++;
-        intScore += pow(deletePossibleLines(&board), 2) * 100;
-        
-        sprintf(charScore,"%d",intScore);
-        DrawText(charScore,140,220,WHITE,2,BLACK);
-        printNextPiece(nextPiece);
-      }
+    if(gameOver == 0){
+      DrawText("Press start to play!",140,20,WHITE,2,BLACK);
     }
-
-    SystemCheckUp();  
-    sync();/*sync on 5ms*/
-    movingTimer++;
+    else{
+      DrawText("Press start to replay",140,10,WHITE,2,BLACK);
+    }
+    
+  
+    while(startGame != 1){
+      SystemCheckUp();
+    }
+  tmpScore = game();
+  if(tmpScore > BestScore){
+    BestScore = tmpScore;
   }
-  fillScreen(BLACK);
-  DrawText("GAME OVER",110,50,RED,4,BLACK);
+  DrawText("BEST SCORE : ",30,50,WHITE,2,BLACK);
+  sprintf(charBestScore,"%d",BestScore);
+  DrawText(charBestScore,10,50,WHITE,2,BLACK);
+  }
+  
+  
 
   /* USER CODE END 3 */
 }
