@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccCfnbTH.s 			page 1
+ARM GAS  /tmp/ccXqHm6Q.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccCfnbTH.s 			page 1
   47              		.thumb_func
   48              		.fpu fpv4-sp-d16
   50              	setKind:
-ARM GAS  /tmp/ccCfnbTH.s 			page 2
+ARM GAS  /tmp/ccXqHm6Q.s 			page 2
 
 
   51              	.LFB2:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccCfnbTH.s 			page 1
   24:Core/Src/piece.c ****  
   25:Core/Src/piece.c **** int getKind(Piece * piece)
   26:Core/Src/piece.c **** {
-ARM GAS  /tmp/ccCfnbTH.s 			page 3
+ARM GAS  /tmp/ccXqHm6Q.s 			page 3
 
 
   96              		.loc 1 26 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccCfnbTH.s 			page 1
  144              		@ args = 0, pretend = 0, frame = 0
  145              		@ frame_needed = 0, uses_anonymous_args = 0
  146              		@ link register save eliminated.
-ARM GAS  /tmp/ccCfnbTH.s 			page 4
+ARM GAS  /tmp/ccXqHm6Q.s 			page 4
 
 
  147              	.LVL7:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccCfnbTH.s 			page 1
  194 0000 C160     		str	r1, [r0, #12]
  195 0002 7047     		bx	lr
  196              		.cfi_endproc
-ARM GAS  /tmp/ccCfnbTH.s 			page 5
+ARM GAS  /tmp/ccXqHm6Q.s 			page 5
 
 
  197              	.LFE8:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccCfnbTH.s 			page 1
  246              		.global	getPosY
  247              		.syntax unified
  248              		.thumb
-ARM GAS  /tmp/ccCfnbTH.s 			page 6
+ARM GAS  /tmp/ccXqHm6Q.s 			page 6
 
 
  249              		.thumb_func
@@ -332,33 +332,33 @@ ARM GAS  /tmp/ccCfnbTH.s 			page 1
  273              		.file 6 "/usr/include/newlib/stdlib.h"
  274              		.file 7 "Core/Src/../Inc/piece.h"
  275              		.file 8 "Core/Src/../Inc/shapes.h"
-ARM GAS  /tmp/ccCfnbTH.s 			page 7
+ARM GAS  /tmp/ccXqHm6Q.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 piece.c
-     /tmp/ccCfnbTH.s:18     .text.initPiece:0000000000000000 $t
-     /tmp/ccCfnbTH.s:25     .text.initPiece:0000000000000000 initPiece
-     /tmp/ccCfnbTH.s:43     .text.setKind:0000000000000000 $t
-     /tmp/ccCfnbTH.s:50     .text.setKind:0000000000000000 setKind
-     /tmp/ccCfnbTH.s:65     .text.setOrientation:0000000000000000 $t
-     /tmp/ccCfnbTH.s:72     .text.setOrientation:0000000000000000 setOrientation
-     /tmp/ccCfnbTH.s:87     .text.getKind:0000000000000000 $t
-     /tmp/ccCfnbTH.s:94     .text.getKind:0000000000000000 getKind
-     /tmp/ccCfnbTH.s:110    .text.getOrientation:0000000000000000 $t
-     /tmp/ccCfnbTH.s:117    .text.getOrientation:0000000000000000 getOrientation
-     /tmp/ccCfnbTH.s:133    .text.setColor:0000000000000000 $t
-     /tmp/ccCfnbTH.s:140    .text.setColor:0000000000000000 setColor
-     /tmp/ccCfnbTH.s:155    .text.getColor:0000000000000000 $t
-     /tmp/ccCfnbTH.s:162    .text.getColor:0000000000000000 getColor
-     /tmp/ccCfnbTH.s:178    .text.setPosX:0000000000000000 $t
-     /tmp/ccCfnbTH.s:185    .text.setPosX:0000000000000000 setPosX
-     /tmp/ccCfnbTH.s:200    .text.getPosX:0000000000000000 $t
-     /tmp/ccCfnbTH.s:207    .text.getPosX:0000000000000000 getPosX
-     /tmp/ccCfnbTH.s:223    .text.setPosY:0000000000000000 $t
-     /tmp/ccCfnbTH.s:230    .text.setPosY:0000000000000000 setPosY
-     /tmp/ccCfnbTH.s:245    .text.getPosY:0000000000000000 $t
-     /tmp/ccCfnbTH.s:252    .text.getPosY:0000000000000000 getPosY
+     /tmp/ccXqHm6Q.s:18     .text.initPiece:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:25     .text.initPiece:0000000000000000 initPiece
+     /tmp/ccXqHm6Q.s:43     .text.setKind:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:50     .text.setKind:0000000000000000 setKind
+     /tmp/ccXqHm6Q.s:65     .text.setOrientation:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:72     .text.setOrientation:0000000000000000 setOrientation
+     /tmp/ccXqHm6Q.s:87     .text.getKind:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:94     .text.getKind:0000000000000000 getKind
+     /tmp/ccXqHm6Q.s:110    .text.getOrientation:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:117    .text.getOrientation:0000000000000000 getOrientation
+     /tmp/ccXqHm6Q.s:133    .text.setColor:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:140    .text.setColor:0000000000000000 setColor
+     /tmp/ccXqHm6Q.s:155    .text.getColor:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:162    .text.getColor:0000000000000000 getColor
+     /tmp/ccXqHm6Q.s:178    .text.setPosX:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:185    .text.setPosX:0000000000000000 setPosX
+     /tmp/ccXqHm6Q.s:200    .text.getPosX:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:207    .text.getPosX:0000000000000000 getPosX
+     /tmp/ccXqHm6Q.s:223    .text.setPosY:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:230    .text.setPosY:0000000000000000 setPosY
+     /tmp/ccXqHm6Q.s:245    .text.getPosY:0000000000000000 $t
+     /tmp/ccXqHm6Q.s:252    .text.getPosY:0000000000000000 getPosY
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

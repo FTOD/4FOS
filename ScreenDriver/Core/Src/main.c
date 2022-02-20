@@ -80,8 +80,9 @@ void SystemCheckUp(void);
 void SystemCheckUp(){
   if(state0){
     if(startGame == 1){
-      state0 = 0;
-      
+      dropCurrentPiece(&board);
+      movingTimer = 0;
+      state0 = 0; 
     }
     NVIC_EnableIRQ(EXTI0_IRQn); 
   }
@@ -202,8 +203,8 @@ int game(){
             }
           else{
             sprintf(charNbDeletedLines, "%d", nbDeletedLine);
-            DrawText(charNbDeletedLines, 80, 145, WHITE, 2, BLACK);
-            DrawText(" LINE!", 80, 150, WHITE, 2, BLACK);
+            DrawText(charNbDeletedLines, 80, 140, WHITE, 2, BLACK);
+            DrawText("LINE!", 80, 160, WHITE, 2, BLACK);
           }
         }
         
@@ -232,7 +233,7 @@ int game(){
     }
   }
   fillScreen(BLACK);
-  DrawText("GAME OVER",110,50,RED,4,BLACK);
+  DrawText("GAME OVER",170,50,RED,4,BLACK);
   DrawText("YOUR SCORE : ",70,50,WHITE,2,BLACK);
   sprintf(charScore,"%d",intScore);
   DrawText(charScore,50,50,WHITE,2,BLACK);
@@ -288,7 +289,7 @@ int main(void)
       DrawText("Press start to play!",140,20,WHITE,2,BLACK);
     }
     else{
-      DrawText("Press start to replay",140,10,WHITE,2,BLACK);
+      DrawText("Press start to replay",120,10,WHITE,2,BLACK);
     }
     
   

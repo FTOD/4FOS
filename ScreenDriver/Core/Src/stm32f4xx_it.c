@@ -47,13 +47,7 @@
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
 void B0_Handler(void){
-  state0 = !state0 ;
-  if(state0){
-    LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_10);
-  }
-  else{
-    LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_10);    
-  }
+  state0 = 1 ;
 
   NVIC_DisableIRQ(EXTI0_IRQn);
 }
