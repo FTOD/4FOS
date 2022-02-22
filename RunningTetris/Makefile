@@ -36,7 +36,8 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
-Core/Src/main.c \
+Core/Src/os.c \
+Core/Src/game.c \
 Core/Src/stm32f4xx_it.c \
 Core/Src/ILI9341_Driver.c \
 Core/Src/board.c \

@@ -17,7 +17,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "os.h"
 #include "stm32f4xx_hal.h"
 #include "string.h"
 #include "stdio.h"
@@ -46,25 +46,25 @@ TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
-int state0 = 0;
-int state1 = 0;
-int state2 = 0;
-int state3 = 0;
-int state4 = 0;
-int state5 = 0;
-int state6 = 0;
-int state7 = 0;
-int state8 = 0;
+/* Buttons variables */
+int bUP     = 0;
+int bDOWN   = 0;
+int bA      = 0;
+int bLEFT   = 0;
+int bRIGHT  = 0;
+int bSELECT = 0;
+int bSTART  = 0;
+int bB      = 0;
 
-int startGame = 0;
-int gameOver = 0;
-int BestScore;
-char charBestScore[5];
-Board board;
-Piece piece;
-
-int movingTimer = 0;
-
+/* Buttons functions */
+void (*fUP)(void)     = &emptyFunc;
+void (*fA)(void)      = &emptyFunc;
+void (*fDOWN)(void)   = &emptyFunc;
+void (*fLEFT)(void)   = &emptyFunc;
+void (*fRIGHT)(void)  = &emptyFunc;
+void (*fSELECT)(void) = &emptyFunc;
+void (*fSTART)(void)  = &emptyFunc;
+void (*fB)(void)      = &emptyFunc;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -113,78 +113,8 @@ static uint32_t GetSector(uint32_t Address)
   {
     sector = FLASH_SECTOR_7;
   }
-/*  else if((Address < 0x0809FFFF) && (Address >= 0x08080000))
-  {
-    sector = FLASH_SECTOR_8;
-  }
-  else if((Address < 0x080BFFFF) && (Address >= 0x080A0000))
-  {
-    sector = FLASH_SECTOR_9;
-  }
-  else if((Address < 0x080DFFFF) && (Address >= 0x080C0000))
-  {
-    sector = FLASH_SECTOR_10;
-  }
-  else if((Address < 0x080FFFFF) && (Address >= 0x080E0000))
-  {
-    sector = FLASH_SECTOR_11;
-  }
-  else if((Address < 0x08103FFF) && (Address >= 0x08100000))
-  {
-    sector = FLASH_SECTOR_12;
-  }
-  else if((Address < 0x08107FFF) && (Address >= 0x08104000))
-  {
-    sector = FLASH_SECTOR_13;
-  }
-  else if((Address < 0x0810BFFF) && (Address >= 0x08108000))
-  {
-    sector = FLASH_SECTOR_14;
-  }
-  else if((Address < 0x0810FFFF) && (Address >= 0x0810C000))
-  {
-    sector = FLASH_SECTOR_15;
-  }
-  else if((Address < 0x0811FFFF) && (Address >= 0x08110000))
-  {
-    sector = FLASH_SECTOR_16;
-  }
-  else if((Address < 0x0813FFFF) && (Address >= 0x08120000))
-  {
-    sector = FLASH_SECTOR_17;
-  }
-  else if((Address < 0x0815FFFF) && (Address >= 0x08140000))
-  {
-    sector = FLASH_SECTOR_18;
-  }
-  else if((Address < 0x0817FFFF) && (Address >= 0x08160000))
-  {
-    sector = FLASH_SECTOR_19;
-  }
-  else if((Address < 0x0819FFFF) && (Address >= 0x08180000))
-  {
-    sector = FLASH_SECTOR_20;
-  }
-  else if((Address < 0x081BFFFF) && (Address >= 0x081A0000))
-  {
-    sector = FLASH_SECTOR_21;
-  }
-  else if((Address < 0x081DFFFF) && (Address >= 0x081C0000))
-  {
-    sector = FLASH_SECTOR_22;
-  }
-  else if (Address < 0x081FFFFF) && (Address >= 0x081E0000)
-  {
-    sector = FLASH_SECTOR_23;
-  }*/
   return sector;
 }
-
-
-
-
-
-
 
 uint8_t bytes_temp[4];
 
@@ -324,64 +254,121 @@ float Flash_Read_NUM (uint32_t StartSectorAddress)
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void emptyFunc(void){
+  return;
+}
+
+void setAfunction(void (*f)(void)){
+  fA = f;
+}
+
+void setBfunction(void (*f)(void)){
+  fB = f;
+}
+
+void setUPfunction(void (*f)(void)){
+  fUP = f;
+}
+
+void setDOWNfunction(void (*f)(void)){
+  fDOWN = f;
+}
+
+void setRIGHTfunction(void (*f)(void)){
+  fRIGHT = f;
+}
+
+void setLEFTfunction(void (*f)(void)){
+  fLEFT = f;
+}
+
+void setSTARTfunction(void (*f)(void)){
+  fSTART = f;
+}
+
+void setSELECTfunction(void (*f)(void)){
+  fSELECT = f;
+}
+
 void SystemCheckUp(){
-  if(state0){
-    if(startGame == 1){
-      dropCurrentPiece(&board);
-      movingTimer = 0;
-      state0 = 0; 
-    }
-    NVIC_EnableIRQ(EXTI0_IRQn); 
+  if(bUP){
+    bUP = 0;
+    fUP();
+    NVIC_EnableIRQ(EXTI0_IRQn);
   }
-  if(state1){
-    if(startGame == 1){
-      moveCurrentPieceDown(&board);
-      movingTimer = 0;
-      state1 = 0;
-      
-    }
+  if(bDOWN){
+    fDOWN();
+    bDOWN = 0;
     NVIC_EnableIRQ(EXTI1_IRQn);
-    
   }
-  if(state3){
-    if(startGame == 1){
-      rotateCurrentPieceRight(&board);
-      state3 = 0;
-    }
+  if(bA){
+    bA = 0;
+    fA();
     NVIC_EnableIRQ(EXTI3_IRQn);
   }
-  if(state4){
-    if(startGame == 1){
-      moveCurrentPieceLeft(&board);
-      state4 = 0;
-    }
+  if(bLEFT){
+    bLEFT = 0;
+    fLEFT();
     NVIC_EnableIRQ(EXTI4_IRQn);
   }
-  if(state5){
-    if(startGame == 1){
-      moveCurrentPieceRight(&board);
-      state5 = 0;
-    }
+  if(bRIGHT){
+    bRIGHT = 0;
+    fRIGHT();
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_5);
   }
-  if(state6){
-    if(startGame == 1){
-      state6 = 0;
-    }
+  if(bSELECT){
+    bSELECT = 0;
+    fSELECT();
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_6);
   }
-  if(state7){
-    startGame = 1;
-    state7 = 0;
+  if(bSTART){
+    bSTART = 0;
+    fSTART();
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_7);
   }
-  if(state8){
-    if(startGame == 1){
-      rotateCurrentPieceLeft(&board);
-      state8 = 0;
-    }
+  if(bB){
+    bB = 0;
+    fB();
     LL_EXTI_EnableIT_0_31(LL_EXTI_LINE_8);
   }
+}
+
+void initSystem(){
+
+  HAL_Init();
+  SystemClock_Config();
+
+  MX_GPIO_Init();
+
+  MX_TIM1_Init();
+  MX_TIM2_Init();
+  MX_TIM4_Init();
+
+  LL_TIM_EnableCounter(TIM1);
+  LL_TIM_EnableCounter(TIM4);
+
+  initScreen();
+}
+
+void saveHighScore(int score){
+  Flash_Write_NUM(0x0800C100, score);
+}
+
+int  getHighScore(){
+  return Flash_Read_NUM(0x0800C100);
+}
+
+void updateHighScore(int score){
+  int high = Flash_Read_NUM(0x0800C100);
+  if(score > high){
+    Flash_Write_NUM(0x0800C100, score);
+  }
+}
+
+void setSync(int us){
+  LL_TIM_DisableCounter(TIM4);
+  LL_TIM_SetCounter(TIM4, us);
+  LL_TIM_EnableCounter(TIM4);
 }
 
 void sync(){
@@ -390,107 +377,7 @@ void sync(){
 }
 /* USER CODE END 0 */
 
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
 
-int game(){
-  fillScreen(BLACK);
-  initBoard(&board);
-  srand(LL_TIM_GetCounter(TIM4));
-  fillScreen(BLACK);
-  char charScore[5];
-  char charNbDeletedLines[3];
-  int intScore = 0;
-  int rythm    = 150; /*the tetromino will go down each time movingTimer >= rythm*/
-  int GameOver = 0;
-  int numberOfPieces = 0;
-  int nextPiece = rand()%7;
-  int nbDeletedLine = 0;
-  int resetCombo = 0;
-  int startResetCombo = 0;
-  printBorders();
-
-  sprintf(charScore,"%d",intScore);
-  DrawText("Score: ",140,150,WHITE,2,BLACK);
-  DrawText(charScore,120,150,WHITE,2,BLACK);
-
-  initPiece(&piece, rand()%7, 0);
-  newPiece(&board, &piece);
-  printNextPiece(nextPiece);
-  int speed = 0;
-  while (!GameOver)
-  {
-    LL_TIM_DisableCounter(TIM4);
-    LL_TIM_SetCounter(TIM4,0);
-    LL_TIM_EnableCounter(TIM4);
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-
- 
-    print(&board);    
-    
-    if (movingTimer >= rythm){
-      movingTimer = 0;
-
-      if(!moveCurrentPieceDownBot(&board)){
-        GameOver = isGameOver(&board);
-        initPiece(&piece, nextPiece, 0);
-        nextPiece = rand()%7;
-        newPiece(&board, &piece);
-        numberOfPieces ++;
-        nbDeletedLine = deletePossibleLines(&board);
-        intScore += pow(nbDeletedLine, 2) * 100;
-        if( nbDeletedLine > 0){
-          startResetCombo = 1;
-          if(nbDeletedLine == 4){
-            DrawText("TETRIS!", 80, 150, YELLOW, 2, BLACK);  
-            }
-          else{
-            sprintf(charNbDeletedLines, "%d", nbDeletedLine);
-            DrawText(charNbDeletedLines, 80, 140, WHITE, 2, BLACK);
-            DrawText("LINE!", 80, 160, WHITE, 2, BLACK);
-          }
-        }
-        
-        sprintf(charScore,"%d",intScore);
-        DrawText(charScore,120,150,WHITE,2,BLACK);
-        printNextPiece(nextPiece);
-      }
-    }
-
-    SystemCheckUp();  
-    sync();/*sync on 5ms*/
-    movingTimer++;
-    speed++;
-    if( startResetCombo ){
-      resetCombo++;
-    }
-    if( resetCombo >= 300 ){
-      fillRect(70, 140, 20, 90, BLACK);
-      resetCombo = 0;
-      startResetCombo = 0;
-    }
-    if(speed % 30000 == 0 ){
-      if(rythm > 50){
-        rythm -= 20;
-      }
-    }
-  }
-  fillScreen(BLACK);
-  DrawText("GAME OVER",170,50,RED,4,BLACK);
-  DrawText("YOUR SCORE : ",70,50,WHITE,2,BLACK);
-  sprintf(charScore,"%d",intScore);
-  DrawText(charScore,50,50,WHITE,2,BLACK);
-  startGame = 0;
-  gameOver = 1;
-  return intScore;
-}
-
-int main(void)
-{
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -498,66 +385,32 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+
 
   /* USER CODE BEGIN Init */
 
   /* USER CODE END Init */
 
   /* Configure the system clock */
-  SystemClock_Config();
+
 
   /* USER CODE BEGIN SysInit */
 
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_TIM1_Init();
-  MX_TIM2_Init();
-  MX_TIM4_Init();
+ 
   /* USER CODE BEGIN 2 */
-  LL_TIM_EnableCounter(TIM1);
-  LL_TIM_EnableCounter(TIM4);
-  initScreen();
-  fillScreen(BLACK);
-  initBoard(&board);
+
   //Flash_Write_NUM(0x0800C100, BestScore);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int tmpScore = 0;
-  while(1){
-    LL_TIM_DisableCounter(TIM4);
-    LL_TIM_SetCounter(TIM4,0);
-    LL_TIM_EnableCounter(TIM4);
-    if(gameOver == 0){
-      DrawText("Press start to play!",140,20,WHITE,2,BLACK);
-    }
-    else{
-      DrawText("Press start to replay",120,10,WHITE,2,BLACK);
-    }
-    
-  
-    while(startGame != 1){
-      SystemCheckUp();
-    }
-  tmpScore = game();
-  BestScore = Flash_Read_NUM(0x0800C100);
-  if(tmpScore > BestScore){
-    Flash_Write_NUM(0x0800C100, tmpScore);
-  }
-  BestScore = Flash_Read_NUM(0x0800C100);
-  DrawText("BEST SCORE : ",30,50,WHITE,2,BLACK);
-  sprintf(charBestScore,"%d",BestScore);
-  DrawText(charBestScore,10,50,WHITE,2,BLACK);
-  }
-  
   
 
   /* USER CODE END 3 */
-}
+
 
 /**
   * @brief System Clock Configuration

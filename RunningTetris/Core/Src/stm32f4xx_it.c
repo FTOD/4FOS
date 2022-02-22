@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
+#include "os.h"
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -47,41 +47,39 @@
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
 void B0_Handler(void){
-  state0 = 1 ;
-
+  bUP = 1 ;
   NVIC_DisableIRQ(EXTI0_IRQn);
 }
 
 void B1_Handler(void){
-  state1 = 1 ;
-
+  bDOWN = 1 ;
   NVIC_DisableIRQ(EXTI1_IRQn);
 }
 
 
 void B3_Handler(void){
-  state3 = 1 ;
+  bA = 1 ;
   NVIC_DisableIRQ(EXTI3_IRQn);
 }
 
 void B4_Handler(void){
-  state4 = 1 ;
+  bLEFT = 1 ;
   NVIC_DisableIRQ(EXTI4_IRQn);
 }
 void B5_Handler(void){
-  state5 = 1 ;
+  bRIGHT = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_5);
 }
 void B6_Handler(void){
-  state6 = 1 ;
+  bSELECT = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_6);
 }
 void B7_Handler(void){
-  state7 = 1 ;
+  bSTART = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_7);
 }
 void B8_Handler(void){
-  state8 = 1 ;
+  bB = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_8);
 }
 /* USER CODE END PFP */

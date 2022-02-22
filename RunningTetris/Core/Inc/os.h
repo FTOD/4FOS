@@ -59,15 +59,26 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-extern int state0 ;
-extern int state1 ;
-extern int state2 ;
-extern int state3 ;
-extern int state4 ;
-extern int state5 ;
-extern int state6 ;
-extern int state7 ;
-extern int state8 ;
+/* Buttons variables */
+extern int bUP ;
+extern int bDOWN ;
+extern int bA ;
+extern int bLEFT ;
+extern int bRIGHT ;
+extern int bSELECT ;
+extern int bSTART ;
+extern int bB ;
+
+/* Buttons functions */
+extern void (*fUP)(void);
+extern void (*fDOWN)(void);
+extern void (*fA)(void);
+extern void (*fLEFT)(void);
+extern void (*fRIGHT)(void);
+extern void (*fSELECT)(void);
+extern void (*fSTART)(void);
+extern void (*fB)(void);
+
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -81,6 +92,27 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
+void setAfunction(void (*f)(void));
+void setBfunction(void (*f)(void));
+void setUPfunction(void (*f)(void));
+void setDOWNfunction(void (*f)(void));
+void setRIGHTfunction(void (*f)(void));
+void setLEFTfunction(void (*f)(void));
+void setSTARTfunction(void (*f)(void));
+void setSELECTfunction(void (*f)(void));
+
+void emptyFunc(void);
+
+void saveHighScore(int score);
+int  getHighScore();
+void updateHighScore(int score);
+
+void initSystem();
+void setSync(int us);
+
+/* These functions must be called each loop iteration */
+void SystemCheckUp(void);
+void sync();
 
 /* USER CODE END EFP */
 

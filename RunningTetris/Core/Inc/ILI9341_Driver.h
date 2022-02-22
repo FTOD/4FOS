@@ -1,4 +1,4 @@
-#include "main.h"
+#include "os.h"
 #include "../Inc/registers.h"
 #include "../Inc/5x5_font.h"
 #include <stdint.h>

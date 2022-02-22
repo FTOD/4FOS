@@ -1,6 +1,6 @@
 /* board.cpp */
 #include "../Inc/board.h"
-#include "../Inc/main.h"
+#include "../Inc/os.h"
 
 #define TAILLE_CASE  11
 #define DECALAGE_GAUCHE 20
