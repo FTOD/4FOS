@@ -1,7 +1,7 @@
 #include "game.h"
 
-#define SYNC_TIME     50000
-#define INITIAL_RYTHM 150
+#define SYNC_TIME     5000
+#define INITIAL_RYTHM 200
 #define SPEEDUP_RYTHM 30000
 
 Board board;
@@ -189,8 +189,7 @@ int main(void){
     /* Set up */
     initSystem();
     setSync(SYNC_TIME);
-    setButtonsOutGame();   
-    
+    setButtonsOutGame();
     /* VARIABLES */
     int score = 0;
     char charScore[6];

@@ -5,7 +5,7 @@
 #define WR_PORT GPIOB
 #define DC_PORT GPIOB
 #define RST_PORT GPIOB
-#define DATA_PORT GPIOB // pins [A1-A8]
+#define DATA_PORT GPIOB 
 
 #define CS_PIN LL_GPIO_PIN_3
 #define RD_PIN LL_GPIO_PIN_5
@@ -17,6 +17,7 @@
 /* Le masque depend des pins défini a la ligne précedente */
 #define MASK_BSRR_DATA 0b11110111100000001111011110000000
 
+unsigned int tabPinData[8] = {LL_GPIO_PIN_15 ,LL_GPIO_PIN_14,LL_GPIO_PIN_13, LL_GPIO_PIN_12, LL_GPIO_PIN_10, LL_GPIO_PIN_9, LL_GPIO_PIN_8, LL_GPIO_PIN_7};
 
 /* Global Variables ------------------------------------------------------------------*/
 volatile uint16_t TFTWIDTH = 240 ;
@@ -62,9 +63,23 @@ void WRStrobe(){
 
 
 /* Envoie la valeur en entré sur les 8 pins data */
+// void write8(uint8_t value){
+//     DATA_PORT->BSRR = MASK_BSRR_DATA & (value << 1); // decalage de 1 vers la gauche car nos pins commencent sur A1 
+//     DATA_PORT->BSRR = MASK_BSRR_DATA & (~(value) << (1+16));
+//     WRStrobe();
+// }
+
 void write8(uint8_t value){
-    DATA_PORT->BSRR = MASK_BSRR_DATA & (value << 1); // decalage de 1 vers la gauche car nos pins commencent sur A1 
-    DATA_PORT->BSRR = MASK_BSRR_DATA & (~(value) << (1+16));
+    uint bit_value;
+    for(int i = 0; i < 8; i++){
+        bit_value = (( value >> i) & 1);
+        if (bit_value == 1){
+            LL_GPIO_SetOutputPin(DATA_PORT,tabPinData[i]);
+        }
+        else{
+            LL_GPIO_ResetOutputPin(DATA_PORT, tabPinData[i]);
+        }
+    }
     WRStrobe();
 }
 

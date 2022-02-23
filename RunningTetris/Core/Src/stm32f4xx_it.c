@@ -46,39 +46,39 @@
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-void B0_Handler(void){
+void UP_Handler(void){
   bUP = 1 ;
   NVIC_DisableIRQ(EXTI0_IRQn);
 }
 
-void B1_Handler(void){
+void DOWN_Handler(void){
   bDOWN = 1 ;
   NVIC_DisableIRQ(EXTI1_IRQn);
 }
 
 
-void B3_Handler(void){
+void A_Handler(void){
   bA = 1 ;
   NVIC_DisableIRQ(EXTI3_IRQn);
 }
 
-void B4_Handler(void){
+void LEFT_Handler(void){
   bLEFT = 1 ;
   NVIC_DisableIRQ(EXTI4_IRQn);
 }
-void B5_Handler(void){
+void RIGHT_Handler(void){
   bRIGHT = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_5);
 }
-void B6_Handler(void){
+void SELECT_Handler(void){
   bSELECT = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_6);
 }
-void B7_Handler(void){
+void START_Handler(void){
   bSTART = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_7);
 }
-void B8_Handler(void){
+void B_Handler(void){
   bB = 1 ;
   LL_EXTI_DisableIT_0_31(LL_EXTI_LINE_8);
 }
@@ -234,6 +234,46 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles EXTI line1 interrupt.
+  */
+void EXTI1_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI1_IRQn 0 */
+
+  /* USER CODE END EXTI1_IRQn 0 */
+  if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_1) != RESET)
+  {
+    LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_1);
+    /* USER CODE BEGIN LL_EXTI_LINE_1 */
+    START_Handler();
+    /* USER CODE END LL_EXTI_LINE_1 */
+  }
+  /* USER CODE BEGIN EXTI1_IRQn 1 */
+
+  /* USER CODE END EXTI1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles EXTI line2 interrupt.
+  */
+void EXTI2_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI2_IRQn 0 */
+
+  /* USER CODE END EXTI2_IRQn 0 */
+  if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_2) != RESET)
+  {
+    LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_2);
+    /* USER CODE BEGIN LL_EXTI_LINE_2 */
+    SELECT_Handler();
+    /* USER CODE END LL_EXTI_LINE_2 */
+  }
+  /* USER CODE BEGIN EXTI2_IRQn 1 */
+
+  /* USER CODE END EXTI2_IRQn 1 */
+}
+
+/**
   * @brief This function handles EXTI line3 interrupt.
   */
 void EXTI3_IRQHandler(void)
@@ -245,7 +285,7 @@ void EXTI3_IRQHandler(void)
   {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_3);
     /* USER CODE BEGIN LL_EXTI_LINE_3 */
-    B3_Handler();
+    UP_Handler();
     /* USER CODE END LL_EXTI_LINE_3 */
   }
   /* USER CODE BEGIN EXTI3_IRQn 1 */
@@ -265,7 +305,7 @@ void EXTI4_IRQHandler(void)
   {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_4);
     /* USER CODE BEGIN LL_EXTI_LINE_4 */
-     B4_Handler();
+     DOWN_Handler();
     /* USER CODE END LL_EXTI_LINE_4 */
   }
   /* USER CODE BEGIN EXTI4_IRQn 1 */
@@ -285,28 +325,28 @@ void EXTI9_5_IRQHandler(void)
   {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_5);
     /* USER CODE BEGIN LL_EXTI_LINE_5 */
-    B5_Handler();
+    LEFT_Handler();
     /* USER CODE END LL_EXTI_LINE_5 */
   }
   if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_6) != RESET)
   {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_6);
     /* USER CODE BEGIN LL_EXTI_LINE_6 */
-    B6_Handler();
+    RIGHT_Handler();
     /* USER CODE END LL_EXTI_LINE_6 */
   }
   if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_7) != RESET)
   {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_7);
     /* USER CODE BEGIN LL_EXTI_LINE_7 */
-    B7_Handler();
+    A_Handler();
     /* USER CODE END LL_EXTI_LINE_7 */
   }
   if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_8) != RESET)
   {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_8);
     /* USER CODE BEGIN LL_EXTI_LINE_8 */
-    B8_Handler();
+    B_Handler();
     /* USER CODE END LL_EXTI_LINE_8 */
   }
   /* USER CODE BEGIN EXTI9_5_IRQn 1 */
