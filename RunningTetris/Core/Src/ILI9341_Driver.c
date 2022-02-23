@@ -1,21 +1,21 @@
 #include "../Inc/ILI9341_Driver.h"
 
-#define CS_PORT GPIOA
-#define RD_PORT GPIOA
-#define WR_PORT GPIOA
-#define DC_PORT GPIOA
+#define CS_PORT GPIOB
+#define RD_PORT GPIOB
+#define WR_PORT GPIOB
+#define DC_PORT GPIOB
 #define RST_PORT GPIOB
-#define DATA_PORT GPIOA // pins [A1-A8]
+#define DATA_PORT GPIOB // pins [A1-A8]
 
-#define CS_PIN LL_GPIO_PIN_10
-#define RD_PIN LL_GPIO_PIN_15
-#define WR_PIN LL_GPIO_PIN_14
-#define DC_PIN LL_GPIO_PIN_13
+#define CS_PIN LL_GPIO_PIN_3
+#define RD_PIN LL_GPIO_PIN_5
+#define WR_PIN LL_GPIO_PIN_6
+#define DC_PIN LL_GPIO_PIN_4
 #define RST_PIN LL_GPIO_PIN_9
-#define DATA_PIN LL_GPIO_PIN_1|LL_GPIO_PIN_2|LL_GPIO_PIN_3|LL_GPIO_PIN_4|LL_GPIO_PIN_5|LL_GPIO_PIN_6|LL_GPIO_PIN_7|LL_GPIO_PIN_8
+#define DATA_PIN LL_GPIO_PIN_7|LL_GPIO_PIN_8|LL_GPIO_PIN_9|LL_GPIO_PIN_10|LL_GPIO_PIN_12|LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_15
 
 /* Le masque depend des pins défini a la ligne précedente */
-#define MASK_BSRR_DATA 0b00000001111111100000000111111110
+#define MASK_BSRR_DATA 0b11110111100000001111011110000000
 
 
 /* Global Variables ------------------------------------------------------------------*/
