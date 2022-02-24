@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cci3Wc9J.s 			page 1
+ARM GAS  /tmp/ccdh1ORM.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -31,7 +31,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
    2:Core/Src/game.c **** 
    3:Core/Src/game.c **** #define SYNC_TIME     5000
    4:Core/Src/game.c **** #define INITIAL_RYTHM 200
-   5:Core/Src/game.c **** #define SPEEDUP_RYTHM 30000
+   5:Core/Src/game.c **** #define SPEEDUP_RYTHM 3000
    6:Core/Src/game.c **** 
    7:Core/Src/game.c **** Board board;
    8:Core/Src/game.c **** Piece piece;
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
   29:Core/Src/game.c ****     moveCurrentPieceLeft(&board);
   30:Core/Src/game.c **** }
   31:Core/Src/game.c **** 
-ARM GAS  /tmp/cci3Wc9J.s 			page 2
+ARM GAS  /tmp/ccdh1ORM.s 			page 2
 
 
   32:Core/Src/game.c **** void A(void){    
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
   72 000a 00BF     		.align	2
   73              	.L6:
   74 000c 00000000 		.word	board
-ARM GAS  /tmp/cci3Wc9J.s 			page 3
+ARM GAS  /tmp/ccdh1ORM.s 			page 3
 
 
   75              		.cfi_endproc
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  129              	.LCFI2:
  130              		.cfi_def_cfa_offset 8
  131              		.cfi_offset 3, -8
-ARM GAS  /tmp/cci3Wc9J.s 			page 4
+ARM GAS  /tmp/ccdh1ORM.s 			page 4
 
 
  132              		.cfi_offset 14, -4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  186              		.loc 1 32 0
  187              		.cfi_startproc
  188              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cci3Wc9J.s 			page 5
+ARM GAS  /tmp/ccdh1ORM.s 			page 5
 
 
  189              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  243              		.thumb_func
  244              		.fpu fpv4-sp-d16
  246              	displayScore:
-ARM GAS  /tmp/cci3Wc9J.s 			page 6
+ARM GAS  /tmp/ccdh1ORM.s 			page 6
 
 
  247              	.LFB742:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  295              		.thumb
  296              		.thumb_func
  297              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/cci3Wc9J.s 			page 7
+ARM GAS  /tmp/ccdh1ORM.s 			page 7
 
 
  299              	setButtonsInGame:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  344 0038 00000000 		.word	UP
  345 003c 00000000 		.word	DOWN
  346 0040 00000000 		.word	RIGHT
-ARM GAS  /tmp/cci3Wc9J.s 			page 8
+ARM GAS  /tmp/ccdh1ORM.s 			page 8
 
 
  347 0044 00000000 		.word	LEFT
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  394 0024 FFF7FEFF 		bl	setLEFTfunction
  395              	.LVL22:
   67:Core/Src/game.c ****     setSTARTfunction(&START);
-ARM GAS  /tmp/cci3Wc9J.s 			page 9
+ARM GAS  /tmp/ccdh1ORM.s 			page 9
 
 
  396              		.loc 1 67 0
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
    1:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
    2:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   ******************************************************************************
    3:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @file    stm32f4xx_ll_tim.h
-ARM GAS  /tmp/cci3Wc9J.s 			page 10
+ARM GAS  /tmp/ccdh1ORM.s 			page 10
 
 
    4:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @author  MCD Application Team
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
   58:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
   59:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0U,            /* 0: OC1M, OC1FE, OC1PE */
   60:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0U,            /* 1: - NA */
-ARM GAS  /tmp/cci3Wc9J.s 			page 11
+ARM GAS  /tmp/ccdh1ORM.s 			page 11
 
 
   61:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   8U,            /* 2: OC2M, OC2FE, OC2PE */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  115:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define TIM11_OR_RMP_MASK  (TIM_OR_TI1_RMP << TIMx_OR_RMP_SHIFT)
  116:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  117:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /* Mask used to set the TDG[x:0] of the DTG bits of the TIMx_BDTR register */
-ARM GAS  /tmp/cci3Wc9J.s 			page 12
+ARM GAS  /tmp/ccdh1ORM.s 			page 12
 
 
  118:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define DT_DELAY_1 ((uint8_t)0x7F)
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  172:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  173:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  174:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /* Exported types ------------------------------------------------------------*/
-ARM GAS  /tmp/cci3Wc9J.s 			page 13
+ARM GAS  /tmp/ccdh1ORM.s 			page 13
 
 
  175:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #if defined(USE_FULL_LL_DRIVER)
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  229:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  230:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** typedef struct
  231:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
-ARM GAS  /tmp/cci3Wc9J.s 			page 14
+ARM GAS  /tmp/ccdh1ORM.s 			page 14
 
 
  232:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t OCMode;        /*!< Specifies the output mode.
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  286:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** typedef struct
  287:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
  288:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/cci3Wc9J.s 			page 15
+ARM GAS  /tmp/ccdh1ORM.s 			page 15
 
 
  289:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t ICPolarity;    /*!< Specifies the active edge of the input signal.
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  343:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  344:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t IC1Filter;       /*!< Specifies the TI1 input filter.
  345:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                  This parameter can be a value of @ref TIM_LL_EC_IC_FILTER.
-ARM GAS  /tmp/cci3Wc9J.s 			page 16
+ARM GAS  /tmp/ccdh1ORM.s 			page 16
 
 
  346:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  400:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     This feature can be modified afterwards using unitary function
  401:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     @ref LL_TIM_IC_SetFilter().*/
  402:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/cci3Wc9J.s 			page 17
+ARM GAS  /tmp/ccdh1ORM.s 			page 17
 
 
  403:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t CommutationDelay;   /*!< Specifies the compare value to be loaded into the Capture Compa
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  457:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                       @note This bit-field can not be modified as long as LOCK leve
  458:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                       programmed. */
  459:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/cci3Wc9J.s 			page 18
+ARM GAS  /tmp/ccdh1ORM.s 			page 18
 
 
  460:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint32_t BreakPolarity;        /*!< Specifies the TIM Break Input pin polarity.
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  514:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_BREAK_ENABLE             TIM_BDTR_BKE            /*!< Break function enabled */
  515:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  516:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
-ARM GAS  /tmp/cci3Wc9J.s 			page 19
+ARM GAS  /tmp/ccdh1ORM.s 			page 19
 
 
  517:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  571:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  572:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  573:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/cci3Wc9J.s 			page 20
+ARM GAS  /tmp/ccdh1ORM.s 			page 20
 
 
  574:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  628:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_CHANNEL_CH2                     TIM_CCER_CC2E     /*!< Timer input/output channel 2 
  629:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_CHANNEL_CH2N                    TIM_CCER_CC2NE    /*!< Timer complementary output ch
  630:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_CHANNEL_CH3                     TIM_CCER_CC3E     /*!< Timer input/output channel 3 
-ARM GAS  /tmp/cci3Wc9J.s 			page 21
+ARM GAS  /tmp/ccdh1ORM.s 			page 21
 
 
  631:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_CHANNEL_CH3N                    TIM_CCER_CC3NE    /*!< Timer complementary output ch
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  685:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_ACTIVEINPUT_DIRECTTI            (TIM_CCMR1_CC1S_0 << 16U) /*!< ICx is mapped on TIx 
  686:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_ACTIVEINPUT_INDIRECTTI          (TIM_CCMR1_CC1S_1 << 16U) /*!< ICx is mapped on TIy 
  687:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_ACTIVEINPUT_TRC                 (TIM_CCMR1_CC1S << 16U)   /*!< ICx is mapped on TRC 
-ARM GAS  /tmp/cci3Wc9J.s 			page 22
+ARM GAS  /tmp/ccdh1ORM.s 			page 22
 
 
  688:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  742:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  743:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  744:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/cci3Wc9J.s 			page 23
+ARM GAS  /tmp/ccdh1ORM.s 			page 23
 
 
  745:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  799:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
  800:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  801:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_ETR_POLARITY_NONINVERTED        0x00000000U             /*!< ETR is non-inverted, ac
-ARM GAS  /tmp/cci3Wc9J.s 			page 24
+ARM GAS  /tmp/ccdh1ORM.s 			page 24
 
 
  802:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_ETR_POLARITY_INVERTED           TIM_SMCR_ETP            /*!< ETR is inverted, active
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  856:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  857:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_OSSI_DISABLE                    0x00000000U             /*!< When inactive, OCx/OCxN
  858:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_OSSI_ENABLE                     TIM_BDTR_OSSI           /*!< When inactive, OxC/OCxN
-ARM GAS  /tmp/cci3Wc9J.s 			page 25
+ARM GAS  /tmp/ccdh1ORM.s 			page 25
 
 
  859:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  913:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_13TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2)                     
  914:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_14TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2 | TIM_DCR_DBL_0)     
  915:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_15TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2 | TIM_DCR_DBL_1)     
-ARM GAS  /tmp/cci3Wc9J.s 			page 26
+ARM GAS  /tmp/ccdh1ORM.s 			page 26
 
 
  916:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_16TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2 | TIM_DCR_DBL_1 | TIM
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  970:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  971:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TIM5_ITR1_RMP_TIM3_TRGO    LL_TIM_LPTIM_REMAP_MASK                              /*!<
  972:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TIM5_ITR1_RMP_LPTIM       (LL_TIM_LPTIM_REMAP_MASK | LPTIM_OR_TIM5_ITR1_RMP)    /*!<
-ARM GAS  /tmp/cci3Wc9J.s 			page 27
+ARM GAS  /tmp/ccdh1ORM.s 			page 27
 
 
  973:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1027:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   ( (((uint64_t)((__DT__)*1000U)) < ((DT_DELAY_1+1U) * TIM_CALC_DTS((__TIMCLK__), (__CKD__))))    ?
 1028:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****     (uint8_t)(((uint64_t)((__DT__)*1000U) / TIM_CALC_DTS((__TIMCLK__), (__CKD__)))  & DT_DELAY_1) :
 1029:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****     (((uint64_t)((__DT__)*1000U)) < ((64U + (DT_DELAY_2+1U)) * 2U * TIM_CALC_DTS((__TIMCLK__), (__C
-ARM GAS  /tmp/cci3Wc9J.s 			page 28
+ARM GAS  /tmp/ccdh1ORM.s 			page 28
 
 
 1030:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****     (uint8_t)(DT_RANGE_2 | ((uint8_t)((uint8_t)((((uint64_t)((__DT__)*1000U))/ TIM_CALC_DTS((__TIMC
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1084:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define __LL_TIM_CALC_PULSE(__TIMCLK__, __PSC__, __DELAY__, __PULSE__)  \
 1085:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   ((uint32_t)(__LL_TIM_CALC_DELAY((__TIMCLK__), (__PSC__), (__PULSE__)) \
 1086:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****               + __LL_TIM_CALC_DELAY((__TIMCLK__), (__PSC__), (__DELAY__))))
-ARM GAS  /tmp/cci3Wc9J.s 			page 29
+ARM GAS  /tmp/ccdh1ORM.s 			page 29
 
 
 1087:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1141:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 1142:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Indicates whether the timer counter is enabled.
 1143:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll CR1          CEN           LL_TIM_IsEnabledCounter
-ARM GAS  /tmp/cci3Wc9J.s 			page 30
+ARM GAS  /tmp/ccdh1ORM.s 			page 30
 
 
 1144:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1198:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_UPDATESOURCE_COUNTER
 1199:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 1200:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/cci3Wc9J.s 			page 31
+ARM GAS  /tmp/ccdh1ORM.s 			page 31
 
 
 1201:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_SetUpdateSource(TIM_TypeDef *TIMx, uint32_t UpdateSource)
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1255:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CR1          CMS           LL_TIM_SetCounterMode
 1256:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1257:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  CounterMode This parameter can be one of the following values:
-ARM GAS  /tmp/cci3Wc9J.s 			page 32
+ARM GAS  /tmp/ccdh1ORM.s 			page 32
 
 
 1258:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_COUNTERMODE_UP
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1312:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll CR1          ARPE          LL_TIM_DisableARRPreload
 1313:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1314:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/cci3Wc9J.s 			page 33
+ARM GAS  /tmp/ccdh1ORM.s 			page 33
 
 
 1315:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1369:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 1370:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Set the counter value.
 1371:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_32B_COUNTER_INSTANCE(TIMx) can be used to check
-ARM GAS  /tmp/cci3Wc9J.s 			page 34
+ARM GAS  /tmp/ccdh1ORM.s 			page 34
 
 
 1372:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       whether or not a timer instance supports a 32 bits counter.
@@ -2004,7 +2004,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
 1392:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 1393:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return (uint32_t)(READ_REG(TIMx->CNT));
  448              		.loc 2 1393 0
- 449 000a A14B     		ldr	r3, .L54+8
+ 449 000a 9D4B     		ldr	r3, .L55+8
  450 000c 586A     		ldr	r0, [r3, #36]
  451              	.LVL25:
  452              	.LBE12:
@@ -2029,7 +2029,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  457              		.loc 1 85 0
  458 0012 FFF7FEFF 		bl	rand
  459              	.LVL27:
- 460 0016 9F4C     		ldr	r4, .L54+12
+ 460 0016 9B4C     		ldr	r4, .L55+12
  461 0018 84FB0038 		smull	r3, r8, r4, r0
  462 001c 08EB0003 		add	r3, r8, r0
  463 0020 4FEAE078 		asr	r8, r0, #31
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  466 002c A0EB0808 		sub	r8, r0, r8
  467              	.LVL28:
   86:Core/Src/game.c ****     int rythm          = INITIAL_RYTHM; // falling rythm of the tetromino
-ARM GAS  /tmp/cci3Wc9J.s 			page 35
+ARM GAS  /tmp/ccdh1ORM.s 			page 35
 
 
   87:Core/Src/game.c ****     int speedUpCounter = 0;             // counting to know when reduce the rythm
@@ -2064,7 +2064,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  480 0042 4FF6FF73 		movw	r3, #65535
  481 0046 9622     		movs	r2, #150
  482 0048 8C21     		movs	r1, #140
- 483 004a 9348     		ldr	r0, .L54+16
+ 483 004a 8F48     		ldr	r0, .L55+16
  484 004c FFF7FEFF 		bl	DrawText
  485              	.LVL31:
   95:Core/Src/game.c ****     displayScore(score);
@@ -2076,7 +2076,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
   97:Core/Src/game.c ****     /* initializing the game */
   98:Core/Src/game.c ****     initBoard(&board);
  490              		.loc 1 98 0
- 491 0056 914E     		ldr	r6, .L54+20
+ 491 0056 8D4E     		ldr	r6, .L55+20
  492 0058 3046     		mov	r0, r6
  493 005a FFF7FEFF 		bl	initBoard
  494              	.LVL33:
@@ -2091,14 +2091,14 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  500 0068 C317     		asrs	r3, r0, #31
  501 006a C3EBA403 		rsb	r3, r3, r4, asr #2
  502 006e C3EBC303 		rsb	r3, r3, r3, lsl #3
- 503 0072 8B4C     		ldr	r4, .L54+24
+ 503 0072 874C     		ldr	r4, .L55+24
  504 0074 2A46     		mov	r2, r5
  505 0076 C11A     		subs	r1, r0, r3
  506 0078 2046     		mov	r0, r4
  507 007a FFF7FEFF 		bl	initPiece
  508              	.LVL35:
  102:Core/Src/game.c ****     newPiece(&board, &piece);
-ARM GAS  /tmp/cci3Wc9J.s 			page 36
+ARM GAS  /tmp/ccdh1ORM.s 			page 36
 
 
  509              		.loc 1 102 0
@@ -2114,7 +2114,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  104:Core/Src/game.c **** 
  105:Core/Src/game.c ****     gameOver = 0;
  518              		.loc 1 105 0
- 519 008c 854B     		ldr	r3, .L54+28
+ 519 008c 814B     		ldr	r3, .L55+28
  520 008e 1D60     		str	r5, [r3]
   87:Core/Src/game.c ****     
  521              		.loc 1 87 0
@@ -2130,9 +2130,9 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  528 0096 A946     		mov	r9, r5
  106:Core/Src/game.c ****     while(!gameOver){/* game loop */
  529              		.loc 1 106 0
- 530 0098 90E0     		b	.L41
+ 530 0098 91E0     		b	.L41
  531              	.LVL38:
- 532              	.L52:
+ 532              	.L53:
  107:Core/Src/game.c ****         //remove
  108:Core/Src/game.c ****         LL_TIM_DisableCounter(TIM4);
  109:Core/Src/game.c ****         LL_TIM_SetCounter(TIM4,0);
@@ -2144,27 +2144,27 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  115:Core/Src/game.c ****         movingTimer = 0;
  533              		.loc 1 115 0
  534 009a 0022     		movs	r2, #0
- 535 009c 824B     		ldr	r3, .L54+32
+ 535 009c 7E4B     		ldr	r3, .L55+32
  536 009e 1A60     		str	r2, [r3]
  537              	.LBB13:
  116:Core/Src/game.c ****         
  117:Core/Src/game.c ****             if(!moveCurrentPieceDownBot(&board)){/* if the tetromino is down down */
  538              		.loc 1 117 0
- 539 00a0 7E48     		ldr	r0, .L54+20
+ 539 00a0 7A48     		ldr	r0, .L55+20
  540 00a2 FFF7FEFF 		bl	moveCurrentPieceDownBot
  541              	.LVL39:
  542 00a6 0028     		cmp	r0, #0
- 543 00a8 40F09E80 		bne	.L42
+ 543 00a8 40F09F80 		bne	.L42
  118:Core/Src/game.c ****                 gameOver = isGameOver(&board);
  544              		.loc 1 118 0
- 545 00ac DFF8ECB1 		ldr	fp, .L54+20
-ARM GAS  /tmp/cci3Wc9J.s 			page 37
+ 545 00ac DFF8DCB1 		ldr	fp, .L55+20
+ARM GAS  /tmp/ccdh1ORM.s 			page 37
 
 
  546 00b0 5846     		mov	r0, fp
  547 00b2 FFF7FEFF 		bl	isGameOver
  548              	.LVL40:
- 549 00b6 7B4B     		ldr	r3, .L54+28
+ 549 00b6 774B     		ldr	r3, .L55+28
  550 00b8 1860     		str	r0, [r3]
  119:Core/Src/game.c **** 
  120:Core/Src/game.c ****                 /* Creating a new tetromino */
@@ -2172,14 +2172,14 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  551              		.loc 1 121 0
  552 00ba 0022     		movs	r2, #0
  553 00bc 4146     		mov	r1, r8
- 554 00be 7848     		ldr	r0, .L54+24
+ 554 00be 7448     		ldr	r0, .L55+24
  555 00c0 FFF7FEFF 		bl	initPiece
  556              	.LVL41:
  122:Core/Src/game.c ****                 nextPiece = rand()%7;
  557              		.loc 1 122 0
  558 00c4 FFF7FEFF 		bl	rand
  559              	.LVL42:
- 560 00c8 724B     		ldr	r3, .L54+12
+ 560 00c8 6E4B     		ldr	r3, .L55+12
  561 00ca 83FB0038 		smull	r3, r8, r3, r0
  562              	.LVL43:
  563 00ce 08EB0003 		add	r3, r8, r0
@@ -2190,7 +2190,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  568              	.LVL44:
  123:Core/Src/game.c ****                 newPiece(&board, &piece);
  569              		.loc 1 123 0
- 570 00e2 6F49     		ldr	r1, .L54+24
+ 570 00e2 6B49     		ldr	r1, .L55+24
  571 00e4 5846     		mov	r0, fp
  572 00e6 FFF7FEFF 		bl	newPiece
  573              	.LVL45:
@@ -2207,18 +2207,18 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  580              		.loc 1 127 0
  581 00f2 FFF7FEFF 		bl	__aeabi_i2d
  582              	.LVL48:
- 583 00f6 9FED641B 		vldr.64	d1, .L54
+ 583 00f6 9FED601B 		vldr.64	d1, .L55
  584 00fa 41EC100B 		vmov	d0, r0, r1
  585 00fe FFF7FEFF 		bl	pow
  586              	.LVL49:
  587 0102 0022     		movs	r2, #0
- 588 0104 694B     		ldr	r3, .L54+36
+ 588 0104 654B     		ldr	r3, .L55+36
  589 0106 51EC100B 		vmov	r0, r1, d0
  590 010a FFF7FEFF 		bl	__aeabi_dmul
  591              	.LVL50:
  592 010e CDE90201 		strd	r0, [sp, #8]
  593 0112 5046     		mov	r0, r10
-ARM GAS  /tmp/cci3Wc9J.s 			page 38
+ARM GAS  /tmp/ccdh1ORM.s 			page 38
 
 
  594 0114 FFF7FEFF 		bl	__aeabi_i2d
@@ -2239,14 +2239,14 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  130:Core/Src/game.c ****                     if(nbDeletedLines == 4){
  607              		.loc 1 130 0
  608 012c BBF1040F 		cmp	fp, #4
- 609 0130 27D0     		beq	.L50
+ 609 0130 27D0     		beq	.L51
  131:Core/Src/game.c ****                         DrawText("TETRIS!", 80, 150, YELLOW, 2, BLACK);  
  132:Core/Src/game.c ****                     }
  133:Core/Src/game.c ****                     else{
  134:Core/Src/game.c ****                         sprintf(charNbDeletedLines, "%d", nbDeletedLines);
  610              		.loc 1 134 0
  611 0132 5A46     		mov	r2, fp
- 612 0134 5E49     		ldr	r1, .L54+40
+ 612 0134 5A49     		ldr	r1, .L55+40
  613 0136 05A8     		add	r0, sp, #20
  614              	.LVL56:
  615 0138 FFF7FEFF 		bl	sprintf
@@ -2271,14 +2271,14 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  632 0162 4FF6FF73 		movw	r3, #65535
  633 0166 A022     		movs	r2, #160
  634 0168 5021     		movs	r1, #80
- 635 016a 5248     		ldr	r0, .L54+44
+ 635 016a 4E48     		ldr	r0, .L55+44
  636 016c FFF7FEFF 		bl	DrawText
  637              	.LVL60:
  129:Core/Src/game.c ****                     if(nbDeletedLines == 4){
  638              		.loc 1 129 0
  639 0170 4FF00109 		mov	r9, #1
  640              	.LVL61:
-ARM GAS  /tmp/cci3Wc9J.s 			page 39
+ARM GAS  /tmp/ccdh1ORM.s 			page 39
 
 
  641              	.L43:
@@ -2295,9 +2295,9 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  647 017a 4046     		mov	r0, r8
  648 017c FFF7FEFF 		bl	printNextPiece
  649              	.LVL63:
- 650 0180 32E0     		b	.L42
+ 650 0180 33E0     		b	.L42
  651              	.LVL64:
- 652              	.L50:
+ 652              	.L51:
  131:Core/Src/game.c ****                     }
  653              		.loc 1 131 0
  654 0182 0023     		movs	r3, #0
@@ -2307,7 +2307,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  658 018a 4FF6E073 		movw	r3, #65504
  659 018e 9622     		movs	r2, #150
  660 0190 5021     		movs	r1, #80
- 661 0192 4948     		ldr	r0, .L54+48
+ 661 0192 4548     		ldr	r0, .L55+48
  662              	.LVL65:
  663 0194 FFF7FEFF 		bl	DrawText
  664              	.LVL66:
@@ -2316,7 +2316,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  666 0198 4FF00109 		mov	r9, #1
  667 019c EAE7     		b	.L43
  668              	.LVL67:
- 669              	.L53:
+ 669              	.L54:
  670              	.LBE13:
  142:Core/Src/game.c ****             }
  143:Core/Src/game.c ****         }
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  674 01a2 5A23     		movs	r3, #90
  675 01a4 1422     		movs	r2, #20
  676 01a6 8C21     		movs	r1, #140
-ARM GAS  /tmp/cci3Wc9J.s 			page 40
+ARM GAS  /tmp/ccdh1ORM.s 			page 40
 
 
  677 01a8 4620     		movs	r0, #70
@@ -2351,551 +2351,554 @@ ARM GAS  /tmp/cci3Wc9J.s 			page 1
  156:Core/Src/game.c ****             timeDisplay = 0;
  682              		.loc 1 156 0
  683 01b0 3546     		mov	r5, r6
- 684 01b2 25E0     		b	.L46
+ 684 01b2 26E0     		b	.L46
  685              	.LVL69:
- 686              	.L47:
+ 686              	.L49:
  158:Core/Src/game.c ****         }
  159:Core/Src/game.c **** 
  160:Core/Src/game.c ****         /* Speeding up if it's time to */
- 161:Core/Src/game.c ****         if(speedUpCounter % SPEEDUP_RYTHM == 0 ){
- 162:Core/Src/game.c ****             if(rythm > 50){
- 163:Core/Src/game.c ****                 rythm -= 20;
- 164:Core/Src/game.c ****             }
- 165:Core/Src/game.c ****         }
- 166:Core/Src/game.c **** 
- 167:Core/Src/game.c ****         SystemCheckUp();  
- 687              		.loc 1 167 0
- 688 01b4 FFF7FEFF 		bl	SystemCheckUp
+ 161:Core/Src/game.c ****         if(speedUpCounter >= SPEEDUP_RYTHM){
+ 162:Core/Src/game.c ****             speedUpCounter = 0;
+ 687              		.loc 1 162 0
+ 688 01b4 3446     		mov	r4, r6
  689              	.LVL70:
- 168:Core/Src/game.c ****         sync();
- 690              		.loc 1 168 0
- 691 01b8 FFF7FEFF 		bl	sync
- 692              	.LVL71:
- 693              	.L41:
+ 690              	.L47:
+ 163:Core/Src/game.c ****             if(rythm > 50){
+ 164:Core/Src/game.c ****                 rythm -= 20;
+ 165:Core/Src/game.c ****             }
+ 166:Core/Src/game.c ****         }
+ 167:Core/Src/game.c **** 
+ 168:Core/Src/game.c ****         SystemCheckUp();  
+ 691              		.loc 1 168 0
+ 692 01b6 FFF7FEFF 		bl	SystemCheckUp
+ 693              	.LVL71:
+ 169:Core/Src/game.c ****         sync();
+ 694              		.loc 1 169 0
+ 695 01ba FFF7FEFF 		bl	sync
+ 696              	.LVL72:
+ 697              	.L41:
  106:Core/Src/game.c ****         //remove
- 694              		.loc 1 106 0
- 695 01bc 394B     		ldr	r3, .L54+28
- 696 01be 1E68     		ldr	r6, [r3]
- 697 01c0 76BB     		cbnz	r6, .L51
- 698              	.LVL72:
- 699              	.LBB14:
- 700              	.LBB15:
+ 698              		.loc 1 106 0
+ 699 01be 354B     		ldr	r3, .L55+28
+ 700 01c0 1E68     		ldr	r6, [r3]
+ 701 01c2 3EBB     		cbnz	r6, .L52
+ 702              	.LVL73:
+ 703              	.LBB14:
+ 704              	.LBB15:
 1138:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
- 701              		.loc 2 1138 0
- 702 01c2 334B     		ldr	r3, .L54+8
- 703 01c4 1A68     		ldr	r2, [r3]
- 704 01c6 22F00102 		bic	r2, r2, #1
- 705 01ca 1A60     		str	r2, [r3]
- 706              	.LVL73:
- 707              	.LBE15:
- 708              	.LBE14:
- 709              	.LBB16:
- 710              	.LBB17:
+ 705              		.loc 2 1138 0
+ 706 01c4 2E4B     		ldr	r3, .L55+8
+ 707 01c6 1A68     		ldr	r2, [r3]
+ 708 01c8 22F00102 		bic	r2, r2, #1
+ 709 01cc 1A60     		str	r2, [r3]
+ 710              	.LVL74:
+ 711              	.LBE15:
+ 712              	.LBE14:
+ 713              	.LBB16:
+ 714              	.LBB17:
 1380:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
- 711              		.loc 2 1380 0
- 712 01cc 0022     		movs	r2, #0
- 713 01ce 5A62     		str	r2, [r3, #36]
- 714              	.LVL74:
- 715              	.LBE17:
- 716              	.LBE16:
-ARM GAS  /tmp/cci3Wc9J.s 			page 41
+ 715              		.loc 2 1380 0
+ARM GAS  /tmp/ccdh1ORM.s 			page 41
 
 
- 717              	.LBB18:
- 718              	.LBB19:
+ 716 01ce 0022     		movs	r2, #0
+ 717 01d0 5A62     		str	r2, [r3, #36]
+ 718              	.LVL75:
+ 719              	.LBE17:
+ 720              	.LBE16:
+ 721              	.LBB18:
+ 722              	.LBB19:
 1127:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
- 719              		.loc 2 1127 0
- 720 01d0 1A68     		ldr	r2, [r3]
- 721 01d2 42F00102 		orr	r2, r2, #1
- 722 01d6 1A60     		str	r2, [r3]
- 723              	.LVL75:
- 724              	.LBE19:
- 725              	.LBE18:
+ 723              		.loc 2 1127 0
+ 724 01d2 1A68     		ldr	r2, [r3]
+ 725 01d4 42F00102 		orr	r2, r2, #1
+ 726 01d8 1A60     		str	r2, [r3]
+ 727              	.LVL76:
+ 728              	.LBE19:
+ 729              	.LBE18:
  112:Core/Src/game.c ****     
- 726              		.loc 1 112 0
- 727 01d8 3048     		ldr	r0, .L54+20
- 728 01da FFF7FEFF 		bl	print
- 729              	.LVL76:
+ 730              		.loc 1 112 0
+ 731 01da 2C48     		ldr	r0, .L55+20
+ 732 01dc FFF7FEFF 		bl	print
+ 733              	.LVL77:
  114:Core/Src/game.c ****         movingTimer = 0;
- 730              		.loc 1 114 0
- 731 01de 324B     		ldr	r3, .L54+32
- 732 01e0 1B68     		ldr	r3, [r3]
- 733 01e2 9F42     		cmp	r7, r3
- 734 01e4 7FF759AF 		ble	.L52
- 735              	.L42:
+ 734              		.loc 1 114 0
+ 735 01e0 2D4B     		ldr	r3, .L55+32
+ 736 01e2 1B68     		ldr	r3, [r3]
+ 737 01e4 9F42     		cmp	r7, r3
+ 738 01e6 7FF758AF 		ble	.L53
+ 739              	.L42:
  147:Core/Src/game.c ****         speedUpCounter++;
- 736              		.loc 1 147 0
- 737 01e8 2F4A     		ldr	r2, .L54+32
- 738 01ea 1368     		ldr	r3, [r2]
- 739 01ec 0133     		adds	r3, r3, #1
- 740 01ee 1360     		str	r3, [r2]
+ 740              		.loc 1 147 0
+ 741 01ea 2B4A     		ldr	r2, .L55+32
+ 742 01ec 1368     		ldr	r3, [r2]
+ 743 01ee 0133     		adds	r3, r3, #1
+ 744 01f0 1360     		str	r3, [r2]
  148:Core/Src/game.c **** 
- 741              		.loc 1 148 0
- 742 01f0 0134     		adds	r4, r4, #1
- 743              	.LVL77:
+ 745              		.loc 1 148 0
+ 746 01f2 0134     		adds	r4, r4, #1
+ 747              	.LVL78:
  151:Core/Src/game.c ****             timeDisplay++;
- 744              		.loc 1 151 0
- 745 01f2 B9F1000F 		cmp	r9, #0
- 746 01f6 00D0     		beq	.L45
+ 748              		.loc 1 151 0
+ 749 01f4 B9F1000F 		cmp	r9, #0
+ 750 01f8 00D0     		beq	.L45
  152:Core/Src/game.c ****         }
- 747              		.loc 1 152 0
- 748 01f8 0135     		adds	r5, r5, #1
- 749              	.LVL78:
- 750              	.L45:
+ 751              		.loc 1 152 0
+ 752 01fa 0135     		adds	r5, r5, #1
+ 753              	.LVL79:
+ 754              	.L45:
  154:Core/Src/game.c ****             fillRect(70, 140, 20, 90, BLACK);
- 751              		.loc 1 154 0
- 752 01fa B5F5967F 		cmp	r5, #300
- 753 01fe CEDA     		bge	.L53
- 754              	.LVL79:
- 755              	.L46:
- 161:Core/Src/game.c ****             if(rythm > 50){
- 756              		.loc 1 161 0
- 757 0200 2E4A     		ldr	r2, .L54+52
- 758 0202 82FB0432 		smull	r3, r2, r2, r4
- 759 0206 E317     		asrs	r3, r4, #31
- 760 0208 C3EB6233 		rsb	r3, r3, r2, asr #13
- 761 020c 47F23052 		movw	r2, #30000
- 762 0210 02FB1343 		mls	r3, r2, r3, r4
- 763 0214 002B     		cmp	r3, #0
- 764 0216 CDD1     		bne	.L47
-ARM GAS  /tmp/cci3Wc9J.s 			page 42
+ 755              		.loc 1 154 0
+ 756 01fc B5F5967F 		cmp	r5, #300
+ 757 0200 CDDA     		bge	.L54
+ 758              	.LVL80:
+ 759              	.L46:
+ 161:Core/Src/game.c ****             speedUpCounter = 0;
+ 760              		.loc 1 161 0
+ 761 0202 40F6B733 		movw	r3, #2999
+ 762 0206 9C42     		cmp	r4, r3
+ 763 0208 D5DD     		ble	.L47
+ARM GAS  /tmp/ccdh1ORM.s 			page 42
 
 
- 162:Core/Src/game.c ****                 rythm -= 20;
- 765              		.loc 1 162 0
- 766 0218 322F     		cmp	r7, #50
- 767 021a CBDD     		ble	.L47
- 163:Core/Src/game.c ****             }
- 768              		.loc 1 163 0
- 769 021c 143F     		subs	r7, r7, #20
- 770              	.LVL80:
- 771 021e C9E7     		b	.L47
- 772              	.L51:
- 169:Core/Src/game.c ****     }
- 170:Core/Src/game.c **** 
- 171:Core/Src/game.c ****     /* Displaying game over */
- 172:Core/Src/game.c ****     fillScreen(BLACK);
- 773              		.loc 1 172 0
- 774 0220 0020     		movs	r0, #0
- 775 0222 FFF7FEFF 		bl	fillScreen
- 776              	.LVL81:
- 173:Core/Src/game.c ****     DrawText("GAME OVER",170,50,RED,4,BLACK);
- 777              		.loc 1 173 0
- 778 0226 0024     		movs	r4, #0
- 779              	.LVL82:
- 780 0228 0194     		str	r4, [sp, #4]
- 781 022a 0423     		movs	r3, #4
- 782 022c 0093     		str	r3, [sp]
- 783 022e 4FF47843 		mov	r3, #63488
- 784 0232 3222     		movs	r2, #50
- 785 0234 AA21     		movs	r1, #170
- 786 0236 2248     		ldr	r0, .L54+56
- 787 0238 FFF7FEFF 		bl	DrawText
- 788              	.LVL83:
- 174:Core/Src/game.c ****     DrawText("YOUR SCORE : ",70,50,WHITE,2,BLACK);
- 789              		.loc 1 174 0
- 790 023c 0194     		str	r4, [sp, #4]
- 791 023e 0225     		movs	r5, #2
- 792              	.LVL84:
- 793 0240 0095     		str	r5, [sp]
- 794 0242 4FF6FF73 		movw	r3, #65535
- 795 0246 3222     		movs	r2, #50
- 796 0248 4621     		movs	r1, #70
- 797 024a 1E48     		ldr	r0, .L54+60
- 798 024c FFF7FEFF 		bl	DrawText
- 799              	.LVL85:
- 175:Core/Src/game.c ****     sprintf(charScore,"%d",score);
- 800              		.loc 1 175 0
- 801 0250 5246     		mov	r2, r10
- 802 0252 1749     		ldr	r1, .L54+40
- 803 0254 06A8     		add	r0, sp, #24
- 804 0256 FFF7FEFF 		bl	sprintf
- 805              	.LVL86:
- 176:Core/Src/game.c ****     DrawText(charScore,50,50,WHITE,2,BLACK);
- 806              		.loc 1 176 0
- 807 025a 0194     		str	r4, [sp, #4]
- 808 025c 0095     		str	r5, [sp]
- 809 025e 4FF6FF73 		movw	r3, #65535
- 810 0262 3222     		movs	r2, #50
- 811 0264 1146     		mov	r1, r2
-ARM GAS  /tmp/cci3Wc9J.s 			page 43
+ 764              	.LVL81:
+ 163:Core/Src/game.c ****                 rythm -= 20;
+ 765              		.loc 1 163 0
+ 766 020a 322F     		cmp	r7, #50
+ 767 020c D2DD     		ble	.L49
+ 164:Core/Src/game.c ****             }
+ 768              		.loc 1 164 0
+ 769 020e 143F     		subs	r7, r7, #20
+ 770              	.LVL82:
+ 162:Core/Src/game.c ****             if(rythm > 50){
+ 771              		.loc 1 162 0
+ 772 0210 3446     		mov	r4, r6
+ 773 0212 D0E7     		b	.L47
+ 774              	.LVL83:
+ 775              	.L52:
+ 170:Core/Src/game.c ****     }
+ 171:Core/Src/game.c **** 
+ 172:Core/Src/game.c ****     /* Displaying game over */
+ 173:Core/Src/game.c ****     fillScreen(BLACK);
+ 776              		.loc 1 173 0
+ 777 0214 0020     		movs	r0, #0
+ 778 0216 FFF7FEFF 		bl	fillScreen
+ 779              	.LVL84:
+ 174:Core/Src/game.c ****     DrawText("GAME OVER",170,50,RED,4,BLACK);
+ 780              		.loc 1 174 0
+ 781 021a 0024     		movs	r4, #0
+ 782              	.LVL85:
+ 783 021c 0194     		str	r4, [sp, #4]
+ 784 021e 0423     		movs	r3, #4
+ 785 0220 0093     		str	r3, [sp]
+ 786 0222 4FF47843 		mov	r3, #63488
+ 787 0226 3222     		movs	r2, #50
+ 788 0228 AA21     		movs	r1, #170
+ 789 022a 2048     		ldr	r0, .L55+52
+ 790 022c FFF7FEFF 		bl	DrawText
+ 791              	.LVL86:
+ 175:Core/Src/game.c ****     DrawText("YOUR SCORE : ",70,50,WHITE,2,BLACK);
+ 792              		.loc 1 175 0
+ 793 0230 0194     		str	r4, [sp, #4]
+ 794 0232 0225     		movs	r5, #2
+ 795              	.LVL87:
+ 796 0234 0095     		str	r5, [sp]
+ 797 0236 4FF6FF73 		movw	r3, #65535
+ 798 023a 3222     		movs	r2, #50
+ 799 023c 4621     		movs	r1, #70
+ 800 023e 1C48     		ldr	r0, .L55+56
+ 801 0240 FFF7FEFF 		bl	DrawText
+ 802              	.LVL88:
+ 176:Core/Src/game.c ****     sprintf(charScore,"%d",score);
+ 803              		.loc 1 176 0
+ 804 0244 5246     		mov	r2, r10
+ 805 0246 1649     		ldr	r1, .L55+40
+ 806 0248 06A8     		add	r0, sp, #24
+ 807 024a FFF7FEFF 		bl	sprintf
+ 808              	.LVL89:
+ 177:Core/Src/game.c ****     DrawText(charScore,50,50,WHITE,2,BLACK);
+ 809              		.loc 1 177 0
+ARM GAS  /tmp/ccdh1ORM.s 			page 43
 
 
- 812 0266 06A8     		add	r0, sp, #24
- 813 0268 FFF7FEFF 		bl	DrawText
- 814              	.LVL87:
- 177:Core/Src/game.c **** 
- 178:Core/Src/game.c ****     start = 0;
- 815              		.loc 1 178 0
- 816 026c 164B     		ldr	r3, .L54+64
- 817 026e 1C60     		str	r4, [r3]
- 179:Core/Src/game.c ****     gameOver = 1;
+ 810 024e 0194     		str	r4, [sp, #4]
+ 811 0250 0095     		str	r5, [sp]
+ 812 0252 4FF6FF73 		movw	r3, #65535
+ 813 0256 3222     		movs	r2, #50
+ 814 0258 1146     		mov	r1, r2
+ 815 025a 06A8     		add	r0, sp, #24
+ 816 025c FFF7FEFF 		bl	DrawText
+ 817              	.LVL90:
+ 178:Core/Src/game.c **** 
+ 179:Core/Src/game.c ****     start = 0;
  818              		.loc 1 179 0
- 819 0270 0122     		movs	r2, #1
- 820 0272 0C4B     		ldr	r3, .L54+28
- 821 0274 1A60     		str	r2, [r3]
- 180:Core/Src/game.c **** 
- 181:Core/Src/game.c ****     setButtonsOutGame();   
- 822              		.loc 1 181 0
- 823 0276 FFF7FEFF 		bl	setButtonsOutGame
- 824              	.LVL88:
- 182:Core/Src/game.c **** 
- 183:Core/Src/game.c ****     return score;
- 184:Core/Src/game.c **** }
- 825              		.loc 1 184 0
- 826 027a 5046     		mov	r0, r10
- 827 027c 09B0     		add	sp, sp, #36
- 828              	.LCFI13:
- 829              		.cfi_def_cfa_offset 36
- 830              		@ sp needed
- 831 027e BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 832              	.LVL89:
- 833              	.L55:
- 834 0282 00BFAFF3 		.align	3
- 834      0080
- 835              	.L54:
- 836 0288 00000000 		.word	0
- 837 028c 00000040 		.word	1073741824
- 838 0290 00080040 		.word	1073743872
- 839 0294 93244992 		.word	-1840700269
- 840 0298 00000000 		.word	.LC1
- 841 029c 00000000 		.word	board
- 842 02a0 00000000 		.word	piece
- 843 02a4 00000000 		.word	.LANCHOR2
- 844 02a8 00000000 		.word	.LANCHOR1
- 845 02ac 00005940 		.word	1079574528
- 846 02b0 00000000 		.word	.LC0
- 847 02b4 10000000 		.word	.LC3
- 848 02b8 08000000 		.word	.LC2
- 849 02bc 73B2E745 		.word	1172812403
- 850 02c0 18000000 		.word	.LC4
- 851 02c4 24000000 		.word	.LC5
- 852 02c8 00000000 		.word	.LANCHOR0
- 853              		.cfi_endproc
- 854              	.LFE745:
- 856              		.section	.text.main,"ax",%progbits
- 857              		.align	1
- 858              		.global	main
- 859              		.syntax unified
- 860              		.thumb
-ARM GAS  /tmp/cci3Wc9J.s 			page 44
+ 819 0260 144B     		ldr	r3, .L55+60
+ 820 0262 1C60     		str	r4, [r3]
+ 180:Core/Src/game.c ****     gameOver = 1;
+ 821              		.loc 1 180 0
+ 822 0264 0122     		movs	r2, #1
+ 823 0266 0B4B     		ldr	r3, .L55+28
+ 824 0268 1A60     		str	r2, [r3]
+ 181:Core/Src/game.c **** 
+ 182:Core/Src/game.c ****     setButtonsOutGame();   
+ 825              		.loc 1 182 0
+ 826 026a FFF7FEFF 		bl	setButtonsOutGame
+ 827              	.LVL91:
+ 183:Core/Src/game.c **** 
+ 184:Core/Src/game.c ****     return score;
+ 185:Core/Src/game.c **** }
+ 828              		.loc 1 185 0
+ 829 026e 5046     		mov	r0, r10
+ 830 0270 09B0     		add	sp, sp, #36
+ 831              	.LCFI13:
+ 832              		.cfi_def_cfa_offset 36
+ 833              		@ sp needed
+ 834 0272 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 835              	.LVL92:
+ 836              	.L56:
+ 837 0276 00BF     		.align	3
+ 838              	.L55:
+ 839 0278 00000000 		.word	0
+ 840 027c 00000040 		.word	1073741824
+ 841 0280 00080040 		.word	1073743872
+ 842 0284 93244992 		.word	-1840700269
+ 843 0288 00000000 		.word	.LC1
+ 844 028c 00000000 		.word	board
+ 845 0290 00000000 		.word	piece
+ 846 0294 00000000 		.word	.LANCHOR2
+ 847 0298 00000000 		.word	.LANCHOR1
+ 848 029c 00005940 		.word	1079574528
+ 849 02a0 00000000 		.word	.LC0
+ 850 02a4 10000000 		.word	.LC3
+ 851 02a8 08000000 		.word	.LC2
+ 852 02ac 18000000 		.word	.LC4
+ 853 02b0 24000000 		.word	.LC5
+ 854 02b4 00000000 		.word	.LANCHOR0
+ 855              		.cfi_endproc
+ 856              	.LFE745:
+ 858              		.section	.text.main,"ax",%progbits
+ 859              		.align	1
+ARM GAS  /tmp/ccdh1ORM.s 			page 44
 
 
- 861              		.thumb_func
- 862              		.fpu fpv4-sp-d16
- 864              	main:
- 865              	.LFB746:
- 185:Core/Src/game.c **** 
+ 860              		.global	main
+ 861              		.syntax unified
+ 862              		.thumb
+ 863              		.thumb_func
+ 864              		.fpu fpv4-sp-d16
+ 866              	main:
+ 867              	.LFB746:
  186:Core/Src/game.c **** 
- 187:Core/Src/game.c **** int main(void){
- 866              		.loc 1 187 0
- 867              		.cfi_startproc
- 868              		@ args = 0, pretend = 0, frame = 8
- 869              		@ frame_needed = 0, uses_anonymous_args = 0
- 870 0000 30B5     		push	{r4, r5, lr}
- 871              	.LCFI14:
- 872              		.cfi_def_cfa_offset 12
- 873              		.cfi_offset 4, -12
- 874              		.cfi_offset 5, -8
- 875              		.cfi_offset 14, -4
- 876 0002 85B0     		sub	sp, sp, #20
- 877              	.LCFI15:
- 878              		.cfi_def_cfa_offset 32
- 188:Core/Src/game.c ****     
- 189:Core/Src/game.c ****     /* Set up */
- 190:Core/Src/game.c ****     initSystem();
- 879              		.loc 1 190 0
- 880 0004 FFF7FEFF 		bl	initSystem
- 881              	.LVL90:
- 191:Core/Src/game.c ****     setSync(SYNC_TIME);
- 882              		.loc 1 191 0
- 883 0008 41F28830 		movw	r0, #5000
- 884 000c FFF7FEFF 		bl	setSync
- 885              	.LVL91:
- 192:Core/Src/game.c ****     setButtonsOutGame();   
- 886              		.loc 1 192 0
- 887 0010 FFF7FEFF 		bl	setButtonsOutGame
- 888              	.LVL92:
- 193:Core/Src/game.c ****     SetRotation(2);
- 889              		.loc 1 193 0
- 890 0014 0220     		movs	r0, #2
- 891 0016 FFF7FEFF 		bl	SetRotation
- 892              	.LVL93:
- 194:Core/Src/game.c ****     /* VARIABLES */
- 195:Core/Src/game.c ****     int score = 0;
- 196:Core/Src/game.c ****     char charScore[6];
- 197:Core/Src/game.c **** 
- 198:Core/Src/game.c ****     fillScreen(BLACK);
- 893              		.loc 1 198 0
- 894 001a 0020     		movs	r0, #0
- 895 001c FFF7FEFF 		bl	fillScreen
- 896              	.LVL94:
- 897 0020 30E0     		b	.L61
- 898              	.LVL95:
- 899              	.L57:
- 199:Core/Src/game.c **** 
- 200:Core/Src/game.c ****     while(1){/* main loop */
- 201:Core/Src/game.c ****         if(gameOver == 0){/* if it's the first game */
- 202:Core/Src/game.c ****             DrawText("Press start to play!",140,20,WHITE,2,BLACK);
- 203:Core/Src/game.c ****         }
-ARM GAS  /tmp/cci3Wc9J.s 			page 45
+ 187:Core/Src/game.c **** 
+ 188:Core/Src/game.c **** int main(void){
+ 868              		.loc 1 188 0
+ 869              		.cfi_startproc
+ 870              		@ args = 0, pretend = 0, frame = 8
+ 871              		@ frame_needed = 0, uses_anonymous_args = 0
+ 872 0000 30B5     		push	{r4, r5, lr}
+ 873              	.LCFI14:
+ 874              		.cfi_def_cfa_offset 12
+ 875              		.cfi_offset 4, -12
+ 876              		.cfi_offset 5, -8
+ 877              		.cfi_offset 14, -4
+ 878 0002 85B0     		sub	sp, sp, #20
+ 879              	.LCFI15:
+ 880              		.cfi_def_cfa_offset 32
+ 189:Core/Src/game.c ****     
+ 190:Core/Src/game.c ****     /* Set up */
+ 191:Core/Src/game.c ****     initSystem();
+ 881              		.loc 1 191 0
+ 882 0004 FFF7FEFF 		bl	initSystem
+ 883              	.LVL93:
+ 192:Core/Src/game.c ****     setSync(SYNC_TIME);
+ 884              		.loc 1 192 0
+ 885 0008 41F28830 		movw	r0, #5000
+ 886 000c FFF7FEFF 		bl	setSync
+ 887              	.LVL94:
+ 193:Core/Src/game.c ****     setButtonsOutGame();
+ 888              		.loc 1 193 0
+ 889 0010 FFF7FEFF 		bl	setButtonsOutGame
+ 890              	.LVL95:
+ 194:Core/Src/game.c ****     SetRotation(1);
+ 891              		.loc 1 194 0
+ 892 0014 0120     		movs	r0, #1
+ 893 0016 FFF7FEFF 		bl	SetRotation
+ 894              	.LVL96:
+ 195:Core/Src/game.c ****     /* VARIABLES */
+ 196:Core/Src/game.c ****     int score = 0;
+ 197:Core/Src/game.c ****     char charScore[6];
+ 198:Core/Src/game.c **** 
+ 199:Core/Src/game.c ****     fillScreen(BLACK);
+ 895              		.loc 1 199 0
+ 896 001a 0020     		movs	r0, #0
+ 897 001c FFF7FEFF 		bl	fillScreen
+ 898              	.LVL97:
+ 899 0020 30E0     		b	.L62
+ 900              	.LVL98:
+ 901              	.L58:
+ 200:Core/Src/game.c **** 
+ 201:Core/Src/game.c ****     while(1){/* main loop */
+ARM GAS  /tmp/ccdh1ORM.s 			page 45
 
 
- 204:Core/Src/game.c ****         else{/* if it's a replay */
- 205:Core/Src/game.c ****             DrawText("Press start to replay",120,10,WHITE,2,BLACK);
- 900              		.loc 1 205 0
- 901 0022 0023     		movs	r3, #0
- 902 0024 0193     		str	r3, [sp, #4]
- 903 0026 0223     		movs	r3, #2
- 904 0028 0093     		str	r3, [sp]
- 905 002a 4FF6FF73 		movw	r3, #65535
- 906 002e 0A22     		movs	r2, #10
- 907 0030 7821     		movs	r1, #120
- 908 0032 1C48     		ldr	r0, .L63
- 909 0034 FFF7FEFF 		bl	DrawText
- 910              	.LVL96:
- 911 0038 01E0     		b	.L58
- 912              	.L60:
- 206:Core/Src/game.c ****         }
- 207:Core/Src/game.c **** 
- 208:Core/Src/game.c ****         /* Waiting for the player to press START */
- 209:Core/Src/game.c ****         while(!start){
+ 202:Core/Src/game.c ****         if(gameOver == 0){/* if it's the first game */
+ 203:Core/Src/game.c ****             DrawText("Press start to play!",140,20,WHITE,2,BLACK);
+ 204:Core/Src/game.c ****         }
+ 205:Core/Src/game.c ****         else{/* if it's a replay */
+ 206:Core/Src/game.c ****             DrawText("Press start to replay",120,10,WHITE,2,BLACK);
+ 902              		.loc 1 206 0
+ 903 0022 0023     		movs	r3, #0
+ 904 0024 0193     		str	r3, [sp, #4]
+ 905 0026 0223     		movs	r3, #2
+ 906 0028 0093     		str	r3, [sp]
+ 907 002a 4FF6FF73 		movw	r3, #65535
+ 908 002e 0A22     		movs	r2, #10
+ 909 0030 7821     		movs	r1, #120
+ 910 0032 1C48     		ldr	r0, .L64
+ 911 0034 FFF7FEFF 		bl	DrawText
+ 912              	.LVL99:
+ 913 0038 01E0     		b	.L59
+ 914              	.L61:
+ 207:Core/Src/game.c ****         }
+ 208:Core/Src/game.c **** 
+ 209:Core/Src/game.c ****         /* Waiting for the player to press START */
+ 210:Core/Src/game.c ****         while(!start){
+ 211:Core/Src/game.c ****             SystemCheckUp();
+ 915              		.loc 1 211 0
+ 916 003a FFF7FEFF 		bl	SystemCheckUp
+ 917              	.LVL100:
+ 918              	.L59:
  210:Core/Src/game.c ****             SystemCheckUp();
- 913              		.loc 1 210 0
- 914 003a FFF7FEFF 		bl	SystemCheckUp
- 915              	.LVL97:
- 916              	.L58:
- 209:Core/Src/game.c ****             SystemCheckUp();
- 917              		.loc 1 209 0
- 918 003e 1A4B     		ldr	r3, .L63+4
- 919 0040 1B68     		ldr	r3, [r3]
- 920 0042 002B     		cmp	r3, #0
- 921 0044 F9D0     		beq	.L60
- 211:Core/Src/game.c ****         }
- 212:Core/Src/game.c **** 
- 213:Core/Src/game.c ****         /* Running 1 game */
- 214:Core/Src/game.c ****         score = game();
- 922              		.loc 1 214 0
- 923 0046 FFF7FEFF 		bl	game
- 924              	.LVL98:
- 215:Core/Src/game.c **** 
- 216:Core/Src/game.c ****         /* Saving and displaying the best score */
- 217:Core/Src/game.c ****         updateHighScore(score);
- 925              		.loc 1 217 0
- 926 004a FFF7FEFF 		bl	updateHighScore
- 927              	.LVL99:
- 218:Core/Src/game.c ****         sprintf(charScore, "%d", getHighScore());
- 928              		.loc 1 218 0
- 929 004e FFF7FEFF 		bl	getHighScore
- 930              	.LVL100:
- 931 0052 0246     		mov	r2, r0
- 932 0054 1549     		ldr	r1, .L63+8
- 933 0056 02A8     		add	r0, sp, #8
- 934 0058 FFF7FEFF 		bl	sprintf
- 935              	.LVL101:
- 219:Core/Src/game.c ****         DrawText("BEST SCORE : ", 30, 50, WHITE, 2, BLACK);
- 936              		.loc 1 219 0
- 937 005c 0025     		movs	r5, #0
- 938 005e 0195     		str	r5, [sp, #4]
- 939 0060 0224     		movs	r4, #2
-ARM GAS  /tmp/cci3Wc9J.s 			page 46
+ 919              		.loc 1 210 0
+ 920 003e 1A4B     		ldr	r3, .L64+4
+ 921 0040 1B68     		ldr	r3, [r3]
+ 922 0042 002B     		cmp	r3, #0
+ 923 0044 F9D0     		beq	.L61
+ 212:Core/Src/game.c ****         }
+ 213:Core/Src/game.c **** 
+ 214:Core/Src/game.c ****         /* Running 1 game */
+ 215:Core/Src/game.c ****         score = game();
+ 924              		.loc 1 215 0
+ 925 0046 FFF7FEFF 		bl	game
+ 926              	.LVL101:
+ 216:Core/Src/game.c **** 
+ 217:Core/Src/game.c ****         /* Saving and displaying the best score */
+ 218:Core/Src/game.c ****         updateHighScore(score);
+ 927              		.loc 1 218 0
+ 928 004a FFF7FEFF 		bl	updateHighScore
+ 929              	.LVL102:
+ 219:Core/Src/game.c ****         sprintf(charScore, "%d", getHighScore());
+ 930              		.loc 1 219 0
+ 931 004e FFF7FEFF 		bl	getHighScore
+ 932              	.LVL103:
+ 933 0052 0246     		mov	r2, r0
+ 934 0054 1549     		ldr	r1, .L64+8
+ 935 0056 02A8     		add	r0, sp, #8
+ 936 0058 FFF7FEFF 		bl	sprintf
+ 937              	.LVL104:
+ 220:Core/Src/game.c ****         DrawText("BEST SCORE : ", 30, 50, WHITE, 2, BLACK);
+ 938              		.loc 1 220 0
+ARM GAS  /tmp/ccdh1ORM.s 			page 46
 
 
- 940 0062 0094     		str	r4, [sp]
- 941 0064 4FF6FF73 		movw	r3, #65535
- 942 0068 3222     		movs	r2, #50
- 943 006a 1E21     		movs	r1, #30
- 944 006c 1048     		ldr	r0, .L63+12
- 945 006e FFF7FEFF 		bl	DrawText
- 946              	.LVL102:
- 220:Core/Src/game.c ****         DrawText(charScore, 10, 50, WHITE, 2, BLACK);   
- 947              		.loc 1 220 0
- 948 0072 0195     		str	r5, [sp, #4]
- 949 0074 0094     		str	r4, [sp]
- 950 0076 4FF6FF73 		movw	r3, #65535
- 951 007a 3222     		movs	r2, #50
- 952 007c 0A21     		movs	r1, #10
- 953 007e 02A8     		add	r0, sp, #8
- 954 0080 FFF7FEFF 		bl	DrawText
- 955              	.LVL103:
- 956              	.L61:
- 201:Core/Src/game.c ****             DrawText("Press start to play!",140,20,WHITE,2,BLACK);
- 957              		.loc 1 201 0
- 958 0084 0B4B     		ldr	r3, .L63+16
- 959 0086 1B68     		ldr	r3, [r3]
- 960 0088 002B     		cmp	r3, #0
- 961 008a CAD1     		bne	.L57
- 202:Core/Src/game.c ****         }
- 962              		.loc 1 202 0
- 963 008c 0193     		str	r3, [sp, #4]
- 964 008e 0223     		movs	r3, #2
- 965 0090 0093     		str	r3, [sp]
- 966 0092 4FF6FF73 		movw	r3, #65535
- 967 0096 1422     		movs	r2, #20
- 968 0098 8C21     		movs	r1, #140
- 969 009a 0748     		ldr	r0, .L63+20
- 970 009c FFF7FEFF 		bl	DrawText
- 971              	.LVL104:
- 972 00a0 CDE7     		b	.L58
- 973              	.L64:
- 974 00a2 00BF     		.align	2
- 975              	.L63:
- 976 00a4 18000000 		.word	.LC7
- 977 00a8 00000000 		.word	.LANCHOR0
- 978 00ac 00000000 		.word	.LC0
- 979 00b0 30000000 		.word	.LC8
- 980 00b4 00000000 		.word	.LANCHOR2
- 981 00b8 00000000 		.word	.LC6
- 982              		.cfi_endproc
- 983              	.LFE746:
- 985              		.global	gameOver
- 986              		.global	start
- 987              		.global	movingTimer
- 988              		.comm	piece,20,4
- 989              		.comm	board,804,4
- 990              		.section	.bss.gameOver,"aw",%nobits
- 991              		.align	2
- 992              		.set	.LANCHOR2,. + 0
- 995              	gameOver:
- 996 0000 00000000 		.space	4
-ARM GAS  /tmp/cci3Wc9J.s 			page 47
+ 939 005c 0025     		movs	r5, #0
+ 940 005e 0195     		str	r5, [sp, #4]
+ 941 0060 0224     		movs	r4, #2
+ 942 0062 0094     		str	r4, [sp]
+ 943 0064 4FF6FF73 		movw	r3, #65535
+ 944 0068 3222     		movs	r2, #50
+ 945 006a 1E21     		movs	r1, #30
+ 946 006c 1048     		ldr	r0, .L64+12
+ 947 006e FFF7FEFF 		bl	DrawText
+ 948              	.LVL105:
+ 221:Core/Src/game.c ****         DrawText(charScore, 10, 50, WHITE, 2, BLACK);   
+ 949              		.loc 1 221 0
+ 950 0072 0195     		str	r5, [sp, #4]
+ 951 0074 0094     		str	r4, [sp]
+ 952 0076 4FF6FF73 		movw	r3, #65535
+ 953 007a 3222     		movs	r2, #50
+ 954 007c 0A21     		movs	r1, #10
+ 955 007e 02A8     		add	r0, sp, #8
+ 956 0080 FFF7FEFF 		bl	DrawText
+ 957              	.LVL106:
+ 958              	.L62:
+ 202:Core/Src/game.c ****             DrawText("Press start to play!",140,20,WHITE,2,BLACK);
+ 959              		.loc 1 202 0
+ 960 0084 0B4B     		ldr	r3, .L64+16
+ 961 0086 1B68     		ldr	r3, [r3]
+ 962 0088 002B     		cmp	r3, #0
+ 963 008a CAD1     		bne	.L58
+ 203:Core/Src/game.c ****         }
+ 964              		.loc 1 203 0
+ 965 008c 0193     		str	r3, [sp, #4]
+ 966 008e 0223     		movs	r3, #2
+ 967 0090 0093     		str	r3, [sp]
+ 968 0092 4FF6FF73 		movw	r3, #65535
+ 969 0096 1422     		movs	r2, #20
+ 970 0098 8C21     		movs	r1, #140
+ 971 009a 0748     		ldr	r0, .L64+20
+ 972 009c FFF7FEFF 		bl	DrawText
+ 973              	.LVL107:
+ 974 00a0 CDE7     		b	.L59
+ 975              	.L65:
+ 976 00a2 00BF     		.align	2
+ 977              	.L64:
+ 978 00a4 18000000 		.word	.LC7
+ 979 00a8 00000000 		.word	.LANCHOR0
+ 980 00ac 00000000 		.word	.LC0
+ 981 00b0 30000000 		.word	.LC8
+ 982 00b4 00000000 		.word	.LANCHOR2
+ 983 00b8 00000000 		.word	.LC6
+ 984              		.cfi_endproc
+ 985              	.LFE746:
+ 987              		.global	gameOver
+ 988              		.global	start
+ 989              		.global	movingTimer
+ 990              		.comm	piece,20,4
+ 991              		.comm	board,804,4
+ 992              		.section	.bss.gameOver,"aw",%nobits
+ 993              		.align	2
+ARM GAS  /tmp/ccdh1ORM.s 			page 47
 
 
- 997              		.section	.bss.movingTimer,"aw",%nobits
- 998              		.align	2
- 999              		.set	.LANCHOR1,. + 0
- 1002              	movingTimer:
- 1003 0000 00000000 		.space	4
- 1004              		.section	.bss.start,"aw",%nobits
- 1005              		.align	2
- 1006              		.set	.LANCHOR0,. + 0
- 1009              	start:
- 1010 0000 00000000 		.space	4
- 1011              		.section	.rodata.displayScore.str1.4,"aMS",%progbits,1
- 1012              		.align	2
- 1013              	.LC0:
- 1014 0000 256400   		.ascii	"%d\000"
- 1015              		.section	.rodata.game.str1.4,"aMS",%progbits,1
- 1016              		.align	2
- 1017              	.LC1:
- 1018 0000 53636F72 		.ascii	"Score: \000"
- 1018      653A2000 
- 1019              	.LC2:
- 1020 0008 54455452 		.ascii	"TETRIS!\000"
- 1020      49532100 
- 1021              	.LC3:
- 1022 0010 4C494E45 		.ascii	"LINE!\000"
- 1022      2100
- 1023 0016 0000     		.space	2
- 1024              	.LC4:
- 1025 0018 47414D45 		.ascii	"GAME OVER\000"
- 1025      204F5645 
- 1025      5200
- 1026 0022 0000     		.space	2
- 1027              	.LC5:
- 1028 0024 594F5552 		.ascii	"YOUR SCORE : \000"
- 1028      2053434F 
- 1028      5245203A 
- 1028      2000
- 1029              		.section	.rodata.main.str1.4,"aMS",%progbits,1
- 1030              		.align	2
- 1031              	.LC6:
- 1032 0000 50726573 		.ascii	"Press start to play!\000"
- 1032      73207374 
- 1032      61727420 
- 1032      746F2070 
- 1032      6C617921 
- 1033 0015 000000   		.space	3
- 1034              	.LC7:
- 1035 0018 50726573 		.ascii	"Press start to replay\000"
- 1035      73207374 
- 1035      61727420 
- 1035      746F2072 
- 1035      65706C61 
- 1036 002e 0000     		.space	2
- 1037              	.LC8:
- 1038 0030 42455354 		.ascii	"BEST SCORE : \000"
- 1038      2053434F 
- 1038      5245203A 
- 1038      2000
-ARM GAS  /tmp/cci3Wc9J.s 			page 48
+ 994              		.set	.LANCHOR2,. + 0
+ 997              	gameOver:
+ 998 0000 00000000 		.space	4
+ 999              		.section	.bss.movingTimer,"aw",%nobits
+ 1000              		.align	2
+ 1001              		.set	.LANCHOR1,. + 0
+ 1004              	movingTimer:
+ 1005 0000 00000000 		.space	4
+ 1006              		.section	.bss.start,"aw",%nobits
+ 1007              		.align	2
+ 1008              		.set	.LANCHOR0,. + 0
+ 1011              	start:
+ 1012 0000 00000000 		.space	4
+ 1013              		.section	.rodata.displayScore.str1.4,"aMS",%progbits,1
+ 1014              		.align	2
+ 1015              	.LC0:
+ 1016 0000 256400   		.ascii	"%d\000"
+ 1017              		.section	.rodata.game.str1.4,"aMS",%progbits,1
+ 1018              		.align	2
+ 1019              	.LC1:
+ 1020 0000 53636F72 		.ascii	"Score: \000"
+ 1020      653A2000 
+ 1021              	.LC2:
+ 1022 0008 54455452 		.ascii	"TETRIS!\000"
+ 1022      49532100 
+ 1023              	.LC3:
+ 1024 0010 4C494E45 		.ascii	"LINE!\000"
+ 1024      2100
+ 1025 0016 0000     		.space	2
+ 1026              	.LC4:
+ 1027 0018 47414D45 		.ascii	"GAME OVER\000"
+ 1027      204F5645 
+ 1027      5200
+ 1028 0022 0000     		.space	2
+ 1029              	.LC5:
+ 1030 0024 594F5552 		.ascii	"YOUR SCORE : \000"
+ 1030      2053434F 
+ 1030      5245203A 
+ 1030      2000
+ 1031              		.section	.rodata.main.str1.4,"aMS",%progbits,1
+ 1032              		.align	2
+ 1033              	.LC6:
+ 1034 0000 50726573 		.ascii	"Press start to play!\000"
+ 1034      73207374 
+ 1034      61727420 
+ 1034      746F2070 
+ 1034      6C617921 
+ 1035 0015 000000   		.space	3
+ 1036              	.LC7:
+ 1037 0018 50726573 		.ascii	"Press start to replay\000"
+ 1037      73207374 
+ 1037      61727420 
+ 1037      746F2072 
+ 1037      65706C61 
+ 1038 002e 0000     		.space	2
+ 1039              	.LC8:
+ 1040 0030 42455354 		.ascii	"BEST SCORE : \000"
+ARM GAS  /tmp/ccdh1ORM.s 			page 48
 
 
- 1039              		.text
- 1040              	.Letext0:
- 1041              		.file 3 "/usr/include/newlib/machine/_default_types.h"
- 1042              		.file 4 "/usr/include/newlib/sys/_stdint.h"
- 1043              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
- 1044              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 1045              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 1046              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
- 1047              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
- 1048              		.file 10 "Core/Inc/../Inc/../Inc/5x5_font.h"
- 1049              		.file 11 "Core/Inc/../Inc/ILI9341_Driver.h"
- 1050              		.file 12 "Core/Inc/../Inc/shapes.h"
- 1051              		.file 13 "/usr/include/newlib/sys/lock.h"
- 1052              		.file 14 "/usr/include/newlib/sys/_types.h"
- 1053              		.file 15 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
- 1054              		.file 16 "/usr/include/newlib/sys/reent.h"
- 1055              		.file 17 "/usr/include/newlib/stdlib.h"
- 1056              		.file 18 "Core/Inc/../Inc/piece.h"
- 1057              		.file 19 "Core/Inc/../Inc/board.h"
- 1058              		.file 20 "/usr/include/newlib/time.h"
- 1059              		.file 21 "/usr/include/newlib/math.h"
- 1060              		.file 22 "Core/Inc/main.h"
- 1061              		.file 23 "/usr/include/newlib/stdio.h"
-ARM GAS  /tmp/cci3Wc9J.s 			page 49
+ 1040      2053434F 
+ 1040      5245203A 
+ 1040      2000
+ 1041              		.text
+ 1042              	.Letext0:
+ 1043              		.file 3 "/usr/include/newlib/machine/_default_types.h"
+ 1044              		.file 4 "/usr/include/newlib/sys/_stdint.h"
+ 1045              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
+ 1046              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 1047              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 1048              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ 1049              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
+ 1050              		.file 10 "Core/Inc/../Inc/../Inc/5x5_font.h"
+ 1051              		.file 11 "Core/Inc/../Inc/ILI9341_Driver.h"
+ 1052              		.file 12 "Core/Inc/../Inc/shapes.h"
+ 1053              		.file 13 "/usr/include/newlib/sys/lock.h"
+ 1054              		.file 14 "/usr/include/newlib/sys/_types.h"
+ 1055              		.file 15 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
+ 1056              		.file 16 "/usr/include/newlib/sys/reent.h"
+ 1057              		.file 17 "/usr/include/newlib/stdlib.h"
+ 1058              		.file 18 "Core/Inc/../Inc/piece.h"
+ 1059              		.file 19 "Core/Inc/../Inc/board.h"
+ 1060              		.file 20 "/usr/include/newlib/time.h"
+ 1061              		.file 21 "/usr/include/newlib/math.h"
+ 1062              		.file 22 "Core/Inc/main.h"
+ 1063              		.file 23 "/usr/include/newlib/stdio.h"
+ARM GAS  /tmp/ccdh1ORM.s 			page 49
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 game.c
-     /tmp/cci3Wc9J.s:18     .text.START:0000000000000000 $t
-     /tmp/cci3Wc9J.s:25     .text.START:0000000000000000 START
-     /tmp/cci3Wc9J.s:43     .text.START:0000000000000010 $d
-     /tmp/cci3Wc9J.s:48     .text.UP:0000000000000000 $t
-     /tmp/cci3Wc9J.s:55     .text.UP:0000000000000000 UP
-     /tmp/cci3Wc9J.s:74     .text.UP:000000000000000c $d
+     /tmp/ccdh1ORM.s:18     .text.START:0000000000000000 $t
+     /tmp/ccdh1ORM.s:25     .text.START:0000000000000000 START
+     /tmp/ccdh1ORM.s:43     .text.START:0000000000000010 $d
+     /tmp/ccdh1ORM.s:48     .text.UP:0000000000000000 $t
+     /tmp/ccdh1ORM.s:55     .text.UP:0000000000000000 UP
+     /tmp/ccdh1ORM.s:74     .text.UP:000000000000000c $d
                             *COM*:0000000000000324 board
-     /tmp/cci3Wc9J.s:79     .text.DOWN:0000000000000000 $t
-     /tmp/cci3Wc9J.s:86     .text.DOWN:0000000000000000 DOWN
-     /tmp/cci3Wc9J.s:109    .text.DOWN:0000000000000010 $d
-     /tmp/cci3Wc9J.s:115    .text.RIGHT:0000000000000000 $t
-     /tmp/cci3Wc9J.s:122    .text.RIGHT:0000000000000000 RIGHT
-     /tmp/cci3Wc9J.s:141    .text.RIGHT:000000000000000c $d
-     /tmp/cci3Wc9J.s:146    .text.LEFT:0000000000000000 $t
-     /tmp/cci3Wc9J.s:153    .text.LEFT:0000000000000000 LEFT
-     /tmp/cci3Wc9J.s:172    .text.LEFT:000000000000000c $d
-     /tmp/cci3Wc9J.s:177    .text.A:0000000000000000 $t
-     /tmp/cci3Wc9J.s:184    .text.A:0000000000000000 A
-     /tmp/cci3Wc9J.s:203    .text.A:000000000000000c $d
-     /tmp/cci3Wc9J.s:208    .text.B:0000000000000000 $t
-     /tmp/cci3Wc9J.s:215    .text.B:0000000000000000 B
-     /tmp/cci3Wc9J.s:234    .text.B:000000000000000c $d
-     /tmp/cci3Wc9J.s:239    .text.displayScore:0000000000000000 $t
-     /tmp/cci3Wc9J.s:246    .text.displayScore:0000000000000000 displayScore
-     /tmp/cci3Wc9J.s:287    .text.displayScore:000000000000002c $d
-     /tmp/cci3Wc9J.s:292    .text.setButtonsInGame:0000000000000000 $t
-     /tmp/cci3Wc9J.s:299    .text.setButtonsInGame:0000000000000000 setButtonsInGame
-     /tmp/cci3Wc9J.s:342    .text.setButtonsInGame:0000000000000030 $d
-     /tmp/cci3Wc9J.s:353    .text.setButtonsOutGame:0000000000000000 $t
-     /tmp/cci3Wc9J.s:360    .text.setButtonsOutGame:0000000000000000 setButtonsOutGame
-     /tmp/cci3Wc9J.s:404    .text.setButtonsOutGame:0000000000000030 $d
-     /tmp/cci3Wc9J.s:414    .text.game:0000000000000000 $t
-     /tmp/cci3Wc9J.s:421    .text.game:0000000000000000 game
-     /tmp/cci3Wc9J.s:836    .text.game:0000000000000288 $d
+     /tmp/ccdh1ORM.s:79     .text.DOWN:0000000000000000 $t
+     /tmp/ccdh1ORM.s:86     .text.DOWN:0000000000000000 DOWN
+     /tmp/ccdh1ORM.s:109    .text.DOWN:0000000000000010 $d
+     /tmp/ccdh1ORM.s:115    .text.RIGHT:0000000000000000 $t
+     /tmp/ccdh1ORM.s:122    .text.RIGHT:0000000000000000 RIGHT
+     /tmp/ccdh1ORM.s:141    .text.RIGHT:000000000000000c $d
+     /tmp/ccdh1ORM.s:146    .text.LEFT:0000000000000000 $t
+     /tmp/ccdh1ORM.s:153    .text.LEFT:0000000000000000 LEFT
+     /tmp/ccdh1ORM.s:172    .text.LEFT:000000000000000c $d
+     /tmp/ccdh1ORM.s:177    .text.A:0000000000000000 $t
+     /tmp/ccdh1ORM.s:184    .text.A:0000000000000000 A
+     /tmp/ccdh1ORM.s:203    .text.A:000000000000000c $d
+     /tmp/ccdh1ORM.s:208    .text.B:0000000000000000 $t
+     /tmp/ccdh1ORM.s:215    .text.B:0000000000000000 B
+     /tmp/ccdh1ORM.s:234    .text.B:000000000000000c $d
+     /tmp/ccdh1ORM.s:239    .text.displayScore:0000000000000000 $t
+     /tmp/ccdh1ORM.s:246    .text.displayScore:0000000000000000 displayScore
+     /tmp/ccdh1ORM.s:287    .text.displayScore:000000000000002c $d
+     /tmp/ccdh1ORM.s:292    .text.setButtonsInGame:0000000000000000 $t
+     /tmp/ccdh1ORM.s:299    .text.setButtonsInGame:0000000000000000 setButtonsInGame
+     /tmp/ccdh1ORM.s:342    .text.setButtonsInGame:0000000000000030 $d
+     /tmp/ccdh1ORM.s:353    .text.setButtonsOutGame:0000000000000000 $t
+     /tmp/ccdh1ORM.s:360    .text.setButtonsOutGame:0000000000000000 setButtonsOutGame
+     /tmp/ccdh1ORM.s:404    .text.setButtonsOutGame:0000000000000030 $d
+     /tmp/ccdh1ORM.s:414    .text.game:0000000000000000 $t
+     /tmp/ccdh1ORM.s:421    .text.game:0000000000000000 game
+     /tmp/ccdh1ORM.s:839    .text.game:0000000000000278 $d
                             *COM*:0000000000000014 piece
-     /tmp/cci3Wc9J.s:857    .text.main:0000000000000000 $t
-     /tmp/cci3Wc9J.s:864    .text.main:0000000000000000 main
-     /tmp/cci3Wc9J.s:976    .text.main:00000000000000a4 $d
-     /tmp/cci3Wc9J.s:995    .bss.gameOver:0000000000000000 gameOver
-     /tmp/cci3Wc9J.s:1009   .bss.start:0000000000000000 start
-     /tmp/cci3Wc9J.s:1002   .bss.movingTimer:0000000000000000 movingTimer
-     /tmp/cci3Wc9J.s:991    .bss.gameOver:0000000000000000 $d
-     /tmp/cci3Wc9J.s:998    .bss.movingTimer:0000000000000000 $d
-     /tmp/cci3Wc9J.s:1005   .bss.start:0000000000000000 $d
-     /tmp/cci3Wc9J.s:1012   .rodata.displayScore.str1.4:0000000000000000 $d
-     /tmp/cci3Wc9J.s:1016   .rodata.game.str1.4:0000000000000000 $d
-     /tmp/cci3Wc9J.s:1030   .rodata.main.str1.4:0000000000000000 $d
+     /tmp/ccdh1ORM.s:859    .text.main:0000000000000000 $t
+     /tmp/ccdh1ORM.s:866    .text.main:0000000000000000 main
+     /tmp/ccdh1ORM.s:978    .text.main:00000000000000a4 $d
+     /tmp/ccdh1ORM.s:997    .bss.gameOver:0000000000000000 gameOver
+     /tmp/ccdh1ORM.s:1011   .bss.start:0000000000000000 start
+     /tmp/ccdh1ORM.s:1004   .bss.movingTimer:0000000000000000 movingTimer
+     /tmp/ccdh1ORM.s:993    .bss.gameOver:0000000000000000 $d
+     /tmp/ccdh1ORM.s:1000   .bss.movingTimer:0000000000000000 $d
+     /tmp/ccdh1ORM.s:1007   .bss.start:0000000000000000 $d
+     /tmp/ccdh1ORM.s:1014   .rodata.displayScore.str1.4:0000000000000000 $d
+     /tmp/ccdh1ORM.s:1018   .rodata.game.str1.4:0000000000000000 $d
+     /tmp/ccdh1ORM.s:1032   .rodata.main.str1.4:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
@@ -2904,7 +2907,7 @@ moveCurrentPieceDown
 moveCurrentPieceRight
 moveCurrentPieceLeft
 rotateCurrentPieceRight
-ARM GAS  /tmp/cci3Wc9J.s 			page 50
+ARM GAS  /tmp/ccdh1ORM.s 			page 50
 
 
 rotateCurrentPieceLeft

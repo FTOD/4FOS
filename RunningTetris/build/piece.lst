@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccVXMK4K.s 			page 1
+ARM GAS  /tmp/ccCmIiJB.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccVXMK4K.s 			page 1
   47              		.thumb_func
   48              		.fpu fpv4-sp-d16
   50              	setKind:
-ARM GAS  /tmp/ccVXMK4K.s 			page 2
+ARM GAS  /tmp/ccCmIiJB.s 			page 2
 
 
   51              	.LFB2:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccVXMK4K.s 			page 1
   24:Core/Src/piece.c ****  
   25:Core/Src/piece.c **** int getKind(Piece * piece)
   26:Core/Src/piece.c **** {
-ARM GAS  /tmp/ccVXMK4K.s 			page 3
+ARM GAS  /tmp/ccCmIiJB.s 			page 3
 
 
   96              		.loc 1 26 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccVXMK4K.s 			page 1
  144              		@ args = 0, pretend = 0, frame = 0
  145              		@ frame_needed = 0, uses_anonymous_args = 0
  146              		@ link register save eliminated.
-ARM GAS  /tmp/ccVXMK4K.s 			page 4
+ARM GAS  /tmp/ccCmIiJB.s 			page 4
 
 
  147              	.LVL7:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccVXMK4K.s 			page 1
  194 0000 C160     		str	r1, [r0, #12]
  195 0002 7047     		bx	lr
  196              		.cfi_endproc
-ARM GAS  /tmp/ccVXMK4K.s 			page 5
+ARM GAS  /tmp/ccCmIiJB.s 			page 5
 
 
  197              	.LFE8:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccVXMK4K.s 			page 1
  246              		.global	getPosY
  247              		.syntax unified
  248              		.thumb
-ARM GAS  /tmp/ccVXMK4K.s 			page 6
+ARM GAS  /tmp/ccCmIiJB.s 			page 6
 
 
  249              		.thumb_func
@@ -332,33 +332,33 @@ ARM GAS  /tmp/ccVXMK4K.s 			page 1
  273              		.file 6 "/usr/include/newlib/stdlib.h"
  274              		.file 7 "Core/Src/../Inc/piece.h"
  275              		.file 8 "Core/Src/../Inc/shapes.h"
-ARM GAS  /tmp/ccVXMK4K.s 			page 7
+ARM GAS  /tmp/ccCmIiJB.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 piece.c
-     /tmp/ccVXMK4K.s:18     .text.initPiece:0000000000000000 $t
-     /tmp/ccVXMK4K.s:25     .text.initPiece:0000000000000000 initPiece
-     /tmp/ccVXMK4K.s:43     .text.setKind:0000000000000000 $t
-     /tmp/ccVXMK4K.s:50     .text.setKind:0000000000000000 setKind
-     /tmp/ccVXMK4K.s:65     .text.setOrientation:0000000000000000 $t
-     /tmp/ccVXMK4K.s:72     .text.setOrientation:0000000000000000 setOrientation
-     /tmp/ccVXMK4K.s:87     .text.getKind:0000000000000000 $t
-     /tmp/ccVXMK4K.s:94     .text.getKind:0000000000000000 getKind
-     /tmp/ccVXMK4K.s:110    .text.getOrientation:0000000000000000 $t
-     /tmp/ccVXMK4K.s:117    .text.getOrientation:0000000000000000 getOrientation
-     /tmp/ccVXMK4K.s:133    .text.setColor:0000000000000000 $t
-     /tmp/ccVXMK4K.s:140    .text.setColor:0000000000000000 setColor
-     /tmp/ccVXMK4K.s:155    .text.getColor:0000000000000000 $t
-     /tmp/ccVXMK4K.s:162    .text.getColor:0000000000000000 getColor
-     /tmp/ccVXMK4K.s:178    .text.setPosX:0000000000000000 $t
-     /tmp/ccVXMK4K.s:185    .text.setPosX:0000000000000000 setPosX
-     /tmp/ccVXMK4K.s:200    .text.getPosX:0000000000000000 $t
-     /tmp/ccVXMK4K.s:207    .text.getPosX:0000000000000000 getPosX
-     /tmp/ccVXMK4K.s:223    .text.setPosY:0000000000000000 $t
-     /tmp/ccVXMK4K.s:230    .text.setPosY:0000000000000000 setPosY
-     /tmp/ccVXMK4K.s:245    .text.getPosY:0000000000000000 $t
-     /tmp/ccVXMK4K.s:252    .text.getPosY:0000000000000000 getPosY
+     /tmp/ccCmIiJB.s:18     .text.initPiece:0000000000000000 $t
+     /tmp/ccCmIiJB.s:25     .text.initPiece:0000000000000000 initPiece
+     /tmp/ccCmIiJB.s:43     .text.setKind:0000000000000000 $t
+     /tmp/ccCmIiJB.s:50     .text.setKind:0000000000000000 setKind
+     /tmp/ccCmIiJB.s:65     .text.setOrientation:0000000000000000 $t
+     /tmp/ccCmIiJB.s:72     .text.setOrientation:0000000000000000 setOrientation
+     /tmp/ccCmIiJB.s:87     .text.getKind:0000000000000000 $t
+     /tmp/ccCmIiJB.s:94     .text.getKind:0000000000000000 getKind
+     /tmp/ccCmIiJB.s:110    .text.getOrientation:0000000000000000 $t
+     /tmp/ccCmIiJB.s:117    .text.getOrientation:0000000000000000 getOrientation
+     /tmp/ccCmIiJB.s:133    .text.setColor:0000000000000000 $t
+     /tmp/ccCmIiJB.s:140    .text.setColor:0000000000000000 setColor
+     /tmp/ccCmIiJB.s:155    .text.getColor:0000000000000000 $t
+     /tmp/ccCmIiJB.s:162    .text.getColor:0000000000000000 getColor
+     /tmp/ccCmIiJB.s:178    .text.setPosX:0000000000000000 $t
+     /tmp/ccCmIiJB.s:185    .text.setPosX:0000000000000000 setPosX
+     /tmp/ccCmIiJB.s:200    .text.getPosX:0000000000000000 $t
+     /tmp/ccCmIiJB.s:207    .text.getPosX:0000000000000000 getPosX
+     /tmp/ccCmIiJB.s:223    .text.setPosY:0000000000000000 $t
+     /tmp/ccCmIiJB.s:230    .text.setPosY:0000000000000000 setPosY
+     /tmp/ccCmIiJB.s:245    .text.getPosY:0000000000000000 $t
+     /tmp/ccCmIiJB.s:252    .text.getPosY:0000000000000000 getPosY
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

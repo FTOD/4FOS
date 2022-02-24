@@ -1,8 +1,9 @@
 #include "game.h"
 
-#define SYNC_TIME     5000
-#define INITIAL_RYTHM 200
-#define SPEEDUP_RYTHM 30000
+#define SYNC_TIME     5000 /* duration of a loop in uS */
+#define INITIAL_RYTHM 200  /* number of loop between 2 forced down moves */
+#define SPEEDUP_RYTHM 2000 /* number of loop between 2 speedups */
+#define SPEEDUP       10   /* value of the speedup */
 
 Board board;
 Piece piece;
@@ -158,9 +159,10 @@ int game(){
         }
 
         /* Speeding up if it's time to */
-        if(speedUpCounter % SPEEDUP_RYTHM == 0 ){
+        if(speedUpCounter >= SPEEDUP_RYTHM){
+            speedUpCounter = 0;
             if(rythm > 50){
-                rythm -= 20;
+                rythm -= SPEEDUP;
             }
         }
 
@@ -190,6 +192,7 @@ int main(void){
     initSystem();
     setSync(SYNC_TIME);
     setButtonsOutGame();
+    SetRotation(1);
     /* VARIABLES */
     int score = 0;
     char charScore[6];

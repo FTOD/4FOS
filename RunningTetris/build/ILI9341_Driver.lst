@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccL4YNuc.s 			page 1
+ARM GAS  /tmp/cckSH1lf.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
   28              		.loc 1 28 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccL4YNuc.s 			page 2
+ARM GAS  /tmp/cckSH1lf.s 			page 2
 
 
   31              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
   49:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x00U,   /* 1: TIMx_CH1N */
   50:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x00U,   /* 2: TIMx_CH2  */
   51:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x00U,   /* 3: TIMx_CH2N */
-ARM GAS  /tmp/ccL4YNuc.s 			page 3
+ARM GAS  /tmp/cckSH1lf.s 			page 3
 
 
   52:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   0x04U,   /* 4: TIMx_CH3  */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  106:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
  107:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  108:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 4
+ARM GAS  /tmp/cckSH1lf.s 			page 4
 
 
  109:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  163:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval none
  164:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  165:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define TIM_CALC_DTS(__TIMCLK__, __CKD__)                                                        \
-ARM GAS  /tmp/ccL4YNuc.s 			page 5
+ARM GAS  /tmp/cckSH1lf.s 			page 5
 
 
  166:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   (((__CKD__) == LL_TIM_CLOCKDIVISION_DIV1) ? ((uint64_t)1000000000000U/(__TIMCLK__))         : \
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  220:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                    Advanced timers: this parameter must be a number between Min_Dat
  221:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                    Max_Data = 0xFFFF.
  222:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 6
+ARM GAS  /tmp/cckSH1lf.s 			page 6
 
 
  223:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                    This feature can be modified afterwards using unitary function
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  277:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  278:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                This feature can be modified afterwards using unitary function
  279:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                @ref LL_TIM_OC_SetIdleState().*/
-ARM GAS  /tmp/ccL4YNuc.s 			page 7
+ARM GAS  /tmp/cckSH1lf.s 			page 7
 
 
  280:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** } LL_TIM_OC_InitTypeDef;
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  334:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  335:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                  This feature can be modified afterwards using unitary function
  336:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                  @ref LL_TIM_IC_SetActiveInput().*/
-ARM GAS  /tmp/ccL4YNuc.s 			page 8
+ARM GAS  /tmp/cckSH1lf.s 			page 8
 
 
  337:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  391:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     This parameter can be a value of @ref TIM_LL_EC_ICPSC.
  392:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  393:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     This feature can be modified afterwards using unitary function
-ARM GAS  /tmp/ccL4YNuc.s 			page 9
+ARM GAS  /tmp/cckSH1lf.s 			page 9
 
 
  394:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                     @ref LL_TIM_IC_SetPrescaler().*/
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  448:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                       @note This bit-field can not be modified as long as LOCK leve
  449:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****                                        programmed. */
  450:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 10
+ARM GAS  /tmp/cckSH1lf.s 			page 10
 
 
  451:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint16_t BreakState;           /*!< Specifies whether the TIM Break input is enabled or not.
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  505:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  506:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  507:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccL4YNuc.s 			page 11
+ARM GAS  /tmp/cckSH1lf.s 			page 11
 
 
  508:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  562:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
  563:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_COUNTERMODE Counter Mode
  564:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @{
-ARM GAS  /tmp/ccL4YNuc.s 			page 12
+ARM GAS  /tmp/cckSH1lf.s 			page 12
 
 
  565:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  619:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  620:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  621:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccL4YNuc.s 			page 13
+ARM GAS  /tmp/cckSH1lf.s 			page 13
 
 
  622:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  676:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_OCIDLESTATE_HIGH                TIM_CR2_OIS1            /*!<OCx=1 (after a dead-time
  677:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  678:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
-ARM GAS  /tmp/ccL4YNuc.s 			page 14
+ARM GAS  /tmp/cckSH1lf.s 			page 14
 
 
  679:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  733:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  734:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
  735:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 15
+ARM GAS  /tmp/cckSH1lf.s 			page 15
 
 
  736:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_CLOCKSOURCE Clock Source
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  790:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TS_TI1F_ED                      TIM_SMCR_TS_2                                       
  791:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TS_TI1FP1                       (TIM_SMCR_TS_2 | TIM_SMCR_TS_0)                     
  792:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TS_TI2FP2                       (TIM_SMCR_TS_2 | TIM_SMCR_TS_1)                     
-ARM GAS  /tmp/ccL4YNuc.s 			page 16
+ARM GAS  /tmp/cckSH1lf.s 			page 16
 
 
  793:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_TS_ETRF                         (TIM_SMCR_TS_2 | TIM_SMCR_TS_1 | TIM_SMCR_TS_0)     
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  847:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  848:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  849:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccL4YNuc.s 			page 17
+ARM GAS  /tmp/cckSH1lf.s 			page 17
 
 
  850:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  904:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_4TRANSFERS      (TIM_DCR_DBL_1 |  TIM_DCR_DBL_0)                    
  905:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_5TRANSFERS      TIM_DCR_DBL_2                                       
  906:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_6TRANSFERS      (TIM_DCR_DBL_2 | TIM_DCR_DBL_0)                     
-ARM GAS  /tmp/ccL4YNuc.s 			page 18
+ARM GAS  /tmp/cckSH1lf.s 			page 18
 
 
  907:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_7TRANSFERS      (TIM_DCR_DBL_2 | TIM_DCR_DBL_1)                     
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  961:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
  962:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @}
  963:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccL4YNuc.s 			page 19
+ARM GAS  /tmp/cckSH1lf.s 			page 19
 
 
  964:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** #if defined(LPTIM_OR_TIM1_ITR2_RMP) && defined(LPTIM_OR_TIM5_ITR1_RMP) && defined(LPTIM_OR_TIM9_ITR
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1018:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __TIMCLK__ timer input clock frequency (in Hz)
 1019:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __CKD__ This parameter can be one of the following values:
 1020:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV1
-ARM GAS  /tmp/ccL4YNuc.s 			page 20
+ARM GAS  /tmp/cckSH1lf.s 			page 20
 
 
 1021:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKDIVISION_DIV2
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1075:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  HELPER macro calculating the auto-reload value to achieve the required pulse duration
 1076:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         (when the timer operates in one pulse mode).
 1077:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note ex: @ref __LL_TIM_CALC_PULSE (1000000, @ref LL_TIM_GetPrescaler (), 10, 20);
-ARM GAS  /tmp/ccL4YNuc.s 			page 21
+ARM GAS  /tmp/cckSH1lf.s 			page 21
 
 
 1078:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  __TIMCLK__ timer input clock frequency (in Hz)
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1132:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll CR1          CEN           LL_TIM_DisableCounter
 1133:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1134:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/ccL4YNuc.s 			page 22
+ARM GAS  /tmp/cckSH1lf.s 			page 22
 
 
 1135:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1179:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 1180:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsEnabledUpdateEvent(TIM_TypeDef *TIMx)
 1181:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccL4YNuc.s 			page 23
+ARM GAS  /tmp/cckSH1lf.s 			page 23
 
 
 1182:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return ((READ_BIT(TIMx->CR1, TIM_CR1_UDIS) == (uint32_t)RESET) ? 1UL : 0UL);
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1236:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1237:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval Returned value can be one of the following values:
 1238:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ONEPULSEMODE_SINGLE
-ARM GAS  /tmp/ccL4YNuc.s 			page 24
+ARM GAS  /tmp/cckSH1lf.s 			page 24
 
 
 1239:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ONEPULSEMODE_REPETITIVE
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1293:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****     counter_mode = (uint32_t)(READ_BIT(TIMx->CR1, TIM_CR1_DIR));
 1294:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   }
 1295:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 25
+ARM GAS  /tmp/cckSH1lf.s 			page 25
 
 
 1296:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return counter_mode;
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1350:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 1351:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 1352:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Get the actual division ratio between the timer clock  and the sampling clock used by t
-ARM GAS  /tmp/ccL4YNuc.s 			page 26
+ARM GAS  /tmp/cckSH1lf.s 			page 26
 
 
 1353:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         generators (when supported) and the digital filters.
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1407:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 1408:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 1409:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccL4YNuc.s 			page 27
+ARM GAS  /tmp/cckSH1lf.s 			page 27
 
 
 1410:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Set the prescaler value.
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
   71 0026 5A62     		str	r2, [r3, #36]
   72              	.LVL7:
   73              	.LBE137:
-ARM GAS  /tmp/ccL4YNuc.s 			page 28
+ARM GAS  /tmp/cckSH1lf.s 			page 28
 
 
   74              	.LBE136:
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1467:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_REPETITION_COUNTER_INSTANCE(TIMx) can be used to check
 1468:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       whether or not a timer instance supports a repetition counter.
 1469:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll RCR          REP           LL_TIM_SetRepetitionCounter
-ARM GAS  /tmp/ccL4YNuc.s 			page 29
+ARM GAS  /tmp/cckSH1lf.s 			page 29
 
 
 1470:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1524:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 1525:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   CLEAR_BIT(TIMx->CR2, TIM_CR2_CCPC);
 1526:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  /tmp/ccL4YNuc.s 			page 30
+ARM GAS  /tmp/cckSH1lf.s 			page 30
 
 
 1527:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1581:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_LOCKLEVEL_2
 1582:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_LOCKLEVEL_3
 1583:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/ccL4YNuc.s 			page 31
+ARM GAS  /tmp/cckSH1lf.s 			page 31
 
 
 1584:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1638:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 1639:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 1640:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccL4YNuc.s 			page 32
+ARM GAS  /tmp/cckSH1lf.s 			page 32
 
 
 1641:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Indicate whether channel(s) is(are) enabled.
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1695:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 1696:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 1697:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_ConfigOutput(TIM_TypeDef *TIMx, uint32_t Channel, uint32_t Configura
-ARM GAS  /tmp/ccL4YNuc.s 			page 33
+ARM GAS  /tmp/cckSH1lf.s 			page 33
 
 
 1698:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1752:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_FROZEN
 1753:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_ACTIVE
 1754:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_INACTIVE
-ARM GAS  /tmp/ccL4YNuc.s 			page 34
+ARM GAS  /tmp/cckSH1lf.s 			page 34
 
 
 1755:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_TOGGLE
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1809:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1N
 1810:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
 1811:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2N
-ARM GAS  /tmp/ccL4YNuc.s 			page 35
+ARM GAS  /tmp/cckSH1lf.s 			page 35
 
 
 1812:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1866:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CR2         OIS4          LL_TIM_OC_GetIdleState
 1867:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1868:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
-ARM GAS  /tmp/ccL4YNuc.s 			page 36
+ARM GAS  /tmp/cckSH1lf.s 			page 36
 
 
 1869:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1923:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_DisableFast(TIM_TypeDef *TIMx, uint32_t Channel)
 1924:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 1925:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   uint8_t iChannel = TIM_GET_CHANNEL_INDEX(Channel);
-ARM GAS  /tmp/ccL4YNuc.s 			page 37
+ARM GAS  /tmp/cckSH1lf.s 			page 37
 
 
 1926:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   __IO uint32_t *pReg = (__IO uint32_t *)((uint32_t)((uint32_t)(&TIMx->CCMR1) + OFFSET_TAB_CCMRx[iC
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 1980:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 1981:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 1982:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
-ARM GAS  /tmp/ccL4YNuc.s 			page 38
+ARM GAS  /tmp/cckSH1lf.s 			page 38
 
 
 1983:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2037:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   __IO uint32_t *pReg = (__IO uint32_t *)((uint32_t)((uint32_t)(&TIMx->CCMR1) + OFFSET_TAB_CCMRx[iC
 2038:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   SET_BIT(*pReg, (TIM_CCMR1_OC1CE << SHIFT_TAB_OCxx[iChannel]));
 2039:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
-ARM GAS  /tmp/ccL4YNuc.s 			page 39
+ARM GAS  /tmp/cckSH1lf.s 			page 39
 
 
 2040:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2094:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       dead-time insertion feature is supported by a timer instance.
 2095:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Helper macro @ref __LL_TIM_CALC_DEADTIME can be used to calculate the DeadTime parameter
 2096:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll BDTR         DTG           LL_TIM_OC_SetDeadTime
-ARM GAS  /tmp/ccL4YNuc.s 			page 40
+ARM GAS  /tmp/cckSH1lf.s 			page 40
 
 
 2097:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2151:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 2152:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_SetCompareCH3(TIM_TypeDef *TIMx, uint32_t CompareValue)
 2153:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccL4YNuc.s 			page 41
+ARM GAS  /tmp/cckSH1lf.s 			page 41
 
 
 2154:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   WRITE_REG(TIMx->CCR3, CompareValue);
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2208:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note In 32-bit timer implementations returned compare value can be between 0x00000000 and 0xFF
 2209:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_32B_COUNTER_INSTANCE(TIMx) can be used to check
 2210:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       whether or not a timer instance supports a 32 bits counter.
-ARM GAS  /tmp/ccL4YNuc.s 			page 42
+ARM GAS  /tmp/cckSH1lf.s 			page 42
 
 
 2211:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_CC3_INSTANCE(TIMx) can be used to check whether or not
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2265:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CCER         CC4P          LL_TIM_IC_Config\n
 2266:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         CCER         CC4NP         LL_TIM_IC_Config
 2267:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
-ARM GAS  /tmp/ccL4YNuc.s 			page 43
+ARM GAS  /tmp/cckSH1lf.s 			page 43
 
 
 2268:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2322:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 2323:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 2324:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
-ARM GAS  /tmp/ccL4YNuc.s 			page 44
+ARM GAS  /tmp/cckSH1lf.s 			page 44
 
 
 2325:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2379:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV1
 2380:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV2
 2381:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV4
-ARM GAS  /tmp/ccL4YNuc.s 			page 45
+ARM GAS  /tmp/cckSH1lf.s 			page 45
 
 
 2382:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ICPSC_DIV8
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2436:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  Channel This parameter can be one of the following values:
 2437:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 2438:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
-ARM GAS  /tmp/ccL4YNuc.s 			page 46
+ARM GAS  /tmp/cckSH1lf.s 			page 46
 
 
 2439:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2493:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 2494:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
 2495:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccL4YNuc.s 			page 47
+ARM GAS  /tmp/cckSH1lf.s 			page 47
 
 
 2496:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Get the current input channel polarity.
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2550:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Indicates whether the TIMx_CH1, CH2 and CH3 pins are connectected to the TI1 input.
 2551:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_XOR_INSTANCE(TIMx) can be used to check whether or not
 2552:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * a timer instance provides an XOR input.
-ARM GAS  /tmp/ccL4YNuc.s 			page 48
+ARM GAS  /tmp/cckSH1lf.s 			page 48
 
 
 2553:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll CR2          TI1S          LL_TIM_IC_IsEnabledXORCombination
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2607:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   return (uint32_t)(READ_REG(TIMx->CCR3));
 2608:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
 2609:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 49
+ARM GAS  /tmp/cckSH1lf.s 			page 49
 
 
 2610:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2664:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll SMCR         ECE           LL_TIM_IsEnabledExternalClock
 2665:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 2666:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval State of bit (1 or 0).
-ARM GAS  /tmp/ccL4YNuc.s 			page 50
+ARM GAS  /tmp/cckSH1lf.s 			page 50
 
 
 2667:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2721:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 2722:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Set the trigger output (TRGO) used for timer synchronization .
 2723:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @note Macro IS_TIM_MASTER_INSTANCE(TIMx) can be used to check
-ARM GAS  /tmp/ccL4YNuc.s 			page 51
+ARM GAS  /tmp/cckSH1lf.s 			page 51
 
 
 2724:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       whether or not a timer instance can operate as a master timer.
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2778:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_SetTriggerInput(TIM_TypeDef *TIMx, uint32_t TriggerInput)
 2779:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
 2780:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   MODIFY_REG(TIMx->SMCR, TIM_SMCR_TS, TriggerInput);
-ARM GAS  /tmp/ccL4YNuc.s 			page 52
+ARM GAS  /tmp/cckSH1lf.s 			page 52
 
 
 2781:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2835:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ETR_PRESCALER_DIV2
 2836:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ETR_PRESCALER_DIV4
 2837:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_ETR_PRESCALER_DIV8
-ARM GAS  /tmp/ccL4YNuc.s 			page 53
+ARM GAS  /tmp/cckSH1lf.s 			page 53
 
 
 2838:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  ETRFilter This parameter can be one of the following values:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2892:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *       a timer instance provides a break input.
 2893:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 2894:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccL4YNuc.s 			page 54
+ARM GAS  /tmp/cckSH1lf.s 			page 54
 
 
 2895:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_DisableBRK(TIM_TypeDef *TIMx)
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 2949:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
 2950:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 2951:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccL4YNuc.s 			page 55
+ARM GAS  /tmp/cckSH1lf.s 			page 55
 
 
 2952:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_EnableAutomaticOutput(TIM_TypeDef *TIMx)
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 3006:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @retval None
 3007:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   */
 3008:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_DisableAllOutputs(TIM_TypeDef *TIMx)
-ARM GAS  /tmp/ccL4YNuc.s 			page 56
+ARM GAS  /tmp/cckSH1lf.s 			page 56
 
 
 3009:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** {
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 3063:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_4TRANSFERS
 3064:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_5TRANSFERS
 3065:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_6TRANSFERS
-ARM GAS  /tmp/ccL4YNuc.s 			page 57
+ARM GAS  /tmp/cckSH1lf.s 			page 57
 
 
 3066:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_LENGTH_7TRANSFERS
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 3120:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM2_ITR1_RMP_OTG_FS_SOF
 3121:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM2_ITR1_RMP_OTG_HS_SOF
 3122:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *
-ARM GAS  /tmp/ccL4YNuc.s 			page 58
+ARM GAS  /tmp/cckSH1lf.s 			page 58
 
 
 3123:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   *         TIM5: one of the following values
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
 3177:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** /**
 3178:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @brief  Clear the update interrupt flag (UIF).
 3179:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @rmtoll SR           UIF           LL_TIM_ClearFlag_UPDATE
-ARM GAS  /tmp/ccL4YNuc.s 			page 59
+ARM GAS  /tmp/cckSH1lf.s 			page 59
 
 
 3180:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  125 0052 7047     		bx	lr
  126              	.LVL14:
  127              	.L7:
-ARM GAS  /tmp/ccL4YNuc.s 			page 60
+ARM GAS  /tmp/cckSH1lf.s 			page 60
 
 
  128              	.LBE148:
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  174              	.LVL18:
  175              	.LBB152:
  176              	.LBB153:
-ARM GAS  /tmp/ccL4YNuc.s 			page 61
+ARM GAS  /tmp/cckSH1lf.s 			page 61
 
 
 1380:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h **** }
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  221 0032 4FF08043 		mov	r3, #1073741824
  222 0036 6FF00102 		mvn	r2, #1
  223 003a 1A61     		str	r2, [r3, #16]
-ARM GAS  /tmp/ccL4YNuc.s 			page 62
+ARM GAS  /tmp/cckSH1lf.s 			page 62
 
 
  224              	.LVL25:
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
    5:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @brief   Header file of GPIO LL module.
    6:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   ******************************************************************************
    7:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @attention
-ARM GAS  /tmp/ccL4YNuc.s 			page 63
+ARM GAS  /tmp/cckSH1lf.s 			page 63
 
 
    8:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
   62:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @brief LL GPIO Init Structure definition
   63:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
   64:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** typedef struct
-ARM GAS  /tmp/ccL4YNuc.s 			page 64
+ARM GAS  /tmp/cckSH1lf.s 			page 64
 
 
   65:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  119:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_11                     GPIO_BSRR_BS_11 /*!< Select pin 11 */
  120:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_12                     GPIO_BSRR_BS_12 /*!< Select pin 12 */
  121:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_13                     GPIO_BSRR_BS_13 /*!< Select pin 13 */
-ARM GAS  /tmp/ccL4YNuc.s 			page 65
+ARM GAS  /tmp/cckSH1lf.s 			page 65
 
 
  122:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_PIN_14                     GPIO_BSRR_BS_14 /*!< Select pin 14 */
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  176:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @{
  177:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
  178:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_AF_0                       (0x0000000U) /*!< Select alternate function 0 */
-ARM GAS  /tmp/ccL4YNuc.s 			page 66
+ARM GAS  /tmp/cckSH1lf.s 			page 66
 
 
  179:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** #define LL_GPIO_AF_1                       (0x0000001U) /*!< Select alternate function 1 */
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  233:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
  234:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
  235:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /* Exported functions --------------------------------------------------------*/
-ARM GAS  /tmp/ccL4YNuc.s 			page 67
+ARM GAS  /tmp/cckSH1lf.s 			page 67
 
 
  236:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /** @defgroup GPIO_LL_Exported_Functions GPIO Exported Functions
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  290:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_4
  291:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_5
  292:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_6
-ARM GAS  /tmp/ccL4YNuc.s 			page 68
+ARM GAS  /tmp/cckSH1lf.s 			page 68
 
 
  293:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  347:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
  348:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
  349:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @brief  Return gpio output type for several pins on dedicated port.
-ARM GAS  /tmp/ccL4YNuc.s 			page 69
+ARM GAS  /tmp/cckSH1lf.s 			page 69
 
 
  350:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @note   Output type as to be set when gpio pin is in output or
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  404:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_13
  405:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_14
  406:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_15
-ARM GAS  /tmp/ccL4YNuc.s 			page 70
+ARM GAS  /tmp/cckSH1lf.s 			page 70
 
 
  407:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  Speed This parameter can be one of the following values:
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  461:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
  462:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  Pin This parameter can be one of the following values:
  463:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_0
-ARM GAS  /tmp/ccL4YNuc.s 			page 71
+ARM GAS  /tmp/cckSH1lf.s 			page 71
 
 
  464:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_1
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  518:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
  519:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   return (uint32_t)(READ_BIT(GPIOx->PUPDR,
  520:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****                              (GPIO_PUPDR_PUPDR0 << (POSITION_VAL(Pin) * 2U))) >> (POSITION_VAL(Pin)
-ARM GAS  /tmp/ccL4YNuc.s 			page 72
+ARM GAS  /tmp/cckSH1lf.s 			page 72
 
 
  521:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  575:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
  576:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @retval Returned value can be one of the following values:
  577:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_0
-ARM GAS  /tmp/ccL4YNuc.s 			page 73
+ARM GAS  /tmp/cckSH1lf.s 			page 73
 
 
  578:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_1
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  632:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @retval None
  633:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   */
  634:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** __STATIC_INLINE void LL_GPIO_SetAFPin_8_15(GPIO_TypeDef *GPIOx, uint32_t Pin, uint32_t Alternate)
-ARM GAS  /tmp/ccL4YNuc.s 			page 74
+ARM GAS  /tmp/cckSH1lf.s 			page 74
 
 
  635:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** {
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  689:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_0
  690:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_1
  691:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_2
-ARM GAS  /tmp/ccL4YNuc.s 			page 75
+ARM GAS  /tmp/cckSH1lf.s 			page 75
 
 
  692:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_3
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  746:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
  747:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
  748:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @brief  Return 1 if one of the pin of a dedicated port is locked. else return 0.
-ARM GAS  /tmp/ccL4YNuc.s 			page 76
+ARM GAS  /tmp/cckSH1lf.s 			page 76
 
 
  749:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @rmtoll LCKR         LCKK          LL_GPIO_IsAnyPinLocked
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  803:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   return (READ_BIT(GPIOx->IDR, PinMask) == (PinMask));
  804:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
  805:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 77
+ARM GAS  /tmp/cckSH1lf.s 			page 77
 
 
  806:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** /**
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  860:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @rmtoll BSRR         BSy           LL_GPIO_SetOutputPin
  861:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
  862:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   * @param  PinMask This parameter can be a combination of the following values:
-ARM GAS  /tmp/ccL4YNuc.s 			page 78
+ARM GAS  /tmp/cckSH1lf.s 			page 78
 
 
  863:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_0
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  271 0006 9A61     		str	r2, [r3, #24]
  272              	.LVL29:
  273              	.LBE167:
-ARM GAS  /tmp/ccL4YNuc.s 			page 79
+ARM GAS  /tmp/cckSH1lf.s 			page 79
 
 
  274              	.LBE166:
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  314 0002 0023     		movs	r3, #0
  315 0004 06E0     		b	.L19
  316              	.LVL33:
-ARM GAS  /tmp/ccL4YNuc.s 			page 80
+ARM GAS  /tmp/cckSH1lf.s 			page 80
 
 
  317              	.L20:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  359              	.L24:
  360              	.LBE174:
  361              	.LBE173:
-ARM GAS  /tmp/ccL4YNuc.s 			page 81
+ARM GAS  /tmp/cckSH1lf.s 			page 81
 
 
  362              	.LBE170:
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  410              	.LVL47:
  411              	.LBE178:
  412              	.LBE177:
-ARM GAS  /tmp/ccL4YNuc.s 			page 82
+ARM GAS  /tmp/cckSH1lf.s 			page 82
 
 
   88:Core/Src/ILI9341_Driver.c ****     LL_GPIO_SetOutputPin(DC_PORT,DC_PIN);
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  459              	.LVL52:
  460              	.LBE182:
  461              	.LBE181:
-ARM GAS  /tmp/ccL4YNuc.s 			page 83
+ARM GAS  /tmp/cckSH1lf.s 			page 83
 
 
  462              	.LBB183:
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  508              		.cfi_offset 5, -8
  509              		.cfi_offset 14, -4
  510 0002 0D46     		mov	r5, r1
-ARM GAS  /tmp/ccL4YNuc.s 			page 84
+ARM GAS  /tmp/cckSH1lf.s 			page 84
 
 
  511              	.LVL57:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  557              		@ frame_needed = 0, uses_anonymous_args = 0
  558              	.LVL62:
  559 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  /tmp/ccL4YNuc.s 			page 85
+ARM GAS  /tmp/cckSH1lf.s 			page 85
 
 
  560              	.LCFI4:
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  603              	.LVL71:
  125:Core/Src/ILI9341_Driver.c ****     write8(lo);
  604              		.loc 1 125 0
-ARM GAS  /tmp/ccL4YNuc.s 			page 86
+ARM GAS  /tmp/cckSH1lf.s 			page 86
 
 
  605 0026 3046     		mov	r0, r6
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  655              	.LVL77:
  656              	.LBE196:
  657              	.LBE195:
-ARM GAS  /tmp/ccL4YNuc.s 			page 87
+ARM GAS  /tmp/cckSH1lf.s 			page 87
 
 
  132:Core/Src/ILI9341_Driver.c ****     LL_GPIO_ResetOutputPin(DC_PORT,DC_PIN);
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  702              	.LFE743:
  704              		.section	.text.writeRegister32,"ax",%progbits
  705              		.align	1
-ARM GAS  /tmp/ccL4YNuc.s 			page 88
+ARM GAS  /tmp/cckSH1lf.s 			page 88
 
 
  706              		.global	writeRegister32
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  751 0018 A361     		str	r3, [r4, #24]
  752              	.LVL91:
  753              	.LBE208:
-ARM GAS  /tmp/ccL4YNuc.s 			page 89
+ARM GAS  /tmp/cckSH1lf.s 			page 89
 
 
  754              	.LBE207:
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  798 0054 00040240 		.word	1073873920
  799              	.LBE210:
  800              	.LBE209:
-ARM GAS  /tmp/ccL4YNuc.s 			page 90
+ARM GAS  /tmp/cckSH1lf.s 			page 90
 
 
  801              		.cfi_endproc
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  849              		.loc 3 913 0
  850 0010 4FF00073 		mov	r3, #33554432
  851 0014 A361     		str	r3, [r4, #24]
-ARM GAS  /tmp/ccL4YNuc.s 			page 91
+ARM GAS  /tmp/cckSH1lf.s 			page 91
 
 
  852              	.LVL106:
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  892              		.loc 1 177 0 discriminator 3
  893 0038 FFF7FEFF 		bl	WRStrobe
  894              	.LVL113:
-ARM GAS  /tmp/ccL4YNuc.s 			page 92
+ARM GAS  /tmp/cckSH1lf.s 			page 92
 
 
  176:Core/Src/ILI9341_Driver.c ****     for (uint8_t i = 0; i < 3; i++)
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  192:Core/Src/ILI9341_Driver.c ****     delay(200);
  193:Core/Src/ILI9341_Driver.c **** 
  194:Core/Src/ILI9341_Driver.c ****     LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
-ARM GAS  /tmp/ccL4YNuc.s 			page 93
+ARM GAS  /tmp/cckSH1lf.s 			page 93
 
 
  195:Core/Src/ILI9341_Driver.c ****     writeRegister8(ILI9341_SOFTRESET, 0);
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  224:Core/Src/ILI9341_Driver.c ****     writeRegister32(ILI9341_COLADDRSET, t); 
  959              		.loc 1 224 0
  960 000e 42EA0041 		orr	r1, r2, r0, lsl #16
-ARM GAS  /tmp/ccL4YNuc.s 			page 94
+ARM GAS  /tmp/cckSH1lf.s 			page 94
 
 
  961              	.LVL123:
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1011              	.LBB232:
  1012              	.LBB233:
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
-ARM GAS  /tmp/ccL4YNuc.s 			page 95
+ARM GAS  /tmp/cckSH1lf.s 			page 95
 
 
  1013              		.loc 3 884 0
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1064 002a 0021     		movs	r1, #0
  1065 002c 0120     		movs	r0, #1
  1066 002e FFF7FEFF 		bl	writeRegister8
-ARM GAS  /tmp/ccL4YNuc.s 			page 96
+ARM GAS  /tmp/cckSH1lf.s 			page 96
 
 
  1067              	.LVL139:
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  206:Core/Src/ILI9341_Driver.c **** 
  1112              		.loc 1 206 0
  1113 007a 0721     		movs	r1, #7
-ARM GAS  /tmp/ccL4YNuc.s 			page 97
+ARM GAS  /tmp/cckSH1lf.s 			page 97
 
 
  1114 007c B720     		movs	r0, #183
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1164              		.thumb
  1165              		.thumb_func
  1166              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccL4YNuc.s 			page 98
+ARM GAS  /tmp/cckSH1lf.s 			page 98
 
 
  1168              	floodScreen:
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1210              	.LVL161:
  1211              	.LBB248:
  1212              	.LBB249:
-ARM GAS  /tmp/ccL4YNuc.s 			page 99
+ARM GAS  /tmp/cckSH1lf.s 			page 99
 
 
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1250              	.LVL171:
  257:Core/Src/ILI9341_Driver.c ****         WRStrobe(); // 2 bytes/pixel
  1251              		.loc 1 257 0 discriminator 1
-ARM GAS  /tmp/ccL4YNuc.s 			page 100
+ARM GAS  /tmp/cckSH1lf.s 			page 100
 
 
  1252 0048 FFF7FEFF 		bl	WRStrobe
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1294              	.LVL184:
  1295              	.L69:
  265:Core/Src/ILI9341_Driver.c ****         WRStrobe();
-ARM GAS  /tmp/ccL4YNuc.s 			page 101
+ARM GAS  /tmp/cckSH1lf.s 			page 101
 
 
  1296              		.loc 1 265 0 is_stmt 0 discriminator 1
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1337 00b4 2846     		mov	r0, r5
  1338 00b6 FFF7FEFF 		bl	write8
  1339              	.LVL195:
-ARM GAS  /tmp/ccL4YNuc.s 			page 102
+ARM GAS  /tmp/cckSH1lf.s 			page 102
 
 
  281:Core/Src/ILI9341_Driver.c ****         } while (--i);
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1385 00ee 9A61     		str	r2, [r3, #24]
  1386              	.LVL206:
  1387 00f0 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
-ARM GAS  /tmp/ccL4YNuc.s 			page 103
+ARM GAS  /tmp/cckSH1lf.s 			page 103
 
 
  1388              	.LVL207:
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1432 0010 1A4B     		ldr	r3, .L89
  1433 0012 1A80     		strh	r2, [r3]	@ movhi
  298:Core/Src/ILI9341_Driver.c ****             TFTWIDTH = 320;
-ARM GAS  /tmp/ccL4YNuc.s 			page 104
+ARM GAS  /tmp/cckSH1lf.s 			page 104
 
 
  1434              		.loc 1 298 0
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1462              	.LVL214:
  1463 0040 08BD     		pop	{r3, pc}
  1464              	.LVL215:
-ARM GAS  /tmp/ccL4YNuc.s 			page 105
+ARM GAS  /tmp/cckSH1lf.s 			page 105
 
 
  1465              	.L86:
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1507              		.loc 1 318 0
  1508 0076 D2E7     		b	.L81
  1509              	.LVL221:
-ARM GAS  /tmp/ccL4YNuc.s 			page 106
+ARM GAS  /tmp/cckSH1lf.s 			page 106
 
 
  1510              	.L87:
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1559 0018 FFF7FEFF 		bl	writeRegisterPair
  1560              	.LVL224:
  331:Core/Src/ILI9341_Driver.c ****   writeRegisterPair(HX8347G_ROWADDREND_HI, HX8347G_ROWADDREND_LO, TFTHEIGHT - 1);
-ARM GAS  /tmp/ccL4YNuc.s 			page 107
+ARM GAS  /tmp/cckSH1lf.s 			page 107
 
 
  1561              		.loc 1 331 0
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1611 0002 0546     		mov	r5, r0
  337:Core/Src/ILI9341_Driver.c ****     setAddrWindow(0, 0, TFTWIDTH - 1, TFTHEIGHT - 1);
  1612              		.loc 1 337 0
-ARM GAS  /tmp/ccL4YNuc.s 			page 108
+ARM GAS  /tmp/cckSH1lf.s 			page 108
 
 
  1613 0004 0B4C     		ldr	r4, .L97
@@ -6475,141 +6475,163 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  1661              		.loc 1 342 0
  1662 0000 0028     		cmp	r0, #0
  1663              	.LVL232:
- 1664 0002 0BDB     		blt	.L102
+ 1664 0002 3BDB     		blt	.L102
  1665              		.loc 1 342 0 is_stmt 0 discriminator 1
  1666 0004 0029     		cmp	r1, #0
-ARM GAS  /tmp/ccL4YNuc.s 			page 109
+ARM GAS  /tmp/cckSH1lf.s 			page 109
 
 
- 1667 0006 09DB     		blt	.L102
- 1668              		.loc 1 342 0 discriminator 2
- 1669 0008 184B     		ldr	r3, .L106
- 1670 000a 1B88     		ldrh	r3, [r3]
- 1671 000c 9BB2     		uxth	r3, r3
- 1672 000e 9842     		cmp	r0, r3
- 1673 0010 04DA     		bge	.L102
- 1674              		.loc 1 342 0 discriminator 3
- 1675 0012 174B     		ldr	r3, .L106+4
- 1676 0014 1B88     		ldrh	r3, [r3]
- 1677 0016 9BB2     		uxth	r3, r3
- 1678 0018 9942     		cmp	r1, r3
- 1679 001a 00DB     		blt	.L105
- 1680              	.L102:
- 1681 001c 7047     		bx	lr
- 1682              	.L105:
+ 1667 0006 39DB     		blt	.L102
  341:Core/Src/ILI9341_Driver.c ****     if ((x < 0) || (y < 0) || (x >= TFTWIDTH) || (y >= TFTHEIGHT))
- 1683              		.loc 1 341 0 is_stmt 1
- 1684 001e 70B5     		push	{r4, r5, r6, lr}
- 1685              	.LCFI14:
- 1686              		.cfi_def_cfa_offset 16
- 1687              		.cfi_offset 4, -16
- 1688              		.cfi_offset 5, -12
- 1689              		.cfi_offset 6, -8
- 1690              		.cfi_offset 14, -4
- 1691 0020 1446     		mov	r4, r2
- 1692              	.LVL233:
- 1693              	.LBB256:
- 1694              	.LBB257:
- 1695              		.loc 3 913 0
- 1696 0022 144D     		ldr	r5, .L106+8
- 1697 0024 4FF40026 		mov	r6, #524288
- 1698 0028 AE61     		str	r6, [r5, #24]
- 1699              	.LVL234:
- 1700              	.LBE257:
- 1701              	.LBE256:
+ 1668              		.loc 1 341 0 is_stmt 1 discriminator 2
+ 1669 0008 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 1670              	.LCFI14:
+ 1671              		.cfi_def_cfa_offset 24
+ 1672              		.cfi_offset 3, -24
+ 1673              		.cfi_offset 4, -20
+ 1674              		.cfi_offset 5, -16
+ 1675              		.cfi_offset 6, -12
+ 1676              		.cfi_offset 7, -8
+ 1677              		.cfi_offset 14, -4
+ 1678              		.loc 1 342 0 discriminator 2
+ 1679 000a 1D4B     		ldr	r3, .L106
+ 1680 000c 1B88     		ldrh	r3, [r3]
+ 1681 000e 9BB2     		uxth	r3, r3
+ 1682 0010 9842     		cmp	r0, r3
+ 1683 0012 04DA     		bge	.L99
+ 1684              		.loc 1 342 0 is_stmt 0 discriminator 3
+ 1685 0014 1B4B     		ldr	r3, .L106+4
+ 1686 0016 1B88     		ldrh	r3, [r3]
+ 1687 0018 9BB2     		uxth	r3, r3
+ 1688 001a 9942     		cmp	r1, r3
+ 1689 001c 00DB     		blt	.L105
+ 1690              	.LVL233:
+ 1691              	.L99:
+ 1692 001e F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 1693              	.LVL234:
+ 1694              	.L105:
+ 1695 0020 1446     		mov	r4, r2
+ 1696              	.LVL235:
+ 1697              	.LBB256:
+ 1698              	.LBB257:
+ 1699              		.loc 3 913 0 is_stmt 1
+ 1700 0022 194D     		ldr	r5, .L106+8
+ 1701 0024 4FF40026 		mov	r6, #524288
+ 1702 0028 AE61     		str	r6, [r5, #24]
+ 1703              	.LVL236:
+ 1704              	.LBE257:
+ 1705              	.LBE256:
  343:Core/Src/ILI9341_Driver.c ****         return;
  344:Core/Src/ILI9341_Driver.c **** 
  345:Core/Src/ILI9341_Driver.c ****     LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
- 346:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x, y, TFTWIDTH - 1, TFTHEIGHT - 1);
- 1702              		.loc 1 346 0
- 1703 002a 104B     		ldr	r3, .L106
- 1704 002c 1A88     		ldrh	r2, [r3]
- 1705              	.LVL235:
- 1706 002e 92B2     		uxth	r2, r2
- 1707 0030 0F4B     		ldr	r3, .L106+4
- 1708 0032 1B88     		ldrh	r3, [r3]
- 1709 0034 9BB2     		uxth	r3, r3
- 1710 0036 013B     		subs	r3, r3, #1
- 1711 0038 013A     		subs	r2, r2, #1
- 1712 003a 9BB2     		uxth	r3, r3
- 1713 003c 92B2     		uxth	r2, r2
- 1714 003e 89B2     		uxth	r1, r1
- 1715 0040 80B2     		uxth	r0, r0
- 1716 0042 FFF7FEFF 		bl	setAddrWindow
- 1717              	.LVL236:
- 1718              	.LBB258:
-ARM GAS  /tmp/ccL4YNuc.s 			page 110
+ 346:Core/Src/ILI9341_Driver.c ****     setAddrWindow(TFTWIDTH-x, TFTHEIGHT-y, TFTWIDTH - 1, TFTHEIGHT - 1);
+ 1706              		.loc 1 346 0
+ 1707 002a 154A     		ldr	r2, .L106
+ 1708              	.LVL237:
+ 1709 002c 1788     		ldrh	r7, [r2]
+ 1710 002e BFB2     		uxth	r7, r7
+ 1711 0030 144B     		ldr	r3, .L106+4
+ 1712 0032 B3F800E0 		ldrh	lr, [r3]
+ 1713 0036 1FFA8EFE 		uxth	lr, lr
+ 1714 003a 1288     		ldrh	r2, [r2]
+ 1715 003c 92B2     		uxth	r2, r2
+ 1716 003e 1B88     		ldrh	r3, [r3]
+ 1717 0040 9BB2     		uxth	r3, r3
+ 1718 0042 013B     		subs	r3, r3, #1
+ARM GAS  /tmp/cckSH1lf.s 			page 110
 
 
- 1719              	.LBB259:
- 1720              		.loc 3 913 0
- 1721 0046 AE61     		str	r6, [r5, #24]
- 1722              	.LVL237:
- 1723              	.LBE259:
- 1724              	.LBE258:
- 1725              	.LBB260:
- 1726              	.LBB261:
- 1727 0048 4FF48013 		mov	r3, #1048576
- 1728 004c AB61     		str	r3, [r5, #24]
- 1729              	.LVL238:
- 1730              	.LBE261:
- 1731              	.LBE260:
+ 1719 0044 013A     		subs	r2, r2, #1
+ 1720 0046 AEEB0101 		sub	r1, lr, r1
+ 1721              	.LVL238:
+ 1722 004a 381A     		subs	r0, r7, r0
+ 1723 004c 9BB2     		uxth	r3, r3
+ 1724 004e 92B2     		uxth	r2, r2
+ 1725 0050 89B2     		uxth	r1, r1
+ 1726 0052 80B2     		uxth	r0, r0
+ 1727 0054 FFF7FEFF 		bl	setAddrWindow
+ 1728              	.LVL239:
+ 1729              	.LBB258:
+ 1730              	.LBB259:
+ 1731              		.loc 3 913 0
+ 1732 0058 AE61     		str	r6, [r5, #24]
+ 1733              	.LVL240:
+ 1734              	.LBE259:
+ 1735              	.LBE258:
+ 1736              	.LBB260:
+ 1737              	.LBB261:
+ 1738 005a 4FF48013 		mov	r3, #1048576
+ 1739 005e AB61     		str	r3, [r5, #24]
+ 1740              	.LVL241:
+ 1741              	.LBE261:
+ 1742              	.LBE260:
  347:Core/Src/ILI9341_Driver.c ****     LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
  348:Core/Src/ILI9341_Driver.c ****     LL_GPIO_ResetOutputPin(DC_PORT,DC_PIN);
  349:Core/Src/ILI9341_Driver.c ****     write8(ILI9341_MEMORYWRITE);
- 1732              		.loc 1 349 0
- 1733 004e 2C20     		movs	r0, #44
- 1734 0050 FFF7FEFF 		bl	write8
- 1735              	.LVL239:
- 1736              	.LBB262:
- 1737              	.LBB263:
+ 1743              		.loc 1 349 0
+ 1744 0060 2C20     		movs	r0, #44
+ 1745 0062 FFF7FEFF 		bl	write8
+ 1746              	.LVL242:
+ 1747              	.LBB262:
+ 1748              	.LBB263:
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
- 1738              		.loc 3 884 0
- 1739 0054 1023     		movs	r3, #16
- 1740 0056 AB61     		str	r3, [r5, #24]
- 1741              	.LVL240:
- 1742              	.LBE263:
- 1743              	.LBE262:
+ 1749              		.loc 3 884 0
+ 1750 0066 1023     		movs	r3, #16
+ 1751 0068 AB61     		str	r3, [r5, #24]
+ 1752              	.LVL243:
+ 1753              	.LBE263:
+ 1754              	.LBE262:
  350:Core/Src/ILI9341_Driver.c ****     LL_GPIO_SetOutputPin(DC_PORT,DC_PIN);
  351:Core/Src/ILI9341_Driver.c ****     write8(color >> 8);
- 1744              		.loc 1 351 0
- 1745 0058 200A     		lsrs	r0, r4, #8
- 1746 005a FFF7FEFF 		bl	write8
- 1747              	.LVL241:
+ 1755              		.loc 1 351 0
+ 1756 006a 200A     		lsrs	r0, r4, #8
+ 1757 006c FFF7FEFF 		bl	write8
+ 1758              	.LVL244:
  352:Core/Src/ILI9341_Driver.c ****     write8(color);
- 1748              		.loc 1 352 0
- 1749 005e E0B2     		uxtb	r0, r4
- 1750 0060 FFF7FEFF 		bl	write8
- 1751              	.LVL242:
- 1752              	.LBB264:
- 1753              	.LBB265:
+ 1759              		.loc 1 352 0
+ 1760 0070 E0B2     		uxtb	r0, r4
+ 1761 0072 FFF7FEFF 		bl	write8
+ 1762              	.LVL245:
+ 1763              	.LBB264:
+ 1764              	.LBB265:
  884:Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h **** }
- 1754              		.loc 3 884 0
- 1755 0064 0823     		movs	r3, #8
- 1756 0066 AB61     		str	r3, [r5, #24]
- 1757 0068 70BD     		pop	{r4, r5, r6, pc}
- 1758              	.L107:
- 1759 006a 00BF     		.align	2
- 1760              	.L106:
- 1761 006c 00000000 		.word	.LANCHOR1
- 1762 0070 00000000 		.word	.LANCHOR2
- 1763 0074 00040240 		.word	1073873920
- 1764              	.LBE265:
- 1765              	.LBE264:
- 1766              		.cfi_endproc
- 1767              	.LFE752:
-ARM GAS  /tmp/ccL4YNuc.s 			page 111
+ 1765              		.loc 3 884 0
+ 1766 0076 0823     		movs	r3, #8
+ 1767 0078 AB61     		str	r3, [r5, #24]
+ARM GAS  /tmp/cckSH1lf.s 			page 111
 
 
- 1769              		.section	.text.fillRect,"ax",%progbits
- 1770              		.align	1
- 1771              		.global	fillRect
- 1772              		.syntax unified
- 1773              		.thumb
- 1774              		.thumb_func
- 1775              		.fpu fpv4-sp-d16
- 1777              	fillRect:
- 1778              	.LFB753:
+ 1768 007a D0E7     		b	.L99
+ 1769              	.LVL246:
+ 1770              	.L102:
+ 1771              	.LCFI15:
+ 1772              		.cfi_def_cfa_offset 0
+ 1773              		.cfi_restore 3
+ 1774              		.cfi_restore 4
+ 1775              		.cfi_restore 5
+ 1776              		.cfi_restore 6
+ 1777              		.cfi_restore 7
+ 1778              		.cfi_restore 14
+ 1779 007c 7047     		bx	lr
+ 1780              	.L107:
+ 1781 007e 00BF     		.align	2
+ 1782              	.L106:
+ 1783 0080 00000000 		.word	.LANCHOR1
+ 1784 0084 00000000 		.word	.LANCHOR2
+ 1785 0088 00040240 		.word	1073873920
+ 1786              	.LBE265:
+ 1787              	.LBE264:
+ 1788              		.cfi_endproc
+ 1789              	.LFE752:
+ 1791              		.section	.text.fillRect,"ax",%progbits
+ 1792              		.align	1
+ 1793              		.global	fillRect
+ 1794              		.syntax unified
+ 1795              		.thumb
+ 1796              		.thumb_func
+ 1797              		.fpu fpv4-sp-d16
+ 1799              	fillRect:
+ 1800              	.LFB753:
  353:Core/Src/ILI9341_Driver.c ****   
  354:Core/Src/ILI9341_Driver.c ****     LL_GPIO_SetOutputPin(CS_PORT,CS_PIN);
  355:Core/Src/ILI9341_Driver.c **** }
@@ -6617,1507 +6639,1525 @@ ARM GAS  /tmp/ccL4YNuc.s 			page 1
  357:Core/Src/ILI9341_Driver.c **** 
  358:Core/Src/ILI9341_Driver.c **** 
  359:Core/Src/ILI9341_Driver.c **** void fillRect(int16_t x1, int16_t y1, int16_t w, int16_t h, uint16_t fillcolor) {
- 1779              		.loc 1 359 0
- 1780              		.cfi_startproc
- 1781              		@ args = 4, pretend = 0, frame = 0
- 1782              		@ frame_needed = 0, uses_anonymous_args = 0
- 1783              	.LVL243:
- 1784 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
- 1785              	.LCFI15:
- 1786              		.cfi_def_cfa_offset 24
- 1787              		.cfi_offset 3, -24
- 1788              		.cfi_offset 4, -20
- 1789              		.cfi_offset 5, -16
- 1790              		.cfi_offset 6, -12
- 1791              		.cfi_offset 7, -8
- 1792              		.cfi_offset 14, -4
+ 1801              		.loc 1 359 0
+ 1802              		.cfi_startproc
+ 1803              		@ args = 4, pretend = 0, frame = 0
+ 1804              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1805              	.LVL247:
+ 1806 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 1807              	.LCFI16:
+ 1808              		.cfi_def_cfa_offset 24
+ 1809              		.cfi_offset 3, -24
+ 1810              		.cfi_offset 4, -20
+ 1811              		.cfi_offset 5, -16
+ 1812              		.cfi_offset 6, -12
+ 1813              		.cfi_offset 7, -8
+ 1814              		.cfi_offset 14, -4
  360:Core/Src/ILI9341_Driver.c ****     int16_t x2, y2;
  361:Core/Src/ILI9341_Driver.c **** 
  362:Core/Src/ILI9341_Driver.c ****     // Initial off-screen clipping
  363:Core/Src/ILI9341_Driver.c ****     if ((w <= 0) || (h <= 0) || (x1 >= TFTWIDTH) || (y1 >= TFTHEIGHT) ||
- 1793              		.loc 1 363 0
- 1794 0002 151E     		subs	r5, r2, #0
- 1795 0004 48DD     		ble	.L108
- 1796 0006 1C46     		mov	r4, r3
- 1797              		.loc 1 363 0 is_stmt 0 discriminator 1
- 1798 0008 002B     		cmp	r3, #0
- 1799 000a 45DD     		ble	.L108
- 1800              		.loc 1 363 0 discriminator 2
- 1801 000c 264B     		ldr	r3, .L117
- 1802              	.LVL244:
- 1803 000e 1B88     		ldrh	r3, [r3]
- 1804 0010 9BB2     		uxth	r3, r3
- 1805 0012 9842     		cmp	r0, r3
- 1806 0014 40DA     		bge	.L108
- 1807              		.loc 1 363 0 discriminator 3
- 1808 0016 254B     		ldr	r3, .L117+4
- 1809 0018 1B88     		ldrh	r3, [r3]
- 1810 001a 9BB2     		uxth	r3, r3
- 1811 001c 9942     		cmp	r1, r3
- 1812 001e 3BDA     		bge	.L108
+ 1815              		.loc 1 363 0
+ARM GAS  /tmp/cckSH1lf.s 			page 112
+
+
+ 1816 0002 151E     		subs	r5, r2, #0
+ 1817 0004 5CDD     		ble	.L108
+ 1818 0006 1C46     		mov	r4, r3
+ 1819              		.loc 1 363 0 is_stmt 0 discriminator 1
+ 1820 0008 002B     		cmp	r3, #0
+ 1821 000a 59DD     		ble	.L108
+ 1822              		.loc 1 363 0 discriminator 2
+ 1823 000c 304B     		ldr	r3, .L117
+ 1824              	.LVL248:
+ 1825 000e 1B88     		ldrh	r3, [r3]
+ 1826 0010 9BB2     		uxth	r3, r3
+ 1827 0012 9842     		cmp	r0, r3
+ 1828 0014 54DA     		bge	.L108
+ 1829              		.loc 1 363 0 discriminator 3
+ 1830 0016 2F4B     		ldr	r3, .L117+4
+ 1831 0018 1B88     		ldrh	r3, [r3]
+ 1832 001a 9BB2     		uxth	r3, r3
+ 1833 001c 9942     		cmp	r1, r3
+ 1834 001e 4FDA     		bge	.L108
  364:Core/Src/ILI9341_Driver.c ****         ((x2 = x1 + w - 1) < 0) || ((y2 = y1 + h - 1) < 0))
- 1813              		.loc 1 364 0 is_stmt 1 discriminator 4
- 1814 0020 4619     		adds	r6, r0, r5
-ARM GAS  /tmp/ccL4YNuc.s 			page 112
-
-
- 1815 0022 B6B2     		uxth	r6, r6
- 1816 0024 721E     		subs	r2, r6, #1
- 1817              	.LVL245:
- 1818 0026 12B2     		sxth	r2, r2
- 1819              	.LVL246:
+ 1835              		.loc 1 364 0 is_stmt 1 discriminator 4
+ 1836 0020 4319     		adds	r3, r0, r5
+ 1837 0022 9BB2     		uxth	r3, r3
+ 1838 0024 5E1E     		subs	r6, r3, #1
+ 1839 0026 36B2     		sxth	r6, r6
+ 1840              	.LVL249:
  363:Core/Src/ILI9341_Driver.c ****         ((x2 = x1 + w - 1) < 0) || ((y2 = y1 + h - 1) < 0))
- 1820              		.loc 1 363 0 discriminator 4
- 1821 0028 002A     		cmp	r2, #0
- 1822 002a 35DB     		blt	.L108
- 1823              		.loc 1 364 0
- 1824 002c 0F19     		adds	r7, r1, r4
- 1825 002e BFB2     		uxth	r7, r7
- 1826 0030 7B1E     		subs	r3, r7, #1
- 1827 0032 1BB2     		sxth	r3, r3
- 1828              	.LVL247:
- 1829 0034 002B     		cmp	r3, #0
- 1830 0036 2FDB     		blt	.L108
+ 1841              		.loc 1 363 0 discriminator 4
+ 1842 0028 002E     		cmp	r6, #0
+ 1843 002a 49DB     		blt	.L108
+ 1844              		.loc 1 364 0
+ 1845 002c 0A19     		adds	r2, r1, r4
+ 1846              	.LVL250:
+ 1847 002e 92B2     		uxth	r2, r2
+ 1848 0030 571E     		subs	r7, r2, #1
+ 1849 0032 3FB2     		sxth	r7, r7
+ 1850              	.LVL251:
+ 1851 0034 002F     		cmp	r7, #0
+ 1852 0036 43DB     		blt	.L108
  365:Core/Src/ILI9341_Driver.c ****         return;
  366:Core/Src/ILI9341_Driver.c ****     if (x1 < 0) { // Clip left
- 1831              		.loc 1 366 0
- 1832 0038 0028     		cmp	r0, #0
- 1833 003a 2EDB     		blt	.L115
- 1834              	.LVL248:
- 1835              	.L110:
+ 1853              		.loc 1 366 0
+ 1854 0038 0028     		cmp	r0, #0
+ 1855 003a 42DB     		blt	.L115
+ 1856              	.LVL252:
+ 1857              	.L110:
  367:Core/Src/ILI9341_Driver.c ****         w += x1;
  368:Core/Src/ILI9341_Driver.c ****         x1 = 0;
  369:Core/Src/ILI9341_Driver.c ****     }
  370:Core/Src/ILI9341_Driver.c ****     if (y1 < 0) { // Clip top
- 1836              		.loc 1 370 0
- 1837 003c 0029     		cmp	r1, #0
- 1838 003e 2FDB     		blt	.L116
- 1839              	.LVL249:
- 1840              	.L111:
+ 1858              		.loc 1 370 0
+ 1859 003c 0029     		cmp	r1, #0
+ 1860 003e 43DB     		blt	.L116
+ 1861              	.LVL253:
+ 1862              	.L111:
  371:Core/Src/ILI9341_Driver.c ****         h += y1;
  372:Core/Src/ILI9341_Driver.c ****         y1 = 0;
+ARM GAS  /tmp/cckSH1lf.s 			page 113
+
+
  373:Core/Src/ILI9341_Driver.c ****     }
  374:Core/Src/ILI9341_Driver.c ****     if (x2 >= TFTWIDTH) { // Clip right
- 1841              		.loc 1 374 0
- 1842 0040 194E     		ldr	r6, .L117
- 1843 0042 3688     		ldrh	r6, [r6]
- 1844 0044 B6B2     		uxth	r6, r6
- 1845 0046 B242     		cmp	r2, r6
- 1846 0048 09DB     		blt	.L112
+ 1863              		.loc 1 374 0
+ 1864 0040 234B     		ldr	r3, .L117
+ 1865 0042 1B88     		ldrh	r3, [r3]
+ 1866 0044 9BB2     		uxth	r3, r3
+ 1867 0046 9E42     		cmp	r6, r3
+ 1868 0048 09DB     		blt	.L112
  375:Core/Src/ILI9341_Driver.c ****         x2 = TFTWIDTH - 1;
- 1847              		.loc 1 375 0
- 1848 004a 174A     		ldr	r2, .L117
- 1849              	.LVL250:
- 1850 004c 1588     		ldrh	r5, [r2]
- 1851              	.LVL251:
- 1852 004e ADB2     		uxth	r5, r5
- 1853 0050 013D     		subs	r5, r5, #1
- 1854 0052 ADB2     		uxth	r5, r5
- 1855 0054 2AB2     		sxth	r2, r5
- 1856              	.LVL252:
+ 1869              		.loc 1 375 0
+ 1870 004a 214B     		ldr	r3, .L117
+ 1871 004c 1B88     		ldrh	r3, [r3]
+ 1872 004e 9BB2     		uxth	r3, r3
+ 1873 0050 013B     		subs	r3, r3, #1
+ 1874 0052 9BB2     		uxth	r3, r3
+ 1875 0054 1EB2     		sxth	r6, r3
+ 1876              	.LVL254:
  376:Core/Src/ILI9341_Driver.c ****         w = x2 - x1 + 1;
- 1857              		.loc 1 376 0
- 1858 0056 2D1A     		subs	r5, r5, r0
-ARM GAS  /tmp/ccL4YNuc.s 			page 113
-
-
- 1859 0058 ADB2     		uxth	r5, r5
- 1860 005a 0135     		adds	r5, r5, #1
- 1861 005c 2DB2     		sxth	r5, r5
- 1862              	.LVL253:
- 1863              	.L112:
+ 1877              		.loc 1 376 0
+ 1878 0056 1D1A     		subs	r5, r3, r0
+ 1879              	.LVL255:
+ 1880 0058 ADB2     		uxth	r5, r5
+ 1881 005a 0135     		adds	r5, r5, #1
+ 1882 005c 2DB2     		sxth	r5, r5
+ 1883              	.LVL256:
+ 1884              	.L112:
  377:Core/Src/ILI9341_Driver.c ****     }
  378:Core/Src/ILI9341_Driver.c ****     if (y2 >= TFTHEIGHT) { // Clip bottom
- 1864              		.loc 1 378 0
- 1865 005e 134E     		ldr	r6, .L117+4
- 1866 0060 3688     		ldrh	r6, [r6]
- 1867 0062 B6B2     		uxth	r6, r6
- 1868 0064 B342     		cmp	r3, r6
- 1869 0066 09DB     		blt	.L113
+ 1885              		.loc 1 378 0
+ 1886 005e 1D4B     		ldr	r3, .L117+4
+ 1887 0060 1B88     		ldrh	r3, [r3]
+ 1888 0062 9BB2     		uxth	r3, r3
+ 1889 0064 9F42     		cmp	r7, r3
+ 1890 0066 09DB     		blt	.L113
  379:Core/Src/ILI9341_Driver.c ****         y2 = TFTHEIGHT - 1;
- 1870              		.loc 1 379 0
- 1871 0068 104B     		ldr	r3, .L117+4
- 1872              	.LVL254:
- 1873 006a 1C88     		ldrh	r4, [r3]
- 1874              	.LVL255:
- 1875 006c A4B2     		uxth	r4, r4
- 1876 006e 013C     		subs	r4, r4, #1
- 1877 0070 A4B2     		uxth	r4, r4
- 1878 0072 23B2     		sxth	r3, r4
- 1879              	.LVL256:
+ 1891              		.loc 1 379 0
+ 1892 0068 1A4B     		ldr	r3, .L117+4
+ 1893 006a 1B88     		ldrh	r3, [r3]
+ 1894 006c 9BB2     		uxth	r3, r3
+ 1895 006e 013B     		subs	r3, r3, #1
+ 1896 0070 9BB2     		uxth	r3, r3
+ 1897 0072 1FB2     		sxth	r7, r3
+ 1898              	.LVL257:
  380:Core/Src/ILI9341_Driver.c ****         h = y2 - y1 + 1;
- 1880              		.loc 1 380 0
- 1881 0074 641A     		subs	r4, r4, r1
- 1882 0076 A4B2     		uxth	r4, r4
- 1883 0078 0134     		adds	r4, r4, #1
- 1884 007a 24B2     		sxth	r4, r4
- 1885              	.LVL257:
- 1886              	.L113:
+ 1899              		.loc 1 380 0
+ 1900 0074 5C1A     		subs	r4, r3, r1
+ 1901              	.LVL258:
+ 1902 0076 A4B2     		uxth	r4, r4
+ 1903 0078 0134     		adds	r4, r4, #1
+ 1904 007a 24B2     		sxth	r4, r4
+ 1905              	.LVL259:
+ 1906              	.L113:
  381:Core/Src/ILI9341_Driver.c ****     }
- 382:Core/Src/ILI9341_Driver.c **** 
- 383:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x1, y1, x2, y2);
- 1887              		.loc 1 383 0
- 1888 007c 9BB2     		uxth	r3, r3
- 1889 007e 92B2     		uxth	r2, r2
- 1890 0080 89B2     		uxth	r1, r1
- 1891 0082 80B2     		uxth	r0, r0
- 1892 0084 FFF7FEFF 		bl	setAddrWindow
- 1893              	.LVL258:
- 384:Core/Src/ILI9341_Driver.c ****     floodScreen(fillcolor, (uint32_t)w * (uint32_t)h);
- 1894              		.loc 1 384 0
- 1895 0088 04FB05F1 		mul	r1, r4, r5
- 1896 008c BDF81800 		ldrh	r0, [sp, #24]
- 1897 0090 FFF7FEFF 		bl	floodScreen
- 1898              	.LVL259:
- 385:Core/Src/ILI9341_Driver.c ****     setLR();
- 1899              		.loc 1 385 0
- 1900 0094 FFF7FEFF 		bl	setLR
- 1901              	.LVL260:
- 1902              	.L108:
- 1903 0098 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
- 1904              	.LVL261:
- 1905              	.L115:
+ 382:Core/Src/ILI9341_Driver.c ****     
+ 383:Core/Src/ILI9341_Driver.c ****     //modif
+ 384:Core/Src/ILI9341_Driver.c ****     setAddrWindow(TFTWIDTH-x2, TFTHEIGHT-y2, TFTWIDTH-x1, TFTHEIGHT-y1);
+ 1907              		.loc 1 384 0
+ARM GAS  /tmp/cckSH1lf.s 			page 114
+
+
+ 1908 007c 144A     		ldr	r2, .L117
+ 1909 007e B2F800E0 		ldrh	lr, [r2]
+ 1910 0082 1FFA8EFE 		uxth	lr, lr
+ 1911 0086 134B     		ldr	r3, .L117+4
+ 1912 0088 B3F800C0 		ldrh	ip, [r3]
+ 1913 008c 1FFA8CFC 		uxth	ip, ip
+ 1914 0090 1288     		ldrh	r2, [r2]
+ 1915 0092 92B2     		uxth	r2, r2
+ 1916 0094 1B88     		ldrh	r3, [r3]
+ 1917 0096 9BB2     		uxth	r3, r3
+ 1918 0098 5B1A     		subs	r3, r3, r1
+ 1919 009a 121A     		subs	r2, r2, r0
+ 1920 009c ACEB0701 		sub	r1, ip, r7
+ 1921              	.LVL260:
+ 1922 00a0 AEEB0600 		sub	r0, lr, r6
+ 1923              	.LVL261:
+ 1924 00a4 9BB2     		uxth	r3, r3
+ 1925 00a6 92B2     		uxth	r2, r2
+ 1926 00a8 89B2     		uxth	r1, r1
+ 1927 00aa 80B2     		uxth	r0, r0
+ 1928 00ac FFF7FEFF 		bl	setAddrWindow
+ 1929              	.LVL262:
+ 385:Core/Src/ILI9341_Driver.c ****     floodScreen(fillcolor, (uint32_t)w * (uint32_t)h);
+ 1930              		.loc 1 385 0
+ 1931 00b0 04FB05F1 		mul	r1, r4, r5
+ 1932 00b4 BDF81800 		ldrh	r0, [sp, #24]
+ 1933 00b8 FFF7FEFF 		bl	floodScreen
+ 1934              	.LVL263:
+ 386:Core/Src/ILI9341_Driver.c ****     setLR();
+ 1935              		.loc 1 386 0
+ 1936 00bc FFF7FEFF 		bl	setLR
+ 1937              	.LVL264:
+ 1938              	.L108:
+ 1939 00c0 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 1940              	.LVL265:
+ 1941              	.L115:
  367:Core/Src/ILI9341_Driver.c ****         x1 = 0;
-ARM GAS  /tmp/ccL4YNuc.s 			page 114
-
-
- 1906              		.loc 1 367 0
- 1907 009a 35B2     		sxth	r5, r6
- 1908              	.LVL262:
+ 1942              		.loc 1 367 0
+ 1943 00c2 1DB2     		sxth	r5, r3
+ 1944              	.LVL266:
  368:Core/Src/ILI9341_Driver.c ****     }
- 1909              		.loc 1 368 0
- 1910 009c 0020     		movs	r0, #0
- 1911 009e CDE7     		b	.L110
- 1912              	.LVL263:
- 1913              	.L116:
+ 1945              		.loc 1 368 0
+ 1946 00c4 0020     		movs	r0, #0
+ 1947 00c6 B9E7     		b	.L110
+ 1948              	.LVL267:
+ 1949              	.L116:
  371:Core/Src/ILI9341_Driver.c ****         y1 = 0;
- 1914              		.loc 1 371 0
- 1915 00a0 3CB2     		sxth	r4, r7
- 1916              	.LVL264:
+ 1950              		.loc 1 371 0
+ 1951 00c8 14B2     		sxth	r4, r2
+ 1952              	.LVL268:
  372:Core/Src/ILI9341_Driver.c ****     }
- 1917              		.loc 1 372 0
- 1918 00a2 0021     		movs	r1, #0
- 1919 00a4 CCE7     		b	.L111
- 1920              	.L118:
- 1921 00a6 00BF     		.align	2
- 1922              	.L117:
- 1923 00a8 00000000 		.word	.LANCHOR1
- 1924 00ac 00000000 		.word	.LANCHOR2
- 1925              		.cfi_endproc
- 1926              	.LFE753:
- 1928              		.section	.text.drawFastHLine,"ax",%progbits
- 1929              		.align	1
- 1930              		.global	drawFastHLine
- 1931              		.syntax unified
- 1932              		.thumb
- 1933              		.thumb_func
- 1934              		.fpu fpv4-sp-d16
- 1936              	drawFastHLine:
- 1937              	.LFB754:
- 386:Core/Src/ILI9341_Driver.c **** }
- 387:Core/Src/ILI9341_Driver.c **** 
+ 1953              		.loc 1 372 0
+ 1954 00ca 0021     		movs	r1, #0
+ 1955 00cc B8E7     		b	.L111
+ 1956              	.L118:
+ 1957 00ce 00BF     		.align	2
+ 1958              	.L117:
+ARM GAS  /tmp/cckSH1lf.s 			page 115
+
+
+ 1959 00d0 00000000 		.word	.LANCHOR1
+ 1960 00d4 00000000 		.word	.LANCHOR2
+ 1961              		.cfi_endproc
+ 1962              	.LFE753:
+ 1964              		.section	.text.drawFastHLine,"ax",%progbits
+ 1965              		.align	1
+ 1966              		.global	drawFastHLine
+ 1967              		.syntax unified
+ 1968              		.thumb
+ 1969              		.thumb_func
+ 1970              		.fpu fpv4-sp-d16
+ 1972              	drawFastHLine:
+ 1973              	.LFB754:
+ 387:Core/Src/ILI9341_Driver.c **** }
  388:Core/Src/ILI9341_Driver.c **** 
- 389:Core/Src/ILI9341_Driver.c **** void drawFastHLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
- 1938              		.loc 1 389 0
- 1939              		.cfi_startproc
- 1940              		@ args = 0, pretend = 0, frame = 0
- 1941              		@ frame_needed = 0, uses_anonymous_args = 0
- 1942              	.LVL265:
- 1943 0000 38B5     		push	{r3, r4, r5, lr}
- 1944              	.LCFI16:
- 1945              		.cfi_def_cfa_offset 16
- 1946              		.cfi_offset 3, -16
- 1947              		.cfi_offset 4, -12
- 1948              		.cfi_offset 5, -8
- 1949              		.cfi_offset 14, -4
- 390:Core/Src/ILI9341_Driver.c ****     int16_t x2;
- 391:Core/Src/ILI9341_Driver.c **** 
- 392:Core/Src/ILI9341_Driver.c ****     // Initial off-screen clipping
- 393:Core/Src/ILI9341_Driver.c ****     if ((length <= 0) || (y < 0) || (y >= TFTHEIGHT) || (x >= TFTWIDTH) ||
- 1950              		.loc 1 393 0
- 1951 0002 141E     		subs	r4, r2, #0
- 1952 0004 2FDD     		ble	.L119
- 1953 0006 1D46     		mov	r5, r3
-ARM GAS  /tmp/ccL4YNuc.s 			page 115
+ 389:Core/Src/ILI9341_Driver.c **** 
+ 390:Core/Src/ILI9341_Driver.c **** void drawFastHLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
+ 1974              		.loc 1 390 0
+ 1975              		.cfi_startproc
+ 1976              		@ args = 0, pretend = 0, frame = 0
+ 1977              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1978              	.LVL269:
+ 1979 0000 38B5     		push	{r3, r4, r5, lr}
+ 1980              	.LCFI17:
+ 1981              		.cfi_def_cfa_offset 16
+ 1982              		.cfi_offset 3, -16
+ 1983              		.cfi_offset 4, -12
+ 1984              		.cfi_offset 5, -8
+ 1985              		.cfi_offset 14, -4
+ 391:Core/Src/ILI9341_Driver.c ****     int16_t x2;
+ 392:Core/Src/ILI9341_Driver.c **** 
+ 393:Core/Src/ILI9341_Driver.c ****     // Initial off-screen clipping
+ 394:Core/Src/ILI9341_Driver.c ****     if ((length <= 0) || (y < 0) || (y >= TFTHEIGHT) || (x >= TFTWIDTH) ||
+ 1986              		.loc 1 394 0
+ 1987 0002 141E     		subs	r4, r2, #0
+ 1988 0004 2FDD     		ble	.L119
+ 1989 0006 1D46     		mov	r5, r3
+ 1990              		.loc 1 394 0 is_stmt 0 discriminator 1
+ 1991 0008 0029     		cmp	r1, #0
+ 1992 000a 2CDB     		blt	.L119
+ 1993              		.loc 1 394 0 discriminator 2
+ 1994 000c 184B     		ldr	r3, .L125
+ 1995              	.LVL270:
+ 1996 000e 1B88     		ldrh	r3, [r3]
+ 1997 0010 9BB2     		uxth	r3, r3
+ 1998 0012 9942     		cmp	r1, r3
+ 1999 0014 27DA     		bge	.L119
+ 2000              		.loc 1 394 0 discriminator 3
+ 2001 0016 174B     		ldr	r3, .L125+4
+ 2002 0018 1B88     		ldrh	r3, [r3]
+ 2003 001a 9BB2     		uxth	r3, r3
+ 2004 001c 9842     		cmp	r0, r3
+ 2005 001e 22DA     		bge	.L119
+ 395:Core/Src/ILI9341_Driver.c ****         ((x2 = (x + length - 1)) < 0))
+ 2006              		.loc 1 395 0 is_stmt 1 discriminator 4
+ 2007 0020 0319     		adds	r3, r0, r4
+ 2008 0022 9BB2     		uxth	r3, r3
+ARM GAS  /tmp/cckSH1lf.s 			page 116
 
 
- 1954              		.loc 1 393 0 is_stmt 0 discriminator 1
- 1955 0008 0029     		cmp	r1, #0
- 1956 000a 2CDB     		blt	.L119
- 1957              		.loc 1 393 0 discriminator 2
- 1958 000c 184B     		ldr	r3, .L125
- 1959              	.LVL266:
- 1960 000e 1B88     		ldrh	r3, [r3]
- 1961 0010 9BB2     		uxth	r3, r3
- 1962 0012 9942     		cmp	r1, r3
- 1963 0014 27DA     		bge	.L119
- 1964              		.loc 1 393 0 discriminator 3
- 1965 0016 174B     		ldr	r3, .L125+4
- 1966 0018 1B88     		ldrh	r3, [r3]
- 1967 001a 9BB2     		uxth	r3, r3
- 1968 001c 9842     		cmp	r0, r3
- 1969 001e 22DA     		bge	.L119
+ 2009 0024 5A1E     		subs	r2, r3, #1
+ 2010              	.LVL271:
+ 2011 0026 12B2     		sxth	r2, r2
+ 2012              	.LVL272:
  394:Core/Src/ILI9341_Driver.c ****         ((x2 = (x + length - 1)) < 0))
- 1970              		.loc 1 394 0 is_stmt 1 discriminator 4
- 1971 0020 0319     		adds	r3, r0, r4
- 1972 0022 9BB2     		uxth	r3, r3
- 1973 0024 5A1E     		subs	r2, r3, #1
- 1974              	.LVL267:
- 1975 0026 12B2     		sxth	r2, r2
- 1976              	.LVL268:
- 393:Core/Src/ILI9341_Driver.c ****         ((x2 = (x + length - 1)) < 0))
- 1977              		.loc 1 393 0 discriminator 4
- 1978 0028 002A     		cmp	r2, #0
- 1979 002a 1CDB     		blt	.L119
- 395:Core/Src/ILI9341_Driver.c ****         return;
- 396:Core/Src/ILI9341_Driver.c **** 
- 397:Core/Src/ILI9341_Driver.c ****     if (x < 0) { // Clip left
- 1980              		.loc 1 397 0
- 1981 002c 0028     		cmp	r0, #0
- 1982 002e 1BDB     		blt	.L124
- 1983              	.LVL269:
- 1984              	.L121:
- 398:Core/Src/ILI9341_Driver.c ****         length += x;
- 399:Core/Src/ILI9341_Driver.c ****         x = 0;
- 400:Core/Src/ILI9341_Driver.c ****     }
- 401:Core/Src/ILI9341_Driver.c ****     if (x2 >= TFTWIDTH) { // Clip right
- 1985              		.loc 1 401 0
- 1986 0030 104B     		ldr	r3, .L125+4
- 1987 0032 1B88     		ldrh	r3, [r3]
- 1988 0034 9BB2     		uxth	r3, r3
- 1989 0036 9A42     		cmp	r2, r3
- 1990 0038 09DB     		blt	.L122
- 402:Core/Src/ILI9341_Driver.c ****         x2 = TFTWIDTH - 1;
- 1991              		.loc 1 402 0
- 1992 003a 0E4B     		ldr	r3, .L125+4
- 1993 003c 1B88     		ldrh	r3, [r3]
- 1994 003e 9BB2     		uxth	r3, r3
- 1995 0040 013B     		subs	r3, r3, #1
- 1996 0042 9BB2     		uxth	r3, r3
- 1997 0044 1AB2     		sxth	r2, r3
- 1998              	.LVL270:
- 403:Core/Src/ILI9341_Driver.c ****         length = x2 - x + 1;
- 1999              		.loc 1 403 0
-ARM GAS  /tmp/ccL4YNuc.s 			page 116
+ 2013              		.loc 1 394 0 discriminator 4
+ 2014 0028 002A     		cmp	r2, #0
+ 2015 002a 1CDB     		blt	.L119
+ 396:Core/Src/ILI9341_Driver.c ****         return;
+ 397:Core/Src/ILI9341_Driver.c **** 
+ 398:Core/Src/ILI9341_Driver.c ****     if (x < 0) { // Clip left
+ 2016              		.loc 1 398 0
+ 2017 002c 0028     		cmp	r0, #0
+ 2018 002e 1BDB     		blt	.L124
+ 2019              	.LVL273:
+ 2020              	.L121:
+ 399:Core/Src/ILI9341_Driver.c ****         length += x;
+ 400:Core/Src/ILI9341_Driver.c ****         x = 0;
+ 401:Core/Src/ILI9341_Driver.c ****     }
+ 402:Core/Src/ILI9341_Driver.c ****     if (x2 >= TFTWIDTH) { // Clip right
+ 2021              		.loc 1 402 0
+ 2022 0030 104B     		ldr	r3, .L125+4
+ 2023 0032 1B88     		ldrh	r3, [r3]
+ 2024 0034 9BB2     		uxth	r3, r3
+ 2025 0036 9A42     		cmp	r2, r3
+ 2026 0038 09DB     		blt	.L122
+ 403:Core/Src/ILI9341_Driver.c ****         x2 = TFTWIDTH - 1;
+ 2027              		.loc 1 403 0
+ 2028 003a 0E4B     		ldr	r3, .L125+4
+ 2029 003c 1B88     		ldrh	r3, [r3]
+ 2030 003e 9BB2     		uxth	r3, r3
+ 2031 0040 013B     		subs	r3, r3, #1
+ 2032 0042 9BB2     		uxth	r3, r3
+ 2033 0044 1AB2     		sxth	r2, r3
+ 2034              	.LVL274:
+ 404:Core/Src/ILI9341_Driver.c ****         length = x2 - x + 1;
+ 2035              		.loc 1 404 0
+ 2036 0046 1C1A     		subs	r4, r3, r0
+ 2037              	.LVL275:
+ 2038 0048 A4B2     		uxth	r4, r4
+ 2039 004a 0134     		adds	r4, r4, #1
+ 2040 004c 24B2     		sxth	r4, r4
+ 2041              	.LVL276:
+ 2042              	.L122:
+ 405:Core/Src/ILI9341_Driver.c ****     }
+ 406:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x, y, x2, y);
+ 2043              		.loc 1 406 0
+ 2044 004e 89B2     		uxth	r1, r1
+ 2045 0050 0B46     		mov	r3, r1
+ 2046 0052 92B2     		uxth	r2, r2
+ 2047 0054 80B2     		uxth	r0, r0
+ 2048 0056 FFF7FEFF 		bl	setAddrWindow
+ 2049              	.LVL277:
+ 407:Core/Src/ILI9341_Driver.c ****     floodScreen(color, length);
+ 2050              		.loc 1 407 0
+ 2051 005a 2146     		mov	r1, r4
+ 2052 005c 2846     		mov	r0, r5
+ARM GAS  /tmp/cckSH1lf.s 			page 117
 
 
- 2000 0046 1C1A     		subs	r4, r3, r0
- 2001              	.LVL271:
- 2002 0048 A4B2     		uxth	r4, r4
- 2003 004a 0134     		adds	r4, r4, #1
- 2004 004c 24B2     		sxth	r4, r4
- 2005              	.LVL272:
- 2006              	.L122:
- 404:Core/Src/ILI9341_Driver.c ****     }
- 405:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x, y, x2, y);
- 2007              		.loc 1 405 0
- 2008 004e 89B2     		uxth	r1, r1
- 2009 0050 0B46     		mov	r3, r1
- 2010 0052 92B2     		uxth	r2, r2
- 2011 0054 80B2     		uxth	r0, r0
- 2012 0056 FFF7FEFF 		bl	setAddrWindow
- 2013              	.LVL273:
- 406:Core/Src/ILI9341_Driver.c ****     floodScreen(color, length);
- 2014              		.loc 1 406 0
- 2015 005a 2146     		mov	r1, r4
- 2016 005c 2846     		mov	r0, r5
- 2017 005e FFF7FEFF 		bl	floodScreen
- 2018              	.LVL274:
- 407:Core/Src/ILI9341_Driver.c ****     setLR();
- 2019              		.loc 1 407 0
- 2020 0062 FFF7FEFF 		bl	setLR
- 2021              	.LVL275:
- 2022              	.L119:
- 2023 0066 38BD     		pop	{r3, r4, r5, pc}
- 2024              	.LVL276:
- 2025              	.L124:
- 398:Core/Src/ILI9341_Driver.c ****         x = 0;
- 2026              		.loc 1 398 0
- 2027 0068 1CB2     		sxth	r4, r3
- 2028              	.LVL277:
- 399:Core/Src/ILI9341_Driver.c ****     }
- 2029              		.loc 1 399 0
- 2030 006a 0020     		movs	r0, #0
- 2031 006c E0E7     		b	.L121
- 2032              	.L126:
- 2033 006e 00BF     		.align	2
- 2034              	.L125:
- 2035 0070 00000000 		.word	.LANCHOR2
- 2036 0074 00000000 		.word	.LANCHOR1
- 2037              		.cfi_endproc
- 2038              	.LFE754:
- 2040              		.section	.text.drawFastVLine,"ax",%progbits
- 2041              		.align	1
- 2042              		.global	drawFastVLine
- 2043              		.syntax unified
- 2044              		.thumb
- 2045              		.thumb_func
- 2046              		.fpu fpv4-sp-d16
- 2048              	drawFastVLine:
- 2049              	.LFB755:
- 408:Core/Src/ILI9341_Driver.c **** }
- 409:Core/Src/ILI9341_Driver.c **** 
- 410:Core/Src/ILI9341_Driver.c **** 
-ARM GAS  /tmp/ccL4YNuc.s 			page 117
-
-
- 411:Core/Src/ILI9341_Driver.c **** void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
- 2050              		.loc 1 411 0
- 2051              		.cfi_startproc
- 2052              		@ args = 0, pretend = 0, frame = 0
- 2053              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2053 005e FFF7FEFF 		bl	floodScreen
  2054              	.LVL278:
- 2055 0000 38B5     		push	{r3, r4, r5, lr}
- 2056              	.LCFI17:
- 2057              		.cfi_def_cfa_offset 16
- 2058              		.cfi_offset 3, -16
- 2059              		.cfi_offset 4, -12
- 2060              		.cfi_offset 5, -8
- 2061              		.cfi_offset 14, -4
- 412:Core/Src/ILI9341_Driver.c ****     int16_t y2;
- 413:Core/Src/ILI9341_Driver.c **** 
- 414:Core/Src/ILI9341_Driver.c ****     // Initial off-screen clipping
- 415:Core/Src/ILI9341_Driver.c ****     if ((length <= 0) || (x < 0) || (x >= TFTWIDTH) || (y >= TFTHEIGHT) ||
- 2062              		.loc 1 415 0
- 2063 0002 141E     		subs	r4, r2, #0
- 2064 0004 2FDD     		ble	.L127
- 2065 0006 1D46     		mov	r5, r3
- 2066              		.loc 1 415 0 is_stmt 0 discriminator 1
- 2067 0008 0028     		cmp	r0, #0
- 2068 000a 2CDB     		blt	.L127
- 2069              		.loc 1 415 0 discriminator 2
- 2070 000c 184B     		ldr	r3, .L133
- 2071              	.LVL279:
- 2072 000e 1B88     		ldrh	r3, [r3]
- 2073 0010 9BB2     		uxth	r3, r3
- 2074 0012 9842     		cmp	r0, r3
- 2075 0014 27DA     		bge	.L127
- 2076              		.loc 1 415 0 discriminator 3
- 2077 0016 174B     		ldr	r3, .L133+4
- 2078 0018 1B88     		ldrh	r3, [r3]
- 2079 001a 9BB2     		uxth	r3, r3
- 2080 001c 9942     		cmp	r1, r3
- 2081 001e 22DA     		bge	.L127
+ 408:Core/Src/ILI9341_Driver.c ****     setLR();
+ 2055              		.loc 1 408 0
+ 2056 0062 FFF7FEFF 		bl	setLR
+ 2057              	.LVL279:
+ 2058              	.L119:
+ 2059 0066 38BD     		pop	{r3, r4, r5, pc}
+ 2060              	.LVL280:
+ 2061              	.L124:
+ 399:Core/Src/ILI9341_Driver.c ****         x = 0;
+ 2062              		.loc 1 399 0
+ 2063 0068 1CB2     		sxth	r4, r3
+ 2064              	.LVL281:
+ 400:Core/Src/ILI9341_Driver.c ****     }
+ 2065              		.loc 1 400 0
+ 2066 006a 0020     		movs	r0, #0
+ 2067 006c E0E7     		b	.L121
+ 2068              	.L126:
+ 2069 006e 00BF     		.align	2
+ 2070              	.L125:
+ 2071 0070 00000000 		.word	.LANCHOR2
+ 2072 0074 00000000 		.word	.LANCHOR1
+ 2073              		.cfi_endproc
+ 2074              	.LFE754:
+ 2076              		.section	.text.drawFastVLine,"ax",%progbits
+ 2077              		.align	1
+ 2078              		.global	drawFastVLine
+ 2079              		.syntax unified
+ 2080              		.thumb
+ 2081              		.thumb_func
+ 2082              		.fpu fpv4-sp-d16
+ 2084              	drawFastVLine:
+ 2085              	.LFB755:
+ 409:Core/Src/ILI9341_Driver.c **** }
+ 410:Core/Src/ILI9341_Driver.c **** 
+ 411:Core/Src/ILI9341_Driver.c **** 
+ 412:Core/Src/ILI9341_Driver.c **** void drawFastVLine(int16_t x, int16_t y, int16_t length, uint16_t color) {
+ 2086              		.loc 1 412 0
+ 2087              		.cfi_startproc
+ 2088              		@ args = 0, pretend = 0, frame = 0
+ 2089              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2090              	.LVL282:
+ 2091 0000 38B5     		push	{r3, r4, r5, lr}
+ 2092              	.LCFI18:
+ 2093              		.cfi_def_cfa_offset 16
+ 2094              		.cfi_offset 3, -16
+ 2095              		.cfi_offset 4, -12
+ 2096              		.cfi_offset 5, -8
+ 2097              		.cfi_offset 14, -4
+ 413:Core/Src/ILI9341_Driver.c ****     int16_t y2;
+ 414:Core/Src/ILI9341_Driver.c **** 
+ 415:Core/Src/ILI9341_Driver.c ****     // Initial off-screen clipping
+ 416:Core/Src/ILI9341_Driver.c ****     if ((length <= 0) || (x < 0) || (x >= TFTWIDTH) || (y >= TFTHEIGHT) ||
+ 2098              		.loc 1 416 0
+ 2099 0002 141E     		subs	r4, r2, #0
+ 2100 0004 2FDD     		ble	.L127
+ARM GAS  /tmp/cckSH1lf.s 			page 118
+
+
+ 2101 0006 1D46     		mov	r5, r3
+ 2102              		.loc 1 416 0 is_stmt 0 discriminator 1
+ 2103 0008 0028     		cmp	r0, #0
+ 2104 000a 2CDB     		blt	.L127
+ 2105              		.loc 1 416 0 discriminator 2
+ 2106 000c 184B     		ldr	r3, .L133
+ 2107              	.LVL283:
+ 2108 000e 1B88     		ldrh	r3, [r3]
+ 2109 0010 9BB2     		uxth	r3, r3
+ 2110 0012 9842     		cmp	r0, r3
+ 2111 0014 27DA     		bge	.L127
+ 2112              		.loc 1 416 0 discriminator 3
+ 2113 0016 174B     		ldr	r3, .L133+4
+ 2114 0018 1B88     		ldrh	r3, [r3]
+ 2115 001a 9BB2     		uxth	r3, r3
+ 2116 001c 9942     		cmp	r1, r3
+ 2117 001e 22DA     		bge	.L127
+ 417:Core/Src/ILI9341_Driver.c ****         ((y2 = (y + length - 1)) < 0))
+ 2118              		.loc 1 417 0 is_stmt 1 discriminator 4
+ 2119 0020 0A19     		adds	r2, r1, r4
+ 2120              	.LVL284:
+ 2121 0022 92B2     		uxth	r2, r2
+ 2122 0024 531E     		subs	r3, r2, #1
+ 2123 0026 1BB2     		sxth	r3, r3
+ 2124              	.LVL285:
  416:Core/Src/ILI9341_Driver.c ****         ((y2 = (y + length - 1)) < 0))
- 2082              		.loc 1 416 0 is_stmt 1 discriminator 4
- 2083 0020 0A19     		adds	r2, r1, r4
- 2084              	.LVL280:
- 2085 0022 92B2     		uxth	r2, r2
- 2086 0024 531E     		subs	r3, r2, #1
- 2087 0026 1BB2     		sxth	r3, r3
- 2088              	.LVL281:
- 415:Core/Src/ILI9341_Driver.c ****         ((y2 = (y + length - 1)) < 0))
- 2089              		.loc 1 415 0 discriminator 4
- 2090 0028 002B     		cmp	r3, #0
- 2091 002a 1CDB     		blt	.L127
- 417:Core/Src/ILI9341_Driver.c ****         return;
- 418:Core/Src/ILI9341_Driver.c ****     if (y < 0) { // Clip top
- 2092              		.loc 1 418 0
- 2093 002c 0029     		cmp	r1, #0
- 2094 002e 1BDB     		blt	.L132
- 2095              	.LVL282:
- 2096              	.L129:
- 419:Core/Src/ILI9341_Driver.c ****         length += y;
-ARM GAS  /tmp/ccL4YNuc.s 			page 118
+ 2125              		.loc 1 416 0 discriminator 4
+ 2126 0028 002B     		cmp	r3, #0
+ 2127 002a 1CDB     		blt	.L127
+ 418:Core/Src/ILI9341_Driver.c ****         return;
+ 419:Core/Src/ILI9341_Driver.c ****     if (y < 0) { // Clip top
+ 2128              		.loc 1 419 0
+ 2129 002c 0029     		cmp	r1, #0
+ 2130 002e 1BDB     		blt	.L132
+ 2131              	.LVL286:
+ 2132              	.L129:
+ 420:Core/Src/ILI9341_Driver.c ****         length += y;
+ 421:Core/Src/ILI9341_Driver.c ****         y = 0;
+ 422:Core/Src/ILI9341_Driver.c ****     }
+ 423:Core/Src/ILI9341_Driver.c ****     if (y2 >= TFTHEIGHT) { // Clip bottom
+ 2133              		.loc 1 423 0
+ 2134 0030 104A     		ldr	r2, .L133+4
+ 2135 0032 1288     		ldrh	r2, [r2]
+ 2136 0034 92B2     		uxth	r2, r2
+ 2137 0036 9342     		cmp	r3, r2
+ 2138 0038 09DB     		blt	.L130
+ 424:Core/Src/ILI9341_Driver.c ****         y2 = TFTHEIGHT - 1;
+ 2139              		.loc 1 424 0
+ 2140 003a 0E4B     		ldr	r3, .L133+4
+ 2141              	.LVL287:
+ 2142 003c 1A88     		ldrh	r2, [r3]
+ 2143 003e 92B2     		uxth	r2, r2
+ 2144 0040 013A     		subs	r2, r2, #1
+ 2145 0042 92B2     		uxth	r2, r2
+ 2146 0044 13B2     		sxth	r3, r2
+ 2147              	.LVL288:
+ 425:Core/Src/ILI9341_Driver.c ****         length = y2 - y + 1;
+ARM GAS  /tmp/cckSH1lf.s 			page 119
 
 
- 420:Core/Src/ILI9341_Driver.c ****         y = 0;
- 421:Core/Src/ILI9341_Driver.c ****     }
- 422:Core/Src/ILI9341_Driver.c ****     if (y2 >= TFTHEIGHT) { // Clip bottom
- 2097              		.loc 1 422 0
- 2098 0030 104A     		ldr	r2, .L133+4
- 2099 0032 1288     		ldrh	r2, [r2]
- 2100 0034 92B2     		uxth	r2, r2
- 2101 0036 9342     		cmp	r3, r2
- 2102 0038 09DB     		blt	.L130
- 423:Core/Src/ILI9341_Driver.c ****         y2 = TFTHEIGHT - 1;
- 2103              		.loc 1 423 0
- 2104 003a 0E4B     		ldr	r3, .L133+4
- 2105              	.LVL283:
- 2106 003c 1A88     		ldrh	r2, [r3]
- 2107 003e 92B2     		uxth	r2, r2
- 2108 0040 013A     		subs	r2, r2, #1
- 2109 0042 92B2     		uxth	r2, r2
- 2110 0044 13B2     		sxth	r3, r2
- 2111              	.LVL284:
- 424:Core/Src/ILI9341_Driver.c ****         length = y2 - y + 1;
- 2112              		.loc 1 424 0
- 2113 0046 541A     		subs	r4, r2, r1
- 2114              	.LVL285:
- 2115 0048 A4B2     		uxth	r4, r4
- 2116 004a 0134     		adds	r4, r4, #1
- 2117 004c 24B2     		sxth	r4, r4
- 2118              	.LVL286:
- 2119              	.L130:
- 425:Core/Src/ILI9341_Driver.c ****     }
- 426:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x, y, x, y2);
- 2120              		.loc 1 426 0
- 2121 004e 80B2     		uxth	r0, r0
- 2122 0050 9BB2     		uxth	r3, r3
- 2123 0052 0246     		mov	r2, r0
- 2124 0054 89B2     		uxth	r1, r1
- 2125 0056 FFF7FEFF 		bl	setAddrWindow
- 2126              	.LVL287:
- 427:Core/Src/ILI9341_Driver.c ****     floodScreen(color, length);
- 2127              		.loc 1 427 0
- 2128 005a 2146     		mov	r1, r4
- 2129 005c 2846     		mov	r0, r5
- 2130 005e FFF7FEFF 		bl	floodScreen
- 2131              	.LVL288:
- 428:Core/Src/ILI9341_Driver.c ****     setLR();
- 2132              		.loc 1 428 0
- 2133 0062 FFF7FEFF 		bl	setLR
- 2134              	.LVL289:
- 2135              	.L127:
- 2136 0066 38BD     		pop	{r3, r4, r5, pc}
- 2137              	.LVL290:
- 2138              	.L132:
- 419:Core/Src/ILI9341_Driver.c ****         y = 0;
- 2139              		.loc 1 419 0
- 2140 0068 14B2     		sxth	r4, r2
- 2141              	.LVL291:
- 420:Core/Src/ILI9341_Driver.c ****     }
- 2142              		.loc 1 420 0
-ARM GAS  /tmp/ccL4YNuc.s 			page 119
-
-
- 2143 006a 0021     		movs	r1, #0
- 2144 006c E0E7     		b	.L129
- 2145              	.L134:
- 2146 006e 00BF     		.align	2
- 2147              	.L133:
- 2148 0070 00000000 		.word	.LANCHOR1
- 2149 0074 00000000 		.word	.LANCHOR2
- 2150              		.cfi_endproc
- 2151              	.LFE755:
- 2153              		.section	.text.DrawChar,"ax",%progbits
- 2154              		.align	1
- 2155              		.global	DrawChar
- 2156              		.syntax unified
- 2157              		.thumb
- 2158              		.thumb_func
- 2159              		.fpu fpv4-sp-d16
- 2161              	DrawChar:
- 2162              	.LFB756:
- 429:Core/Src/ILI9341_Driver.c **** }
- 430:Core/Src/ILI9341_Driver.c **** 
- 431:Core/Src/ILI9341_Driver.c **** void DrawChar(char Character, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Backgr
- 432:Core/Src/ILI9341_Driver.c **** {
- 2163              		.loc 1 432 0
- 2164              		.cfi_startproc
- 2165              		@ args = 8, pretend = 0, frame = 8
- 2166              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2148              		.loc 1 425 0
+ 2149 0046 541A     		subs	r4, r2, r1
+ 2150              	.LVL289:
+ 2151 0048 A4B2     		uxth	r4, r4
+ 2152 004a 0134     		adds	r4, r4, #1
+ 2153 004c 24B2     		sxth	r4, r4
+ 2154              	.LVL290:
+ 2155              	.L130:
+ 426:Core/Src/ILI9341_Driver.c ****     }
+ 427:Core/Src/ILI9341_Driver.c ****     setAddrWindow(x, y, x, y2);
+ 2156              		.loc 1 427 0
+ 2157 004e 80B2     		uxth	r0, r0
+ 2158 0050 9BB2     		uxth	r3, r3
+ 2159 0052 0246     		mov	r2, r0
+ 2160 0054 89B2     		uxth	r1, r1
+ 2161 0056 FFF7FEFF 		bl	setAddrWindow
+ 2162              	.LVL291:
+ 428:Core/Src/ILI9341_Driver.c ****     floodScreen(color, length);
+ 2163              		.loc 1 428 0
+ 2164 005a 2146     		mov	r1, r4
+ 2165 005c 2846     		mov	r0, r5
+ 2166 005e FFF7FEFF 		bl	floodScreen
  2167              	.LVL292:
- 2168 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
- 2169              	.LCFI18:
- 2170              		.cfi_def_cfa_offset 32
- 2171              		.cfi_offset 4, -32
- 2172              		.cfi_offset 5, -28
- 2173              		.cfi_offset 6, -24
- 2174              		.cfi_offset 7, -20
- 2175              		.cfi_offset 8, -16
- 2176              		.cfi_offset 9, -12
- 2177              		.cfi_offset 10, -8
- 2178              		.cfi_offset 14, -4
- 2179 0004 84B0     		sub	sp, sp, #16
- 2180              	.LCFI19:
- 2181              		.cfi_def_cfa_offset 48
- 2182 0006 0F46     		mov	r7, r1
- 2183 0008 9046     		mov	r8, r2
- 2184 000a 9946     		mov	r9, r3
- 2185 000c BDF83060 		ldrh	r6, [sp, #48]
- 2186              	.LVL293:
- 433:Core/Src/ILI9341_Driver.c **** 	uint8_t function_char;
- 434:Core/Src/ILI9341_Driver.c ****     uint8_t i,j;
- 435:Core/Src/ILI9341_Driver.c **** 		
- 436:Core/Src/ILI9341_Driver.c **** 	function_char = Character;
- 437:Core/Src/ILI9341_Driver.c **** 		
- 438:Core/Src/ILI9341_Driver.c ****     if (function_char < ' ') {
- 2187              		.loc 1 438 0
- 2188 0010 1F28     		cmp	r0, #31
- 2189 0012 01D9     		bls	.L136
- 439:Core/Src/ILI9341_Driver.c ****         Character = 0;
- 440:Core/Src/ILI9341_Driver.c ****     }else{
-ARM GAS  /tmp/ccL4YNuc.s 			page 120
+ 429:Core/Src/ILI9341_Driver.c ****     setLR();
+ 2168              		.loc 1 429 0
+ 2169 0062 FFF7FEFF 		bl	setLR
+ 2170              	.LVL293:
+ 2171              	.L127:
+ 2172 0066 38BD     		pop	{r3, r4, r5, pc}
+ 2173              	.LVL294:
+ 2174              	.L132:
+ 420:Core/Src/ILI9341_Driver.c ****         y = 0;
+ 2175              		.loc 1 420 0
+ 2176 0068 14B2     		sxth	r4, r2
+ 2177              	.LVL295:
+ 421:Core/Src/ILI9341_Driver.c ****     }
+ 2178              		.loc 1 421 0
+ 2179 006a 0021     		movs	r1, #0
+ 2180 006c E0E7     		b	.L129
+ 2181              	.L134:
+ 2182 006e 00BF     		.align	2
+ 2183              	.L133:
+ 2184 0070 00000000 		.word	.LANCHOR1
+ 2185 0074 00000000 		.word	.LANCHOR2
+ 2186              		.cfi_endproc
+ 2187              	.LFE755:
+ 2189              		.section	.text.DrawChar,"ax",%progbits
+ 2190              		.align	1
+ 2191              		.global	DrawChar
+ 2192              		.syntax unified
+ 2193              		.thumb
+ 2194              		.thumb_func
+ 2195              		.fpu fpv4-sp-d16
+ 2197              	DrawChar:
+ 2198              	.LFB756:
+ 430:Core/Src/ILI9341_Driver.c **** }
+ 431:Core/Src/ILI9341_Driver.c **** 
+ARM GAS  /tmp/cckSH1lf.s 			page 120
 
 
- 441:Core/Src/ILI9341_Driver.c ****         function_char -= 32;
- 2190              		.loc 1 441 0
- 2191 0014 2038     		subs	r0, r0, #32
- 2192              	.LVL294:
- 2193 0016 C0B2     		uxtb	r0, r0
- 2194              	.LVL295:
- 2195              	.L136:
- 2196              	.LBB266:
- 442:Core/Src/ILI9341_Driver.c **** 	}
- 443:Core/Src/ILI9341_Driver.c ****    	
- 444:Core/Src/ILI9341_Driver.c **** 	char temp[CHAR_WIDTH];
- 445:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
- 2197              		.loc 1 445 0
- 2198 0018 0023     		movs	r3, #0
- 2199              	.LVL296:
- 2200 001a 0BE0     		b	.L137
- 2201              	.LVL297:
- 2202              	.L138:
+ 432:Core/Src/ILI9341_Driver.c **** void DrawChar(char Character, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Backgr
+ 433:Core/Src/ILI9341_Driver.c **** {
+ 2199              		.loc 1 433 0
+ 2200              		.cfi_startproc
+ 2201              		@ args = 8, pretend = 0, frame = 8
+ 2202              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2203              	.LVL296:
+ 2204 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, r10, lr}
+ 2205              	.LCFI19:
+ 2206              		.cfi_def_cfa_offset 32
+ 2207              		.cfi_offset 4, -32
+ 2208              		.cfi_offset 5, -28
+ 2209              		.cfi_offset 6, -24
+ 2210              		.cfi_offset 7, -20
+ 2211              		.cfi_offset 8, -16
+ 2212              		.cfi_offset 9, -12
+ 2213              		.cfi_offset 10, -8
+ 2214              		.cfi_offset 14, -4
+ 2215 0004 84B0     		sub	sp, sp, #16
+ 2216              	.LCFI20:
+ 2217              		.cfi_def_cfa_offset 48
+ 2218 0006 0F46     		mov	r7, r1
+ 2219 0008 9046     		mov	r8, r2
+ 2220 000a 9946     		mov	r9, r3
+ 2221 000c BDF83060 		ldrh	r6, [sp, #48]
+ 2222              	.LVL297:
+ 434:Core/Src/ILI9341_Driver.c **** 	uint8_t function_char;
+ 435:Core/Src/ILI9341_Driver.c ****     uint8_t i,j;
+ 436:Core/Src/ILI9341_Driver.c **** 		
+ 437:Core/Src/ILI9341_Driver.c **** 	function_char = Character;
+ 438:Core/Src/ILI9341_Driver.c **** 		
+ 439:Core/Src/ILI9341_Driver.c ****     if (function_char < ' ') {
+ 2223              		.loc 1 439 0
+ 2224 0010 1F28     		cmp	r0, #31
+ 2225 0012 01D9     		bls	.L136
+ 440:Core/Src/ILI9341_Driver.c ****         Character = 0;
+ 441:Core/Src/ILI9341_Driver.c ****     }else{
+ 442:Core/Src/ILI9341_Driver.c ****         function_char -= 32;
+ 2226              		.loc 1 442 0
+ 2227 0014 2038     		subs	r0, r0, #32
+ 2228              	.LVL298:
+ 2229 0016 C0B2     		uxtb	r0, r0
+ 2230              	.LVL299:
+ 2231              	.L136:
+ 2232              	.LBB266:
+ 443:Core/Src/ILI9341_Driver.c **** 	}
+ 444:Core/Src/ILI9341_Driver.c ****    	
+ 445:Core/Src/ILI9341_Driver.c **** 	char temp[CHAR_WIDTH];
+ 446:Core/Src/ILI9341_Driver.c **** 	for(uint8_t k = 0; k<CHAR_WIDTH; k++){
+ 2233              		.loc 1 446 0
+ 2234 0018 0023     		movs	r3, #0
+ 2235              	.LVL300:
+ 2236 001a 0BE0     		b	.L137
+ 2237              	.LVL301:
+ 2238              	.L138:
+ 447:Core/Src/ILI9341_Driver.c **** 	    temp[k] = font[function_char][k];
+ 2239              		.loc 1 447 0 discriminator 3
+ARM GAS  /tmp/cckSH1lf.s 			page 121
+
+
+ 2240 001c 00EB4002 		add	r2, r0, r0, lsl #1
+ 2241 0020 5100     		lsls	r1, r2, #1
+ 2242 0022 284A     		ldr	r2, .L150
+ 2243 0024 0A44     		add	r2, r2, r1
+ 2244 0026 D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
+ 2245 0028 04AA     		add	r2, sp, #16
+ 2246 002a 1A44     		add	r2, r2, r3
+ 2247 002c 02F8081C 		strb	r1, [r2, #-8]
  446:Core/Src/ILI9341_Driver.c **** 	    temp[k] = font[function_char][k];
- 2203              		.loc 1 446 0 discriminator 3
- 2204 001c 00EB4002 		add	r2, r0, r0, lsl #1
- 2205 0020 5100     		lsls	r1, r2, #1
- 2206 0022 284A     		ldr	r2, .L150
- 2207 0024 0A44     		add	r2, r2, r1
- 2208 0026 D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
- 2209 0028 04AA     		add	r2, sp, #16
- 2210 002a 1A44     		add	r2, r2, r3
- 2211 002c 02F8081C 		strb	r1, [r2, #-8]
- 445:Core/Src/ILI9341_Driver.c **** 	    temp[k] = font[function_char][k];
- 2212              		.loc 1 445 0 discriminator 3
- 2213 0030 0133     		adds	r3, r3, #1
- 2214              	.LVL298:
- 2215 0032 DBB2     		uxtb	r3, r3
- 2216              	.LVL299:
- 2217              	.L137:
- 445:Core/Src/ILI9341_Driver.c **** 	    temp[k] = font[function_char][k];
- 2218              		.loc 1 445 0 is_stmt 0 discriminator 1
- 2219 0034 052B     		cmp	r3, #5
- 2220 0036 F1D9     		bls	.L138
- 2221              	.LBE266:
- 447:Core/Src/ILI9341_Driver.c **** 	}	
- 448:Core/Src/ILI9341_Driver.c ****     // Draw pixels
- 449:Core/Src/ILI9341_Driver.c **** 	fillRect(X, Y, CHAR_WIDTH*Size, CHAR_HEIGHT*Size, Background_Colour);
- 2222              		.loc 1 449 0 is_stmt 1
- 2223 0038 06EB4603 		add	r3, r6, r6, lsl #1
- 2224              	.LVL300:
- 2225 003c 4FEA430A 		lsl	r10, r3, #1
- 2226 0040 1FFA8AFA 		uxth	r10, r10
- 2227 0044 F300     		lsls	r3, r6, #3
- 2228 0046 BDF83420 		ldrh	r2, [sp, #52]
- 2229 004a 0092     		str	r2, [sp]
- 2230 004c 1BB2     		sxth	r3, r3
- 2231 004e 0FFA8AF2 		sxth	r2, r10
- 2232 0052 4146     		mov	r1, r8
- 2233 0054 3846     		mov	r0, r7
- 2234              	.LVL301:
- 2235 0056 FFF7FEFF 		bl	fillRect
-ARM GAS  /tmp/ccL4YNuc.s 			page 121
+ 2248              		.loc 1 446 0 discriminator 3
+ 2249 0030 0133     		adds	r3, r3, #1
+ 2250              	.LVL302:
+ 2251 0032 DBB2     		uxtb	r3, r3
+ 2252              	.LVL303:
+ 2253              	.L137:
+ 446:Core/Src/ILI9341_Driver.c **** 	    temp[k] = font[function_char][k];
+ 2254              		.loc 1 446 0 is_stmt 0 discriminator 1
+ 2255 0034 052B     		cmp	r3, #5
+ 2256 0036 F1D9     		bls	.L138
+ 2257              	.LBE266:
+ 448:Core/Src/ILI9341_Driver.c **** 	}	
+ 449:Core/Src/ILI9341_Driver.c ****     // Draw pixels
+ 450:Core/Src/ILI9341_Driver.c **** 	fillRect(X, Y, CHAR_WIDTH*Size, CHAR_HEIGHT*Size, Background_Colour);
+ 2258              		.loc 1 450 0 is_stmt 1
+ 2259 0038 06EB4603 		add	r3, r6, r6, lsl #1
+ 2260              	.LVL304:
+ 2261 003c 4FEA430A 		lsl	r10, r3, #1
+ 2262 0040 1FFA8AFA 		uxth	r10, r10
+ 2263 0044 F300     		lsls	r3, r6, #3
+ 2264 0046 BDF83420 		ldrh	r2, [sp, #52]
+ 2265 004a 0092     		str	r2, [sp]
+ 2266 004c 1BB2     		sxth	r3, r3
+ 2267 004e 0FFA8AF2 		sxth	r2, r10
+ 2268 0052 4146     		mov	r1, r8
+ 2269 0054 3846     		mov	r0, r7
+ 2270              	.LVL305:
+ 2271 0056 FFF7FEFF 		bl	fillRect
+ 2272              	.LVL306:
+ 451:Core/Src/ILI9341_Driver.c ****     for (j=0; j<CHAR_WIDTH; j++) {
+ 2273              		.loc 1 451 0
+ 2274 005a 0025     		movs	r5, #0
+ 2275 005c 2AE0     		b	.L139
+ 2276              	.LVL307:
+ 2277              	.L148:
+ 452:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 453:Core/Src/ILI9341_Driver.c ****             if (temp[j] & (1<<i)) {			
+ 454:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 455:Core/Src/ILI9341_Driver.c ****                     drawPixel(X+CHAR_WIDTH-i, Y+j, Colour);
+ 2278              		.loc 1 455 0
+ 2279 005e 381B     		subs	r0, r7, r4
+ 2280 0060 4A46     		mov	r2, r9
+ 2281 0062 08EB0501 		add	r1, r8, r5
+ 2282 0066 0630     		adds	r0, r0, #6
+ 2283 0068 FFF7FEFF 		bl	drawPixel
+ 2284              	.LVL308:
+ 2285              	.L140:
+ 452:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ARM GAS  /tmp/cckSH1lf.s 			page 122
 
 
- 2236              	.LVL302:
- 450:Core/Src/ILI9341_Driver.c ****     for (j=0; j<CHAR_WIDTH; j++) {
- 2237              		.loc 1 450 0
- 2238 005a 0025     		movs	r5, #0
- 2239 005c 2AE0     		b	.L139
- 2240              	.LVL303:
- 2241              	.L148:
- 451:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
- 452:Core/Src/ILI9341_Driver.c ****             if (temp[j] & (1<<i)) {			
+ 2286              		.loc 1 452 0 discriminator 2
+ 2287 006c 0134     		adds	r4, r4, #1
+ 2288              	.LVL309:
+ 2289 006e E4B2     		uxtb	r4, r4
+ 2290              	.LVL310:
+ 2291              	.L143:
+ 452:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
+ 2292              		.loc 1 452 0 is_stmt 0 discriminator 1
+ 2293 0070 072C     		cmp	r4, #7
+ 2294 0072 1DD8     		bhi	.L147
  453:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
+ 2295              		.loc 1 453 0 is_stmt 1
+ 2296 0074 04AB     		add	r3, sp, #16
+ 2297 0076 2B44     		add	r3, r3, r5
+ 2298 0078 13F8083C 		ldrb	r3, [r3, #-8]	@ zero_extendqisi2
+ 2299 007c 2341     		asrs	r3, r3, r4
+ 2300 007e 13F0010F 		tst	r3, #1
+ 2301 0082 F3D0     		beq	.L140
  454:Core/Src/ILI9341_Driver.c ****                     drawPixel(X+CHAR_WIDTH-i, Y+j, Colour);
- 2242              		.loc 1 454 0
- 2243 005e 381B     		subs	r0, r7, r4
- 2244 0060 4A46     		mov	r2, r9
- 2245 0062 08EB0501 		add	r1, r8, r5
- 2246 0066 0630     		adds	r0, r0, #6
- 2247 0068 FFF7FEFF 		bl	drawPixel
- 2248              	.LVL304:
- 2249              	.L140:
+ 2302              		.loc 1 454 0
+ 2303 0084 012E     		cmp	r6, #1
+ 2304 0086 EAD0     		beq	.L148
+ 456:Core/Src/ILI9341_Driver.c ****                 }else{
+ 457:Core/Src/ILI9341_Driver.c ****                     fillRect(X+ CHAR_WIDTH*Size -(i*Size), Y+(j*Size), Size, Size, Colour);
+ 2305              		.loc 1 457 0
+ 2306 0088 0AEB0700 		add	r0, r10, r7
+ 2307 008c 83B2     		uxth	r3, r0
+ 2308 008e 14FB06F0 		smulbb	r0, r4, r6
+ 2309 0092 80B2     		uxth	r0, r0
+ 2310 0094 181A     		subs	r0, r3, r0
+ 2311 0096 15FB06F1 		smulbb	r1, r5, r6
+ 2312 009a 18FA81F1 		uxtah	r1, r8, r1
+ 2313 009e 32B2     		sxth	r2, r6
+ 2314 00a0 CDF80090 		str	r9, [sp]
+ 2315 00a4 1346     		mov	r3, r2
+ 2316 00a6 09B2     		sxth	r1, r1
+ 2317 00a8 00B2     		sxth	r0, r0
+ 2318 00aa FFF7FEFF 		bl	fillRect
+ 2319              	.LVL311:
+ 2320 00ae DDE7     		b	.L140
+ 2321              	.L147:
  451:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
- 2250              		.loc 1 451 0 discriminator 2
- 2251 006c 0134     		adds	r4, r4, #1
- 2252              	.LVL305:
- 2253 006e E4B2     		uxtb	r4, r4
- 2254              	.LVL306:
- 2255              	.L143:
+ 2322              		.loc 1 451 0 discriminator 2
+ 2323 00b0 0135     		adds	r5, r5, #1
+ 2324              	.LVL312:
+ 2325 00b2 EDB2     		uxtb	r5, r5
+ 2326              	.LVL313:
+ 2327              	.L139:
  451:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
- 2256              		.loc 1 451 0 is_stmt 0 discriminator 1
- 2257 0070 072C     		cmp	r4, #7
- 2258 0072 1DD8     		bhi	.L147
- 452:Core/Src/ILI9341_Driver.c ****                 if(Size == 1){
- 2259              		.loc 1 452 0 is_stmt 1
- 2260 0074 04AB     		add	r3, sp, #16
- 2261 0076 2B44     		add	r3, r3, r5
- 2262 0078 13F8083C 		ldrb	r3, [r3, #-8]	@ zero_extendqisi2
- 2263 007c 2341     		asrs	r3, r3, r4
- 2264 007e 13F0010F 		tst	r3, #1
- 2265 0082 F3D0     		beq	.L140
- 453:Core/Src/ILI9341_Driver.c ****                     drawPixel(X+CHAR_WIDTH-i, Y+j, Colour);
- 2266              		.loc 1 453 0
- 2267 0084 012E     		cmp	r6, #1
- 2268 0086 EAD0     		beq	.L148
- 455:Core/Src/ILI9341_Driver.c ****                 }else{
- 456:Core/Src/ILI9341_Driver.c ****                     fillRect(X+ CHAR_WIDTH*Size -(i*Size), Y+(j*Size), Size, Size, Colour);
- 2269              		.loc 1 456 0
- 2270 0088 0AEB0700 		add	r0, r10, r7
- 2271 008c 83B2     		uxth	r3, r0
- 2272 008e 14FB06F0 		smulbb	r0, r4, r6
- 2273 0092 80B2     		uxth	r0, r0
- 2274 0094 181A     		subs	r0, r3, r0
- 2275 0096 15FB06F1 		smulbb	r1, r5, r6
- 2276 009a 18FA81F1 		uxtah	r1, r8, r1
- 2277 009e 32B2     		sxth	r2, r6
- 2278 00a0 CDF80090 		str	r9, [sp]
- 2279 00a4 1346     		mov	r3, r2
- 2280 00a6 09B2     		sxth	r1, r1
- 2281 00a8 00B2     		sxth	r0, r0
-ARM GAS  /tmp/ccL4YNuc.s 			page 122
+ 2328              		.loc 1 451 0 is_stmt 0 discriminator 1
+ 2329 00b4 052D     		cmp	r5, #5
+ 2330 00b6 01D8     		bhi	.L149
+ 2331 00b8 0024     		movs	r4, #0
+ 2332 00ba D9E7     		b	.L143
+ 2333              	.L149:
+ 458:Core/Src/ILI9341_Driver.c ****                 }
+ 459:Core/Src/ILI9341_Driver.c ****             }						
+ARM GAS  /tmp/cckSH1lf.s 			page 123
 
 
- 2282 00aa FFF7FEFF 		bl	fillRect
- 2283              	.LVL307:
- 2284 00ae DDE7     		b	.L140
- 2285              	.L147:
- 450:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
- 2286              		.loc 1 450 0 discriminator 2
- 2287 00b0 0135     		adds	r5, r5, #1
- 2288              	.LVL308:
- 2289 00b2 EDB2     		uxtb	r5, r5
- 2290              	.LVL309:
- 2291              	.L139:
- 450:Core/Src/ILI9341_Driver.c ****         for (i=0; i<CHAR_HEIGHT; i++) {
- 2292              		.loc 1 450 0 is_stmt 0 discriminator 1
- 2293 00b4 052D     		cmp	r5, #5
- 2294 00b6 01D8     		bhi	.L149
- 2295 00b8 0024     		movs	r4, #0
- 2296 00ba D9E7     		b	.L143
- 2297              	.L149:
- 457:Core/Src/ILI9341_Driver.c ****                 }
- 458:Core/Src/ILI9341_Driver.c ****             }						
- 459:Core/Src/ILI9341_Driver.c ****         }
- 460:Core/Src/ILI9341_Driver.c ****     }
- 461:Core/Src/ILI9341_Driver.c **** }
- 2298              		.loc 1 461 0 is_stmt 1
- 2299 00bc 04B0     		add	sp, sp, #16
- 2300              	.LCFI20:
- 2301              		.cfi_def_cfa_offset 32
- 2302              		@ sp needed
- 2303 00be BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
- 2304              	.LVL310:
- 2305              	.L151:
- 2306 00c2 00BF     		.align	2
- 2307              	.L150:
- 2308 00c4 00000000 		.word	.LANCHOR3
- 2309              		.cfi_endproc
- 2310              	.LFE756:
- 2312              		.section	.text.DrawText,"ax",%progbits
- 2313              		.align	1
- 2314              		.global	DrawText
- 2315              		.syntax unified
- 2316              		.thumb
- 2317              		.thumb_func
- 2318              		.fpu fpv4-sp-d16
- 2320              	DrawText:
- 2321              	.LFB757:
- 462:Core/Src/ILI9341_Driver.c **** 
- 463:Core/Src/ILI9341_Driver.c **** void DrawText(const char* Text, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Back
- 2322              		.loc 1 463 0
- 2323              		.cfi_startproc
- 2324              		@ args = 8, pretend = 0, frame = 0
- 2325              		@ frame_needed = 0, uses_anonymous_args = 0
- 2326              	.LVL311:
- 2327 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
- 2328              	.LCFI21:
- 2329              		.cfi_def_cfa_offset 28
- 2330              		.cfi_offset 4, -28
- 2331              		.cfi_offset 5, -24
-ARM GAS  /tmp/ccL4YNuc.s 			page 123
+ 460:Core/Src/ILI9341_Driver.c ****         }
+ 461:Core/Src/ILI9341_Driver.c ****     }
+ 462:Core/Src/ILI9341_Driver.c **** }
+ 2334              		.loc 1 462 0 is_stmt 1
+ 2335 00bc 04B0     		add	sp, sp, #16
+ 2336              	.LCFI21:
+ 2337              		.cfi_def_cfa_offset 32
+ 2338              		@ sp needed
+ 2339 00be BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, r10, pc}
+ 2340              	.LVL314:
+ 2341              	.L151:
+ 2342 00c2 00BF     		.align	2
+ 2343              	.L150:
+ 2344 00c4 00000000 		.word	.LANCHOR3
+ 2345              		.cfi_endproc
+ 2346              	.LFE756:
+ 2348              		.section	.text.DrawText,"ax",%progbits
+ 2349              		.align	1
+ 2350              		.global	DrawText
+ 2351              		.syntax unified
+ 2352              		.thumb
+ 2353              		.thumb_func
+ 2354              		.fpu fpv4-sp-d16
+ 2356              	DrawText:
+ 2357              	.LFB757:
+ 463:Core/Src/ILI9341_Driver.c **** 
+ 464:Core/Src/ILI9341_Driver.c **** void DrawText(const char* Text, uint8_t X, uint8_t Y, uint16_t Colour, uint16_t Size, uint16_t Back
+ 2358              		.loc 1 464 0
+ 2359              		.cfi_startproc
+ 2360              		@ args = 8, pretend = 0, frame = 0
+ 2361              		@ frame_needed = 0, uses_anonymous_args = 0
+ 2362              	.LVL315:
+ 2363 0000 2DE9F043 		push	{r4, r5, r6, r7, r8, r9, lr}
+ 2364              	.LCFI22:
+ 2365              		.cfi_def_cfa_offset 28
+ 2366              		.cfi_offset 4, -28
+ 2367              		.cfi_offset 5, -24
+ 2368              		.cfi_offset 6, -20
+ 2369              		.cfi_offset 7, -16
+ 2370              		.cfi_offset 8, -12
+ 2371              		.cfi_offset 9, -8
+ 2372              		.cfi_offset 14, -4
+ 2373 0004 83B0     		sub	sp, sp, #12
+ 2374              	.LCFI23:
+ 2375              		.cfi_def_cfa_offset 40
+ 2376 0006 0446     		mov	r4, r0
+ 2377 0008 8846     		mov	r8, r1
+ 2378 000a 9146     		mov	r9, r2
+ 2379 000c 1F46     		mov	r7, r3
+ 2380 000e BDF82850 		ldrh	r5, [sp, #40]
+ 2381 0012 BDF82C60 		ldrh	r6, [sp, #44]
+ 465:Core/Src/ILI9341_Driver.c ****     while (*Text) {
+ 2382              		.loc 1 465 0
+ 2383 0016 0DE0     		b	.L153
+ 2384              	.LVL316:
+ 2385              	.L154:
+ 466:Core/Src/ILI9341_Driver.c ****         DrawChar(*Text++, X, Y, Colour, Size, Background_Colour);
+ARM GAS  /tmp/cckSH1lf.s 			page 124
 
 
- 2332              		.cfi_offset 6, -20
- 2333              		.cfi_offset 7, -16
- 2334              		.cfi_offset 8, -12
- 2335              		.cfi_offset 9, -8
- 2336              		.cfi_offset 14, -4
- 2337 0004 83B0     		sub	sp, sp, #12
- 2338              	.LCFI22:
- 2339              		.cfi_def_cfa_offset 40
- 2340 0006 0446     		mov	r4, r0
- 2341 0008 8846     		mov	r8, r1
- 2342 000a 9146     		mov	r9, r2
- 2343 000c 1F46     		mov	r7, r3
- 2344 000e BDF82850 		ldrh	r5, [sp, #40]
- 2345 0012 BDF82C60 		ldrh	r6, [sp, #44]
- 464:Core/Src/ILI9341_Driver.c ****     while (*Text) {
- 2346              		.loc 1 464 0
- 2347 0016 0DE0     		b	.L153
- 2348              	.LVL312:
- 2349              	.L154:
- 465:Core/Src/ILI9341_Driver.c ****         DrawChar(*Text++, X, Y, Colour, Size, Background_Colour);
- 2350              		.loc 1 465 0
- 2351 0018 0134     		adds	r4, r4, #1
- 2352              	.LVL313:
- 2353 001a 0196     		str	r6, [sp, #4]
- 2354 001c 0095     		str	r5, [sp]
- 2355 001e 3B46     		mov	r3, r7
- 2356 0020 4A46     		mov	r2, r9
- 2357 0022 4146     		mov	r1, r8
- 2358 0024 FFF7FEFF 		bl	DrawChar
- 2359              	.LVL314:
- 466:Core/Src/ILI9341_Driver.c ****         Y += CHAR_WIDTH*Size;
- 2360              		.loc 1 466 0
- 2361 0028 05EB4503 		add	r3, r5, r5, lsl #1
- 2362 002c 5A00     		lsls	r2, r3, #1
- 2363 002e 4A44     		add	r2, r2, r9
- 2364 0030 5FFA82F9 		uxtb	r9, r2
- 2365              	.LVL315:
- 2366              	.L153:
- 464:Core/Src/ILI9341_Driver.c ****     while (*Text) {
- 2367              		.loc 1 464 0
- 2368 0034 2078     		ldrb	r0, [r4]	@ zero_extendqisi2
- 2369 0036 0028     		cmp	r0, #0
- 2370 0038 EED1     		bne	.L154
- 467:Core/Src/ILI9341_Driver.c ****     }
- 468:Core/Src/ILI9341_Driver.c **** }
- 2371              		.loc 1 468 0
- 2372 003a 03B0     		add	sp, sp, #12
- 2373              	.LCFI23:
- 2374              		.cfi_def_cfa_offset 28
- 2375              		@ sp needed
- 2376 003c BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
- 2377              		.cfi_endproc
- 2378              	.LFE757:
- 2380              		.global	TFTHEIGHT
- 2381              		.global	TFTWIDTH
- 2382              		.global	tabPinData
- 2383              		.section	.data.TFTHEIGHT,"aw",%progbits
-ARM GAS  /tmp/ccL4YNuc.s 			page 124
+ 2386              		.loc 1 466 0
+ 2387 0018 0134     		adds	r4, r4, #1
+ 2388              	.LVL317:
+ 2389 001a 0196     		str	r6, [sp, #4]
+ 2390 001c 0095     		str	r5, [sp]
+ 2391 001e 3B46     		mov	r3, r7
+ 2392 0020 4A46     		mov	r2, r9
+ 2393 0022 4146     		mov	r1, r8
+ 2394 0024 FFF7FEFF 		bl	DrawChar
+ 2395              	.LVL318:
+ 467:Core/Src/ILI9341_Driver.c ****         Y += CHAR_WIDTH*Size;
+ 2396              		.loc 1 467 0
+ 2397 0028 05EB4503 		add	r3, r5, r5, lsl #1
+ 2398 002c 5A00     		lsls	r2, r3, #1
+ 2399 002e 4A44     		add	r2, r2, r9
+ 2400 0030 5FFA82F9 		uxtb	r9, r2
+ 2401              	.LVL319:
+ 2402              	.L153:
+ 465:Core/Src/ILI9341_Driver.c ****     while (*Text) {
+ 2403              		.loc 1 465 0
+ 2404 0034 2078     		ldrb	r0, [r4]	@ zero_extendqisi2
+ 2405 0036 0028     		cmp	r0, #0
+ 2406 0038 EED1     		bne	.L154
+ 468:Core/Src/ILI9341_Driver.c ****     }
+ 469:Core/Src/ILI9341_Driver.c **** }
+ 2407              		.loc 1 469 0
+ 2408 003a 03B0     		add	sp, sp, #12
+ 2409              	.LCFI24:
+ 2410              		.cfi_def_cfa_offset 28
+ 2411              		@ sp needed
+ 2412 003c BDE8F083 		pop	{r4, r5, r6, r7, r8, r9, pc}
+ 2413              		.cfi_endproc
+ 2414              	.LFE757:
+ 2416              		.global	TFTHEIGHT
+ 2417              		.global	TFTWIDTH
+ 2418              		.global	tabPinData
+ 2419              		.section	.data.TFTHEIGHT,"aw",%progbits
+ 2420              		.align	1
+ 2421              		.set	.LANCHOR2,. + 0
+ 2424              	TFTHEIGHT:
+ 2425 0000 4001     		.short	320
+ 2426              		.section	.data.TFTWIDTH,"aw",%progbits
+ 2427              		.align	1
+ 2428              		.set	.LANCHOR1,. + 0
+ 2431              	TFTWIDTH:
+ 2432 0000 F000     		.short	240
+ 2433              		.section	.data.tabPinData,"aw",%progbits
+ 2434              		.align	2
+ 2435              		.set	.LANCHOR0,. + 0
+ 2438              	tabPinData:
+ 2439 0000 00800000 		.word	32768
+ 2440 0004 00400000 		.word	16384
+ 2441 0008 00200000 		.word	8192
+ 2442 000c 00100000 		.word	4096
+ 2443 0010 00040000 		.word	1024
+ 2444 0014 00020000 		.word	512
+ 2445 0018 00010000 		.word	256
+ARM GAS  /tmp/cckSH1lf.s 			page 125
 
 
- 2384              		.align	1
- 2385              		.set	.LANCHOR2,. + 0
- 2388              	TFTHEIGHT:
- 2389 0000 4001     		.short	320
- 2390              		.section	.data.TFTWIDTH,"aw",%progbits
- 2391              		.align	1
- 2392              		.set	.LANCHOR1,. + 0
- 2395              	TFTWIDTH:
- 2396 0000 F000     		.short	240
- 2397              		.section	.data.tabPinData,"aw",%progbits
- 2398              		.align	2
- 2399              		.set	.LANCHOR0,. + 0
- 2402              	tabPinData:
- 2403 0000 00800000 		.word	32768
- 2404 0004 00400000 		.word	16384
- 2405 0008 00200000 		.word	8192
- 2406 000c 00100000 		.word	4096
- 2407 0010 00040000 		.word	1024
- 2408 0014 00020000 		.word	512
- 2409 0018 00010000 		.word	256
- 2410 001c 80000000 		.word	128
- 2411              		.section	.rodata.font,"a",%progbits
- 2412              		.align	2
- 2413              		.set	.LANCHOR3,. + 0
- 2416              	font:
- 2417 0000 00       		.byte	0
- 2418 0001 00       		.byte	0
- 2419 0002 00       		.byte	0
- 2420 0003 00       		.byte	0
- 2421 0004 00       		.byte	0
- 2422 0005 00       		.byte	0
- 2423 0006 5C       		.byte	92
- 2424 0007 00       		.byte	0
- 2425 0008 00       		.byte	0
- 2426 0009 00       		.byte	0
- 2427 000a 00       		.byte	0
- 2428 000b 00       		.byte	0
- 2429 000c 06       		.byte	6
- 2430 000d 00       		.byte	0
- 2431 000e 06       		.byte	6
- 2432 000f 00       		.byte	0
- 2433 0010 00       		.byte	0
- 2434 0011 00       		.byte	0
- 2435 0012 28       		.byte	40
- 2436 0013 7C       		.byte	124
- 2437 0014 28       		.byte	40
- 2438 0015 7C       		.byte	124
- 2439 0016 28       		.byte	40
- 2440 0017 00       		.byte	0
- 2441 0018 5C       		.byte	92
- 2442 0019 54       		.byte	84
- 2443 001a FE       		.byte	-2
- 2444 001b 54       		.byte	84
- 2445 001c 74       		.byte	116
- 2446 001d 00       		.byte	0
- 2447 001e 44       		.byte	68
- 2448 001f 20       		.byte	32
-ARM GAS  /tmp/ccL4YNuc.s 			page 125
+ 2446 001c 80000000 		.word	128
+ 2447              		.section	.rodata.font,"a",%progbits
+ 2448              		.align	2
+ 2449              		.set	.LANCHOR3,. + 0
+ 2452              	font:
+ 2453 0000 00       		.byte	0
+ 2454 0001 00       		.byte	0
+ 2455 0002 00       		.byte	0
+ 2456 0003 00       		.byte	0
+ 2457 0004 00       		.byte	0
+ 2458 0005 00       		.byte	0
+ 2459 0006 5C       		.byte	92
+ 2460 0007 00       		.byte	0
+ 2461 0008 00       		.byte	0
+ 2462 0009 00       		.byte	0
+ 2463 000a 00       		.byte	0
+ 2464 000b 00       		.byte	0
+ 2465 000c 06       		.byte	6
+ 2466 000d 00       		.byte	0
+ 2467 000e 06       		.byte	6
+ 2468 000f 00       		.byte	0
+ 2469 0010 00       		.byte	0
+ 2470 0011 00       		.byte	0
+ 2471 0012 28       		.byte	40
+ 2472 0013 7C       		.byte	124
+ 2473 0014 28       		.byte	40
+ 2474 0015 7C       		.byte	124
+ 2475 0016 28       		.byte	40
+ 2476 0017 00       		.byte	0
+ 2477 0018 5C       		.byte	92
+ 2478 0019 54       		.byte	84
+ 2479 001a FE       		.byte	-2
+ 2480 001b 54       		.byte	84
+ 2481 001c 74       		.byte	116
+ 2482 001d 00       		.byte	0
+ 2483 001e 44       		.byte	68
+ 2484 001f 20       		.byte	32
+ 2485 0020 10       		.byte	16
+ 2486 0021 08       		.byte	8
+ 2487 0022 44       		.byte	68
+ 2488 0023 00       		.byte	0
+ 2489 0024 28       		.byte	40
+ 2490 0025 54       		.byte	84
+ 2491 0026 54       		.byte	84
+ 2492 0027 20       		.byte	32
+ 2493 0028 50       		.byte	80
+ 2494 0029 00       		.byte	0
+ 2495 002a 06       		.byte	6
+ 2496 002b 00       		.byte	0
+ 2497 002c 00       		.byte	0
+ 2498 002d 00       		.byte	0
+ 2499 002e 00       		.byte	0
+ 2500 002f 00       		.byte	0
+ 2501 0030 38       		.byte	56
+ 2502 0031 44       		.byte	68
+ 2503 0032 00       		.byte	0
+ 2504 0033 00       		.byte	0
+ARM GAS  /tmp/cckSH1lf.s 			page 126
 
 
- 2449 0020 10       		.byte	16
- 2450 0021 08       		.byte	8
- 2451 0022 44       		.byte	68
- 2452 0023 00       		.byte	0
- 2453 0024 28       		.byte	40
- 2454 0025 54       		.byte	84
- 2455 0026 54       		.byte	84
- 2456 0027 20       		.byte	32
- 2457 0028 50       		.byte	80
- 2458 0029 00       		.byte	0
- 2459 002a 06       		.byte	6
- 2460 002b 00       		.byte	0
- 2461 002c 00       		.byte	0
- 2462 002d 00       		.byte	0
- 2463 002e 00       		.byte	0
- 2464 002f 00       		.byte	0
- 2465 0030 38       		.byte	56
- 2466 0031 44       		.byte	68
- 2467 0032 00       		.byte	0
- 2468 0033 00       		.byte	0
- 2469 0034 00       		.byte	0
- 2470 0035 00       		.byte	0
- 2471 0036 44       		.byte	68
- 2472 0037 38       		.byte	56
- 2473 0038 00       		.byte	0
- 2474 0039 00       		.byte	0
- 2475 003a 00       		.byte	0
- 2476 003b 00       		.byte	0
- 2477 003c 02       		.byte	2
- 2478 003d 07       		.byte	7
- 2479 003e 02       		.byte	2
- 2480 003f 00       		.byte	0
- 2481 0040 00       		.byte	0
- 2482 0041 00       		.byte	0
- 2483 0042 10       		.byte	16
- 2484 0043 10       		.byte	16
- 2485 0044 7C       		.byte	124
- 2486 0045 10       		.byte	16
- 2487 0046 10       		.byte	16
- 2488 0047 00       		.byte	0
- 2489 0048 C0       		.byte	-64
- 2490 0049 00       		.byte	0
- 2491 004a 00       		.byte	0
- 2492 004b 00       		.byte	0
- 2493 004c 00       		.byte	0
- 2494 004d 00       		.byte	0
- 2495 004e 10       		.byte	16
- 2496 004f 10       		.byte	16
- 2497 0050 10       		.byte	16
- 2498 0051 10       		.byte	16
- 2499 0052 10       		.byte	16
- 2500 0053 00       		.byte	0
- 2501 0054 40       		.byte	64
- 2502 0055 00       		.byte	0
- 2503 0056 00       		.byte	0
- 2504 0057 00       		.byte	0
- 2505 0058 00       		.byte	0
-ARM GAS  /tmp/ccL4YNuc.s 			page 126
+ 2505 0034 00       		.byte	0
+ 2506 0035 00       		.byte	0
+ 2507 0036 44       		.byte	68
+ 2508 0037 38       		.byte	56
+ 2509 0038 00       		.byte	0
+ 2510 0039 00       		.byte	0
+ 2511 003a 00       		.byte	0
+ 2512 003b 00       		.byte	0
+ 2513 003c 02       		.byte	2
+ 2514 003d 07       		.byte	7
+ 2515 003e 02       		.byte	2
+ 2516 003f 00       		.byte	0
+ 2517 0040 00       		.byte	0
+ 2518 0041 00       		.byte	0
+ 2519 0042 10       		.byte	16
+ 2520 0043 10       		.byte	16
+ 2521 0044 7C       		.byte	124
+ 2522 0045 10       		.byte	16
+ 2523 0046 10       		.byte	16
+ 2524 0047 00       		.byte	0
+ 2525 0048 C0       		.byte	-64
+ 2526 0049 00       		.byte	0
+ 2527 004a 00       		.byte	0
+ 2528 004b 00       		.byte	0
+ 2529 004c 00       		.byte	0
+ 2530 004d 00       		.byte	0
+ 2531 004e 10       		.byte	16
+ 2532 004f 10       		.byte	16
+ 2533 0050 10       		.byte	16
+ 2534 0051 10       		.byte	16
+ 2535 0052 10       		.byte	16
+ 2536 0053 00       		.byte	0
+ 2537 0054 40       		.byte	64
+ 2538 0055 00       		.byte	0
+ 2539 0056 00       		.byte	0
+ 2540 0057 00       		.byte	0
+ 2541 0058 00       		.byte	0
+ 2542 0059 00       		.byte	0
+ 2543 005a 60       		.byte	96
+ 2544 005b 10       		.byte	16
+ 2545 005c 0C       		.byte	12
+ 2546 005d 00       		.byte	0
+ 2547 005e 00       		.byte	0
+ 2548 005f 00       		.byte	0
+ 2549 0060 7C       		.byte	124
+ 2550 0061 64       		.byte	100
+ 2551 0062 54       		.byte	84
+ 2552 0063 4C       		.byte	76
+ 2553 0064 7C       		.byte	124
+ 2554 0065 00       		.byte	0
+ 2555 0066 48       		.byte	72
+ 2556 0067 7C       		.byte	124
+ 2557 0068 40       		.byte	64
+ 2558 0069 00       		.byte	0
+ 2559 006a 00       		.byte	0
+ 2560 006b 00       		.byte	0
+ 2561 006c 64       		.byte	100
+ARM GAS  /tmp/cckSH1lf.s 			page 127
 
 
- 2506 0059 00       		.byte	0
- 2507 005a 60       		.byte	96
- 2508 005b 10       		.byte	16
- 2509 005c 0C       		.byte	12
- 2510 005d 00       		.byte	0
- 2511 005e 00       		.byte	0
- 2512 005f 00       		.byte	0
- 2513 0060 7C       		.byte	124
- 2514 0061 64       		.byte	100
- 2515 0062 54       		.byte	84
- 2516 0063 4C       		.byte	76
- 2517 0064 7C       		.byte	124
- 2518 0065 00       		.byte	0
- 2519 0066 48       		.byte	72
- 2520 0067 7C       		.byte	124
- 2521 0068 40       		.byte	64
- 2522 0069 00       		.byte	0
- 2523 006a 00       		.byte	0
- 2524 006b 00       		.byte	0
- 2525 006c 64       		.byte	100
- 2526 006d 54       		.byte	84
- 2527 006e 54       		.byte	84
- 2528 006f 54       		.byte	84
- 2529 0070 48       		.byte	72
- 2530 0071 00       		.byte	0
- 2531 0072 44       		.byte	68
- 2532 0073 54       		.byte	84
- 2533 0074 54       		.byte	84
- 2534 0075 54       		.byte	84
- 2535 0076 6C       		.byte	108
- 2536 0077 00       		.byte	0
- 2537 0078 3C       		.byte	60
- 2538 0079 20       		.byte	32
- 2539 007a 70       		.byte	112
- 2540 007b 20       		.byte	32
- 2541 007c 20       		.byte	32
- 2542 007d 00       		.byte	0
- 2543 007e 5C       		.byte	92
- 2544 007f 54       		.byte	84
- 2545 0080 54       		.byte	84
- 2546 0081 54       		.byte	84
- 2547 0082 24       		.byte	36
- 2548 0083 00       		.byte	0
- 2549 0084 7C       		.byte	124
- 2550 0085 54       		.byte	84
- 2551 0086 54       		.byte	84
- 2552 0087 54       		.byte	84
- 2553 0088 74       		.byte	116
- 2554 0089 00       		.byte	0
- 2555 008a 04       		.byte	4
- 2556 008b 04       		.byte	4
- 2557 008c 64       		.byte	100
- 2558 008d 14       		.byte	20
- 2559 008e 0C       		.byte	12
- 2560 008f 00       		.byte	0
- 2561 0090 7C       		.byte	124
- 2562 0091 54       		.byte	84
-ARM GAS  /tmp/ccL4YNuc.s 			page 127
+ 2562 006d 54       		.byte	84
+ 2563 006e 54       		.byte	84
+ 2564 006f 54       		.byte	84
+ 2565 0070 48       		.byte	72
+ 2566 0071 00       		.byte	0
+ 2567 0072 44       		.byte	68
+ 2568 0073 54       		.byte	84
+ 2569 0074 54       		.byte	84
+ 2570 0075 54       		.byte	84
+ 2571 0076 6C       		.byte	108
+ 2572 0077 00       		.byte	0
+ 2573 0078 3C       		.byte	60
+ 2574 0079 20       		.byte	32
+ 2575 007a 70       		.byte	112
+ 2576 007b 20       		.byte	32
+ 2577 007c 20       		.byte	32
+ 2578 007d 00       		.byte	0
+ 2579 007e 5C       		.byte	92
+ 2580 007f 54       		.byte	84
+ 2581 0080 54       		.byte	84
+ 2582 0081 54       		.byte	84
+ 2583 0082 24       		.byte	36
+ 2584 0083 00       		.byte	0
+ 2585 0084 7C       		.byte	124
+ 2586 0085 54       		.byte	84
+ 2587 0086 54       		.byte	84
+ 2588 0087 54       		.byte	84
+ 2589 0088 74       		.byte	116
+ 2590 0089 00       		.byte	0
+ 2591 008a 04       		.byte	4
+ 2592 008b 04       		.byte	4
+ 2593 008c 64       		.byte	100
+ 2594 008d 14       		.byte	20
+ 2595 008e 0C       		.byte	12
+ 2596 008f 00       		.byte	0
+ 2597 0090 7C       		.byte	124
+ 2598 0091 54       		.byte	84
+ 2599 0092 54       		.byte	84
+ 2600 0093 54       		.byte	84
+ 2601 0094 7C       		.byte	124
+ 2602 0095 00       		.byte	0
+ 2603 0096 5C       		.byte	92
+ 2604 0097 54       		.byte	84
+ 2605 0098 54       		.byte	84
+ 2606 0099 54       		.byte	84
+ 2607 009a 7C       		.byte	124
+ 2608 009b 00       		.byte	0
+ 2609 009c 44       		.byte	68
+ 2610 009d 00       		.byte	0
+ 2611 009e 00       		.byte	0
+ 2612 009f 00       		.byte	0
+ 2613 00a0 00       		.byte	0
+ 2614 00a1 00       		.byte	0
+ 2615 00a2 C4       		.byte	-60
+ 2616 00a3 00       		.byte	0
+ 2617 00a4 00       		.byte	0
+ 2618 00a5 00       		.byte	0
+ARM GAS  /tmp/cckSH1lf.s 			page 128
 
 
- 2563 0092 54       		.byte	84
- 2564 0093 54       		.byte	84
- 2565 0094 7C       		.byte	124
- 2566 0095 00       		.byte	0
- 2567 0096 5C       		.byte	92
- 2568 0097 54       		.byte	84
- 2569 0098 54       		.byte	84
- 2570 0099 54       		.byte	84
- 2571 009a 7C       		.byte	124
- 2572 009b 00       		.byte	0
- 2573 009c 44       		.byte	68
- 2574 009d 00       		.byte	0
- 2575 009e 00       		.byte	0
- 2576 009f 00       		.byte	0
- 2577 00a0 00       		.byte	0
- 2578 00a1 00       		.byte	0
- 2579 00a2 C4       		.byte	-60
- 2580 00a3 00       		.byte	0
- 2581 00a4 00       		.byte	0
- 2582 00a5 00       		.byte	0
- 2583 00a6 00       		.byte	0
- 2584 00a7 00       		.byte	0
- 2585 00a8 10       		.byte	16
- 2586 00a9 28       		.byte	40
- 2587 00aa 44       		.byte	68
- 2588 00ab 00       		.byte	0
- 2589 00ac 00       		.byte	0
- 2590 00ad 00       		.byte	0
- 2591 00ae 28       		.byte	40
- 2592 00af 28       		.byte	40
- 2593 00b0 28       		.byte	40
- 2594 00b1 28       		.byte	40
- 2595 00b2 28       		.byte	40
- 2596 00b3 00       		.byte	0
- 2597 00b4 44       		.byte	68
- 2598 00b5 28       		.byte	40
- 2599 00b6 10       		.byte	16
- 2600 00b7 00       		.byte	0
- 2601 00b8 00       		.byte	0
- 2602 00b9 00       		.byte	0
- 2603 00ba 08       		.byte	8
- 2604 00bb 04       		.byte	4
- 2605 00bc 54       		.byte	84
- 2606 00bd 08       		.byte	8
- 2607 00be 00       		.byte	0
- 2608 00bf 00       		.byte	0
- 2609 00c0 7C       		.byte	124
- 2610 00c1 44       		.byte	68
- 2611 00c2 54       		.byte	84
- 2612 00c3 54       		.byte	84
- 2613 00c4 5C       		.byte	92
- 2614 00c5 00       		.byte	0
- 2615 00c6 7C       		.byte	124
- 2616 00c7 24       		.byte	36
- 2617 00c8 24       		.byte	36
- 2618 00c9 24       		.byte	36
- 2619 00ca 7C       		.byte	124
-ARM GAS  /tmp/ccL4YNuc.s 			page 128
+ 2619 00a6 00       		.byte	0
+ 2620 00a7 00       		.byte	0
+ 2621 00a8 10       		.byte	16
+ 2622 00a9 28       		.byte	40
+ 2623 00aa 44       		.byte	68
+ 2624 00ab 00       		.byte	0
+ 2625 00ac 00       		.byte	0
+ 2626 00ad 00       		.byte	0
+ 2627 00ae 28       		.byte	40
+ 2628 00af 28       		.byte	40
+ 2629 00b0 28       		.byte	40
+ 2630 00b1 28       		.byte	40
+ 2631 00b2 28       		.byte	40
+ 2632 00b3 00       		.byte	0
+ 2633 00b4 44       		.byte	68
+ 2634 00b5 28       		.byte	40
+ 2635 00b6 10       		.byte	16
+ 2636 00b7 00       		.byte	0
+ 2637 00b8 00       		.byte	0
+ 2638 00b9 00       		.byte	0
+ 2639 00ba 08       		.byte	8
+ 2640 00bb 04       		.byte	4
+ 2641 00bc 54       		.byte	84
+ 2642 00bd 08       		.byte	8
+ 2643 00be 00       		.byte	0
+ 2644 00bf 00       		.byte	0
+ 2645 00c0 7C       		.byte	124
+ 2646 00c1 44       		.byte	68
+ 2647 00c2 54       		.byte	84
+ 2648 00c3 54       		.byte	84
+ 2649 00c4 5C       		.byte	92
+ 2650 00c5 00       		.byte	0
+ 2651 00c6 7C       		.byte	124
+ 2652 00c7 24       		.byte	36
+ 2653 00c8 24       		.byte	36
+ 2654 00c9 24       		.byte	36
+ 2655 00ca 7C       		.byte	124
+ 2656 00cb 00       		.byte	0
+ 2657 00cc 7C       		.byte	124
+ 2658 00cd 54       		.byte	84
+ 2659 00ce 54       		.byte	84
+ 2660 00cf 54       		.byte	84
+ 2661 00d0 6C       		.byte	108
+ 2662 00d1 00       		.byte	0
+ 2663 00d2 7C       		.byte	124
+ 2664 00d3 44       		.byte	68
+ 2665 00d4 44       		.byte	68
+ 2666 00d5 44       		.byte	68
+ 2667 00d6 44       		.byte	68
+ 2668 00d7 00       		.byte	0
+ 2669 00d8 7C       		.byte	124
+ 2670 00d9 44       		.byte	68
+ 2671 00da 44       		.byte	68
+ 2672 00db 44       		.byte	68
+ 2673 00dc 38       		.byte	56
+ 2674 00dd 00       		.byte	0
+ 2675 00de 7C       		.byte	124
+ARM GAS  /tmp/cckSH1lf.s 			page 129
 
 
- 2620 00cb 00       		.byte	0
- 2621 00cc 7C       		.byte	124
- 2622 00cd 54       		.byte	84
- 2623 00ce 54       		.byte	84
- 2624 00cf 54       		.byte	84
- 2625 00d0 6C       		.byte	108
- 2626 00d1 00       		.byte	0
- 2627 00d2 7C       		.byte	124
- 2628 00d3 44       		.byte	68
- 2629 00d4 44       		.byte	68
- 2630 00d5 44       		.byte	68
- 2631 00d6 44       		.byte	68
- 2632 00d7 00       		.byte	0
- 2633 00d8 7C       		.byte	124
- 2634 00d9 44       		.byte	68
- 2635 00da 44       		.byte	68
- 2636 00db 44       		.byte	68
- 2637 00dc 38       		.byte	56
- 2638 00dd 00       		.byte	0
- 2639 00de 7C       		.byte	124
- 2640 00df 54       		.byte	84
- 2641 00e0 54       		.byte	84
- 2642 00e1 54       		.byte	84
- 2643 00e2 44       		.byte	68
- 2644 00e3 00       		.byte	0
- 2645 00e4 7C       		.byte	124
- 2646 00e5 14       		.byte	20
- 2647 00e6 14       		.byte	20
- 2648 00e7 14       		.byte	20
- 2649 00e8 04       		.byte	4
- 2650 00e9 00       		.byte	0
- 2651 00ea 7C       		.byte	124
- 2652 00eb 44       		.byte	68
- 2653 00ec 44       		.byte	68
- 2654 00ed 54       		.byte	84
- 2655 00ee 74       		.byte	116
- 2656 00ef 00       		.byte	0
- 2657 00f0 7C       		.byte	124
- 2658 00f1 10       		.byte	16
- 2659 00f2 10       		.byte	16
- 2660 00f3 10       		.byte	16
- 2661 00f4 7C       		.byte	124
- 2662 00f5 00       		.byte	0
- 2663 00f6 44       		.byte	68
- 2664 00f7 44       		.byte	68
- 2665 00f8 7C       		.byte	124
- 2666 00f9 44       		.byte	68
- 2667 00fa 44       		.byte	68
- 2668 00fb 00       		.byte	0
- 2669 00fc 60       		.byte	96
- 2670 00fd 40       		.byte	64
- 2671 00fe 40       		.byte	64
- 2672 00ff 44       		.byte	68
- 2673 0100 7C       		.byte	124
- 2674 0101 00       		.byte	0
- 2675 0102 7C       		.byte	124
- 2676 0103 10       		.byte	16
-ARM GAS  /tmp/ccL4YNuc.s 			page 129
+ 2676 00df 54       		.byte	84
+ 2677 00e0 54       		.byte	84
+ 2678 00e1 54       		.byte	84
+ 2679 00e2 44       		.byte	68
+ 2680 00e3 00       		.byte	0
+ 2681 00e4 7C       		.byte	124
+ 2682 00e5 14       		.byte	20
+ 2683 00e6 14       		.byte	20
+ 2684 00e7 14       		.byte	20
+ 2685 00e8 04       		.byte	4
+ 2686 00e9 00       		.byte	0
+ 2687 00ea 7C       		.byte	124
+ 2688 00eb 44       		.byte	68
+ 2689 00ec 44       		.byte	68
+ 2690 00ed 54       		.byte	84
+ 2691 00ee 74       		.byte	116
+ 2692 00ef 00       		.byte	0
+ 2693 00f0 7C       		.byte	124
+ 2694 00f1 10       		.byte	16
+ 2695 00f2 10       		.byte	16
+ 2696 00f3 10       		.byte	16
+ 2697 00f4 7C       		.byte	124
+ 2698 00f5 00       		.byte	0
+ 2699 00f6 44       		.byte	68
+ 2700 00f7 44       		.byte	68
+ 2701 00f8 7C       		.byte	124
+ 2702 00f9 44       		.byte	68
+ 2703 00fa 44       		.byte	68
+ 2704 00fb 00       		.byte	0
+ 2705 00fc 60       		.byte	96
+ 2706 00fd 40       		.byte	64
+ 2707 00fe 40       		.byte	64
+ 2708 00ff 44       		.byte	68
+ 2709 0100 7C       		.byte	124
+ 2710 0101 00       		.byte	0
+ 2711 0102 7C       		.byte	124
+ 2712 0103 10       		.byte	16
+ 2713 0104 10       		.byte	16
+ 2714 0105 28       		.byte	40
+ 2715 0106 44       		.byte	68
+ 2716 0107 00       		.byte	0
+ 2717 0108 7C       		.byte	124
+ 2718 0109 40       		.byte	64
+ 2719 010a 40       		.byte	64
+ 2720 010b 40       		.byte	64
+ 2721 010c 40       		.byte	64
+ 2722 010d 00       		.byte	0
+ 2723 010e 7C       		.byte	124
+ 2724 010f 08       		.byte	8
+ 2725 0110 10       		.byte	16
+ 2726 0111 08       		.byte	8
+ 2727 0112 7C       		.byte	124
+ 2728 0113 00       		.byte	0
+ 2729 0114 7C       		.byte	124
+ 2730 0115 08       		.byte	8
+ 2731 0116 10       		.byte	16
+ 2732 0117 20       		.byte	32
+ARM GAS  /tmp/cckSH1lf.s 			page 130
 
 
- 2677 0104 10       		.byte	16
- 2678 0105 28       		.byte	40
- 2679 0106 44       		.byte	68
- 2680 0107 00       		.byte	0
- 2681 0108 7C       		.byte	124
- 2682 0109 40       		.byte	64
- 2683 010a 40       		.byte	64
- 2684 010b 40       		.byte	64
- 2685 010c 40       		.byte	64
- 2686 010d 00       		.byte	0
- 2687 010e 7C       		.byte	124
- 2688 010f 08       		.byte	8
- 2689 0110 10       		.byte	16
- 2690 0111 08       		.byte	8
- 2691 0112 7C       		.byte	124
- 2692 0113 00       		.byte	0
- 2693 0114 7C       		.byte	124
- 2694 0115 08       		.byte	8
- 2695 0116 10       		.byte	16
- 2696 0117 20       		.byte	32
- 2697 0118 7C       		.byte	124
- 2698 0119 00       		.byte	0
- 2699 011a 38       		.byte	56
- 2700 011b 44       		.byte	68
- 2701 011c 44       		.byte	68
- 2702 011d 44       		.byte	68
- 2703 011e 38       		.byte	56
- 2704 011f 00       		.byte	0
- 2705 0120 7C       		.byte	124
- 2706 0121 14       		.byte	20
- 2707 0122 14       		.byte	20
- 2708 0123 14       		.byte	20
- 2709 0124 08       		.byte	8
- 2710 0125 00       		.byte	0
- 2711 0126 3C       		.byte	60
- 2712 0127 24       		.byte	36
- 2713 0128 64       		.byte	100
- 2714 0129 24       		.byte	36
- 2715 012a 3C       		.byte	60
- 2716 012b 00       		.byte	0
- 2717 012c 7C       		.byte	124
- 2718 012d 14       		.byte	20
- 2719 012e 14       		.byte	20
- 2720 012f 14       		.byte	20
- 2721 0130 68       		.byte	104
- 2722 0131 00       		.byte	0
- 2723 0132 5C       		.byte	92
- 2724 0133 54       		.byte	84
- 2725 0134 54       		.byte	84
- 2726 0135 54       		.byte	84
- 2727 0136 74       		.byte	116
- 2728 0137 00       		.byte	0
- 2729 0138 04       		.byte	4
- 2730 0139 04       		.byte	4
- 2731 013a 7C       		.byte	124
- 2732 013b 04       		.byte	4
- 2733 013c 04       		.byte	4
-ARM GAS  /tmp/ccL4YNuc.s 			page 130
+ 2733 0118 7C       		.byte	124
+ 2734 0119 00       		.byte	0
+ 2735 011a 38       		.byte	56
+ 2736 011b 44       		.byte	68
+ 2737 011c 44       		.byte	68
+ 2738 011d 44       		.byte	68
+ 2739 011e 38       		.byte	56
+ 2740 011f 00       		.byte	0
+ 2741 0120 7C       		.byte	124
+ 2742 0121 14       		.byte	20
+ 2743 0122 14       		.byte	20
+ 2744 0123 14       		.byte	20
+ 2745 0124 08       		.byte	8
+ 2746 0125 00       		.byte	0
+ 2747 0126 3C       		.byte	60
+ 2748 0127 24       		.byte	36
+ 2749 0128 64       		.byte	100
+ 2750 0129 24       		.byte	36
+ 2751 012a 3C       		.byte	60
+ 2752 012b 00       		.byte	0
+ 2753 012c 7C       		.byte	124
+ 2754 012d 14       		.byte	20
+ 2755 012e 14       		.byte	20
+ 2756 012f 14       		.byte	20
+ 2757 0130 68       		.byte	104
+ 2758 0131 00       		.byte	0
+ 2759 0132 5C       		.byte	92
+ 2760 0133 54       		.byte	84
+ 2761 0134 54       		.byte	84
+ 2762 0135 54       		.byte	84
+ 2763 0136 74       		.byte	116
+ 2764 0137 00       		.byte	0
+ 2765 0138 04       		.byte	4
+ 2766 0139 04       		.byte	4
+ 2767 013a 7C       		.byte	124
+ 2768 013b 04       		.byte	4
+ 2769 013c 04       		.byte	4
+ 2770 013d 00       		.byte	0
+ 2771 013e 7C       		.byte	124
+ 2772 013f 40       		.byte	64
+ 2773 0140 40       		.byte	64
+ 2774 0141 40       		.byte	64
+ 2775 0142 7C       		.byte	124
+ 2776 0143 00       		.byte	0
+ 2777 0144 0C       		.byte	12
+ 2778 0145 30       		.byte	48
+ 2779 0146 40       		.byte	64
+ 2780 0147 30       		.byte	48
+ 2781 0148 0C       		.byte	12
+ 2782 0149 00       		.byte	0
+ 2783 014a 3C       		.byte	60
+ 2784 014b 40       		.byte	64
+ 2785 014c 30       		.byte	48
+ 2786 014d 40       		.byte	64
+ 2787 014e 3C       		.byte	60
+ 2788 014f 00       		.byte	0
+ 2789 0150 44       		.byte	68
+ARM GAS  /tmp/cckSH1lf.s 			page 131
 
 
- 2734 013d 00       		.byte	0
- 2735 013e 7C       		.byte	124
- 2736 013f 40       		.byte	64
- 2737 0140 40       		.byte	64
- 2738 0141 40       		.byte	64
- 2739 0142 7C       		.byte	124
- 2740 0143 00       		.byte	0
- 2741 0144 0C       		.byte	12
- 2742 0145 30       		.byte	48
- 2743 0146 40       		.byte	64
- 2744 0147 30       		.byte	48
- 2745 0148 0C       		.byte	12
- 2746 0149 00       		.byte	0
- 2747 014a 3C       		.byte	60
- 2748 014b 40       		.byte	64
- 2749 014c 30       		.byte	48
- 2750 014d 40       		.byte	64
- 2751 014e 3C       		.byte	60
- 2752 014f 00       		.byte	0
- 2753 0150 44       		.byte	68
- 2754 0151 28       		.byte	40
- 2755 0152 10       		.byte	16
- 2756 0153 28       		.byte	40
- 2757 0154 44       		.byte	68
- 2758 0155 00       		.byte	0
- 2759 0156 0C       		.byte	12
- 2760 0157 10       		.byte	16
- 2761 0158 60       		.byte	96
- 2762 0159 10       		.byte	16
- 2763 015a 0C       		.byte	12
- 2764 015b 00       		.byte	0
- 2765 015c 44       		.byte	68
- 2766 015d 64       		.byte	100
- 2767 015e 54       		.byte	84
- 2768 015f 4C       		.byte	76
- 2769 0160 44       		.byte	68
- 2770 0161 00       		.byte	0
- 2771 0162 7C       		.byte	124
- 2772 0163 44       		.byte	68
- 2773 0164 00       		.byte	0
- 2774 0165 00       		.byte	0
- 2775 0166 00       		.byte	0
- 2776 0167 00       		.byte	0
- 2777 0168 0C       		.byte	12
- 2778 0169 10       		.byte	16
- 2779 016a 60       		.byte	96
- 2780 016b 00       		.byte	0
- 2781 016c 00       		.byte	0
- 2782 016d 00       		.byte	0
- 2783 016e 44       		.byte	68
- 2784 016f 7C       		.byte	124
- 2785 0170 00       		.byte	0
- 2786 0171 00       		.byte	0
- 2787 0172 00       		.byte	0
- 2788 0173 00       		.byte	0
- 2789 0174 00       		.byte	0
- 2790 0175 01       		.byte	1
-ARM GAS  /tmp/ccL4YNuc.s 			page 131
+ 2790 0151 28       		.byte	40
+ 2791 0152 10       		.byte	16
+ 2792 0153 28       		.byte	40
+ 2793 0154 44       		.byte	68
+ 2794 0155 00       		.byte	0
+ 2795 0156 0C       		.byte	12
+ 2796 0157 10       		.byte	16
+ 2797 0158 60       		.byte	96
+ 2798 0159 10       		.byte	16
+ 2799 015a 0C       		.byte	12
+ 2800 015b 00       		.byte	0
+ 2801 015c 44       		.byte	68
+ 2802 015d 64       		.byte	100
+ 2803 015e 54       		.byte	84
+ 2804 015f 4C       		.byte	76
+ 2805 0160 44       		.byte	68
+ 2806 0161 00       		.byte	0
+ 2807 0162 7C       		.byte	124
+ 2808 0163 44       		.byte	68
+ 2809 0164 00       		.byte	0
+ 2810 0165 00       		.byte	0
+ 2811 0166 00       		.byte	0
+ 2812 0167 00       		.byte	0
+ 2813 0168 0C       		.byte	12
+ 2814 0169 10       		.byte	16
+ 2815 016a 60       		.byte	96
+ 2816 016b 00       		.byte	0
+ 2817 016c 00       		.byte	0
+ 2818 016d 00       		.byte	0
+ 2819 016e 44       		.byte	68
+ 2820 016f 7C       		.byte	124
+ 2821 0170 00       		.byte	0
+ 2822 0171 00       		.byte	0
+ 2823 0172 00       		.byte	0
+ 2824 0173 00       		.byte	0
+ 2825 0174 00       		.byte	0
+ 2826 0175 01       		.byte	1
+ 2827 0176 00       		.byte	0
+ 2828 0177 01       		.byte	1
+ 2829 0178 00       		.byte	0
+ 2830 0179 00       		.byte	0
+ 2831 017a 40       		.byte	64
+ 2832 017b 40       		.byte	64
+ 2833 017c 40       		.byte	64
+ 2834 017d 40       		.byte	64
+ 2835 017e 40       		.byte	64
+ 2836 017f 40       		.byte	64
+ 2837 0180 00       		.byte	0
+ 2838 0181 01       		.byte	1
+ 2839 0182 00       		.byte	0
+ 2840 0183 00       		.byte	0
+ 2841 0184 00       		.byte	0
+ 2842 0185 00       		.byte	0
+ 2843 0186 7C       		.byte	124
+ 2844 0187 24       		.byte	36
+ 2845 0188 24       		.byte	36
+ 2846 0189 24       		.byte	36
+ARM GAS  /tmp/cckSH1lf.s 			page 132
 
 
- 2791 0176 00       		.byte	0
- 2792 0177 01       		.byte	1
- 2793 0178 00       		.byte	0
- 2794 0179 00       		.byte	0
- 2795 017a 40       		.byte	64
- 2796 017b 40       		.byte	64
- 2797 017c 40       		.byte	64
- 2798 017d 40       		.byte	64
- 2799 017e 40       		.byte	64
- 2800 017f 40       		.byte	64
- 2801 0180 00       		.byte	0
- 2802 0181 01       		.byte	1
- 2803 0182 00       		.byte	0
- 2804 0183 00       		.byte	0
- 2805 0184 00       		.byte	0
- 2806 0185 00       		.byte	0
- 2807 0186 7C       		.byte	124
- 2808 0187 24       		.byte	36
- 2809 0188 24       		.byte	36
- 2810 0189 24       		.byte	36
- 2811 018a 7C       		.byte	124
- 2812 018b 00       		.byte	0
- 2813 018c 7C       		.byte	124
- 2814 018d 54       		.byte	84
- 2815 018e 54       		.byte	84
- 2816 018f 54       		.byte	84
- 2817 0190 6C       		.byte	108
- 2818 0191 00       		.byte	0
- 2819 0192 7C       		.byte	124
- 2820 0193 44       		.byte	68
- 2821 0194 44       		.byte	68
- 2822 0195 44       		.byte	68
- 2823 0196 44       		.byte	68
- 2824 0197 00       		.byte	0
- 2825 0198 7C       		.byte	124
- 2826 0199 44       		.byte	68
- 2827 019a 44       		.byte	68
- 2828 019b 44       		.byte	68
- 2829 019c 38       		.byte	56
- 2830 019d 00       		.byte	0
- 2831 019e 7C       		.byte	124
- 2832 019f 54       		.byte	84
- 2833 01a0 54       		.byte	84
- 2834 01a1 54       		.byte	84
- 2835 01a2 44       		.byte	68
- 2836 01a3 00       		.byte	0
- 2837 01a4 7C       		.byte	124
- 2838 01a5 14       		.byte	20
- 2839 01a6 14       		.byte	20
- 2840 01a7 14       		.byte	20
- 2841 01a8 04       		.byte	4
- 2842 01a9 00       		.byte	0
- 2843 01aa 7C       		.byte	124
- 2844 01ab 44       		.byte	68
- 2845 01ac 44       		.byte	68
- 2846 01ad 54       		.byte	84
- 2847 01ae 74       		.byte	116
-ARM GAS  /tmp/ccL4YNuc.s 			page 132
+ 2847 018a 7C       		.byte	124
+ 2848 018b 00       		.byte	0
+ 2849 018c 7C       		.byte	124
+ 2850 018d 54       		.byte	84
+ 2851 018e 54       		.byte	84
+ 2852 018f 54       		.byte	84
+ 2853 0190 6C       		.byte	108
+ 2854 0191 00       		.byte	0
+ 2855 0192 7C       		.byte	124
+ 2856 0193 44       		.byte	68
+ 2857 0194 44       		.byte	68
+ 2858 0195 44       		.byte	68
+ 2859 0196 44       		.byte	68
+ 2860 0197 00       		.byte	0
+ 2861 0198 7C       		.byte	124
+ 2862 0199 44       		.byte	68
+ 2863 019a 44       		.byte	68
+ 2864 019b 44       		.byte	68
+ 2865 019c 38       		.byte	56
+ 2866 019d 00       		.byte	0
+ 2867 019e 7C       		.byte	124
+ 2868 019f 54       		.byte	84
+ 2869 01a0 54       		.byte	84
+ 2870 01a1 54       		.byte	84
+ 2871 01a2 44       		.byte	68
+ 2872 01a3 00       		.byte	0
+ 2873 01a4 7C       		.byte	124
+ 2874 01a5 14       		.byte	20
+ 2875 01a6 14       		.byte	20
+ 2876 01a7 14       		.byte	20
+ 2877 01a8 04       		.byte	4
+ 2878 01a9 00       		.byte	0
+ 2879 01aa 7C       		.byte	124
+ 2880 01ab 44       		.byte	68
+ 2881 01ac 44       		.byte	68
+ 2882 01ad 54       		.byte	84
+ 2883 01ae 74       		.byte	116
+ 2884 01af 00       		.byte	0
+ 2885 01b0 7C       		.byte	124
+ 2886 01b1 10       		.byte	16
+ 2887 01b2 10       		.byte	16
+ 2888 01b3 10       		.byte	16
+ 2889 01b4 7C       		.byte	124
+ 2890 01b5 00       		.byte	0
+ 2891 01b6 44       		.byte	68
+ 2892 01b7 44       		.byte	68
+ 2893 01b8 7C       		.byte	124
+ 2894 01b9 44       		.byte	68
+ 2895 01ba 44       		.byte	68
+ 2896 01bb 00       		.byte	0
+ 2897 01bc 60       		.byte	96
+ 2898 01bd 40       		.byte	64
+ 2899 01be 40       		.byte	64
+ 2900 01bf 44       		.byte	68
+ 2901 01c0 7C       		.byte	124
+ 2902 01c1 00       		.byte	0
+ 2903 01c2 7C       		.byte	124
+ARM GAS  /tmp/cckSH1lf.s 			page 133
 
 
- 2848 01af 00       		.byte	0
- 2849 01b0 7C       		.byte	124
- 2850 01b1 10       		.byte	16
- 2851 01b2 10       		.byte	16
- 2852 01b3 10       		.byte	16
- 2853 01b4 7C       		.byte	124
- 2854 01b5 00       		.byte	0
- 2855 01b6 44       		.byte	68
- 2856 01b7 44       		.byte	68
- 2857 01b8 7C       		.byte	124
- 2858 01b9 44       		.byte	68
- 2859 01ba 44       		.byte	68
- 2860 01bb 00       		.byte	0
- 2861 01bc 60       		.byte	96
- 2862 01bd 40       		.byte	64
- 2863 01be 40       		.byte	64
- 2864 01bf 44       		.byte	68
- 2865 01c0 7C       		.byte	124
- 2866 01c1 00       		.byte	0
- 2867 01c2 7C       		.byte	124
- 2868 01c3 10       		.byte	16
- 2869 01c4 10       		.byte	16
- 2870 01c5 28       		.byte	40
- 2871 01c6 44       		.byte	68
- 2872 01c7 00       		.byte	0
- 2873 01c8 7C       		.byte	124
- 2874 01c9 40       		.byte	64
- 2875 01ca 40       		.byte	64
- 2876 01cb 40       		.byte	64
- 2877 01cc 40       		.byte	64
- 2878 01cd 00       		.byte	0
- 2879 01ce 7C       		.byte	124
- 2880 01cf 08       		.byte	8
- 2881 01d0 10       		.byte	16
- 2882 01d1 08       		.byte	8
- 2883 01d2 7C       		.byte	124
- 2884 01d3 00       		.byte	0
- 2885 01d4 7C       		.byte	124
- 2886 01d5 08       		.byte	8
- 2887 01d6 10       		.byte	16
- 2888 01d7 20       		.byte	32
- 2889 01d8 7C       		.byte	124
- 2890 01d9 00       		.byte	0
- 2891 01da 38       		.byte	56
- 2892 01db 44       		.byte	68
- 2893 01dc 44       		.byte	68
- 2894 01dd 44       		.byte	68
- 2895 01de 38       		.byte	56
- 2896 01df 00       		.byte	0
- 2897 01e0 7C       		.byte	124
- 2898 01e1 14       		.byte	20
- 2899 01e2 14       		.byte	20
- 2900 01e3 14       		.byte	20
- 2901 01e4 08       		.byte	8
- 2902 01e5 00       		.byte	0
- 2903 01e6 3C       		.byte	60
- 2904 01e7 24       		.byte	36
-ARM GAS  /tmp/ccL4YNuc.s 			page 133
+ 2904 01c3 10       		.byte	16
+ 2905 01c4 10       		.byte	16
+ 2906 01c5 28       		.byte	40
+ 2907 01c6 44       		.byte	68
+ 2908 01c7 00       		.byte	0
+ 2909 01c8 7C       		.byte	124
+ 2910 01c9 40       		.byte	64
+ 2911 01ca 40       		.byte	64
+ 2912 01cb 40       		.byte	64
+ 2913 01cc 40       		.byte	64
+ 2914 01cd 00       		.byte	0
+ 2915 01ce 7C       		.byte	124
+ 2916 01cf 08       		.byte	8
+ 2917 01d0 10       		.byte	16
+ 2918 01d1 08       		.byte	8
+ 2919 01d2 7C       		.byte	124
+ 2920 01d3 00       		.byte	0
+ 2921 01d4 7C       		.byte	124
+ 2922 01d5 08       		.byte	8
+ 2923 01d6 10       		.byte	16
+ 2924 01d7 20       		.byte	32
+ 2925 01d8 7C       		.byte	124
+ 2926 01d9 00       		.byte	0
+ 2927 01da 38       		.byte	56
+ 2928 01db 44       		.byte	68
+ 2929 01dc 44       		.byte	68
+ 2930 01dd 44       		.byte	68
+ 2931 01de 38       		.byte	56
+ 2932 01df 00       		.byte	0
+ 2933 01e0 7C       		.byte	124
+ 2934 01e1 14       		.byte	20
+ 2935 01e2 14       		.byte	20
+ 2936 01e3 14       		.byte	20
+ 2937 01e4 08       		.byte	8
+ 2938 01e5 00       		.byte	0
+ 2939 01e6 3C       		.byte	60
+ 2940 01e7 24       		.byte	36
+ 2941 01e8 64       		.byte	100
+ 2942 01e9 24       		.byte	36
+ 2943 01ea 3C       		.byte	60
+ 2944 01eb 00       		.byte	0
+ 2945 01ec 7C       		.byte	124
+ 2946 01ed 14       		.byte	20
+ 2947 01ee 14       		.byte	20
+ 2948 01ef 14       		.byte	20
+ 2949 01f0 68       		.byte	104
+ 2950 01f1 00       		.byte	0
+ 2951 01f2 5C       		.byte	92
+ 2952 01f3 54       		.byte	84
+ 2953 01f4 54       		.byte	84
+ 2954 01f5 54       		.byte	84
+ 2955 01f6 74       		.byte	116
+ 2956 01f7 00       		.byte	0
+ 2957 01f8 04       		.byte	4
+ 2958 01f9 04       		.byte	4
+ 2959 01fa 7C       		.byte	124
+ 2960 01fb 04       		.byte	4
+ARM GAS  /tmp/cckSH1lf.s 			page 134
 
 
- 2905 01e8 64       		.byte	100
- 2906 01e9 24       		.byte	36
- 2907 01ea 3C       		.byte	60
- 2908 01eb 00       		.byte	0
- 2909 01ec 7C       		.byte	124
- 2910 01ed 14       		.byte	20
- 2911 01ee 14       		.byte	20
- 2912 01ef 14       		.byte	20
- 2913 01f0 68       		.byte	104
- 2914 01f1 00       		.byte	0
- 2915 01f2 5C       		.byte	92
- 2916 01f3 54       		.byte	84
- 2917 01f4 54       		.byte	84
- 2918 01f5 54       		.byte	84
- 2919 01f6 74       		.byte	116
- 2920 01f7 00       		.byte	0
- 2921 01f8 04       		.byte	4
- 2922 01f9 04       		.byte	4
- 2923 01fa 7C       		.byte	124
- 2924 01fb 04       		.byte	4
- 2925 01fc 04       		.byte	4
- 2926 01fd 00       		.byte	0
- 2927 01fe 7C       		.byte	124
- 2928 01ff 40       		.byte	64
- 2929 0200 40       		.byte	64
- 2930 0201 40       		.byte	64
- 2931 0202 7C       		.byte	124
- 2932 0203 00       		.byte	0
- 2933 0204 0C       		.byte	12
- 2934 0205 30       		.byte	48
- 2935 0206 40       		.byte	64
- 2936 0207 30       		.byte	48
- 2937 0208 0C       		.byte	12
- 2938 0209 00       		.byte	0
- 2939 020a 3C       		.byte	60
- 2940 020b 40       		.byte	64
- 2941 020c 30       		.byte	48
- 2942 020d 40       		.byte	64
- 2943 020e 3C       		.byte	60
- 2944 020f 00       		.byte	0
- 2945 0210 44       		.byte	68
- 2946 0211 28       		.byte	40
- 2947 0212 10       		.byte	16
- 2948 0213 28       		.byte	40
- 2949 0214 44       		.byte	68
- 2950 0215 00       		.byte	0
- 2951 0216 0C       		.byte	12
- 2952 0217 10       		.byte	16
- 2953 0218 60       		.byte	96
- 2954 0219 10       		.byte	16
- 2955 021a 0C       		.byte	12
- 2956 021b 00       		.byte	0
- 2957 021c 44       		.byte	68
- 2958 021d 64       		.byte	100
- 2959 021e 54       		.byte	84
- 2960 021f 4C       		.byte	76
- 2961 0220 44       		.byte	68
-ARM GAS  /tmp/ccL4YNuc.s 			page 134
+ 2961 01fc 04       		.byte	4
+ 2962 01fd 00       		.byte	0
+ 2963 01fe 7C       		.byte	124
+ 2964 01ff 40       		.byte	64
+ 2965 0200 40       		.byte	64
+ 2966 0201 40       		.byte	64
+ 2967 0202 7C       		.byte	124
+ 2968 0203 00       		.byte	0
+ 2969 0204 0C       		.byte	12
+ 2970 0205 30       		.byte	48
+ 2971 0206 40       		.byte	64
+ 2972 0207 30       		.byte	48
+ 2973 0208 0C       		.byte	12
+ 2974 0209 00       		.byte	0
+ 2975 020a 3C       		.byte	60
+ 2976 020b 40       		.byte	64
+ 2977 020c 30       		.byte	48
+ 2978 020d 40       		.byte	64
+ 2979 020e 3C       		.byte	60
+ 2980 020f 00       		.byte	0
+ 2981 0210 44       		.byte	68
+ 2982 0211 28       		.byte	40
+ 2983 0212 10       		.byte	16
+ 2984 0213 28       		.byte	40
+ 2985 0214 44       		.byte	68
+ 2986 0215 00       		.byte	0
+ 2987 0216 0C       		.byte	12
+ 2988 0217 10       		.byte	16
+ 2989 0218 60       		.byte	96
+ 2990 0219 10       		.byte	16
+ 2991 021a 0C       		.byte	12
+ 2992 021b 00       		.byte	0
+ 2993 021c 44       		.byte	68
+ 2994 021d 64       		.byte	100
+ 2995 021e 54       		.byte	84
+ 2996 021f 4C       		.byte	76
+ 2997 0220 44       		.byte	68
+ 2998 0221 00       		.byte	0
+ 2999 0222 10       		.byte	16
+ 3000 0223 7C       		.byte	124
+ 3001 0224 44       		.byte	68
+ 3002 0225 00       		.byte	0
+ 3003 0226 00       		.byte	0
+ 3004 0227 00       		.byte	0
+ 3005 0228 6C       		.byte	108
+ 3006 0229 00       		.byte	0
+ 3007 022a 00       		.byte	0
+ 3008 022b 00       		.byte	0
+ 3009 022c 00       		.byte	0
+ 3010 022d 00       		.byte	0
+ 3011 022e 44       		.byte	68
+ 3012 022f 7C       		.byte	124
+ 3013 0230 10       		.byte	16
+ 3014 0231 00       		.byte	0
+ 3015 0232 00       		.byte	0
+ 3016 0233 00       		.byte	0
+ 3017 0234 02       		.byte	2
+ARM GAS  /tmp/cckSH1lf.s 			page 135
 
 
- 2962 0221 00       		.byte	0
- 2963 0222 10       		.byte	16
- 2964 0223 7C       		.byte	124
- 2965 0224 44       		.byte	68
- 2966 0225 00       		.byte	0
- 2967 0226 00       		.byte	0
- 2968 0227 00       		.byte	0
- 2969 0228 6C       		.byte	108
- 2970 0229 00       		.byte	0
- 2971 022a 00       		.byte	0
- 2972 022b 00       		.byte	0
- 2973 022c 00       		.byte	0
- 2974 022d 00       		.byte	0
- 2975 022e 44       		.byte	68
- 2976 022f 7C       		.byte	124
- 2977 0230 10       		.byte	16
- 2978 0231 00       		.byte	0
- 2979 0232 00       		.byte	0
- 2980 0233 00       		.byte	0
- 2981 0234 02       		.byte	2
- 2982 0235 01       		.byte	1
- 2983 0236 02       		.byte	2
- 2984 0237 01       		.byte	1
- 2985 0238 00       		.byte	0
- 2986 0239 00       		.byte	0
- 2987 023a 00       		.byte	0
- 2988 023b 00       		.byte	0
- 2989 023c 00       		.byte	0
- 2990 023d 00       		.byte	0
- 2991 023e 00       		.byte	0
- 2992 023f 00       		.byte	0
- 2993              		.text
- 2994              	.Letext0:
- 2995              		.file 4 "/usr/include/newlib/machine/_default_types.h"
- 2996              		.file 5 "/usr/include/newlib/sys/_stdint.h"
- 2997              		.file 6 "Drivers/CMSIS/Include/core_cm4.h"
- 2998              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 2999              		.file 8 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 3000              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
- 3001              		.file 10 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
- 3002              		.file 11 "Core/Src/../Inc/../Inc/../Inc/5x5_font.h"
- 3003              		.file 12 "Core/Src/../Inc/../Inc/ILI9341_Driver.h"
- 3004              		.file 13 "Core/Src/../Inc/../Inc/shapes.h"
- 3005              		.file 14 "/usr/include/newlib/sys/lock.h"
- 3006              		.file 15 "/usr/include/newlib/sys/_types.h"
- 3007              		.file 16 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
- 3008              		.file 17 "/usr/include/newlib/sys/reent.h"
- 3009              		.file 18 "/usr/include/newlib/sys/types.h"
- 3010              		.file 19 "/usr/include/newlib/stdlib.h"
- 3011              		.file 20 "/usr/include/newlib/time.h"
- 3012              		.file 21 "/usr/include/newlib/math.h"
- 3013              		.file 22 "Core/Src/../Inc/main.h"
-ARM GAS  /tmp/ccL4YNuc.s 			page 135
+ 3018 0235 01       		.byte	1
+ 3019 0236 02       		.byte	2
+ 3020 0237 01       		.byte	1
+ 3021 0238 00       		.byte	0
+ 3022 0239 00       		.byte	0
+ 3023 023a 00       		.byte	0
+ 3024 023b 00       		.byte	0
+ 3025 023c 00       		.byte	0
+ 3026 023d 00       		.byte	0
+ 3027 023e 00       		.byte	0
+ 3028 023f 00       		.byte	0
+ 3029              		.text
+ 3030              	.Letext0:
+ 3031              		.file 4 "/usr/include/newlib/machine/_default_types.h"
+ 3032              		.file 5 "/usr/include/newlib/sys/_stdint.h"
+ 3033              		.file 6 "Drivers/CMSIS/Include/core_cm4.h"
+ 3034              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 3035              		.file 8 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 3036              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ 3037              		.file 10 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
+ 3038              		.file 11 "Core/Src/../Inc/../Inc/../Inc/5x5_font.h"
+ 3039              		.file 12 "Core/Src/../Inc/../Inc/ILI9341_Driver.h"
+ 3040              		.file 13 "Core/Src/../Inc/../Inc/shapes.h"
+ 3041              		.file 14 "/usr/include/newlib/sys/lock.h"
+ 3042              		.file 15 "/usr/include/newlib/sys/_types.h"
+ 3043              		.file 16 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
+ 3044              		.file 17 "/usr/include/newlib/sys/reent.h"
+ 3045              		.file 18 "/usr/include/newlib/sys/types.h"
+ 3046              		.file 19 "/usr/include/newlib/stdlib.h"
+ 3047              		.file 20 "/usr/include/newlib/time.h"
+ 3048              		.file 21 "/usr/include/newlib/math.h"
+ 3049              		.file 22 "Core/Src/../Inc/main.h"
+ARM GAS  /tmp/cckSH1lf.s 			page 136
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 ILI9341_Driver.c
-     /tmp/ccL4YNuc.s:18     .text.delay:0000000000000000 $t
-     /tmp/ccL4YNuc.s:25     .text.delay:0000000000000000 delay
-     /tmp/ccL4YNuc.s:138    .text.delay:0000000000000058 $d
-     /tmp/ccL4YNuc.s:145    .text.delayMicrosecond:0000000000000000 $t
-     /tmp/ccL4YNuc.s:152    .text.delayMicrosecond:0000000000000000 delayMicrosecond
-     /tmp/ccL4YNuc.s:250    .text.WRStrobe:0000000000000000 $t
-     /tmp/ccL4YNuc.s:257    .text.WRStrobe:0000000000000000 WRStrobe
-     /tmp/ccL4YNuc.s:285    .text.WRStrobe:0000000000000010 $d
-     /tmp/ccL4YNuc.s:292    .text.write8:0000000000000000 $t
-     /tmp/ccL4YNuc.s:299    .text.write8:0000000000000000 write8
-     /tmp/ccL4YNuc.s:370    .text.write8:0000000000000034 $d
-     /tmp/ccL4YNuc.s:376    .text.writeData8:0000000000000000 $t
-     /tmp/ccL4YNuc.s:383    .text.writeData8:0000000000000000 writeData8
-     /tmp/ccL4YNuc.s:426    .text.writeData8:0000000000000018 $d
-     /tmp/ccL4YNuc.s:433    .text.writeCmd8:0000000000000000 $t
-     /tmp/ccL4YNuc.s:440    .text.writeCmd8:0000000000000000 writeCmd8
-     /tmp/ccL4YNuc.s:482    .text.writeCmd8:000000000000001c $d
-     /tmp/ccL4YNuc.s:489    .text.writeRegister8:0000000000000000 $t
-     /tmp/ccL4YNuc.s:496    .text.writeRegister8:0000000000000000 writeRegister8
-     /tmp/ccL4YNuc.s:540    .text.writeRegister8:000000000000001c $d
-     /tmp/ccL4YNuc.s:545    .text.writeRegister16:0000000000000000 $t
-     /tmp/ccL4YNuc.s:552    .text.writeRegister16:0000000000000000 writeRegister16
-     /tmp/ccL4YNuc.s:613    .text.writeRegister16:0000000000000030 $d
-     /tmp/ccL4YNuc.s:618    .text.writeRegisterPair:0000000000000000 $t
-     /tmp/ccL4YNuc.s:625    .text.writeRegisterPair:0000000000000000 writeRegisterPair
-     /tmp/ccL4YNuc.s:700    .text.writeRegisterPair:0000000000000038 $d
-     /tmp/ccL4YNuc.s:705    .text.writeRegister32:0000000000000000 $t
-     /tmp/ccL4YNuc.s:712    .text.writeRegister32:0000000000000000 writeRegister32
-     /tmp/ccL4YNuc.s:798    .text.writeRegister32:0000000000000054 $d
-     /tmp/ccL4YNuc.s:805    .text.reset:0000000000000000 $t
-     /tmp/ccL4YNuc.s:812    .text.reset:0000000000000000 reset
-     /tmp/ccL4YNuc.s:918    .text.reset:000000000000004c $d
-     /tmp/ccL4YNuc.s:925    .text.setAddrWindow:0000000000000000 $t
-     /tmp/ccL4YNuc.s:932    .text.setAddrWindow:0000000000000000 setAddrWindow
-     /tmp/ccL4YNuc.s:983    .text.setAddrWindow:0000000000000028 $d
-     /tmp/ccL4YNuc.s:990    .text.initScreen:0000000000000000 $t
-     /tmp/ccL4YNuc.s:997    .text.initScreen:0000000000000000 initScreen
-     /tmp/ccL4YNuc.s:1154   .text.initScreen:00000000000000c0 $d
-     /tmp/ccL4YNuc.s:1161   .text.floodScreen:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1168   .text.floodScreen:0000000000000000 floodScreen
-     /tmp/ccL4YNuc.s:1392   .text.floodScreen:00000000000000f4 $d
-     /tmp/ccL4YNuc.s:1399   .text.SetRotation:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1406   .text.SetRotation:0000000000000000 SetRotation
-     /tmp/ccL4YNuc.s:1424   .text.SetRotation:000000000000000a $d
-     /tmp/ccL4YNuc.s:1428   .text.SetRotation:000000000000000e $t
-     /tmp/ccL4YNuc.s:1517   .text.SetRotation:000000000000007c $d
-     /tmp/ccL4YNuc.s:1523   .text.setLR:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1530   .text.setLR:0000000000000000 setLR
-     /tmp/ccL4YNuc.s:1581   .text.setLR:0000000000000034 $d
-     /tmp/ccL4YNuc.s:1590   .text.fillScreen:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1597   .text.fillScreen:0000000000000000 fillScreen
-     /tmp/ccL4YNuc.s:1641   .text.fillScreen:0000000000000034 $d
-     /tmp/ccL4YNuc.s:1647   .text.drawPixel:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1654   .text.drawPixel:0000000000000000 drawPixel
-     /tmp/ccL4YNuc.s:1761   .text.drawPixel:000000000000006c $d
-ARM GAS  /tmp/ccL4YNuc.s 			page 136
+     /tmp/cckSH1lf.s:18     .text.delay:0000000000000000 $t
+     /tmp/cckSH1lf.s:25     .text.delay:0000000000000000 delay
+     /tmp/cckSH1lf.s:138    .text.delay:0000000000000058 $d
+     /tmp/cckSH1lf.s:145    .text.delayMicrosecond:0000000000000000 $t
+     /tmp/cckSH1lf.s:152    .text.delayMicrosecond:0000000000000000 delayMicrosecond
+     /tmp/cckSH1lf.s:250    .text.WRStrobe:0000000000000000 $t
+     /tmp/cckSH1lf.s:257    .text.WRStrobe:0000000000000000 WRStrobe
+     /tmp/cckSH1lf.s:285    .text.WRStrobe:0000000000000010 $d
+     /tmp/cckSH1lf.s:292    .text.write8:0000000000000000 $t
+     /tmp/cckSH1lf.s:299    .text.write8:0000000000000000 write8
+     /tmp/cckSH1lf.s:370    .text.write8:0000000000000034 $d
+     /tmp/cckSH1lf.s:376    .text.writeData8:0000000000000000 $t
+     /tmp/cckSH1lf.s:383    .text.writeData8:0000000000000000 writeData8
+     /tmp/cckSH1lf.s:426    .text.writeData8:0000000000000018 $d
+     /tmp/cckSH1lf.s:433    .text.writeCmd8:0000000000000000 $t
+     /tmp/cckSH1lf.s:440    .text.writeCmd8:0000000000000000 writeCmd8
+     /tmp/cckSH1lf.s:482    .text.writeCmd8:000000000000001c $d
+     /tmp/cckSH1lf.s:489    .text.writeRegister8:0000000000000000 $t
+     /tmp/cckSH1lf.s:496    .text.writeRegister8:0000000000000000 writeRegister8
+     /tmp/cckSH1lf.s:540    .text.writeRegister8:000000000000001c $d
+     /tmp/cckSH1lf.s:545    .text.writeRegister16:0000000000000000 $t
+     /tmp/cckSH1lf.s:552    .text.writeRegister16:0000000000000000 writeRegister16
+     /tmp/cckSH1lf.s:613    .text.writeRegister16:0000000000000030 $d
+     /tmp/cckSH1lf.s:618    .text.writeRegisterPair:0000000000000000 $t
+     /tmp/cckSH1lf.s:625    .text.writeRegisterPair:0000000000000000 writeRegisterPair
+     /tmp/cckSH1lf.s:700    .text.writeRegisterPair:0000000000000038 $d
+     /tmp/cckSH1lf.s:705    .text.writeRegister32:0000000000000000 $t
+     /tmp/cckSH1lf.s:712    .text.writeRegister32:0000000000000000 writeRegister32
+     /tmp/cckSH1lf.s:798    .text.writeRegister32:0000000000000054 $d
+     /tmp/cckSH1lf.s:805    .text.reset:0000000000000000 $t
+     /tmp/cckSH1lf.s:812    .text.reset:0000000000000000 reset
+     /tmp/cckSH1lf.s:918    .text.reset:000000000000004c $d
+     /tmp/cckSH1lf.s:925    .text.setAddrWindow:0000000000000000 $t
+     /tmp/cckSH1lf.s:932    .text.setAddrWindow:0000000000000000 setAddrWindow
+     /tmp/cckSH1lf.s:983    .text.setAddrWindow:0000000000000028 $d
+     /tmp/cckSH1lf.s:990    .text.initScreen:0000000000000000 $t
+     /tmp/cckSH1lf.s:997    .text.initScreen:0000000000000000 initScreen
+     /tmp/cckSH1lf.s:1154   .text.initScreen:00000000000000c0 $d
+     /tmp/cckSH1lf.s:1161   .text.floodScreen:0000000000000000 $t
+     /tmp/cckSH1lf.s:1168   .text.floodScreen:0000000000000000 floodScreen
+     /tmp/cckSH1lf.s:1392   .text.floodScreen:00000000000000f4 $d
+     /tmp/cckSH1lf.s:1399   .text.SetRotation:0000000000000000 $t
+     /tmp/cckSH1lf.s:1406   .text.SetRotation:0000000000000000 SetRotation
+     /tmp/cckSH1lf.s:1424   .text.SetRotation:000000000000000a $d
+     /tmp/cckSH1lf.s:1428   .text.SetRotation:000000000000000e $t
+     /tmp/cckSH1lf.s:1517   .text.SetRotation:000000000000007c $d
+     /tmp/cckSH1lf.s:1523   .text.setLR:0000000000000000 $t
+     /tmp/cckSH1lf.s:1530   .text.setLR:0000000000000000 setLR
+     /tmp/cckSH1lf.s:1581   .text.setLR:0000000000000034 $d
+     /tmp/cckSH1lf.s:1590   .text.fillScreen:0000000000000000 $t
+     /tmp/cckSH1lf.s:1597   .text.fillScreen:0000000000000000 fillScreen
+     /tmp/cckSH1lf.s:1641   .text.fillScreen:0000000000000034 $d
+     /tmp/cckSH1lf.s:1647   .text.drawPixel:0000000000000000 $t
+     /tmp/cckSH1lf.s:1654   .text.drawPixel:0000000000000000 drawPixel
+     /tmp/cckSH1lf.s:1783   .text.drawPixel:0000000000000080 $d
+ARM GAS  /tmp/cckSH1lf.s 			page 137
 
 
-     /tmp/ccL4YNuc.s:1770   .text.fillRect:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1777   .text.fillRect:0000000000000000 fillRect
-     /tmp/ccL4YNuc.s:1923   .text.fillRect:00000000000000a8 $d
-     /tmp/ccL4YNuc.s:1929   .text.drawFastHLine:0000000000000000 $t
-     /tmp/ccL4YNuc.s:1936   .text.drawFastHLine:0000000000000000 drawFastHLine
-     /tmp/ccL4YNuc.s:2035   .text.drawFastHLine:0000000000000070 $d
-     /tmp/ccL4YNuc.s:2041   .text.drawFastVLine:0000000000000000 $t
-     /tmp/ccL4YNuc.s:2048   .text.drawFastVLine:0000000000000000 drawFastVLine
-     /tmp/ccL4YNuc.s:2148   .text.drawFastVLine:0000000000000070 $d
-     /tmp/ccL4YNuc.s:2154   .text.DrawChar:0000000000000000 $t
-     /tmp/ccL4YNuc.s:2161   .text.DrawChar:0000000000000000 DrawChar
-     /tmp/ccL4YNuc.s:2308   .text.DrawChar:00000000000000c4 $d
-     /tmp/ccL4YNuc.s:2313   .text.DrawText:0000000000000000 $t
-     /tmp/ccL4YNuc.s:2320   .text.DrawText:0000000000000000 DrawText
-     /tmp/ccL4YNuc.s:2388   .data.TFTHEIGHT:0000000000000000 TFTHEIGHT
-     /tmp/ccL4YNuc.s:2395   .data.TFTWIDTH:0000000000000000 TFTWIDTH
-     /tmp/ccL4YNuc.s:2402   .data.tabPinData:0000000000000000 tabPinData
-     /tmp/ccL4YNuc.s:2384   .data.TFTHEIGHT:0000000000000000 $d
-     /tmp/ccL4YNuc.s:2391   .data.TFTWIDTH:0000000000000000 $d
-     /tmp/ccL4YNuc.s:2398   .data.tabPinData:0000000000000000 $d
-     /tmp/ccL4YNuc.s:2412   .rodata.font:0000000000000000 $d
-     /tmp/ccL4YNuc.s:2416   .rodata.font:0000000000000000 font
+     /tmp/cckSH1lf.s:1792   .text.fillRect:0000000000000000 $t
+     /tmp/cckSH1lf.s:1799   .text.fillRect:0000000000000000 fillRect
+     /tmp/cckSH1lf.s:1959   .text.fillRect:00000000000000d0 $d
+     /tmp/cckSH1lf.s:1965   .text.drawFastHLine:0000000000000000 $t
+     /tmp/cckSH1lf.s:1972   .text.drawFastHLine:0000000000000000 drawFastHLine
+     /tmp/cckSH1lf.s:2071   .text.drawFastHLine:0000000000000070 $d
+     /tmp/cckSH1lf.s:2077   .text.drawFastVLine:0000000000000000 $t
+     /tmp/cckSH1lf.s:2084   .text.drawFastVLine:0000000000000000 drawFastVLine
+     /tmp/cckSH1lf.s:2184   .text.drawFastVLine:0000000000000070 $d
+     /tmp/cckSH1lf.s:2190   .text.DrawChar:0000000000000000 $t
+     /tmp/cckSH1lf.s:2197   .text.DrawChar:0000000000000000 DrawChar
+     /tmp/cckSH1lf.s:2344   .text.DrawChar:00000000000000c4 $d
+     /tmp/cckSH1lf.s:2349   .text.DrawText:0000000000000000 $t
+     /tmp/cckSH1lf.s:2356   .text.DrawText:0000000000000000 DrawText
+     /tmp/cckSH1lf.s:2424   .data.TFTHEIGHT:0000000000000000 TFTHEIGHT
+     /tmp/cckSH1lf.s:2431   .data.TFTWIDTH:0000000000000000 TFTWIDTH
+     /tmp/cckSH1lf.s:2438   .data.tabPinData:0000000000000000 tabPinData
+     /tmp/cckSH1lf.s:2420   .data.TFTHEIGHT:0000000000000000 $d
+     /tmp/cckSH1lf.s:2427   .data.TFTWIDTH:0000000000000000 $d
+     /tmp/cckSH1lf.s:2434   .data.tabPinData:0000000000000000 $d
+     /tmp/cckSH1lf.s:2448   .rodata.font:0000000000000000 $d
+     /tmp/cckSH1lf.s:2452   .rodata.font:0000000000000000 font
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

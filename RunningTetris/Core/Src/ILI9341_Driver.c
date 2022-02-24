@@ -343,7 +343,7 @@ void drawPixel(int16_t x, int16_t y, uint16_t color){
         return;
 
     LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
-    setAddrWindow(x, y, TFTWIDTH - 1, TFTHEIGHT - 1);
+    setAddrWindow(TFTWIDTH-x, TFTHEIGHT-y, TFTWIDTH - 1, TFTHEIGHT - 1);
     LL_GPIO_ResetOutputPin(CS_PORT,CS_PIN);
     LL_GPIO_ResetOutputPin(DC_PORT,DC_PIN);
     write8(ILI9341_MEMORYWRITE);
@@ -379,8 +379,9 @@ void fillRect(int16_t x1, int16_t y1, int16_t w, int16_t h, uint16_t fillcolor) 
         y2 = TFTHEIGHT - 1;
         h = y2 - y1 + 1;
     }
-
-    setAddrWindow(x1, y1, x2, y2);
+    
+    //modif
+    setAddrWindow(TFTWIDTH-x2, TFTHEIGHT-y2, TFTWIDTH-x1, TFTHEIGHT-y1);
     floodScreen(fillcolor, (uint32_t)w * (uint32_t)h);
     setLR();
 }
